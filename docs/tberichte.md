@@ -70,9 +70,11 @@ Nächste Schritte
 
 Weiter machen, wo ich stehen geblieben bin.
 
-### Tagesbericht ...
+### Tagesbericht 12.08
 
 Tagesablauf
+
+heute habe ich...
 
 Hilfestellung
 
