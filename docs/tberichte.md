@@ -1,6 +1,25 @@
-# Meine Tagesberichte
+# **Meine Tagesberichte**
 
-## August 2021
+## **August 2021**
+
+### Tagesbericht 18.08
+
+Tagesablauf
+
+Heute Morgen habe ich wie geplant den Access token erstellt, wie auch .gitignore erstellt und darin "site" und ".DR_Store" aufgelistet. Nach dem Erstellen von .gitignore habe ich dann site lokal "gelöscht". Ansonsten habe ich an der Seite weitergearbeitet. Am Nachmittag haben wir noch das Wochengespräch nachgeholt.
+
+Hilfestellung
+
+Als ich nicht weiter kam beim Access token und beim push, hat mir Michael weitergeholfen. 
+
+Reflexion
+
+Beim Accees token hatte ich am Anfang das Problem das es mich nicht nach dem Benutzer namen und Schlüssel gefragt hatt sondern direkt eine Fehler Meldung kam. Nachdem ich im Schlüsselbund das Password raus gelöscht habe ging es dann. 
+
+Nächste Schritte
+
+Link auf Github einfügen. Gutes Video für git interactive rebase suchen. Wochenbericht nach angeschautem prozess erstellen (branche, Ticket, gh...)
+
 
 ### Tagesbericht 16.08
 
@@ -18,7 +37,7 @@ Heute lief alles gut.
 
 Nächste Schritte
 
-Beim nächsten Gespräch die Schule erwähnen. Ordner Site löschen und ein .gitignore erstellen. Site in .gitignore auflisten. Auf Github den link hinzufügen und auch umgekehrt.
+Beim nächsten Gespräch die Schule erwähnen. Ordner Site löschen und ein .gitignore erstellen. Site in .gitignore auflisten. Auf Github den link hinzufügen und auch umgekehrt. Access token erstellen.
 
 
 ### Tagesbericht 11.08
@@ -94,15 +113,3 @@ Reflexion
 
 Nächste Schritte
 
-
-## September 2021
-
-### Tagesbericht ...
-
-Tagesablauf
-
-Hilfestellung
-
-Reflexion
-
-Nächste Schritte
