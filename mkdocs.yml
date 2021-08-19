@@ -3,13 +3,10 @@ theme:
   name: material
   primary: indigo
 
-palette:
-       
-
-
 nav:
   - Home: index.md
   - Tagesberichte: tberichte.md
+    - Archiv:
   - Wochenberichte: wberichte.md
 
 markdown_extensions:
