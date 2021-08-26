@@ -6,8 +6,9 @@ theme:
 nav:
   - Home: index.md
   - Tagesberichte: tberichte.md
-    - Archiv:
+  - Archiv: archiv.md
   - Wochenberichte: wberichte.md
+  - Archiv: archiv2.md
 
 markdown_extensions:
   - pymdownx.emoji:
