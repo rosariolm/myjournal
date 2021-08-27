@@ -52,7 +52,7 @@ Link einfügen.
 
 Tagesablauf
 
-Heute Morgen habe ich wie geplant den Access token erstellt, wie auch .gitignore erstellt und darin "site" und ".DR_Store" aufgelistet. Nach dem Erstellen von .gitignore habe ich dann site lokal "gelöscht". Ansonsten habe ich an der Seite weitergearbeitet. Am Nachmittag haben wir noch das Wochengespräch nachgeholt.
+Heute Morgen habe ich wie geplant den Access token erstellt, wie auch .gitignore erstellt und darin "site" und ".DS_Store" aufgelistet. Nach dem Erstellen von .gitignore habe ich dann site lokal "gelöscht". Ansonsten habe ich an der Seite weitergearbeitet. Am Nachmittag haben wir noch das Wochengespräch nachgeholt.
 
 Hilfestellung
 
