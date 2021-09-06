@@ -8,7 +8,7 @@ Heute Morgen habe ich beim Helpdesk haptsächlich Studenten und Studentinen mit 
 
 Meine Aufgabe für heute war ein Bild einzufügen:
 
-Enjoy Jake Long
+*Enjoy Jake Long*
 
 ![Bild von Jake Long] (/Users/lr19e414/myitjournal/Images/JakeLong.jpg)
 
