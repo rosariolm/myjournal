@@ -1,10 +1,36 @@
 # **Meine Tagesberichte**
 
+## ***September 2021**
+
+**Tagesablauf**
+
+Heute Morgen habe ich beim Helpdesk haptsächlich Studenten und Studentinen mit Problemen weitergeholfen. Am Nachmittag hatte ich dan das Wochen und Tagesgespräch. Nach dem habe ich noch die Dokumente für die BAM durch gelesen und das Frageformular versendet.
+
+Meine Aufgabe für heute war ein Bild einzufügen:
+
+Enjoy Jake Long
+
+![Bild von Jake Long] (/Users/lr19e414/myitjournal/Images/JakeLong.jpg)
+
+**Hilfestellung**
+
+Am Morgen haben mir Kim und Christoph bei Fragen weiter geholfen. Am Nachmittag hatt mir Birgit bei Thema Prozesse im Lehrbertieb witergeholfen. Und als ich ein Rebase machen musste hatt mir Michael und Nico weiter geholfen.
+
+**Reflexion**
+
+Bis das ein Eintrag Fehlt und ich den tagesbericht zweimal schreiben musste da ich es zustande brach ich zu löschen lief alles gut.
+
+**Nächste Schritte**
+
+Rechtschreibung von diesem Bericht Korrigieren. Rückmeldung wegen meiner Prozess Dokumentation ein holen (bei Birgit und Dänu). Fehlender Bericht einfügen. Tickets schliessen.
+
 ## **August 2021**
 
 ### Tagesbericht 27.08
 
 **Tagesablauf**
+
+Heute habe ich allgemein an den Wochenberichten und Tagesberichten gearbeitet.
 
 **Hilfestellung**
 
@@ -16,9 +42,11 @@
 
 **Tagesablauf**
 
-Heute Morgen bin ich ins vonRoll 
+Heute Morgen bin ich ins vonRoll Gebäude und habe dort einen einblick bekommen wie es aussieht wenn neue Server geliefert und eingebaut werden. Mir hatt Michael den ganzen Morgen neue Dinge gezeigt und erklärt. Ansonsten haben wir ein Kabel welches aus sah alls wäre es defekt aus getauscht. Am Nachmittag bin ich zusammen mit Anoitan wegen einer Unicard schauen gegangen welche wir zu schluss nicht gefunden haben.
 
 **Hilfestellung**
+
+Ich habe zusammen mit Anoitan recht lange gebraucht bis wir alle Möglichkeiten der Suche durchgegangen sind.
 
 **Reflexion**
 
@@ -57,22 +85,22 @@ Der Tag lief allgemein gut.
 
 **Nächste Schritte**
 
-Link einfügen. 
-	
+Link einfügen.
+
 
 ### Tagesbericht 19.08
 
 **Tagesablauf**
 
-Heute Morgen habe ich wie geplant den Access token erstellt, wie auch .gitignore erstellt und darin "site" und ".DS_Store" aufgelistet. Nach dem Erstellen von .gitignore habe ich dann site lokal "gelöscht". Ansonsten habe ich an der Seite weitergearbeitet. Am Nachmittag haben wir noch das Wochengespräch nachgeholt.
+Heute Morgen habe ich wie geplant den Access token erstellt, wie auch .gitignore erstellt und darin "site" und ".DR_Store" aufgelistet. Nach dem Erstellen von .gitignore habe ich dann site lokal "gelöscht". Ansonsten habe ich an der Seite weitergearbeitet. Am Nachmittag haben wir noch das Wochengespräch nachgeholt.
 
 **Hilfestellung**
 
-Als ich nicht weiter kam beim Access token und beim push, hat mir Michael weitergeholfen. 
+Als ich nicht weiter kam beim Access token und beim push, hat mir Michael weitergeholfen.
 
 **Reflexion**
 
-Beim Accees token hatte ich am Anfang das Problem das es mich nicht nach dem Benutzer namen und Schlüssel gefragt hatt sondern direkt eine Fehler Meldung kam. Nachdem ich im Schlüsselbund das Password raus gelöscht habe ging es dann. 
+Beim Accees token hatte ich am Anfang das Problem das es mich nicht nach dem Benutzer namen und Schlüssel gefragt hatt sondern direkt eine Fehler Meldung kam. Nachdem ich im Schlüsselbund das Password raus gelöscht habe ging es dann.
 
 **Nächste Schritte**
 
@@ -130,7 +158,7 @@ Weiter machen, wo ich stehen geblieben bin.
 
 **Tagesablauf**
 
-Heute 
+Heute
 
 **Hilfestellung**
 
@@ -164,7 +192,7 @@ Heute habe ich richtig mit den Aufträgen begonen.
 
 **Tagesablauf**
 
-Heute habe ich mich zu erst an dem neuen Arbeits platz eingerichtet. Dannach hatten wir ein einstiegs gespräch wo wir die kommenden Aufgaben besprochen haben. Nach dem hatte ich zu erst noch ein Campus acc problem bei welchem mir Birgit bis am Mittag geholfen hatt. Nach dem Mittag habe ich dann Anoitan unsere Lehrlings neben aufgaben gezeigt und erklärt. 
+Heute habe ich mich zu erst an dem neuen Arbeits platz eingerichtet. Dannach hatten wir ein einstiegs gespräch wo wir die kommenden Aufgaben besprochen haben. Nach dem hatte ich zu erst noch ein Campus acc problem bei welchem mir Birgit bis am Mittag geholfen hatt. Nach dem Mittag habe ich dann Anoitan unsere Lehrlings neben aufgaben gezeigt und erklärt.
 
 **Hilfestellung**
 
