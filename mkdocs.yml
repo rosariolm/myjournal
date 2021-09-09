@@ -1,7 +1,19 @@
 site_name: My IT Journal
+repo_url: "https://github.com/rosariolm/myjournal"
+repo_name: "rosariolm/myjournal"
+edit_uri: "edit/main/docs"
+
 theme:
+  icon:
+    logo: fontawesome/solid/chalkboard-teacher
+    repo: fontawesome/brands/git-alt
   name: material
   primary: indigo
+  features:
+    -navigation.expand
+    -navigation.sections
+    -navigation.tabs
+    -navigation.top
 
 nav:
   - Home: index.md
@@ -14,5 +26,13 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+
+plugins:
+  - git-revision-date:
+      enable_if_env: CI
+  - git-revision-date-localized:
+
+    
 
 copyright: Copyright &copy; 2021 Laura Rosario
