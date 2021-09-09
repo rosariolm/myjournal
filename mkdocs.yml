@@ -25,14 +25,12 @@ nav:
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - attr_list
+      emoji_generator: !!python/name:materialx.emoji.to_svg:
 
 plugins:
   - git-revision-date:
       enable_if_env: CI
   - git-revision-date-localized:
 
-    
 
 copyright: Copyright &copy; 2021 Laura Rosario
