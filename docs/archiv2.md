@@ -134,3 +134,90 @@ git --rebase
 ```
 
 
+##W33 Mkdocs gebrauchen
+
+###Homebrew
+
+Installation von Homebrew:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### miniconda
+
+Installetion von mini conda mit Homebrew:
+
+```bash
+brew install --cask miniconda
+```
+
+### python environment
+
+Phyton Umgebung erstellen:
+
+```bash
+conda creat --name env_name python=python_version
+```
+
+Aktivierung der Umgebung:
+
+```bash
+conda activate env_name
+```
+
+Umgebungen auflisten lassen (die Aktive Umgebung wird immer mit einem * angezeigt):
+
+```bash
+conda info --envs
+```
+
+Aktive python version überprüfen:
+
+```bash
+python --version
+```
+
+Zurück zur Base kehren:
+
+```bash
+conda activate
+```
+
+### mkdocs
+
+Installation Mkdocs:
+
+```bash
+pip install mkdocs-material
+```
+
+!pip sollte beim python packet mit installiert worden sein. Falls der Befehl nicht Funktioniert zu erst einer der  unteren Befehle ausführen und dannach noch mals mkdocs installieren.
+
+
+Upgrade wenn pip schon vorhanden ist:
+
+```bash
+python install --upgrad pip
+```
+
+Installation von pip:
+
+```bash
+python get-pip.py
+```
+
+### Initialisierung
+
+Zu dem Verzeichnis des projekts wechseln:
+
+```bash
+cd /name/name...
+```
+
+Im verzeichnis unterer befehl ausführen:
+
+```bash
+git init
+```
+
