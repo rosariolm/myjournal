@@ -4,6 +4,8 @@ repo_name: "rosariolm/myjournal"
 edit_uri: "edit/main/docs"
 
 theme:
+  features:
+    - content.tabs.link
   icon:
     logo: fontawesome/solid/chalkboard-teacher
     repo: fontawesome/brands/git-alt
@@ -38,11 +40,12 @@ nav:
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - attr_list      
-  - pymdownx.superfences
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
