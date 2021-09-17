@@ -19,8 +19,9 @@ nav:
   - Home: index.md
   - Tagesberichte: tberichte.md
   - Archiv: archiv.md
-  - Wochenberichte: wberichte.md
-  - Archiv: archiv2.md
+  - Wochenberichte:
+      - "Git Befehlsreferenz": wberichte/w34_gitcheat.md
+      - "MkDocs installieren": wberichte/w33_mkdocs.md
 
 markdown_extensions:
   - pymdownx.emoji:
