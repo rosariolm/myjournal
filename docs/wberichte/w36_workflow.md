@@ -2,47 +2,57 @@
 
 *Wochenbericht KW36*
 
-1. Ticket auf github erstellen. Unter "Issue"/"New Issue"
+1.Ticket auf github erstellen. Unter "Issue"/"New Issue"
 
 ![Screenshot github issue](../img/Erstellung_Ticket.png)
 
-Bei der Erstellung passender Titel wählen, Assignees und Labels setzen. Eine kurze Beschreibung, wenn möglich auch.
+Bei der Erstellung passender Titel wählen, Assignees und Labels setzen. Eine kurze Beschreibung wenn möglich auch.
 
 ![Screenshot github Ticket](../img/Erstellung_Ticket2.png)
 
 
-2. Branch Erstellen und auch direkt aud den neu erstellten branch wechseln.
+2.Branch Erstellen und auch direkt aud den neu erstellten branch wechseln:
 
 ```bash
 git checkout -b Issue_number
 ```
 
-Die ISsue number als branch name zu verwenden ist optional. Es hat den Vorteil das man bei mehreren branches den Überblick nicht verliert.
+!!! info
+    Die Issue number als branch name zu verwenden ist optional. Es hat den Vorteil das man bei mehreren branches den Überblick nicht verliert.
 
 
-3. Bearbeitung starten. Die unten aufgelisteten befehle und shortcuts können bei der Bearbeitung behilflich sein.
+3.Bearbeitung starten. Der  unten aufgelistete Befehe und die shortcuts können bei der Bearbeitung behilflich sein.
 
-Datei mit vim öffnen um die angegebene Datei zu  Bearbeiten.
+=== "Befehl"
 
-```bash
-vim datei_name
-```
+    _Datei mit vim öffnen um die angegebene Datei zu  Bearbeiten_:
 
-- a/A Bearbeitung starten
-- :wq Abspeichern und Datei schliessen
-- :w Abspeichern
+    ```bash
+    vim datei_name
+    ```
+
+=== "Shortcuts"
+
+    * a/A Bearbeitung starten
+    * :wq Abspeichern und Datei schliessen
+    * :w Abspeichern
 
 
-4. Nach der Bearbeitung adden und commiten.
+4.Nach der Bearbeitung adden und commiten.
 
-```bash
-git add .
-```
-```bash
-git commit -m "beschreibung"
-```
+=== "add"
 
-5. Mit dem unteren befehl pushen (pull request).
+    ```bash
+    git add .
+    ```
+
+=== "commit"
+
+    ```bash
+    git commit -m "beschreibung"
+    ```
+
+5.Mit dem unteren befehl pushen (pull request).
 
 ```bash
 git push origin branch_name
@@ -50,30 +60,37 @@ git push origin branch_name
 
 Angezeigter link kann nun im Browser eingegeben werden.
 
-![Screenshot request]()
+![Screenshot request](../img/link.png)
 
 
-6. Am besten Änderungen und gemachtes beschreiben und das dazu gehörige Ticket erwähnen.
-
-![Geöfnetes Ticket]()
+6.Am besten Änderungen und gemachtes beschreiben und das dazu gehörige Ticket erwähnen.
 
 
-7. Der pull request anehmen.
+7.Der pull request anehmen.
 
-![Anahme pull request]()
+![Anahme pull request](../img/anahme.png)
 
-
-8. Mit den zwei unteren Befehlen zurück auf den main branch wechseln und der issue branch löschen.
-
-```bash
-git checkout main
-```
-
-```bash
-git branch -d branch_name
-```
+![Bestätigung](../img/successful_merge.png)
 
 
-9. Ticket auf github schliessen.
+8.Mit den zwei unteren Befehlen zurück auf den main branch wechseln und der issue branch löschen.
+
+=== "Auf main wechseln"
+
+    ```bash
+    git checkout main
+    ```
+
+=== "branch löschen"
+
+    ```bash
+    git branch -d branch_name
+    ```
+
+
+9.Ticket auf github schliessen.
 
 ![Screenshot github Ticket schliessung](../img/Schliessung_Ticket.png)
+
+!!! warning
+    Bevor man weiter arbeitet auf main ein pull machen und danach noch den branch auf github löschen.
