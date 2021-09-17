@@ -51,7 +51,7 @@ Meine Aufgabe für heute war ein Bild einzufügen:
 
 *Enjoy Jake Long*
 
-![Bild von Jake Long] (https://img/JakeLong.jpg) { align=left }
+![Bild von Jake Long](../img/JakeLong.jpg)
 
 **Hilfestellung**
 

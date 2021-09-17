@@ -7,6 +7,17 @@ theme:
   icon:
     logo: fontawesome/solid/chalkboard-teacher
     repo: fontawesome/brands/git-alt
+    admonition:
+      note: fontawesom/solid/sticky-note
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
   name: material
   primary: indigo
   features:
@@ -20,13 +31,23 @@ nav:
   - Tagesberichte: tberichte.md
   - Archiv: archiv.md
   - Wochenberichte:
+      - "Workflow": wberichte/w36_workflow.md 
       - "Git Befehlsreferenz": wberichte/w34_gitcheat.md
       - "MkDocs installieren": wberichte/w33_mkdocs.md
 
 markdown_extensions:
+  - admonition
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list      
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
 
 plugins:
   - git-revision-date:
