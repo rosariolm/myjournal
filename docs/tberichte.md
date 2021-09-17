@@ -1,66 +1,126 @@
 # **Meine Tagesberichte**
 
-## **September 2021**
+*September 2021*
 
-### Tagesbericht 10.09
+## **17.09.2021**
 
-**Tagesablauf**
+!!! abstract "Tagesbericht"
+    **Tagesbericht**
 
-Heute habe ich denn ganzen Tag an den verschiedenen Tickets gearbeitet. Ich habe zu erst noch das Ticket mit der Link verbindung gschlossen und dannach mit denn Bild bearbeitung und den Wochenberichten begonnen. 
+    Heute konnte ich alle Bilder in den Berichten einfügen und erstellen. Ansonsten habe ich die Tagesbericht-Seite ein wenig geändert und auch bei den Wochenberichten noch die Admonitions eingefügt. Am Nachmittag habe ich dann auch wie besprochen ein bisschen für mein Projekt in der Schule recherchiert.
 
-**Hilfestellung**
+    **Hilfestellung**
 
-Als ich Hilfe bei einer Fehler suche brauchte hatt mir Nico witergeholfen.
+    Für die Änderungen, die ich gemacht habe, bin ich den Anleitungen gefolgt, die ich gefunden habe.
 
-**Reflexion**
+    **Reflexion**
 
-Häte ich bei den Actions ein bisschen weiter gelesen slls nur bis zur problem meldung wäre ich vielleicht auch selber drauf gekomen.
+    Heute lief alles gut.
 
-**Nächhste Schritte**
+    **Nächste Schritte**
 
-Noch die Gestalltung probleme besprechen damit ich alles Tickets schliessen kann.
+    Noch ein bisschen mehr Recherchieren und meine Liste erweitern.    
 
-### Tagesbericht 09.09
+## **16.09.2021**
 
-**Tagesablauf**
+!!! abstract "Tagesbericht"
+    **Tagesbericht**
 
-Heute Morgeen habe ich zu erst noch meine Präsentation gehalten und hatte anschliessend noch eeine besprechung zu den Themen die ich an gesprochen habe. Danach hate ich noch eine kurze besprechung mir Birgit. Ansonsten habe ich dann den ganzen Tag am Ticket verlinkung gearbeitet und gezielt mit vim geübt.
+    Heute habe ich den ganzen Tag an den offenen Tickets gearbeitet.
 
-**Hilfestellung**
+    **Hilfestellung**
 
-Als ich bei der verlinkung probleme hatte hat mir Michael geholfen.
+    Ich hatte einige Probleme da ich ein durcheinander mit den branches hatte. Ich hatte einen Commit auf dem Main branch, der ich eigentlich nicht dort machen wollte und die meisten branches waren auf einem unterschiedlichen stand. Bei einer langen Besprechung, hat man mir dann geholfen dies Problem zu lösen.
+
+    **Reflexion**
+
+    Ich habe heute gelernt das ich ein bisschen strukturiertet arbeiten muss damit solche dinge nicht mehr vorkommen.
+
+    **Nächste Schritte**
+
+    An den noch offenen Ticket arbeiten.
+
+## **13.09.2021**
+
+!!! abstract "Tagesbericht"
+    **Tagesbericht**
+
+    Heute Morgen war ich vor allem damit beschäftigt neuen Studenten und Studentinnen bei Problemen weiter zu helfen. Bei den Problemen ging es meistens um die Aktivierung des Accounts oder dem Einrichten von Outlook. Nach dem Mittag hatte ich noch meine Wochen Gespräch. Kurzer darauf habe ich dann anstatt eine Präsentation zu halten mein Arbeitstag vom letzten Freitag berichtet. Den restlichen Nachmittag habe ich damit verbracht Berichte zu pushen und zu bearbeiten.
+
+    **Hilfestellung**
+
+    Es gab bei dem push versuch eines Wochenberichts einen Konflikt dabei hat mir dann Nico geholfen.
+
+    **Reflexion**
+
+    Beim Helpdesk läuft eigentlich immer alles gut, mir ist nur aufgefallen das ich schon länger kein Ticket mehr bearbeitet habe. Weil ich meistens mit dem telefonieren beschäftigt bin oder keine Tickets hereinkommen die ich bearbeiten könnte.
+
+    **Nächste Schritte**
+
+    Die restlichen Berichte pushen damit ich die Tickets schliessen kann.
+
+## **10.09.2021**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute habe ich denn ganzen Tag an den verschiedenen Tickets gearbeitet. Ich habe zuerst noch das Ticket mit der Link Verbindung geschlossen und danach mit den Bild Bearbeitung und den Wochenberichten begonnen.
+
+    **Hilfestellung**
+
+    Als ich Hilfe bei einer Fehlersuche brauchte hat mir Nico weitergeholfen.
+
+    **Reflexion**
+
+    Hätte ich bei den Actions ein bisschen weiter gelesen als nur bis zur Problemmeldung wäre ich vielleicht auch selber drauf gekommen.
+
+    **Nächste Schritte**
+
+    Noch die Gestaltungsprobleme besprechen damit ich alles Tickets schliessen kann.
+
+## **09.09.2021**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgeen habe ich zu erst noch meine Präsentation gehalten und hatte anschliessend noch eine Besprechung zu den Themen die ich an gesprochen habe. Danach hate ich noch eine kurze Besprechung mir Birgit. Ansonsten habe ich dann den ganzen Tag am Ticket verlinkung gearbeitet und gezielt mit vim geübt.
+
+    **Hilfestellung**
+
+    Als ich bei der verlinkung probleme hatte hat mir Michael geholfen.
 
 
-**Reflexion**
+    **Reflexion**
 
-Eigendlich lief alles gut.
-
-
-**Nächste Schritte**
-
-Tickets bearbeiten (#4, #5, #6)
+    Eigendlich lief alles gut.
 
 
-### Tagesbericht 06.09
+    **Nächste Schritte**
 
-**Tagesablauf**
+    Tickets bearbeiten (#4, #5, #6)
 
-Heute Morgen habe ich beim Helpdesk haptsächlich Studenten und Studentinen mit Problemen weitergeholfen. Am Nachmittag hatte ich dan das Wochen und Tagesgespräch. Nach dem habe ich noch die Dokumente für die BAM durch gelesen und das Frageformular versendet.
 
-Meine Aufgabe für heute war ein Bild einzufügen:
+## **06.09.2021**
 
-*Enjoy Jake Long*
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
 
-![Bild von Jake Long](../img/JakeLong.jpg)
+    Heute Morgen habe ich beim Helpdesk hauptsächlich Studenten und Studentinnen mit Problemen weitergeholfen. Am Nachmittag hatte ich dan das Wochen und Tagesgespräch. Nach dem habe ich noch die Dokumente für die BAM durch gelesen und das Frageformular versendet.
 
-**Hilfestellung**
+    Meine Aufgabe für heute war ein Bild einzufügen:
 
-Am Morgen haben mir Kim und Christoph bei Fragen weiter geholfen. Am Nachmittag hatt mir Birgit bei Thema Prozesse im Lehrbertieb witergeholfen. Und als ich ein Rebase machen musste hatt mir Michael und Nico weiter geholfen.
+    *Enjoy Jake Long*
 
-**Reflexion**
+    ![Bild von Jake Long](../img/JakeLong.jpg)
 
-Bis das ein Eintrag Fehlt und ich den tagesbericht zweimal schreiben musste da ich es zustande brach ich zu löschen lief alles gut.
+    **Hilfestellung**
 
-**Nächste Schritte**
+    Am Morgen haben mir Kim und Christoph bei Fragen weiter geholfen. Am Nachmittag hat mir Birgit bei Thema Prozesse im Lehrbertieb weitergeholfen. Und als ich ein Rebase machen musste hat mir Michael und Nico weiter geholfen.
 
-Rechtschreibung von diesem Bericht Korrigieren. Rückmeldung wegen meiner Prozess Dokumentation ein holen (bei Birgit und Dänu). Fehlender Bericht einfügen. Tickets schliessen.
+    **Reflexion**
+
+    Bis das ein Eintrag Fehlt und ich den Tagesbericht zweimal schreiben musste da ich es zustande brach ich zu löschen lief alles gut.
+
+    **Nächste Schritte**
+
+    Rechtschreibung von diesem Bericht Korrigieren. Rückmeldung wegen meiner Prozess Dokumentation ein holen (bei Birgit und Dänu). Fehlender Bericht einfügen. Tickets schliessen.
