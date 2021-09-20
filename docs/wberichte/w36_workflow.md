@@ -93,4 +93,4 @@ Angezeigter link kann nun im Browser eingegeben werden.
 ![Screenshot github Ticket schliessung](../img/Schliessung_Ticket.png)
 
 !!! warning
-    Bevor man weiter arbeitet auf main ein pull machen und danach noch den branch auf github löschen.
+    Beor man weiter arbeitet auf main ein pull machen und danach noch den branch auf github löschen.

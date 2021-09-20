@@ -33,6 +33,7 @@ nav:
   - Tagesberichte: tberichte.md
   - Archiv: archiv.md
   - Wochenberichte:
+      - "git q & a": wberichte/w37_gitQandA.md
       - "Workflow": wberichte/w36_workflow.md 
       - "Git Befehlsreferenz": wberichte/w34_gitcheat.md
       - "MkDocs installieren": wberichte/w33_mkdocs.md
