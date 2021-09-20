@@ -2,9 +2,14 @@
 
 *September 2021*
 
-## **17.09.2021**
+## **20.09.2021**
 
 !!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+## **17.09.2021**
+
+!!! abstract "Tagesablauf"
     **Tagesbericht**
 
     Heute konnte ich alle Bilder in den Berichten einfügen und erstellen. Ansonsten habe ich die Tagesbericht-Seite ein wenig geändert und auch bei den Wochenberichten noch die Admonitions eingefügt. Am Nachmittag habe ich dann auch wie besprochen ein bisschen für mein Projekt in der Schule recherchiert.
@@ -24,7 +29,7 @@
 ## **16.09.2021**
 
 !!! abstract "Tagesbericht"
-    **Tagesbericht**
+    **Tagesablauf**
 
     Heute habe ich den ganzen Tag an den offenen Tickets gearbeitet.
 
@@ -43,7 +48,7 @@
 ## **13.09.2021**
 
 !!! abstract "Tagesbericht"
-    **Tagesbericht**
+    **Tagesablauf**
 
     Heute Morgen war ich vor allem damit beschäftigt neuen Studenten und Studentinnen bei Problemen weiter zu helfen. Bei den Problemen ging es meistens um die Aktivierung des Accounts oder dem Einrichten von Outlook. Nach dem Mittag hatte ich noch meine Wochen Gespräch. Kurzer darauf habe ich dann anstatt eine Präsentation zu halten mein Arbeitstag vom letzten Freitag berichtet. Den restlichen Nachmittag habe ich damit verbracht Berichte zu pushen und zu bearbeiten.
 
