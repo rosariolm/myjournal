@@ -6,6 +6,19 @@
 
 !!! abstract "Tagesbericht"
     **Tagesablauf**
+    
+    Heute Morgen hate ich beim Helpdesk viel zu tun. Es kamen viele Studenten und Studentinnen beim Helpdesk vorbei und hatten Probleme mit der Anmeldung auf Outlook, KSL oder wussten nicht wie oder ob sie die SWITCH edu-ID schon erstellt haben. Es kamen auch oft das Problem vor, dass man die Unicards nicht validieren konnte. Am Nachmittag habe ich dann noch den Wochenbericht vom letzten Freotag gepushed. Den Rest des Nachmittags habe ich damit verbracht eine richtige Liste zu erstellen, für mein 306 IT Projekt.   
+
+    **Hilfestellung**
+
+    Am Morgen habe ich bei Fragen jemanden aus dem Team gefragt.
+
+    **Reflexion**
+
+    Ich hatte heute wieder ein bisschen Übung darin was Kunden Beratung/Hilfe anfeht.
+
+    **Nächste Schritte**
+
 
 ## **17.09.2021**
 
