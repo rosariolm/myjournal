@@ -1,31 +1,36 @@
-# Workflow
+# GitHub Workflow
 
 *Wochenbericht KW36*
 
-1.Ticket auf github erstellen. Unter "Issue"/"New Issue"
+### 1. Ticket auf GitHub
+
+Ein Ticket auf GitHub erstellen. Unter "Issues" > "New Issue"
 
 ![Screenshot github issue](../img/Erstellung_Ticket.png)
 
-Bei der Erstellung passender Titel wählen, Assignees und Labels setzen. Eine kurze Beschreibung wenn möglich auch.
+Bei der Erstellung passenden Titel wählen, Assignees und Labels setzen. Die Beschreibung aussagekräftig gestalten, so dass klar, wo das Problem liegt oder was zu machen ist - auch Tage später noch.
 
 ![Screenshot github Ticket](../img/Erstellung_Ticket2.png)
 
+### 2. Branch pro Ticket
 
-2.Branch Erstellen und auch direkt aud den neu erstellten branch wechseln:
+Für das Ticket eienn Branch erstellen und auch direkt aud den neu erstellten Branch wechseln:
 
 ```bash
 git checkout -b Issue_number
 ```
 
 !!! info
-    Die Issue number als branch name zu verwenden ist optional. Es hat den Vorteil das man bei mehreren branches den Überblick nicht verliert.
+    Die Ticketnummer im Branch-Namen zu verwenden ist optional, aber bietet den Vorteil, dass man bei mehreren Branches den Überblick nicht verliert.
 
 
-3.Bearbeitung starten. Der  unten aufgelistete Befehe und die shortcuts können bei der Bearbeitung behilflich sein.
+### 3. Änderungen ausführen
+
+Bearbeitung starten. Die unten aufgelistete Befehe und die Shortcuts können bei der Bearbeitung hilfreich sein.
 
 === "Befehl"
 
-    _Datei mit vim öffnen um die angegebene Datei zu  Bearbeiten_:
+    _Datei mit vim öffnen, um die angegebene Datei zu bearbeiten:_
 
     ```bash
     vim datei_name
@@ -33,64 +38,88 @@ git checkout -b Issue_number
 
 === "Shortcuts"
 
-    * a/A Bearbeitung starten
+    * a: Bearbeiten direkt nach dem Cursor / A: Bearbeiten am Ende der Zeile
     * :wq Abspeichern und Datei schliessen
     * :w Abspeichern
 
 
-4.Nach der Bearbeitung adden und commiten.
+### 4. Commit(s) erstellen
+
+Nach der Bearbeitung adden und commiten.
 
 === "add"
+
+    Alle Änderungen in den Staging-Bereich übernehmen:
 
     ```bash
     git add .
     ```
 
+    Nur ausgwählte Änderunge in den Staging-Bereich übernehmen:
+
+    ```bash
+    git add datei1 datei2
+    ```
+
 === "commit"
+
+    Änderungen im Staging-Bereich als neuen Commit in das Repository übernehmen:
 
     ```bash
     git commit -m "beschreibung"
     ```
 
-5.Mit dem unteren befehl pushen (pull request).
+### 5. Branch nach GitHub pushen
+
+Mit dem untenstehenden Befehl nach Remote pushen:
 
 ```bash
 git push origin branch_name
 ```
 
-Angezeigter link kann nun im Browser eingegeben werden.
+### 6. Pull Request (PR) erstellen
+
+Mit dem beim Push angezeigten Link kann nun im Browser eingegeben Pull Request erstellt werden.
 
 ![Screenshot request](../img/link.png)
 
 
-6.Am besten Änderungen und gemachtes beschreiben und das dazu gehörige Ticket erwähnen.
+Im Formular des Pull Request beschreiben, welche Änderungen man vorgenommen hat. Allesnfalls offene Fragestellunge,
+Entschediungn, die man bei der Implemnetation angetroffen hat, sowie besondere Schwierigkeiten oder abzusehende
+Probleme erwähnen.
+
+!!! warning Bezug zu Ticket
+    Falls der Pull Request ein aktuelles Ticket löst, spätestens im Text des Pull Request das Schlüsselwort "Fixes"
+    gefolgt von der Ticketnummer ergänzen, damit ein Bezug hergestellt wird und das Ticket automtisch geschlossen wird, also z.B.:
+
+        Fixes #13
 
 
-7.Der pull request anehmen.
+
+### 7. Pull Request anehmen.
 
 ![Anahme pull request](../img/anahme.png)
 
 ![Bestätigung](../img/successful_merge.png)
 
 
-8.Mit den zwei unteren Befehlen zurück auf den main branch wechseln und der issue branch löschen.
+### 8. Workspace und Remote aufräumen
 
-=== "Auf main wechseln"
+Folgende Abfolge von Befehlen sollte grundsätzlich nach jedem erfolgreichen Merge eines Branches durchgeführt werden:
 
-    ```bash
-    git checkout main
-    ```
+```bash
+# auf branch main wechseln
+git checkout main
+# die neusten Änderungen von remote holen
+git pull --ff-only
+# den lokalen feature branch, der jetzt gemerged ist, löschen
+git branch -d branch_name
+# den feature branch auch remote löschen
+git push origin :branch_name
+```
 
-=== "branch löschen"
+### 9. Ticket auf GitHub schliessen.
 
-    ```bash
-    git branch -d branch_name
-    ```
-
-
-9.Ticket auf github schliessen.
+Falls ein Ticket vorliegt und dieses nicht schon mittels "Fixes #x" geschlossen wurde, dieses manuell schliessen:
 
 ![Screenshot github Ticket schliessung](../img/Schliessung_Ticket.png)
-
-!!! warning
-    Beor man weiter arbeitet auf main ein pull machen und danach noch den branch auf github löschen.
