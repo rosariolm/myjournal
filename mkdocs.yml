@@ -6,6 +6,10 @@ edit_uri: "edit/main/docs"
 theme:
   features:
     - content.tabs.link
+    - navigation.expand
+    - navigation.sections
+    - navigation.tabs
+    - mavigation.top
   icon:
     logo: fontawesome/solid/chalkboard-teacher
     repo: fontawesome/brands/git-alt
@@ -22,11 +26,6 @@ theme:
 
   name: material
   primary: indigo
-  features:
-    -navigation.expand
-    -navigation.sections
-    -navigation.tabs
-    -navigation.top
 
 nav:
   - Home: index.md
