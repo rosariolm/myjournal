@@ -129,7 +129,7 @@
 
     *Enjoy Jake Long*
 
-    ![Bild von Jake Long](../img/JakeLong.jpg)
+    ![Bild von Jake Long](img/JakeLong.jpg)
 
     **Hilfestellung**
 
