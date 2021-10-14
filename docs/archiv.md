@@ -1,177 +1,142 @@
-## **August 2021**
+*September 2021*
 
-### Tagesbericht 27.08
+## **20.09.2021**
 
-**Tagesablauf**
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
 
-Heute habe ich allgemein an den Wochenberichten und Tagesberichten gearbeitet.
+    Heute Morgen hate ich beim Helpdesk viel zu tun. Es kamen viele Studenten und Studentinnen beim Helpdesk vorbei und hatten Probleme mit der Anmeldung auf Outlook, KSL oder wussten nicht wie oder ob sie die SWITCH edu-ID schon erstellt haben. Es kamen auch oft das Problem vor, dass man die Unicards nicht validieren konnte. Am Nachmittag habe ich dann noch den Wochenbericht vom letzten Freotag gepushed. Den Rest des Nachmittags habe ich damit verbracht eine richtige Liste zu erstellen, für mein 306 IT Projekt.   
 
-**Hilfestellung**
+    **Hilfestellung**
 
-**Reflexion**
+    Am Morgen habe ich bei Fragen jemanden aus dem Team gefragt.
 
-**Nächste Schritte**
+    **Reflexion**
 
-### Tagesbericht 26.08
+    Ich hatte heute wieder ein bisschen Übung darin was Kunden Beratung/Hilfe anfeht.
 
-**Tagesablauf**
+    **Nächste Schritte**
 
-Heute Morgen bin ich ins vonRoll Gebäude und habe dort einen einblick bekommen wie es aussieht wenn neue Server geliefert und eingebaut werden. Mir hatt Michael den ganzen Morgen neue Dinge gezeigt und erklärt. Ansonsten haben wir ein Kabel welches aus sah alls wäre es defekt aus getauscht. Am Nachmittag bin ich zusammen mit Anoitan wegen einer Unicard schauen gegangen welche wir zu schluss nicht gefunden haben.
 
-**Hilfestellung**
+## **17.09.2021**
 
-Ich habe zusammen mit Anoitan recht lange gebraucht bis wir alle Möglichkeiten der Suche durchgegangen sind.
+!!! abstract "Tagesablauf"
+    **Tagesbericht**
 
-**Reflexion**
+    Heute konnte ich alle Bilder in den Berichten einfügen und erstellen. Ansonsten habe ich die Tagesbericht-Seite ein wenig geändert und auch bei den Wochenberichten noch die Admonitions eingefügt. Am Nachmittag habe ich dann auch wie besprochen ein bisschen für mein Projekt in der Schule recherchiert.
 
-**Nächste Schritte**
+    **Hilfestellung**
 
+    Für die Änderungen, die ich gemacht habe, bin ich den Anleitungen gefolgt, die ich gefunden habe.
 
-### Tagesbericht 23.08
+    **Reflexion**
 
-**Tagesablauf**
+    Heute lief alles gut.
 
-Heute Morgen war ich beim Service desk habe dort Telefone ab genomen wie auch Persöndlich bei Problemen weiter geholfen. Leonie und ich hatten zimmlich viel zu tuhn da fiele angerufen und vorbei gekommen sind und dies meistens auch leichzeitig. Am Nachmittag hatte ich dan das Wochengespräch mit Birgit und anschliessend ein gespräch mit Bea. Es gin um das auswählen eines Prozesses welcher ich dan Dokumentieren und in der Schule aus arbeit abgeben musste. Am späteren Nchmittag habe ich dann noch mein Prozess antrag für die schule geschrieben.
+    **Nächste Schritte**
 
-**Hilfestellung**
+    Noch ein bisschen mehr Recherchieren und meine Liste erweitern.    
 
+## **16.09.2021**
 
-**Reflexion**
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
 
+    Heute habe ich den ganzen Tag an den offenen Tickets gearbeitet.
 
-**Nächste Schritte**
+    **Hilfestellung**
 
+    Ich hatte einige Probleme da ich ein durcheinander mit den branches hatte. Ich hatte einen Commit auf dem Main branch, der ich eigentlich nicht dort machen wollte und die meisten branches waren auf einem unterschiedlichen stand. Bei einer langen Besprechung, hat man mir dann geholfen dies Problem zu lösen.
 
+    **Reflexion**
 
-### Tagesbericht 20.08
+    Ich habe heute gelernt das ich ein bisschen strukturiertet arbeiten muss damit solche dinge nicht mehr vorkommen.
 
-**Tagesablauf**
+    **Nächste Schritte**
 
-Heute Morgen habe ich zuerst ein Ticket erstellt für meinen Wochenbericht. Danach habe ich damit angefangen das Arbeitsheft zu korrigieren, wie auch für den kommenden Englisch und Mathe Test zu lernen. Ansonsten hatte ich am Morgen noch das tägliche Gespräch und die Monatliche Velo Kontrolle. Kurz vor dem Mittag habe ich noch ein gutes Video über das Thema Git Interactive Rebase gesucht und nach dem Mittag machte ich noch den mini Pool Rundgang. Zum Schluss habe ich an dem Tagesbericht wie auch Wochenbericht gearbeitet.  
+    An den noch offenen Ticket arbeiten.
 
-**Hilfestellung**
+## **13.09.2021**
 
-Ich konnte eigentlich alles auf Safari oder Google Chrome nach schauen gehen.
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
 
-**Reflexion**
+    Heute Morgen war ich vor allem damit beschäftigt neuen Studenten und Studentinnen bei Problemen weiter zu helfen. Bei den Problemen ging es meistens um die Aktivierung des Accounts oder dem Einrichten von Outlook. Nach dem Mittag hatte ich noch meine Wochen Gespräch. Kurzer darauf habe ich dann anstatt eine Präsentation zu halten mein Arbeitstag vom letzten Freitag berichtet. Den restlichen Nachmittag habe ich damit verbracht Berichte zu pushen und zu bearbeiten.
 
-Der Tag lief allgemein gut.
+    **Hilfestellung**
 
-**Nächste Schritte**
+    Es gab bei dem push versuch eines Wochenberichts einen Konflikt dabei hat mir dann Nico geholfen.
 
-Link einfügen.
+    **Reflexion**
 
+    Beim Helpdesk läuft eigentlich immer alles gut, mir ist nur aufgefallen das ich schon länger kein Ticket mehr bearbeitet habe. Weil ich meistens mit dem telefonieren beschäftigt bin oder keine Tickets hereinkommen die ich bearbeiten könnte.
 
-### Tagesbericht 19.08
+    **Nächste Schritte**
 
-**Tagesablauf**
+    Die restlichen Berichte pushen damit ich die Tickets schliessen kann.
 
-Heute Morgen habe ich wie geplant den Access token erstellt, wie auch .gitignore erstellt und darin "site" und ".DR_Store" aufgelistet. Nach dem Erstellen von .gitignore habe ich dann site lokal "gelöscht". Ansonsten habe ich an der Seite weitergearbeitet. Am Nachmittag haben wir noch das Wochengespräch nachgeholt.
+## **10.09.2021**
 
-**Hilfestellung**
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
 
-Als ich nicht weiter kam beim Access token und beim push, hat mir Michael weitergeholfen.
+    Heute habe ich denn ganzen Tag an den verschiedenen Tickets gearbeitet. Ich habe zuerst noch das Ticket mit der Link Verbindung geschlossen und danach mit den Bild Bearbeitung und den Wochenberichten begonnen.
 
-**Reflexion**
+    **Hilfestellung**
 
-Beim Accees token hatte ich am Anfang das Problem das es mich nicht nach dem Benutzer namen und Schlüssel gefragt hatt sondern direkt eine Fehler Meldung kam. Nachdem ich im Schlüsselbund das Password raus gelöscht habe ging es dann.
+    Als ich Hilfe bei einer Fehlersuche brauchte hat mir Nico weitergeholfen.
 
-**Nächste Schritte**
+    **Reflexion**
 
-Link auf Github einfügen. Gutes Video für git interactive rebase suchen. Wochenbericht nach angeschautem prozess erstellen (branche, Ticket, gh...)
+    Hätte ich bei den Actions ein bisschen weiter gelesen als nur bis zur Problemmeldung wäre ich vielleicht auch selber drauf gekommen.
 
+    **Nächste Schritte**
 
-### Tagesbericht 16.08
+    Noch die Gestaltungsprobleme besprechen damit ich alles Tickets schliessen kann.
 
-**Tagesablauf**
+## **09.09.2021**
 
-Diesen Vormittag war ich zusammen mit Kim am Helpdesk. Ich habe vor allem Telefone abgenommen, bei denen es um Probleme ging wie campus acc aktivierung, Mail Weiterleitung, Cloud Anmeldung und noch weitere dinge. Neben bei, habe ich noch probiert die Folien für meine kurz Präsentation am Nachmittag zu erstellen. Am Nachmittag habe ich dann die Powerpoint Folien fertig gemacht und kurz darauf sie auch gerade gehalten. Nach der Präsentation haben wir die Themen der letzten 2 Wochen besprochen und dann war der Tag auch schon fast vorbei. Zu Schluss habe ich noch einige Einträge fertig geschrieben.
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
 
-**Hilfestellung**
+    Heute Morgeen habe ich zu erst noch meine Präsentation gehalten und hatte anschliessend noch eine Besprechung zu den Themen die ich an gesprochen habe. Danach hate ich noch eine kurze Besprechung mir Birgit. Ansonsten habe ich dann den ganzen Tag am Ticket verlinkung gearbeitet und gezielt mit vim geübt.
 
-Kim hat mir weitergeholfen, als ich bei einem Telefonat nicht ganz sicher war, ob ich den richtigen lösungs vorschlag hatte.
+    **Hilfestellung**
 
-**Reflexion**
+    Als ich bei der verlinkung probleme hatte hat mir Michael geholfen.
 
-Heute lief alles gut.
 
-**Nächste Schritte**
+    **Reflexion**
 
-Beim nächsten Gespräch die Schule erwähnen. Ordner Site löschen und ein .gitignore erstellen. Site in .gitignore auflisten. Auf Github den link hinzufügen und auch umgekehrt. Access token erstellen.
+    Eigendlich lief alles gut.
 
 
-### Tagesbericht 11.08
+    **Nächste Schritte**
 
-**Tagesablauf**
+    Tickets bearbeiten (#4, #5, #6)
 
-Heute Morgen habe ich noch den commit von gestern ge pushed und dies funktionierte. Darauf folgend habe ich mkdocs erneut installiert und mit der Erstellung der Seite begonnen. Bevor ich richtig startete, habe ich die verschiedenen Options- und Einstellungsmöglichkeiten durchgeschaut. Um mir ein besseres Bild machen zu können, wie ich meine Seite gestalten möchte. Dazwischen hatte ich noch das Tagesgespräch wo wir meinen aktuellen stand besprachen und auch sonstiges was das Thema betraf. Den restlichen Tag habe ich dann mit der Erstellung meiner Journal-Seite und dem lesen im Buch verbracht.
 
-**Hilfestellung**
+## **06.09.2021**
 
-Alls ich irgendwo Anstand habe ich im Internet nach einer Lösung gesucht. Kam ich selber nicht weiter habe ich bei Michael oder Nico nachgefragt.
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
 
-**Reflexion**
+    Heute Morgen habe ich beim Helpdesk hauptsächlich Studenten und Studentinnen mit Problemen weitergeholfen. Am Nachmittag hatte ich dan das Wochen und Tagesgespräch. Nach dem habe ich noch die Dokumente für die BAM durch gelesen und das Frageformular versendet.
 
-Es lief eigentlich alles gut.
+    Meine Aufgabe für heute war ein Bild einzufügen:
 
-**Nächste Schritte**
+    *Enjoy Jake Long*
 
-Weiter machen, wo ich stehen geblieben bin.
+    ![Bild von Jake Long](img/JakeLong.jpg)
 
-### Tagesbericht 10.08
+    **Hilfestellung**
 
-**Tagesablauf**
+    Am Morgen haben mir Kim und Christoph bei Fragen weiter geholfen. Am Nachmittag hat mir Birgit bei Thema Prozesse im Lehrbertieb weitergeholfen. Und als ich ein Rebase machen musste hat mir Michael und Nico weiter geholfen.
 
-**Hilfestellung**
+    **Reflexion**
 
-**Reflexion**
+    Bis das ein Eintrag Fehlt und ich den Tagesbericht zweimal schreiben musste da ich es zustande brach ich zu löschen lief alles gut.
 
-**Nächste Schritte**
+    **Nächste Schritte**
 
-### Tagesbericht 09.08
-
-**Tagesablauf**
-
-Heute
-
-**Hilfestellung**
-
-**Reflexion**
-
-**Nächste Schritte**
-
-### Tagesbericht 06.08
-
-**Tagesablauf**
-
-**Hilfestellung**
-
-**Reflexion**
-
-**Nächste Schritte**
-
-### Tagesbericht 05.08
-
-**Tagesablauf**
-
-Heute habe ich richtig mit den Aufträgen begonen.
-
-**Hilfestellung**
-
-**Reflexion**
-
-**Nächste Schritte**
-
-### Tagesbericht 04.08
-
-**Tagesablauf**
-
-Heute habe ich mich zu erst an dem neuen Arbeits platz eingerichtet. Dannach hatten wir ein einstiegs gespräch wo wir die kommenden Aufgaben besprochen haben. Nach dem hatte ich zu erst noch ein Campus acc problem bei welchem mir Birgit bis am Mittag geholfen hatt. Nach dem Mittag habe ich dann Anoitan unsere Lehrlings neben aufgaben gezeigt und erklärt.
-
-**Hilfestellung**
-
-Alles lief gut.
-
-**Reflexion**
-
-**Nächste Schritte**
+    Rechtschreibung von diesem Bericht Korrigieren. Rückmeldung wegen meiner Prozess Dokumentation ein holen (bei Birgit und Dänu). Fehlender Bericht einfügen. Tickets schliessen.
