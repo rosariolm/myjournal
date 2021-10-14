@@ -32,6 +32,7 @@ nav:
   - Tagesberichte: tberichte.md
   - Archiv: archiv.md
   - Wochenberichte:
+      - "Vagrant Befehle": wberichte/w40_vagrant.md
       - "git Q & A": wberichte/w37_gitQandA.md
       - "Workflow": wberichte/w36_workflow.md
       - "git Befehlsreferenz": wberichte/w34_gitcheat.md
