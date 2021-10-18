@@ -1,6 +1,25 @@
 # **Meine Tagesberichte**
 *Oktober 2021*
 
+## **18.10.2021**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen war ich beim Helpdesk. Ich habe hauptsächlich Telefone abgenommen und ansonsten vor Ort weiter geholfen. Es ging um dinge wie Rückgaben, Validierung einer Karte, Verbindung mit eduroam, Einrichtung des Mail Account, Gast VLAN und weiteres. Am Nachmittag hate ich dann das Wochengespräch. Nach dem hatte ich eine Besprechung über das Thema Phishing. Ich und Aasthika haben mit einem Mitarbeiter gespreochen, der bei Ihr im Betrieb in diesem Gebiet arbeitet. Nach dem eher längerem Gespräch blieben wir noch online, um die Dokumentation zu besprechen. Darauf habe ich noch kurz am Arbeitsheft gearbeitet.
+
+    **Hilfestellung**
+
+    Am Morgen hat mir jemand aus der Gruppe weiter geholfen, als ich FRagen hatte. Birgit hat mir noch ein gutes Video und Links geschickt, die ich bei der ABU Arbeit brauchen kann.
+
+    **Reflexion**
+
+    Der Tag lief gut.
+
+    **Nächste Schritte**
+  
+    Online alles auf den aktuellsten Stand bringen.
+
 ## **11.10.2021**
 
 !!! abstract "Tagesbericht"
