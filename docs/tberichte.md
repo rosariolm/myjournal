@@ -1,38 +1,22 @@
 # **Meine Tagesberichte**
-*Oktober 2021*
+*November 2021*
 
-## **18.10.2021**
+## **01.11.2021**
 
 !!! abstract "Tagesbericht"
     **Tagesablauf**
 
-    Heute Morgen war ich beim Helpdesk. Ich habe hauptsächlich Telefone abgenommen und ansonsten vor Ort weiter geholfen. Es ging um dinge wie Rückgaben, Validierung einer Karte, Verbindung mit eduroam, Einrichtung des Mail Account, Gast VLAN und weiteres. Am Nachmittag hate ich dann das Wochengespräch. Nach dem hatte ich eine Besprechung über das Thema Phishing. Ich und Aasthika haben mit einem Mitarbeiter gespreochen, der bei Ihr im Betrieb in diesem Gebiet arbeitet. Nach dem eher längerem Gespräch blieben wir noch online, um die Dokumentation zu besprechen. Darauf habe ich noch kurz am Arbeitsheft gearbeitet.
+    Heute war ich zusammen mit Yoshimi am Helpdesk. Wir hatten heute einige UNICARD's die es gesperrt hat nach der Validierung. Wir hatten sonst noch Probleme wie VPN Verbindung, Mail Weiterleitung, anmelde Probleme, Fragen zum Covid Test, Password Zurücksetzung und weiteres. Nach dem Mittag hatte ich noch mein Wochengespräch. Als dies zu Ende war, machte ich mich auf den weg ins vonRoll Gebäude, da am Morgen eine Meldung hereinkam, dass eine der Säulen Probleme mit dem Display hatte. Den Rest des Tages habe ich damit verbracht mein Arbeitsplatz einzurichten und ein Abschlussbericht zu schreiben.
 
     **Hilfestellung**
 
-    Am Morgen hat mir jemand aus der Gruppe weiter geholfen, als ich FRagen hatte. Birgit hat mir noch ein gutes Video und Links geschickt, die ich bei der ABU Arbeit brauchen kann.
+    Bei Fragen habe ich mich immer an Yoshimi gewendet.
 
-    **Reflexion**
+    **Relexion**
 
     Der Tag lief gut.
+    Ich habe heute zum ersten mal das Problem gesehen das die Validierungsäule die karte einnimmt aber danach der Display nicht reagierte. Dieser Fehler war nach einem kurzen Neustart wieder in Ordnung. 
 
     **Nächste Schritte**
-  
-    Online alles auf den aktuellsten Stand bringen.
 
-## **11.10.2021**
-
-!!! abstract "Tagesbericht"
-    **Tagesablauf**
-
-    Heute Morgen war ich beim Helpdesk. Ich habe viele neue Dinge gemacht als sonst immer, wie zum Beispiel etwas verkauft, neue Unicards codieren und drucken lassen, Karte entsperrt und viele andere Sachen. Es kamen auch sehr viele Studenten vorbei, die sich wegen dem Covid Test erkundigt haben.
-
-    **Hilfestellung**
-
-    Bei Sachen wie abrechnen oder eine Karte neu codieren und drucken lassen hat mir Yoshimi alles gezeigt. Bei sonstigen Fragen hat mir Christoph weiter geholfen.
-
-    **Reflexion**
-
-    Der Morgen lief ziemlich gut. Ich konnte heute mal wieder ein bisschen den Kunden Support von Person zu Person üben und dies auch in verschiedenen sprachen.
-
-    **Nächste Schritte**
+    Rechtschreibe Korrekturen machen und dann den Arbeitsbericht hochladen.
