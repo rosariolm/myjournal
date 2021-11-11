@@ -1,6 +1,24 @@
 # **Meine Tagesberichte**
 *November 2021*
 
+## **11.11.2021**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute war ich bis am Nachmittag damit beschäftigt das Arbeitsheft zu ergänzen.Dabei habe ich vor allem das Thema Ethernet Frame bearbeitet. Dazwischen bin ich einmal noch mit Michael Lüfter aus wechseln gegangen. Danach habe ich noch den Rest des Nachmittags damit verbracht für die Schule zu lernen.
+
+    **Hilfestellung**
+
+    Ich kam mit Google gut voran.
+
+    **Reflexion**
+
+    Ich bin heute das erste mal Lüfter auswechseln gegangen und der ganze Tag lief gut.
+
+    **Nächste Schritte**
+
+
 ## **04.11.2021**
 
 !!! abstract "Tagesbericht"
