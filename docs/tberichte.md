@@ -6,18 +6,21 @@
 !!! abstract "Tagesbericht"
     **Tagesablauf**
 
-    x
+    Heute Morgen hatte ich mein erstes Wochengespräch in der INF Gruppe. Nach dem Gespräch habe ich mich ins tagging Thema ein gelesen, welches bei der Besprechung auch das Thema war. Vor dem Mittag bin ich dann kurz die zwei Switches rausschrauben und parat legen gegangen, um dann am Nachmittag daran zu arbeiten.
+Am Nachmittag bin ich mit Hanspeter zusammen ins H4 ein Switch und einige Halter demontieren gegangen. Darauf folgend sind wir zu den zwei Switches, die ich vor dem Mittag parat gelegt habe. Dort wurde mir dann gezeigt wie ich ein vlan tag machen kann.
+
 
     **Hilfestellung**
 
-    x
+    Hanspeter und Stephan haben mir alle meine Fragen beantwortet.
 
     **Reflexion**
 
-    x
+    Der ganze Tag lief gut.
 
     **Nächste Schritte**
 
+    Denn Ablauf vom Nachmittag dokumentieren.
 
 ## **11.11.2021**
 
