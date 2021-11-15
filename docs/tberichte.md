@@ -1,6 +1,24 @@
 # **Meine Tagesberichte**
 *November 2021*
 
+## **12.11.2021**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    x
+
+    **Hilfestellung**
+
+    x
+
+    **Reflexion**
+
+    x
+
+    **Nächste Schritte**
+
+
 ## **11.11.2021**
 
 !!! abstract "Tagesbericht"

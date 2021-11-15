@@ -32,6 +32,7 @@ nav:
   - Tagesberichte: tberichte.md
   - Archiv: archiv.md
   - Wochenberichte:
+      - "Tag im Ethernet Frame": wberichte/w45_TagImEthernetFrame.md
       - "Vagrant Befehle": wberichte/w40_vagrant.md
       - "git Q & A": wberichte/w37_gitQandA.md
       - "Workflow": wberichte/w36_workflow.md
@@ -40,6 +41,7 @@ nav:
 
 markdown_extensions:
   - admonition
+  - tables
   - pymdownx.details
   - pymdownx.tabbed
   - pymdownx.superfences
