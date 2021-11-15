@@ -1,6 +1,25 @@
 # **Meine Tagesberichte**
 *November 2021*
 
+## **15.11.2021**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen war ich beim Helpdesk. Ich habe hauptsächlich denn ganzen Morgen mit derselben Frau gesprochen, die ein Problem mit dem Anmelden bei Ilias hatte und dann immer wieder anrief. Am Nachmittag hatte ich dann das Quartalsgespräch und darauf folgend habe ich die Arbeit von letztem Freitag wiederholt. Ich habe bei beiden Switches die Konfigurationen vom Freitag gelöscht und danach bei beiden gleich wieder konfiguriert.
+
+    **Hilfestellung**
+
+    Als ich am Morgen Hilfe brauchte, bin ich bei Christoph nachfragen gegangen.
+
+    **Reflexion**
+
+    Der Tag lief gut, ich habe mir einige Dinge vom Quartals Gespräch auf geschrieben die ich in Zukunft umsetzen möchte.
+
+    **Nächste Schritte**
+
+    Die Befehle, die ich heute brauchte, noch schön im Arbeitsheft dokumentieren und schauen wie man die Rechtschreibkorrektur in vim brauchen kann.
+
 ## **12.11.2021**
 
 !!! abstract "Tagesbericht"
