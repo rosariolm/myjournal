@@ -1,6 +1,25 @@
 # **Meine Tagesberichte**
 *November 2021*
 
+## **25.22.2021**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen habe ich noch meine Dokumentation vervollständigt. Als ich damit fertig war, bin ich runter ins Labor, habe alle Konfigurationen gelöscht und habe die zwei Switches wie zuvor konfiguriert. Zu Schluss habe ich noch mit Pings getestet, ob alles geklappt hat oder ob mir irgendwo ein Fehler unterlaufen ist. Vor dem Mittag hatte ich dann noch das Semester Gespräch mit Birgit und Urs. Am Nachmittag habe ich damit begonnen mich ins neue Thema einzulesen, mit dem wir Morgen beginnen werden. Der Rest des Nachmittags habe ich damit verbracht an der Powerpoint Präsentation zu arbeiten und den Rundgang zu machen.
+
+    **Hilfestellung**
+
+    Als ich etwas nicht wusste, bin ich es in meiner Dokumentation nach schauen gegangen.
+
+    **Reflexion**
+
+    Der Tag lief gut.
+
+    **Nächste Schitte**
+
+    Wochenbericht
+
 ## **22.11.2021**
 
 !!! abstract "Tagesbericht"
@@ -18,7 +37,7 @@
 
     **Nächste Schritte**
 
-    Die Dokumentation ergänzen. 
+    Die Dokumentation ergänzen.
 
 ## **15.11.2021**
 
