@@ -1,6 +1,25 @@
 # **Meine Tagesberichte**
 *November 2021*
 
+## **22.11.2021**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen beim Helpdesk war es eher ruhig, ich habe einige Telefone abgenommen und 1-2 Tickets bearbeitet. Am Nachmittag hatte ich zusammen mit Birgit noch das Wochengespräch. Darauf folgend bin ich zusammen mit Hämpu zu den zwei Switches und habe dort gelernt, wie ich 3 verschiedene Vlan’s erstellen kann, wie ich eine IP setzen kann und wie ich alle 2 Vlan’s taggen kann.
+
+    **Hilfestellung**
+
+    Bei Fragen habe ich mich am Morgen an Christoph gewandt und am Nachmittag an Hämpu.
+
+    **Reflexion**
+
+    Der Tag lief gut. Ich kann mir den Vorgang für die Konfigurationen an den Switches besser merken, da ich alles bei dem zweiten Switch wiederholen muss.
+
+    **Nächste Schritte**
+
+    Die Dokumentation ergänzen. 
+
 ## **15.11.2021**
 
 !!! abstract "Tagesbericht"
