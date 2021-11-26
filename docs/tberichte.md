@@ -1,6 +1,25 @@
 # **Meine Tagesberichte**
 *November 2021*
 
+## **26.11.2021**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Mein Tag hat heute mit dem wöchentlichen Gespräch begonnen, wo wir mein Arbeitsheft besprochen haben. Nach dem bin ich runter ins Labor und habe die Switches neu konfiguriert damit ich meine Dokumentation überarbeiten konnte. Ich habe den ganzen Tag damit verbracht, die Dokumentation zu überarbeiten.
+
+    **Hilfestellung**
+
+    Da alles Repetition war, brauchte ich keine Hilfe.
+
+    **Reflexion**
+
+    Der ganze Tag lief gut.
+
+    **Nächste Schritte**
+
+    Noch die fehlenden Bilder im Wochenbericht ergänzen und ihn dann hochladen.
+
 ## **25.11.2021**
 
 !!! abstract "Tagesbericht"
