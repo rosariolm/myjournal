@@ -1,6 +1,25 @@
 # **Meine Tagesberichte**
 *November 2021*
 
+## **29.11.2021**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen waren Christoph und ich beim Helpdesk und haben vor Ort wie auch per Telefon weitergeholfen. Am Nachmittag hatte ich das Wochengespräch mit Birgit. Danach habe ich am Arbeitsheft und am Wochenbericht gearbeitet. Beim Arbeitsheft habe ich noch kleine Dinge gemacht wie alle Bilder beschrieben und Fehler korrigiert.
+
+    **Hilfestellung**
+
+    Ging es um Fragen beim Helpdesk habe ich bei Christoph nachgefragt.
+
+    **Reflexion**
+
+    Der Tag ging ganz gut. Ausser das wir am Morgen keine Unicards bedrucken konnten da die Maschine nicht ging und das ich den Wochenbericht noch nicht pushen konnte, da ich noch ein Problem mit der Darstellung habe.
+
+    **Nächste Schritte**
+
+    Am Donnerstag werde ich das Arbeitsheft zum Korrigieren abgeben und probieren, die Darstellung des Wochenberichts richtigzumachen.
+
 ## **26.11.2021**
 
 !!! abstract "Tagesbericht"
