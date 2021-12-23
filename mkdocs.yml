@@ -32,7 +32,6 @@ nav:
   - Tagesberichte: tberichte.md
   - Archiv: archiv.md
   - Wochenberichte:
-      - "titel": wberichte/w47_SwitchTaganduntag.md
       - "Tag im Ethernet Frame": wberichte/w45_TagImEthernetFrame.md
       - "Gelerntes": wberichte/gelerntes.md
       - "Vagrant Befehle": wberichte/w40_vagrant.md
