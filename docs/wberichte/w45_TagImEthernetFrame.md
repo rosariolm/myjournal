@@ -1,3 +1,5 @@
+*Wochenbericht KW45*
+
 Im 802.1 Q-Standard sind Datenfelder für das VLAN-Tagging definiert, die im Ethernet Paket im Datenberiech eingeführt werden. Das Tag besteht aus vier Feldern welche zusammen 32 Bit beträgt. Für den Tag Protocol Identifier (TPID) werden zwei Byte, für den Priority Code Point (PCP) drei Bit, für den Drop Eligible Indicator (DEI) ein Bit und für die VLAN-ID (VID) zwölf Bit genutzt.
 Das TPID-Datenfeld wird bei 802.1Q-VLANs immer auf den Wert 81 00 hex gesetzt, dieser Wert ist reserviert.
 
