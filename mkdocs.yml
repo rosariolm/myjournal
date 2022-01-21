@@ -62,6 +62,6 @@ plugins:
   - git-revision-date:
       enabled_if_env: CI
   -search
-  - git-revision-date-localized
+  - git-revision-date-localized:
 
 copyright: Copyright &copy; 2021 Laura Marie Rosario
