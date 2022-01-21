@@ -9,6 +9,8 @@ theme:
     - navigation.expand
     - navigation.sections
     - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
     - mavigation.top
   icon:
     logo: fontawesome/solid/chalkboard-teacher
@@ -32,6 +34,9 @@ nav:
   - Tagesberichte: tberichte.md
   - Archiv: archiv.md
   - Wochenberichte:
+      - "Link Aggregation": wberichte/w50_LinkAggregation.md
+      - "VLAN hinzufügen": wberichte/w48_VlanHinzufuegen.md
+      - "Switch Taggen und untaggen": wberichte/w47_SwitchTaganduntag.md
       - "Tag im Ethernet Frame": wberichte/w45_TagImEthernetFrame.md
       - "Gelerntes": wberichte/gelerntes.md
       - "Vagrant Befehle": wberichte/w40_vagrant.md
@@ -46,11 +51,12 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tabbed
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - def_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - attr_list
-  - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
