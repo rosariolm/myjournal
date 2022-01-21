@@ -10,7 +10,6 @@ theme:
     - navigation.sections
     - navigation.tabs
     - navigation.instant
-    - navigation.tracking
     - mavigation.top
   icon:
     logo: fontawesome/solid/chalkboard-teacher
@@ -51,9 +50,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tabbed
   - pymdownx.superfences
-  - attr_list
-  - md_in_html
-  - def_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
