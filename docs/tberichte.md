@@ -1,6 +1,44 @@
 # **Meine Tagesberichte**
 *Januar 2022*
 
+## **27.01.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute habe ich den ganzen Tag am Arbeitsheft gearbeitet. Ich bin es mehrere male durchgegangen und habe dinge ergänzt und verbessert.
+
+    **Hilfestellung**
+
+    Dinge die ich nicht wusste bin ich auf Google nachschlagen gegangen.
+
+    **Reflexion**
+
+    Der Tag lief gut.
+
+    **Nächste Schritte**
+
+    Arbeitsheft besprechen.
+
+## **24.01.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen war ich beim Helpdesk, dort habe ich einige neue UniCards gedruckt wie auch Telefone abgenommen. Am Nachmittag hatte ich mein Wochengespräch mit Birgit. Danach habe ich den restlichen Nachmittag damit verbracht drei Access Point auszuwechseln. So wie es mir Hämpu letzten Freitag gezeigt hat. Als ich alle drei ausgetauscht habe, hat mir Dominic noch gezeigt wie man die neuen richtigen dokumentiert.
+
+    **Hilfestellung**
+
+    Ich musste einmal bei Hämp anrufen, da der erste Access Point, der ich ausgewechselt habe, blau leuchtete und ich dachte, er müsste grün leuchten. Mir wurde dann erklärt, dass blau bedeutete, dass er verbunden ist.
+
+    **Reflexion**
+
+    Ich sollte mir bevor ich etwas in dieser Art mache überlegen, was ich alles mit nehmen muss. Ich musste dreimal laufen bis ich alles hatte. Zum Glück war der Standort nicht weit weg.
+
+    **Nächste Schritte**
+
+
+
 ## **21.01.2022**
 
 !!! abstract "Tagesbericht"
