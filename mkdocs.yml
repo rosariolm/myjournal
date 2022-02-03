@@ -61,7 +61,7 @@ markdown_extensions:
 plugins:
   - git-revision-date:
       enabled_if_env: CI
-  -search:
+  - search
   - git-revision-date-localized:
 
 copyright: Copyright &copy; 2021 Laura Marie Rosario
