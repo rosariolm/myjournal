@@ -31,7 +31,12 @@ theme:
 nav:
   - Home: index.md
   - Tagesberichte: tberichte.md
-  - Archiv: archiv.md
+  - Archiv:
+      - "Januar 2022": archiv/Januar2022.md
+      - "Dezember 2021": archiv/Dezember2021.md
+      - "November 2021": archiv/November2021.md
+      - "Oktober 2021": archiv/Oktober2021.md
+      - "September 2021": archiv/September2021.md
   - Wochenberichte:
       - "Link Aggregation": wberichte/w50_LinkAggregation.md
       - "VLAN hinzufügen": wberichte/w48_VlanHinzufuegen.md
