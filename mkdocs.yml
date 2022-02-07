@@ -38,6 +38,7 @@ nav:
       - "Oktober 2021": archiv/Oktober2021.md
       - "September 2021": archiv/September2021.md
   - Wochenberichte:
+      - "Netzwerkadresse berechnen": wberichte/w4_NetzAdrBerechnen.md
       - "Link Aggregation": wberichte/w50_LinkAggregation.md
       - "VLAN hinzufügen": wberichte/w48_VlanHinzufuegen.md
       - "Switch Taggen und untaggen": wberichte/w47_SwitchTaganduntag.md
