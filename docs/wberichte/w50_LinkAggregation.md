@@ -2,11 +2,11 @@
 
 === "Ausgangslage"
 
-    ![Ausgangslage 1](../img/w50/1.png)
+    ![Ausgangslage 1](../img/w/w50/1.png)
 
 === "Sollzustand"
 
-    ![Soll zustand 1](../img/w50/2.png)
+    ![Soll zustand 1](../img/w/w50/2.png)
 
 ???+ example "Arbeitsschritte"
      **enable =** Anmeldung
@@ -29,7 +29,7 @@
 
 
 ???+ abstract "Ausgabe"
-     ![Stand 1](../img/w50/3.png)
+     ![Stand 1](../img/w/w50/3.png)
 
 !!! warning "Info"
     Nun muss man noch auf dem VLAN 100 den primary port taggen. Wichtig! Das taggen kann erst nach dem deploy machen ansonsten kommt beim deployen ein Error.
@@ -50,12 +50,12 @@
      **show running-config =** Zeigt die momentanen Konfigurationen an
 
 ???+ abstract "Ausgabe"
-     ![Stand 1](../img/w50/4.png)
+     ![Stand 1](../img/w/w50/4.png)
 
 ???+ success "Test 1"
      **Stand:**
 
-     ![](../img/w50/5.png)
+     ![](../img/w/w50/5.png)
 
      **Soll:** Client 1 (IP 192.186.100.15) ist am Switch 1, VLAN 100, Port 47 angeschlossen und Pingt erfolgreich Client 2. Client 2 (IP 192.186.100.16) ist am Switch 2, VLAN 100, Port 47 angeschlossen und Pingt erfolgreich Client 1. Beim ausstecken vom Kabel am Port 1/2/1 an Switch 1 wird das Ping erfolgreich weitergeführt.
 

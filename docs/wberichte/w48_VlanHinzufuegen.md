@@ -4,14 +4,14 @@
 
 === "Ausgangslage"
 
-    ![Ausgangslage 1](../img/w48/1.png)
+    ![Ausgangslage 1](../img/w/w48/1.png)
 
-    ![Switch 1](../img/w48/2.png)
+    ![Switch 1](../img/w/w48/2.png)
 
 === "Sollzustand"
 
-    ![Soll zustand 1](../img/w48/3.png)
-    ![Soll zustand 1](../img/w48/4.png)
+    ![Soll zustand 1](../img/w/w48/3.png)
+    ![Soll zustand 1](../img/w/w48/4.png)
 
 ???+ example "Arbeitsschritte"
      *Verbinden über Tera Term bei Switch 1:*
@@ -32,8 +32,8 @@
      **exit =** Verlässt den (config-vlan-200) und geht in den config Modus
 
 ???+ abstract "Zwischenzustand 1"
-     ![](../img/w48/5.png)
-     ![](../img/w48/6.png)
+     ![](../img/w/w48/5.png)
+     ![](../img/w/w48/6.png)
 
 ???+ example "Arbeitsschritte"
      **vlan 300 =** Wechselt vom config Modus in den config-vlan-300
@@ -49,8 +49,8 @@
      **exit =** Verlässt den config Modus
 
 ???+ abstract "Zwischenzustand 1"
-     ![](../img/w48/7.png)
-     ![](../img/w48/8.png)
+     ![](../img/w/w48/7.png)
+     ![](../img/w/w48/8.png)
 
 !!! warning ""
     *Nun die gleichen Konfigurationen bei Switch 2 vornehmen. Danach das Gerät mit der IP 192.168.100.15 an Switch 1, Port 48 anhängen und Gerät mit der Ip 192.168.100.16 an Switch 2, Port 48.*
@@ -58,8 +58,8 @@
 ???+ success "Test 1"
      **Stand:**
 
-     ![](../img/w48/9.png)
-     ![](../img/w48/10.png)
+     ![](../img/w/w48/9.png)
+     ![](../img/w/w48/10.png)
 
      **Soll:** Client 1 (IP 192.186.100.15) ist am Switch 1, VLAN 200, Port 48 angeschlossen und Pingt erfolgreich Client 2. Client 2 (IP 192.186.100.16) ist am Switch 2, VLAN 200, Port 48 angeschlossen und Pingt erfolgreich Client 1.
 
@@ -72,8 +72,8 @@
 
      **Stand:**
 
-     ![](../img/w48/11.png)
-     ![](../img/w48/12.png)
+     ![](../img/w/w48/11.png)
+     ![](../img/w/w48/12.png)
 
      **Soll:** Client 1 (IP 192.186.100.15) ist am Switch 1, VLAN 300, Port 25 angeschlossen und Pingt erfolgreich Client 2. Client 2 (IP 192.186.100.16) ist am Switch 2, VLAN 300, Port 47 angeschlossen und Pingt erfolgreich Client 1.
 
@@ -83,7 +83,7 @@
 
      **Muss:**
 
-     ![](../img/w48/13.png)
+     ![](../img/w/w48/13.png)
  
 **Arbeitsschritte um Fehler bei Test 4 zu beheben:**
 
@@ -109,14 +109,14 @@
      *Nun die gleichen Konfigurationen bei Switch 2 vornehmen.*
 
 ???+ abstract "Zwischenzustand 1"
-     ![](../img/w48/14.png)
+     ![](../img/w/w48/14.png)
 
 
 ???+ success "Test 3"
      **Stand:**
 
-     ![](../img/w48/15.png)
-     ![](../img/w48/16.png)
+     ![](../img/w/w48/15.png)
+     ![](../img/w/w48/16.png)
 
      **Soll:** Client 1 (IP 192.186.100.15) ist am Switch 1, VLAN 300, Port 25 angeschlossen und Pingt erfolgreich Client 2. Client 2 (IP 192.186.100.16) ist am Switch 2, VLAN 300, Port 47 angeschlossen und Pingt erfolgreich Client 1.
 

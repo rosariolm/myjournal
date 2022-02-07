@@ -2,20 +2,20 @@
 
 === "Ausgangslage"
 
-    ![Ausgangslage 1](../img/w47/1.png)
+    ![Ausgangslage 1](../img/w/w47/1.png)
 
     *switch 1:*
 
-    ![Switch 1](../img/w47/2.png)
+    ![Switch 1](../img/w/w47/2.png)
 
     *switch 2:*
 
-    ![Switch 2](../img/w47/2.png)
+    ![Switch 2](../img/w/w47/2.png)
 
 === "Sollzustand"
 
-    ![Soll zustand 1](../img/w47/3.png)
-    ![Soll zustand 1](../img/w47/4.png)
+    ![Soll zustand 1](../img/w/w47/3.png)
+    ![Soll zustand 1](../img/w/w47/4.png)
 
 ???+ example "Arbeitsschritte"
      *Verbinden über Tera Term bei Switch 1:*
@@ -41,8 +41,8 @@
      **exit =** Verlässt den (config-vlan-100) und geht in den config Modus
 
 ???+ abstract "Zwischenzustand 1"
-     ![Stand 1](../img/w47/5.png)
-     ![Stand 1](../img/w47/6.png)
+     ![Stand 1](../img/w/w47/5.png)
+     ![Stand 1](../img/w/w47/6.png)
 
 ???+ example "Arbeitsschritte"
      **vlan 200 name admin =** Erstellt das vlan 200 mit dem Namen admin
@@ -59,8 +59,8 @@
      **exit =** Verlässt den config Modus
 
 ???+ abstract "Zwischenzustand 2"
-     ![Stand 2](../img/w47/5.png)
-     ![Stand 2](../img/w47/7.png)
+     ![Stand 2](../img/w/w47/5.png)
+     ![Stand 2](../img/w/w47/7.png)
 
 !!! warning "Test Vorbereitung"
     *Nun die gleichen Konfigurationen bei Switch 2 vornehmen. Danach das Gerät mit der IP 192.168.100.15 an Switch 1, Port 5 anhängen und Gerät mit der IP 192.168.100.16 an Switch2, Port11.*
@@ -68,8 +68,8 @@
 ???+ success "Test 1"
      **Stand:**
 
-     ![Test 1 Stand](../img/w47/8.png)
-     ![Test 1 Stand](../img/w47/9.png)
+     ![Test 1 Stand](../img/w/w47/8.png)
+     ![Test 1 Stand](../img/w/w47/9.png)
 
      **Soll:** Client 1 (IP 192.186.100.15) ist am Switch 1, VLAN 100, Port 5 angeschlossen und Pingt erfolgreich Client 2. Client 2 (IP 192.186.100.16) ist am Switch 2, VLAN 100, Port 11 angeschlossen und Pingt erfolgreich Client 1.
 
@@ -79,7 +79,7 @@
 
      **Muss:**
 
-     ![Test 1 Muss](../img/w47/10.png)
+     ![Test 1 Muss](../img/w/w47/10.png)
 
      *Damit dieser Test erfolgreich durchgeführt werden kann, würde es reichen VLAN 100 zu taggen. Aber da VLAN 200 später auch gebraucht wird, ist es im Muss schon vorhanden.*
 
@@ -101,7 +101,7 @@
      **write me =** Speichert die momentanen Konfiguration
 
 ???+ abstract "Zwischenzustand 3"
-     ![Stand 3](../img/w47/11.png)
+     ![Stand 3](../img/w/w47/11.png)
 
 ???+ example "Arbeitsschritte"
      **vlan 100 =** Wechselt vom config Modus in den config-vlan-100
@@ -124,7 +124,7 @@
      **exit =** Verlässt den config Modus
 
 ???+ abstract "Zwischenzustand 4"
-     ![Stand 4](../img/w47/12.png)
+     ![Stand 4](../img/w/w47/12.png)
 
 ???+ example "Arbeitsschritte"
      *Verbinden über Tera Term bei Switch 1:*
@@ -142,7 +142,7 @@
      **write me =** Speichert die momentanen Konfiguration
 
 ???+ abstract "Zwischenzustand 5"
-     ![Stand 5](../img/w47/13.png)
+     ![Stand 5](../img/w/w47/13.png)
 
 ???+ example "Arbeitsschritte"
      **vlan 100 =** Wechselt vom config Modus in den config-vlan-100
@@ -165,13 +165,13 @@
      **exit =** Verlässt den config Modus
 
 ???+ abstract "Zwischenzustand 6"
-     ![Stand 6](../img/w47/14.png)
+     ![Stand 6](../img/w/w47/14.png)
 
 ???+ success "Test 2"
      **Stand**
 
-     ![](../img/w47/15.png)
-     ![](../img/w47/16.png)
+     ![](../img/w/w47/15.png)
+     ![](../img/w/w47/16.png)
 
      **Soll:** Client 1 (IP 192.186.100.15) ist am Switch 1, VLAN 100, Port 5 angeschlossen und Pingt erfolgreich Client 2. Client 2 (IP 192.186.100.16) ist am Switch 2, VLAN 100, Port 11 angeschlossen und Pingt erfolgreich Client 1.
 
