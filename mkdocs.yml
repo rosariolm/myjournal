@@ -49,6 +49,8 @@ nav:
       - "Workflow": wberichte/w36_workflow.md
       - "git Befehlsreferenz": wberichte/w34_gitcheat.md
       - "MkDocs installieren": wberichte/w33_mkdocs.md
+  - Arbeitshefte:
+      - "INF": aberichte/inf.md 
 
 markdown_extensions:
   - admonition
