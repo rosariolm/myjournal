@@ -50,14 +50,17 @@ nav:
       - "git Befehlsreferenz": wberichte/w34_gitcheat.md
       - "MkDocs installieren": wberichte/w33_mkdocs.md
   - Arbeitshefte:
-      - "INF": aberichte/inf.md 
+      - "INF": aberichte/inf.md
 
 markdown_extensions:
+  - def_list
   - admonition
   - tables
   - pymdownx.details
   - pymdownx.tabbed
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
