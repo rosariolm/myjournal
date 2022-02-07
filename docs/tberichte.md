@@ -1,6 +1,26 @@
 # **Meine Tagesberichte**
 *Februar 2022*
 
+## **07.02.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute habe ich beim Helpdesk vor allem Telefone abgenommen. Ich hatte mehrheitlich nicht erfreute Mitarbeiter am Telefon. Am Nachmittag hatte ich das Wochengespräch mit Birgit. Der Rest des Nachmittags habe ich damit verbracht, das INF Arbeitsheft zu korrigieren und ein neuer Bericht daraus zu machen.
+
+    **Hilfestellung**
+
+    Alle meine Fragen konnte Christoph beantworten.
+
+    **Reflexion**
+
+    Ich kam mit dem Arbeitsheft nicht so weit, wie ich gerne wollte.
+
+    **Nächste Schritte**
+
+    - Arbeitsheft fertig machen
+    - Artikel durchlesen
+
 ## **04.02.2022**
 
 !!! abstract "Tagesbericht"
