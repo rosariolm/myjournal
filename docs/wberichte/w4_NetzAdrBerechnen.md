@@ -1,3 +1,5 @@
+*Wochenbericht KW4*
+
 Die IP Adresse wie die Netzmaske müssen in Binär dargestellt werden. Die werden dann abgeglichen und die Einer (1) die sich bei beiden an der gleichen Stelle der Bitfolge befinden, werden bei der Netzadresse übernommen. Diese muss man zu Schluss nur noch in Dez umwandeln.
 
 **Beispiel:**
