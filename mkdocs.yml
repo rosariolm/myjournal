@@ -50,7 +50,12 @@ nav:
       - "git Befehlsreferenz": wberichte/w34_gitcheat.md
       - "MkDocs installieren": wberichte/w33_mkdocs.md
   - Arbeitshefte:
-      - "INF": aberichte/inf.md
+      - "INF": aberichte/inf/verzeichnis.md
+      - "ISO/OSI Modell": aberichte/inf/IsoOsi.md
+      - "Layer 1": aberichte/inf/layer1.md
+      - "Layer 2": aberichte/inf/layer2.md
+      - "Layer 3": aberichte/inf/layer3.md
+      - "Praktische Arbeiten und Erfahrung": aberichte/inf/4.md
 
 markdown_extensions:
   - def_list
