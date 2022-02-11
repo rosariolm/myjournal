@@ -5,12 +5,12 @@ Das OSI-Modell ist deshalb ein Schichtenmodell, weil es im Ganzen ein Kommunikat
 
 ### 1.2 OSI-Modell
 
-![OSI-Modell](../img/a/inf/Abbildung1.png)
+![OSI-Modell](../../img/a/inf/Abbildung1.png)
 
 ## 2. OSI- und TCP/IP Tabelle
 
-![OSI- und TCP/IP](../img/a/inf/Tabelle1.png)
+![OSI- und TCP/IP](../../img/a/inf/Tabelle1.png)
 
 Wie man anhand der Abbildung 2 sieht, gibt es zwei Unterschiede bei dem TCP/IP-Modell zum OSI-Modell. Layer 1 und 2 sind zusammengenommen und Layer 4-7 auch. Somit hat das TCP/IP nicht 7 Schichten, sondern nur noch 4.
 
-![OSI und TCP/IP Modell](../img/a/inf/Abbildung2.png){ align=right }
+![OSI und TCP/IP Modell](../../img/a/inf/Abbildung2.png){ align=left }

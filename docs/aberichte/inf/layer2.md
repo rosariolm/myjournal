@@ -13,11 +13,11 @@ CSMA/CD aus geschrieben für Carrier Sense Multiple Access with Collision Deteci
 
 **Besser Beschrieben:**
 
-Carrier Sense (Träger-Zustandserkennung): Jede Station prüft, ob das Übertragungsmedium frei ist.
+- **Carrier Sense** (Träger-Zustandserkennung): Jede Station prüft, ob das Übertragungsmedium frei ist.
 
-Multiple Access (Mehrfachzugriff): Mehrere Stationen teilen sich das Übertragungsmedium.
+- **Multiple Access** (Mehrfachzugriff): Mehrere Stationen teilen sich das Übertragungsmedium.
 
-Collision Detection (Kollisionserkennung): Wenn mehrere Stationen gleichzeitig senden, erkennen sie die Kollision.
+- **Collision Detection** (Kollisionserkennung): Wenn mehrere Stationen gleichzeitig senden, erkennen sie die Kollision.
 
 Ethernet verwendet die Methode Carrier Sense Multiple Access/Collision Detection. Aber wie funktionier CSMA/DC eigentlich?
 
@@ -26,11 +26,14 @@ Damit können die Geräte die Signalträgerleitung abwechselnd verwenden. Ist ei
 ### 4.3 Kollisionen
 
 In einem Ethernet-Netzwerk mit Half Duplex kommt eine Kollision zustande, wenn zwei Geräte im gleichen Netzwerk versuchen, Daten zur gleichen Zeit zu übertragen. Also sind Kollisionen im Grunde nur Störungen. Diese sind nicht allzu schlimm, da die Geräte nach einer Erkennung einer Kollision ihre Daten wieder übermittelten. Sollte es aber mehrfach und andauernd zu mehreren Kollisionen kommen, könnte dies zu einem Problem werden. Die Anzahl auf mögliche Kollisionen steigt bei der Anzahl Geräte, die das gleiche Übertragungsmedium brauchen wollen.
+
 Weshalb die möglichen Kollisionen steigen bei der Anzahl Geräte ist, weil diese zwar die Leitungen prüfen aber durch lange Leitungen und andere Sachen könnte es sein das mehrere Geräte verschiedenen Signal Laufzeiten wahrnehmen. Dies kann dazu Führern das Ein Gerät nach der Überprüfung einer freien Leitung ihr Signal sendet, obwohl das Signal eines anderen Geräts schon unterwegs ist. Solange die Bandbreite von Ethernet nicht mehr als 30% ausgereizt wird, machen sich Kollisionen kaum bemerkbar. Mit steigender Belastung des Netzwerks nehmen aber auch die Kollisionen zu. Hier hilft nur, die Anzahl der Stationen zu reduzieren oder das gesamte Netzwerk in Teilnetz aufzuteilen.
+
 Wie oben schon kurz erwähnt gibt Ethernet-Netzwerke mit Halbduplex aber auch Vollduplex. Halbduplex-Ethernet basiert auf dem CSMA/CD-Verfahren. Es handelt sich dabei um das ursprüngliche Ethernet bis 10 MBit/s. Vollduplex-Ethernet ist eine Weiterentwicklung, die als Fast- Ethernet bezeichnet wird und auf CSMA/CD verzichtet. Auch alle weiteren Ethernet-Entwicklungen arbeiten im Vollduplex-Betrieb. Die Stationen kommunizieren über Punkt-zu-Punkt-Verbindungen direkt miteinander.
+
 Weil Fast-Ethernet in der Regel im Vollduplex-Modus arbeitet und damit auf CSMA/CD verzichtet, ist eine zusätzliche Flusskontrolle erforderlich. Dafür gibt es einen eigenen Standard: IEEE 802.3x (Flow Control).
 
-![CSMA/CD und Kollisionen](../img/a/inf/Abbildung18.png)
+![CSMA/CD und Kollisionen](../../img/a/inf/Abbildung18.png)
 
 ### 4.4 Frame
 
@@ -42,18 +45,18 @@ Da es mehrere Ethernet-Standarte gibt, gibt es auch unterschiedliche aufgebaute 
 
 === "Ohne Tag"
 
-    ![Ethernet Frame IEEE 802.3](../img/a/inf/Abbildung19.png)
+    ![Ethernet Frame IEEE 802.3](../../img/a/inf/Abbildung19.png)
 
 
 === "Mit Tag"
 
-    ![Ethernet Frame IEEE 802.3 mit tag](../img/a/inf/Abbildung20.png)
+    ![Ethernet Frame IEEE 802.3 mit tag](../../img/a/inf/Abbildung20.png)
 
     In der Abbildung sieht man, dass sich zwischen der Quellad. und Länge ein Tag vorhanden ist. Das Tag Feld enthält wichtige Informationen über die VLAN Einbindung.
 
 #### 4.4.1 Frame Bausteine
 
-![Frame beusteine](../img/a/inf/Tabelle10.png.png)
+![Frame beusteine](../../img/a/inf/Tabelle10.png)
 
 #### 4.4.2 Ethernet-Paket Struktur
 
@@ -61,23 +64,23 @@ Ein Datenpaket auf der Leitung und der Frame als Nutzdaten bestehen aus Binärda
 
 Der interne Aufbau eines Ethernet-Frames ist in IEEE 802.3 spezifiziert. Die folgende Tabelle zeigt das komplette Ethernet-Paket.
 
-![Paket struktur](../img/a/inf/Tabelle11.png.png)
+![Paket struktur](../../img/a/inf/Tabelle11.png)
 
 ### 4.5 Tag im Ethernet Frame
 
 Im 802.1 Q-Standard sind Datenfelder für das VLAN-Tagging definiert, die im Ethernet Paket im Datenberiech eingeführt werden. Das Tag besteht aus vier Feldern welche zusammen 32 Bit beträgt. Für den Tag Protocol Identifier (TPID) werden zwei Byte, für den Priority Code Point (PCP) drei Bit, für den Drop Eligible Indicator (DEI) ein Bit und für die VLAN-ID (VID) zwölf Bit genutzt.
 
-Das TPID-Datenfeld wird bei 802.1Q-VLANs immer auf den Wert 81 00 hex gesetzt, dieser Wert ist reserviert.
+Das TPID-Datenfeld wird bei 802.1Q-VLANs immer auf den Wert {==81 00==} hex gesetzt, dieser Wert ist reserviert.
 
-![Ethernet Frame (VLAN-Tag)](../img/a/inf/Abbildung21.png)
+![Ethernet Frame (VLAN-Tag)](../../img/a/inf/Abbildung21.png)
 
-![Ethernet Frame](../img/a/inf/Tabelle12.png)
+![Ethernet Frame](../../img/a/inf/Tabelle12.png)
 
--	TPID = Tag Protocol Identifier
--	TCI = Tag Control Information
--	PCP = Priority Code Point
--	DEI = Drop Eligible Indicator
--	VID = VLAN-Identifier
+-	**TPID** = Tag Protocol Identifier
+-	**TCI** = Tag Control Information
+-	**PCP** = Priority Code Point
+-	**DEI** = Drop Eligible Indicator
+-	**VID** = VLAN-Identifier
 
 **Beschreibung:**
 
@@ -103,7 +106,7 @@ Diese Tags werden gemacht um zwischen den VLANs zu unterscheiden. Jedem VLAN wir
 
 Link Aggregation ist ein Standard zur parallelen Bündelung von mehreren Netzwerkverbindungen. Vorteile einer Link Aggregation gegenüber einer Verbindung über ein einzelnes Kabel ist die höhere Übertragungsgeschwindigkeit wie auch die Ausfahlsicherheit.
 
-![LAG Beispiel](../img/a/inf/Abbildung22.png)
+![LAG Beispiel](../../img/a/inf/Abbildung22.png)
 
 **Was ist LAG und wie funktioniert es?**
 
@@ -114,7 +117,7 @@ Es bietet Redundanz auf Verbindungsebene bei Netzwerkfehlern und Verkehr. Auch w
 
 Innerhalb des Data Link Layers (Sicherungsschicht) implementiert, konkret zwischen dem MAC Client und MAC Sublayern.
 
-![LAG](../img/a/inf/Abbildung23.png)
+![LAG](../../img/a/inf/Abbildung23.png)
 
 **Static Link Aggregation**
 

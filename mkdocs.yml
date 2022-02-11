@@ -64,6 +64,11 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tabbed
   - pymdownx.superfences
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.caret
+  - pymdownx.critic
   - attr_list
   - md_in_html
   - pymdownx.emoji:

@@ -6,11 +6,20 @@
 !!! abstract "Tagesbericht"
     **Tagesablauf**
 
+    Heute Vormittag habe ich die Zeit genutzt und am INF Arbeitsheft weiter gearbeitet. Damit ich das vollständig pushen kann. Dadurch das ich nicht den ganzen morgen im Büro war, wurde ich noch nicht fertig. Am Nachmittag habe ich zusammen mit Kusi meine Mathematik unterlagen angeschaut.
+
     **Hilfestellung**
+
+    Kusi hat mir die Funktionen besser erklärt.
 
     **Reflexion**
 
+    Der ganze Tag lief gut.
+
     **Nächste Schritte**
+
+    - Arbeitsheft fertig machen
+    - Artikel durchlesen
 
 ## **07.02.2022**
 

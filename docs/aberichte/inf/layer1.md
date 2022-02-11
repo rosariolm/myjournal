@@ -12,7 +12,7 @@ Bei Kupferverkabelung wird heute meistens das Twisted Pair Kabel mit vier verdri
 
 In der Netzwerktechnik werden vor allem Kabel der Klasse D-F (Kategorie 5-7 Mit der Englischen Abkürzung Cat) verwendet.
 
-![Twisted Pair Kabel Klasen](../img/a/inf/Tabelle2.png)
+![Twisted Pair Kabel Klasen](../../img/a/inf/Tabelle2.png)
 
 Kategorien und Klassen hat man erstellt, um die Leistungsfähigkeit einer einzelnen Komponente zu beschreiben. Ausserdem ist es leichter für die Klassifizierung, damit ein Kabel einer Kategorie zugewiesen werden kann, dessen spezifischen Anforderung Profile es entspricht.  
 
@@ -41,31 +41,31 @@ Dies ist wegen des Stroms, der durch die Kabel fliest. Um die Daten vollständig
 
     * TP = Tweisted Pair
 
-![Schrirmungsarten](../img/a/inf/Tabelle3.png)
+![Schrirmungsarten](../../img/a/inf/Tabelle3.png)
 
 #### 3.1.1 UPD, STP, S/UTP und S/FTP
 
 === "UTP"
 
-    ![UTP Kabel](../img/a/inf/Abbildung3.png)
+    ![UTP Kabel](../../img/a/inf/Abbildung3.png)
 
     Ein UTP Kabel hat keine Gesamtschirmung und ungeschirmte Paare.
 
 === "STP"
 
-    ![STP Kabel](../img/a/inf/Abbildung4.png)
+    ![STP Kabel](../../img/a/inf/Abbildung4.png)
 
     Wenn man das STP Kabel mit dem UTP Kabel (Abbildung 3) vergleicht, sieht man, dass beim STP Kabel die Paare geschirmt sind mit einem Geflechtschirm.
 
 === "S/UTP"
 
-    ![S/UTP Kabel](../img/a/inf/Abbildung6.png)
+    ![S/UTP Kabel](../../img/a/inf/Abbildung6.png)
 
     Beim S/UTP Kabel gibt es eine Gesamtschirmung (S = Geflecht).
 
 === "S/FTP"
 
-    ![S/FTP Kabel](../img/a/inf/Abbildung7.png)
+    ![S/FTP Kabel](../../img/a/inf/Abbildung7.png)
 
     Hier beim S/FTP sieht man das die Paare sowohl auch die Gesamtschirmung gemacht sind.
 
@@ -73,25 +73,25 @@ Dies ist wegen des Stroms, der durch die Kabel fliest. Um die Daten vollständig
 
 === "ungeschirmt"
 
-    ![S/UTP Kabel](../img/a/inf/Abbildung5.png)
+    ![S/UTP Kabel](../../img/a/inf/Abbildung5.png)
 
 === "geschirmt"
 
-    ![S/FTP Kabel](../img/a/inf/Abbildung8.png)
+    ![S/FTP Kabel](../../img/a/inf/Abbildung8.png)
 
 ### 3.2 RJ45 Stecker
 
 RJ45 ist die übliche Steckverbindung für die TB-Kabel. Einige RJ45 Stecker sind speziell entwickelt, damit sie bis Cat. 6A eingesetzt werden können. Somit kann der Stecker bis zu 10 Gigabit Ethernet verwendet werden, dafür aber nur bis zu 100 Meter. GG45- oder der Tera-Stecker sind potenziell Nachfolger für Netzte mit Cat. 7.
 
-![Ansicht Stecker und Buchse](../img/a/inf/Abbildung9.png)
+![Ansicht Stecker und Buchse](../../img/a/inf/Abbildung9.png)
 
-![RJ45 Stecker](../img/a/inf/Abbildung10.png)
+![RJ45 Stecker](../../img/a/inf/Abbildung10.png)
 
 ### 3.3 RJ45 Stecker Belegung
 
 TIA-568A und TIA-568B sind die zwei Standards für die Stecker Belegung bei RJ45.Beide verdrahten die Kontakte direkt durch. Das bedeutet, dass der Kontakt 1 auf der einen Seite direkt mit dem Kontakt1 auf der anderen Seite verbunden ist. Dies ist bei allen 8 gleich.$
 
-![Stecker Belegung](../img/a/inf/Abbildung11.png)
+![Stecker Belegung](../../img/a/inf/Abbildung11.png)
 
 ### 3.4 Lichtwellenleiter
 
@@ -101,7 +101,7 @@ Lichtwellenleiter (Glasfaserkabel) werden heute vor allem in der primären und s
 
 Die Lichtwellenleiter (LWL) gibt es als Multimodefaser und Monomodfaser (Multi- und Singlemode). Wobei Multimode vor allem im Nahbereich verwendet wird (nicht wie bei Kupferkabel z. B. von Dose zu Gerät, sondern im Nahbereich von Gebäude zu Gebäude) und Singlemode kann auch im Nahbereich verwendet werden aber wird vor allem im Fernbereich benutzt.
 
-![Darstellung der LWL-Typen](../img/a/inf/Abbildung12.png)
+![Darstellung der LWL-Typen](../../img/a/inf/Abbildung12.png)
 
 In der Multimode Faser wandern mehrere Lichtmodulationen (Photonen) gleichzeitig im Faserkern. Dies kann bei Kabellängen über 900 m zu Störungen im Kable geben.
 
@@ -109,15 +109,15 @@ Bei der Singlemode Faser erlaubt die reduzierte Grösse des Faserkerns jeweils n
 
 #### 3.4.2 Tabellen Übersicht Fastertypen
 
-![Fasertypen](../img/a/inf/Tabelle4.png)
+![Fasertypen](../../img/a/inf/Tabelle4.png)
 
 #### 3.4.3 MM Faserklassen (GbE)
 
-![MM Faserklassen](../img/a/inf/Tabelle5.png)
+![MM Faserklassen](../../img/a/inf/Tabelle5.png)
 
 #### 3.4.4 Tabellen Übersicht Stecker Aufteilung SM/MM
 
-![Stecker Aufteilung SM/MM](../img/a/inf/Tabelle6.png)
+![Stecker Aufteilung SM/MM](../../img/a/inf/Tabelle6.png)
 
 ### 3.5 LWL-Stecker
 
@@ -127,13 +127,13 @@ Der subscriber connector Stecker, abgekürzt SC-Stecker wurde in Japan entwickel
 
 === "Duplex-SC-Stecker 1"
 
-    ![Duplex-SC-Stecker mit Furrulen](../img/a/inf/Abbildung14.png)
+    ![Duplex-SC-Stecker mit Furrulen](../../img/a/inf/Abbildung14.png){ align=left }
 
     Duplex-SC-Stecker Multimode mit sichtbaren Ferrulen.
 
 === "Duplex-SC-Stecker 2"
 
-    ![Duplex-SC-Stecker mit Schutzklappe](../img/a/inf/Abbildung13.png)
+    ![Duplex-SC-Stecker mit Schutzklappe](../../img/a/inf/Abbildung13.png){ align=left }
 
     Duplex-SC-Stecker Monomode mit Schutzkappen.
 
@@ -141,35 +141,35 @@ Der subscriber connector Stecker, abgekürzt SC-Stecker wurde in Japan entwickel
 
 Der LC-Stecker (engl. lucent connector) ist ein Small-Form-Factor-Stecker.
 
-=== "Beispiel 1"
+=== " LC-Stecker Beispiel 1"
 
-    ![LC-Stecker](../img/a/inf/Abbildung16.png)
+    ![LC-Stecker](../../img/a/inf/Abbildung16.png)
 
 
-=== "Beispiel 2"
+=== "LC-Stecker Beispiel 2"
 
-    ![LC-Stecker](../img/a/inf/Abbildung15.png)
+    ![LC-Stecker](../../img/a/inf/Abbildung15.png)
 
 
 #### 3.5.3 MTP-Stecker
 
 Der MTP-Stecker ist ein weiterentwickelter MPO-Stecker. Bei dieser Bezeichnung handelt sich ist ein eingetragenes Warenzeichen von US Conec. Während der MPO-Stecker in Europa bekannter ist, ist es der MTP-Stecker in den USA.
 
-=== "Beispiel 1"
+=== "MTP-Stecker Beispiel 1"
 
-    ![MTP-Stecker](../img/a/inf/Abbildung17.png)
+    ![MTP-Stecker](../../img/a/inf/Abbildung17.png)
 
 
-=== "Beispiel 2"
+=== "MTP-Stecker Beispiel 2"
 
-    ![MTP-Stecker](../img/a/inf/Abbildungnicht.png)
+    ![MTP-Stecker](../../img/a/inf/Abbildungnicht.png)
 
 #### 3.5.4 Übersicht verschiedener Stecker
 
-![Übersicht Stecker](../img/a/inf/Tabelle7.png.png)
+![Übersicht Stecker](../../img/a/inf/Tabelle7.png)
 
 ### 3.6 Fiber connector
 
-![fiber connector](../img/a/inf/Tabelle8.png.png)
+![fiber connector](../../img/a/inf/Tabelle8.png)
 
-![fiber komponente](../img/a/inf/Tabelle9.png.png)
+![fiber komponente](../../img/a/inf/Tabelle9.png)
