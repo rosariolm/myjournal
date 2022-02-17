@@ -31,7 +31,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: `https://github.com/sundowndev/PhoneInfoga`
+      link: 'https://github.com/sundowndev/PhoneInfoga'
 
 nav:
   - Home: index.md
