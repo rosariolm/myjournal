@@ -28,6 +28,11 @@ theme:
   name: material
   primary: indigo
 
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: `https://github.com/sundowndev/PhoneInfoga`
+
 nav:
   - Home: index.md
   - Tagesberichte: tberichte.md
