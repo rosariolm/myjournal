@@ -16,7 +16,7 @@ theme:
   icon:
     logo: material/library
     repo: fontawesome/brands/gitlab
-      admonition:
+    admonition:
       note: fontawesom/solid/sticky-note
       abstract: octicons/checklist-16
       info: octicons/info-16
@@ -90,6 +90,5 @@ plugins:
   - git-revision-date:
       enabled_if_env: CI
   - search
-  - git-revision-date-localized:
 
 copyright: Copyright &copy; 2022 Laura Marie Rosario
