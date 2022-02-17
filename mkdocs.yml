@@ -5,6 +5,8 @@ edit_uri: "edit/main/docs"
 
 theme:
   features:
+    - tabs
+    - instant
     - content.tabs.link
     - navigation.expand
     - navigation.sections
@@ -12,8 +14,8 @@ theme:
     - navigation.instant
     - mavigation.top
   icon:
-    logo: fontawesome/solid/chalkboard-teacher
-    repo: fontawesome/brands/git-alt
+    logo: material/cloud
+    repo: fontawesome/brands/gitlab
     admonition:
       note: fontawesom/solid/sticky-note
       abstract: octicons/checklist-16
@@ -31,7 +33,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: 'https://github.com/sundowndev/PhoneInfoga'
+      link: https://github.com/squidfunk
 
 nav:
   - Home: index.md
