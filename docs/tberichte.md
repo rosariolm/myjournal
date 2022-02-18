@@ -1,14 +1,56 @@
 # **Meine Tagesberichte**
 *Februar 2022*
 
+## **17.02.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute habe ich nach Anleitung, die Einstellungen vorgenomen um Jamf in Intune einzubinden. Als ich dann zum Punkt kam, wo man Einstellungen im Jamf vornehmen muss, habe ich dies zusammen mit Kusi und Tobias besprochen. Wir blieben auf dem Stand, dass Tobias uns Bescheid gibt, wann wir weiter machen können. Zum Überbrücken habe ich zusammen mit Tobias, das Test-Gerät (MacBook Air) im Jamf aufgenommen. Am Morgen hatte ich noch das Quartalsgespräch zusammen mit Birgit, Stephan, Hämpu und Dominic.
+
+    **Hilfestellung**
+
+    Alle Fragen, die ich heute hatte, habe ich mit Kusi oder Tobias besprochen.
+
+    **Reflexion**
+
+    Ich konnte heute einige Punkte von der Quartalsbesprechung mit nehmen, die ich in Zukunft umsetzen möchte.
+
+    **Nächste Schritte**
+
+    - An der Jamf Einbindung weiter machen.
+
+## **14.02.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen habe ich beim Helpdesk Telefone abgenommen, Tickets bearbeitet, Briefe paart gemacht, neue UniCards gedruckt und Studenten vor Ort weiter geholfen. Ich habe heute hauptsächlich den gleichen Personen, bei Anmelde-Problemen und Password Änderungen geholfen. Nebenbei habe ich noch einige Tickets bearbeitet, wo es um die Fehler Mail ging, die versendet wurde. Da es mir nicht gut ging, bin ich am Mittag nach Hause gegangen.
+
+    **Hilfestellung**
+
+    Bei Fragen konnte ich das Helpdesk Team fragen.
+
+    **Reflexion**
+
+    Ich fand, der Morgen lief gut, da ich das meiste selber machen konnte.
+
+    **Nächste Schritte**
+
 ## **11.02.2022**
 
 !!! abstract "Tagesbericht"
     **Tagesablauf**
 
+    Heute habe ich das Arbeitsheft zum grössten Teil fertig gemacht. Mit Ausnahme von kleinen optischen Korrekturen, die ich noch machen möchte. Als ich es am Mittag pushen wollte, kam eine Error Meldung. Am Nachmittag habe ich dann probiert die Error Meldung selber zu lösen, was mir nicht gelang. Deshalb habe ich zum Schluss noch die zugesendeten Artikel durchgelesen.
+
     **Hilfestellung**
 
+    Kusi hat mir bei Fragen weitergeholfen.
+
     **Reflexion**
+
+    Da ich zum grössten Teil die dinge, erledigen konnte die ich wollte lief der Tag gut.
 
     **Nächste Schritte**
 
