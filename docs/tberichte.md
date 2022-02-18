@@ -6,7 +6,7 @@
 !!! abstract "Tagesbericht"
     **Tagesablauf**
 
-    Heute habe ich die Berichte auf den aktuellsten Stand gebracht, nach dem ich ein Pull request von Michael erhalten habe, die meine Error Meldung löste. Am Morgen habe ich noch einen Arbeitsplatz abgeräumt und ins Lager gebracht. Danach war ich den ganzen Nachmittag mit der Jamf Integration dran.
+    Heute habe ich die Berichte auf den aktuellsten Stand gebracht, nach dem ich ein Pull request von Michael erhalten habe, die meine Error Meldung löste. Am Morgen habe ich noch einen Arbeitsplatz abgeräumt und ins Lager gebracht. Danach war ich den ganzen Nachmittag mit der Jamf Integration dran. Zum Schluss habe ich noch zwei Bildschirme in das richtige Büro gebracht.
 
     **Hilfestellung**
 
@@ -19,6 +19,7 @@
     **Nächste Schritte**
     
     - Auf Rückmeldung von anykey warten.
+    - Inventar aktualisieren.
 
 ## **17.02.2022**
 
