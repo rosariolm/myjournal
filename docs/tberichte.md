@@ -1,6 +1,25 @@
 # **Meine Tagesberichte**
 *Februar 2022*
 
+## **18.02.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute habe ich die Berichte auf den aktuellsten Stand gebracht, nach dem ich ein Pull request von Michael erhalten habe, die meine Error Meldung löste. Am Morgen habe ich noch einen Arbeitsplatz abgeräumt und ins Lager gebracht. Danach war ich den ganzen Nachmittag mit der Jamf Integration dran.
+
+    **Hilfestellung**
+
+    Tobias, Kusi, Pascal und ich haben fast den ganzen Nachmittag einer Lösung gesucht, weshalb die Integration nicht funktioniert.
+
+    **Reflexion**
+
+    Ich habe heute viele neue Dinge über Clouds, Jamf und Intune gelernt. Ich habe auch gemerkt, wie unterschiedlich mehrere Personen an die gleiche Problemlösung rangehen.
+
+    **Nächste Schritte**
+    
+    - Auf Rückmeldung von anykey warten.
+
 ## **17.02.2022**
 
 !!! abstract "Tagesbericht"
