@@ -1,6 +1,26 @@
 # **Meine Tagesberichte**
 *Februar 2022*
 
+## **21.02.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+    
+    Heute hatten wir vor Ort viel zu tun. Es kamen viele wegen Validierungen, Password Änderungen und Anmeldungen. Am Nachmittag habe ich das Inventar korrigiert. Danach habe ich das Bootcamp angeschaut.
+    
+    **Hilfestellung**
+    
+    Mir musste Kusi bei der Problemlösung am Nachmittag helfen. Als ich das Inventar anpassen wollte, hat es mir optisch alles zu klein angezeigt. Mit der Verbindung über Remotedesktop war dieses Problem dann gelöst.
+    
+    **Reflexion**
+    
+    Das Telefonieren war heute etwas mühsam für mich. Da ich heute heiser war und zwischendurch die Stimme verlier, musste ich einige Pausen einlegen.
+    
+    **Nächste Schritte**
+    
+    - Auf Rückmeldung von anykey warten.
+    - Port nr. weiter geben.
+
 ## **18.02.2022**
 
 !!! abstract "Tagesbericht"
