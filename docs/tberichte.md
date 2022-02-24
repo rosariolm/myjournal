@@ -1,23 +1,42 @@
 # **Meine Tagesberichte**
 *Februar 2022*
 
+## **24.02.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute habe ich zum grössten Teil ungeplante Dinge gemacht. Wie eine SSD ersetzt und beide neu partitioniert, Kopfhörer getestet und ein Test gerät mit Bootcamp und Windows bereit gemacht. Nebenbei habe ich am Arbeitsheft gearbeitet und auf Intune neue Einstellungen vorgenommen. 
+
+    **Hilfestellung**
+
+    Heute haben mir Thierry und Kusi bei Problemen weiter geholfen, wie auch meine Fragen beantwortet.
+
+    **Reflexion**
+
+    Heute lieft der ganze Tag gut. Vor allem, da ich beide Dinge von meiner "Nächsten Schritte" Aufzählung streichen kann.
+
+    **Nächste Schritte**
+
+    - Defekte Kopfhörer als Garantie fall einschicken.
+
 ## **21.02.2022**
 
 !!! abstract "Tagesbericht"
     **Tagesablauf**
-    
+
     Heute hatten wir vor Ort viel zu tun. Es kamen viele wegen Validierungen, Password Änderungen und Anmeldungen. Am Nachmittag habe ich das Inventar korrigiert. Danach habe ich das Bootcamp angeschaut.
-    
+
     **Hilfestellung**
-    
+
     Mir musste Kusi bei der Problemlösung am Nachmittag helfen. Als ich das Inventar anpassen wollte, hat es mir optisch alles zu klein angezeigt. Mit der Verbindung über Remotedesktop war dieses Problem dann gelöst.
-    
+
     **Reflexion**
-    
+
     Das Telefonieren war heute etwas mühsam für mich. Da ich heute heiser war und zwischendurch die Stimme verlier, musste ich einige Pausen einlegen.
-    
+
     **Nächste Schritte**
-    
+
     - Auf Rückmeldung von anykey warten.
     - Port nr. weiter geben.
 
@@ -37,7 +56,7 @@
     Ich habe heute viele neue Dinge über Clouds, Jamf und Intune gelernt. Ich habe auch gemerkt, wie unterschiedlich mehrere Personen an die gleiche Problemlösung rangehen.
 
     **Nächste Schritte**
-    
+
     - Auf Rückmeldung von anykey warten.
     - Inventar aktualisieren.
 
