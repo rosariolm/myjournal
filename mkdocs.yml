@@ -69,7 +69,6 @@ markdown_extensions:
   - admonition
   - tables
   - pymdownx.details
-  - pymdownx.tabbed
   - pymdownx.superfences
   - pymdownx.mark
   - pymdownx.tilde
@@ -78,13 +77,13 @@ markdown_extensions:
   - pymdownx.critic
   - attr_list
   - md_in_html
+  - pymdownx.tabbed
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
-
 
 plugins:
   - git-revision-date:
