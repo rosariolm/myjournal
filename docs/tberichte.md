@@ -6,15 +6,16 @@
 !!! abstract "Tagesbericht"
     **Tagesablauf**
 
-
+    Heute habe ich denn ganzen Tag an Intune weitergearbeitet. Zuerst habe ich den Mac mit Autopilot aufgesetzt. Dafür musste ich mir einen USB-Stick vorbereiten. Danach habe ich das Gleiche mit einem anderen Test gerät gemacht. Aber dort habe ich dann das Script angepasst, damit es einfacher zum Importieren ging. Ein Teil des Nachmittags habe ich damit verbracht, an den Wochenberichten zu arbeiten. 
 
     **Hilfestellung**
 
-
+    Ich hatte heute Hilfe von Kusi und Thierry, wenn ich bei Schritten nicht weiter kam. Ein gutes Beispiel dafür ist, als ich dachte, dass mein Script nicht funktioniert. Sie mich dann erinnerten, dass ich es als Admin aus führen muss.
 
     **Reflexion**
 
-
+    Ich kam mit den Berichten nicht so weit, wie ich es wollte.
+    Ich pushde die angefangen berichte, obwohl es mir nicht wirklich gefiel. Weil ich letztens viele Änderungen auf github mache und ich mit dem pushen Komplikationen vorbeugen möchte.
 
     **Nächste Schritte**
 
