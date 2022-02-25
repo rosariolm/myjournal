@@ -1,6 +1,26 @@
 # **Meine Tagesberichte**
 *Februar 2022*
 
+## **25.02.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+
+
+    **Hilfestellung**
+
+
+
+    **Reflexion**
+
+
+
+    **Nächste Schritte**
+
+    - Defekte Kopfhörer als Garantie fall einschicken.
+    - Alle Berichte vervollständigen.
+
 ## **24.02.2022**
 
 !!! abstract "Tagesbericht"
