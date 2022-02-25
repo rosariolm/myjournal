@@ -45,7 +45,6 @@ nav:
       - "Oktober 2021": archiv/Oktober2021.md
       - "September 2021": archiv/September2021.md
   - Wochenberichte:
-      - "PIN Deaktivierung in Intune": wberichte/w5_Pin.md
       - "Netzwerkadresse berechnen": wberichte/w4_NetzAdrBerechnen.md
       - "Link Aggregation": wberichte/w50_LinkAggregation.md
       - "VLAN hinzufügen": wberichte/w48_VlanHinzufuegen.md
