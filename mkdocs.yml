@@ -39,6 +39,7 @@ nav:
   - Home: index.md
   - Tagesberichte: tberichte.md
   - Archiv:
+      - "Februar2022": archiv/Februar2022.md
       - "Januar 2022": archiv/Januar2022.md
       - "Dezember 2021": archiv/Dezember2021.md
       - "November 2021": archiv/November2021.md
