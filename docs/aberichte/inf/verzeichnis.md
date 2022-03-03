@@ -1,5 +1,3 @@
-**Inhaltsverzeichnis**
-
 ???+ example "ISo/OSI Modell"
      **1. ISO/OSI-Referenzmodell**
 
