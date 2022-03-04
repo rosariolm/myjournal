@@ -3,9 +3,9 @@
 Bevor man in Intune das Gerät importieren kann. Muss ein Script auf dem jeweiligen Gerät ausgeführt werden.
 
 ???+ example "Arbeitsschritte auf dem Gerät"
-     1. Auf x das Script herunterladen und am besten auf USB-Stick speichern für weiteren gebrauch.
+     1. Wie auf https://www.thelazyadministrator.com/2020/01/27/get-a-new-computers-auto-pilot-hash-without-going-through-the-out-of-box-experience-oobe/ das Script herunterladen und am besten auf einem USB-Stick speichern für weiteren gebrauch.
 
-     2. Nach dem Download fehlte bei mir noch ein CMD feil welches ich von x  kopiert habe.
+     2. Nach dem Download fehlte bei mir noch ein CMD feil welches ich kopiert habe.
 
      3. Nun kann das Get-WindowsAutoPilotInfo.ps1 ausgeführt werden. *Als Admin ausführen!*
 
