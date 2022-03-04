@@ -1,6 +1,26 @@
 # **Meine Tagesberichte**
 *März 2022*
 
+## **04.03.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute habe ich mir vor allem Zeit genommen, um mit den verschiedenen Berichte vorwärts zu kommen. Nebenbei habe ich mich vorbereitet, damit ich am Montag mit OSDCloud starten kann.
+
+    **Hilfestellung**
+
+    Bei meinen neuen Wochenberichten hat es mir die Bilder nicht angezeigt. Michael hat sich Zeit genommen und die Fehler für mich korrigiert wie auch erklärt.
+
+    **Reflexion**
+
+    Ich habe viel mehr Zeit in die Berichte investiert, als geplant.
+
+    **Nächste Schritte**
+
+    - Alle Berichte vervollständigen.
+    - Mit OSDCloud beginnen.
+
 ## **03.03.2022**
 
 !!! abstract "Tagesbericht"
