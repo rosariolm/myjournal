@@ -1,20 +1,49 @@
-Damit das Gerät welches mit Autopilot aufgesetzt wird, auch eine Group ID erhält und Online das neuste Windows Version herunterlädt. Muss man nur drei kleine Änderungen am Script vornehmen, welches im KW7 Wochenbericht erstellt habe.
+*Wochenbericht KW8*
+
+Damit das Gerät welches mit Autopilot aufgesetzt wird, auch den Group Tag erhält und Online die neuste Windows Version herunterlädt. Muss man nur drei kleine Änderungen am Script vornehmen, welches im KW7 Wochenbericht erstellt habe.
 
 ???+ example "Arbeitsschritte"
-     1.
 
-        ![Home Feld](../img/w/w8/w8_1.png)
+     1. Zum Starten Windows PowerShell ISE öffnen.
 
-     2.
+        ![PowerShell](../img/w/w8/w8_1.png)
 
-        ![Windows enrollment](../img/w/w8/w8_2.png)
+     2. Nun die Script Datei auf dem USB-Stick öffnen.
 
-        ![Windows enrollment 2](../img/w/w8/w8_3.png)
+        === "Schritt 1"
 
-     3.
+            Von der Startseite aus zu **Datei > Öffnen...** navigieren. Oder mit dem shortcut Strg + O.
 
-        ![Windows enrollment 2](../img/w/w8/w8_4.png)
+            ![Windows enrollment](../img/w/w8/w8_2.png)
 
-        ![Windows enrollment 3](../img/w/w8/w8_5.png)
+        === "Schritt 2"
 
-        ![Windows enrollment 4](../img/w/w8/w8_6.png)
+            Jetzt zur ps1. Datei navigieren und diese öffnen.
+
+            ![Windows enrollment 2](../img/w/w8/w8_3.png)
+
+     3. Nun die drei Änderungen vornehmen.
+
+        === "Unverändert"
+
+            ![Windows enrollment](../img/w/w8/w8_4.png)
+
+        === "Group Tag"
+
+            Da ich möchte, dass jedes Gerät den Group Tag Client automatisch zugeordnet kriegt. Gebe ich dies unter $GroupTag an. Auf dem Bild wäre dies in der Zeile 117 zusehen.
+
+            ![Windows enrollment](../img/w/w8/w8_5.png)
+
+        === "Online"
+
+            Jetzt noch $Online auf $true stellen.
+            Auf dem Bild wäre dies in der Zeile 123 zusehen.
+
+            ![Windows enrollment](../img/w/w8/w8_6.png)
+
+        === "Assign"
+
+            Assign habe ich zusätzlich auch noch auf $true gestellt.
+            Auf dem Bild wäre dies in der Zeile 129 zusehen.
+
+            ![Windows enrollment](../img/w/w8/w8_7.png)
