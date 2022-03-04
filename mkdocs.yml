@@ -38,12 +38,14 @@ nav:
   - Home: index.md
   - Tagesberichte: tberichte.md
   - Archiv:
-      - "Februar2022": archiv/Februar2022.md
-      - "Januar 2022": archiv/Januar2022.md
-      - "Dezember 2021": archiv/Dezember2021.md
-      - "November 2021": archiv/November2021.md
-      - "Oktober 2021": archiv/Oktober2021.md
-      - "September 2021": archiv/September2021.md
+      - "2022":
+          - "Februar2022": archiv/Februar2022.md
+          - "Januar 2022": archiv/Januar2022.md
+      - "2021":
+          - "Dezember 2021": archiv/Dezember2021.md
+          - "November 2021": archiv/November2021.md
+          - "Oktober 2021": archiv/Oktober2021.md
+          - "September 2021": archiv/September2021.md
   - Wochenberichte:
       - "Autopilot Script Anpassung": wberichte/w8_AutoPilotScript.md
       - "Gerät bei Autopilot hinzufügen": wberichte/w7_AutoPilot.md
