@@ -47,20 +47,23 @@ nav:
           - "Oktober 2021": archiv/Oktober2021.md
           - "September 2021": archiv/September2021.md
   - Wochenberichte:
-      - "Autopilot Script Anpassung": wberichte/w8_AutoPilotScript.md
-      - "Gerät bei Autopilot hinzufügen": wberichte/w7_AutoPilot.md
-      - "PIN Deaktivierung in Intune": wberichte/w5_PIN.md
-      - "Netzwerkadresse berechnen": wberichte/w4_NetzAdrBerechnen.md
-      - "Link Aggregation": wberichte/w50_LinkAggregation.md
-      - "VLAN hinzufügen": wberichte/w48_VlanHinzufuegen.md
-      - "Switch Taggen und untaggen": wberichte/w47_SwitchTaganduntag.md
-      - "Tag im Ethernet Frame": wberichte/w45_TagImEthernetFrame.md
-      - "Gelerntes": wberichte/gelerntes.md
-      - "Vagrant Befehle": wberichte/w40_vagrant.md
-      - "git Q & A": wberichte/w37_gitQandA.md
-      - "Workflow": wberichte/w36_workflow.md
-      - "git Befehlsreferenz": wberichte/w34_gitcheat.md
-      - "MkDocs installieren": wberichte/w33_mkdocs.md
+      - "BI":
+          - "Autopilot Script Anpassung": wberichte/w8_AutoPilotScript.md
+          - "Gerät bei Autopilot hinzufügen": wberichte/w7_AutoPilot.md
+          - "PIN Deaktivierung in Intune": wberichte/w5_PIN.md
+      - "INF":
+          - "Netzwerkadresse berechnen": wberichte/w4_NetzAdrBerechnen.md
+          - "Link Aggregation": wberichte/w50_LinkAggregation.md
+          - "VLAN hinzufügen": wberichte/w48_VlanHinzufuegen.md
+          - "Switch Taggen und untaggen": wberichte/w47_SwitchTaganduntag.md
+          - "Tag im Ethernet Frame": wberichte/w45_TagImEthernetFrame.md
+      - "HPC":
+          - "Gelerntes": wberichte/gelerntes.md
+          - "Vagrant Befehle": wberichte/w40_vagrant.md
+          - "git Q & A": wberichte/w37_gitQandA.md
+          - "Workflow": wberichte/w36_workflow.md
+          - "git Befehlsreferenz": wberichte/w34_gitcheat.md
+          - "MkDocs installieren": wberichte/w33_mkdocs.md
   - Arbeitshefter:
       - "INF":
           - "Inhaltsverzeichnis": aberichte/inf/verzeichnis.md
