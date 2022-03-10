@@ -2,7 +2,7 @@
 
 Bevor man in Intune das Gerät importieren kann. Muss ein Script auf dem jeweiligen Gerät ausgeführt werden.
 
-???+ example "Arbeitsschritte auf dem Gerät"
+???+ example "##Arbeitsschritte auf dem Gerät"
      1. Wie auf [THE LAZY ADMINISTRATOR](https://www.thelazyadministrator.com/2020/01/27/get-a-new-computers-auto-pilot-hash-without-going-through-the-out-of-box-experience-oobe/) das Script herunterladen und am besten auf einem USB-Stick speichern, für weiteren gebrauch.
 
      2. Nach dem Download fehlte bei mir noch ein CMD feil welches ich kopiert habe.
@@ -14,7 +14,7 @@ Bevor man in Intune das Gerät importieren kann. Muss ein Script auf dem jeweili
         ![hash datei](../img/w/w7/w7_7.png)
 
 
-???+ example "Arbeitsschritte in Intune"
+???+ example "##Arbeitsschritte in Intune"
      1. Zuerst muss man vom Home aus zu **Devices > Windows > Windows enrollment > Devices** navigieren.
 
         ![Home Feld](../img/w/w7/w7_1.png)
