@@ -1,5 +1,7 @@
 *Wochenbericht KW47*
 
+## Beginn Taggen und untaggen
+
 === "Ausgangslage"
 
     ![Ausgangslage 1](../img/w/w47/1.png)
@@ -65,7 +67,9 @@
 !!! warning "Test Vorbereitung"
     *Nun die gleichen Konfigurationen bei Switch 2 vornehmen. Danach das Gerät mit der IP 192.168.100.15 an Switch 1, Port 5 anhängen und Gerät mit der IP 192.168.100.16 an Switch2, Port11.*
 
-???+ success "Test 1"
+## Test 1
+
+???+ success "T"
      **Stand:**
 
      ![Test 1 Stand](../img/w/w47/8.png)
@@ -83,9 +87,10 @@
 
      *Damit dieser Test erfolgreich durchgeführt werden kann, würde es reichen VLAN 100 zu taggen. Aber da VLAN 200 später auch gebraucht wird, ist es im Muss schon vorhanden.*
 
-???+ example "Arbeitsschritte"
-     **Arbeitsschritte um Fehler bei Test 1 zu beheben und IP Addresse zu setzen:**
+## Arbeitsschritte um Fehler bei Test 1 zu beheben und IP Addresse zu setzen:
 
+???+ example "Arbeitsschritte"
+     
      *Verbinden über Tera Term bei Switch 1:*
 
      **enable =** Anmeldung
@@ -167,7 +172,9 @@
 ???+ abstract "Zwischenzustand 6"
      ![Stand 6](../img/w/w47/14.png)
 
-???+ success "Test 2"
+## Test 2
+
+???+ success ""
      **Stand**
 
      ![](../img/w/w47/15.png)
