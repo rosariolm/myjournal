@@ -86,7 +86,8 @@ markdown_extensions:
   - pymdownx.critic
   - attr_list
   - md_in_html
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: ture
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
