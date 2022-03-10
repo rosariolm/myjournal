@@ -1,7 +1,5 @@
 *Wochenbericht KW47*
 
-## Beginn Taggen und untaggen
-
 === "Ausgangslage"
 
     ![Ausgangslage 1](../img/w/w47/1.png)
@@ -19,46 +17,52 @@
     ![Soll zustand 1](../img/w/w47/3.png)
     ![Soll zustand 1](../img/w/w47/4.png)
 
-???+ example "Arbeitsschritte"
-     *Verbinden über Tera Term bei Switch 1:*
+## Arbeitsschritt 1
 
-     **enable =** Anmeldung
+*(Port 1-24 untagen on Switch 1)*
 
-     **show running-config =** Zeigt die momentanen Konfigurationen an
+*Verbinden über Tera Term bei Switch 1:*
 
-     **erase startup-config =** Löscht die momentanen Konfigurationen
+**enable =** Anmeldung
 
-     **reload =** Startet den Switch neu
+**show running-config =** Zeigt die momentanen Konfigurationen an
 
-     *Nach dem Neustart*
+**erase startup-config =** Löscht die momentanen Konfigurationen
 
-     **enable =** Anmeldung
+**reload =** Startet den Switch neu
 
-     **conf t =** Wechselt in den config Modus
+*Nach dem Neustart*
 
-     **vlan 100 name user =** Erstellt das vlan 100 mit dem Namen user
+**enable =** Anmeldung
 
-     **untagged ethernet 1/1/1 to 1/1/24 =** untagged die Ports 1 bis 24
+**conf t =** Wechselt in den config Modus
 
-     **exit =** Verlässt den (config-vlan-100) und geht in den config Modus
+**vlan 100 name user =** Erstellt das vlan 100 mit dem Namen user
+
+**untagged ethernet 1/1/1 to 1/1/24 =** untagged die Ports 1 bis 24
+
+**exit =** Verlässt den (config-vlan-100) und geht in den config Modus
 
 ???+ abstract "Zwischenzustand 1"
      ![Stand 1](../img/w/w47/5.png)
      ![Stand 1](../img/w/w47/6.png)
 
-???+ example "Arbeitsschritte"
-     **vlan 200 name admin =** Erstellt das vlan 200 mit dem Namen admin
+## Arbeitsschritt 2
 
-     **untagged ethernet 1/1/25 to 1/1/48 =** untagged die Ports 25 bis 48
+*(Port 25-48 untagen on Switch 1)*
 
-     **exit =** Verlässt den (config-vlan-200) und geht in den config Modus
+**vlan 200 name admin =** Erstellt das vlan 200 mit dem Namen admin
+
+**untagged ethernet 1/1/25 to 1/1/48 =** untagged die Ports 25 bis 48
+
+**exit =** Verlässt den (config-vlan-200) und geht in den config Modus
 
 
-     **show running-config =** Zeigt die momentanen Konfigurationen an
+**show running-config =** Zeigt die momentanen Konfigurationen an
 
-     **write me =** Speichert die momentanen Konfiguration
+**write me =** Speichert die momentanen Konfiguration
 
-     **exit =** Verlässt den config Modus
+**exit =** Verlässt den config Modus
 
 ???+ abstract "Zwischenzustand 2"
      ![Stand 2](../img/w/w47/5.png)
@@ -69,7 +73,7 @@
 
 ## Test 1
 
-???+ success "T"
+???+ success "T1"
      **Stand:**
 
      ![Test 1 Stand](../img/w/w47/8.png)
@@ -89,92 +93,101 @@
 
 ## Arbeitsschritte um Fehler bei Test 1 zu beheben und IP Addresse zu setzen:
 
-???+ example "Arbeitsschritte"
+*(Set IP Address on Switch 1)*
      
-     *Verbinden über Tera Term bei Switch 1:*
+*Verbinden über Tera Term bei Switch 1:*
 
-     **enable =** Anmeldung
+**enable =** Anmeldung
 
-     **show running-config =** Zeigt die momentanen Konfigurationen an
+**show running-config =** Zeigt die momentanen Konfigurationen an
 
-     **conf t =** Wechselt in den config Modus
+**conf t =** Wechselt in den config Modus
 
-     **ip address 192.168.1.10 255.255.255.0 dynamic =** Setzt die IP Adresse
+**ip address 192.168.1.10 255.255.255.0 dynamic =** Setzt die IP Adresse
 
-     **show running-config =** Zeigt die momentanen Konfigurationen an
+**show running-config =** Zeigt die momentanen Konfigurationen an
 
-     **write me =** Speichert die momentanen Konfiguration
+**write me =** Speichert die momentanen Konfiguration
 
 ???+ abstract "Zwischenzustand 3"
      ![Stand 3](../img/w/w47/11.png)
 
-???+ example "Arbeitsschritte"
-     **vlan 100 =** Wechselt vom config Modus in den config-vlan-100
+## Arbeitsschritt 4
 
-     **tagged ethernet 1/2/1 =** Tagged am angegebenen Port
+*(tag VLAN 100 and 200 on Switch 1)*
+     
+**vlan 100 =** Wechselt vom config Modus in den config-vlan-100
 
-     **exit =** Verlässt den (config-vlan-100) und geht in den config Modus
+**tagged ethernet 1/2/1 =** Tagged am angegebenen Port
+
+**exit =** Verlässt den (config-vlan-100) und geht in den config Modus
 
 
-     **vlan 200 =** Wechselt vom config Modus in den config-vlan-200
+**vlan 200 =** Wechselt vom config Modus in den config-vlan-200
 
-     **tagged ethernet 1/2/1 =** Tagged am angegebenen Port
+**tagged ethernet 1/2/1 =** Tagged am angegebenen Port
 
-     **managment-vlan =** Setzt den managment Status
+**managment-vlan =** Setzt den managment Status
 
-     **exit =** Verlässt den (config-vlan-200) und geht in den config Modus
+**exit =** Verlässt den (config-vlan-200) und geht in den config Modus
 
-     **write me =** Speichert die momentanen Konfiguration
+**write me =** Speichert die momentanen Konfiguration
 
-     **exit =** Verlässt den config Modus
+**exit =** Verlässt den config Modus
 
 ???+ abstract "Zwischenzustand 4"
      ![Stand 4](../img/w/w47/12.png)
 
-???+ example "Arbeitsschritte"
-     *Verbinden über Tera Term bei Switch 1:*
+## Arbeitsschritt 5
 
-     **enable =** Anmeldung
+*(Set IP Address on Switch 2)*
+     
+*Verbinden über Tera Term bei Switch 2:*
 
-     **show running-config =** Zeigt die momentanen Konfigurationen an
+**enable =** Anmeldung
 
-     **conf t =** Wechselt in den config Modus
+**show running-config =** Zeigt die momentanen Konfigurationen an
 
-     **ip address 192.168.1.20 255.255.255.0 dynamic =** Setzt die IP Adresse
+**conf t =** Wechselt in den config Modus
 
-     **show running-config =** Zeigt die momentanen Konfigurationen an
+**ip address 192.168.1.20 255.255.255.0 dynamic =** Setzt die IP Adresse
 
-     **write me =** Speichert die momentanen Konfiguration
+**show running-config =** Zeigt die momentanen Konfigurationen an
+
+**write me =** Speichert die momentanen Konfiguration
 
 ???+ abstract "Zwischenzustand 5"
      ![Stand 5](../img/w/w47/13.png)
 
-???+ example "Arbeitsschritte"
-     **vlan 100 =** Wechselt vom config Modus in den config-vlan-100
+## Arbeitsschritt 6
 
-     **tagged ethernet 1/2/1 =** Tagged am angegebenen Port
+*(tag VLAN 100 and 200 on Switch 2)*
+     
+**vlan 100 =** Wechselt vom config Modus in den config-vlan-100
 
-     **exit =** Verlässt den (config-vlan-100) und geht in den config Modus
+**tagged ethernet 1/2/1 =** Tagged am angegebenen Port
+
+**exit =** Verlässt den (config-vlan-100) und geht in den config Modus
 
 
-     **vlan 200 =** Wechselt vom config Modus in den config-vlan-200
+**vlan 200 =** Wechselt vom config Modus in den config-vlan-200
 
-     **tagged ethernet 1/2/1 =** Tagged am angegebenen Port
+**tagged ethernet 1/2/1 =** Tagged am angegebenen Port
 
-     **managment-vlan =** Setzt den managment Status
+**managment-vlan =** Setzt den managment Status
 
-     **exit =** Verlässt den (config-vlan-200) und geht in den config Modus
+**exit =** Verlässt den (config-vlan-200) und geht in den config Modus
 
-     **write me =** Speichert die momentanen Konfiguration
+**write me =** Speichert die momentanen Konfiguration
 
-     **exit =** Verlässt den config Modus
+**exit =** Verlässt den config Modus
 
 ???+ abstract "Zwischenzustand 6"
      ![Stand 6](../img/w/w47/14.png)
 
 ## Test 2
 
-???+ success ""
+???+ success "T2"
      **Stand**
 
      ![](../img/w/w47/15.png)
