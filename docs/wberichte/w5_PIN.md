@@ -1,6 +1,6 @@
 *Wochenbericht KW5*
 
-![PIN Windows ](../img/w/w5/w5_x.png)
+![PIN Windows ](../img/w/w5/w5_x.png){: style="height:450px"}
 
 Nach diesem kurzen Schritt wird das "Windows Hello for Business" deaktiviert. Somit auch die Eingabe vom PIN, welche ich deaktivieren wollte.
 

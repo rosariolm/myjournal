@@ -85,7 +85,7 @@ RJ45 ist die übliche Steckverbindung für die TB-Kabel. Einige RJ45 Stecker sin
 
 ![Ansicht Stecker und Buchse](../../img/a/inf/Abbildung9.png)
 
-![RJ45 Stecker](../../img/a/inf/Abbildung10.png)
+![RJ45 Stecker](../../img/a/inf/Abbildung10.png){: style="height:150px"}
 
 ### 3.3 RJ45 Stecker Belegung
 
@@ -101,7 +101,7 @@ Lichtwellenleiter (Glasfaserkabel) werden heute vor allem in der primären und s
 
 Die Lichtwellenleiter (LWL) gibt es als Multimodefaser und Monomodfaser (Multi- und Singlemode). Wobei Multimode vor allem im Nahbereich verwendet wird (nicht wie bei Kupferkabel z. B. von Dose zu Gerät, sondern im Nahbereich von Gebäude zu Gebäude) und Singlemode kann auch im Nahbereich verwendet werden aber wird vor allem im Fernbereich benutzt.
 
-![Darstellung der LWL-Typen](../../img/a/inf/Abbildung12.png)
+![Darstellung der LWL-Typen](../../img/a/inf/Abbildung12.png){: style="height:450px"}
 
 In der Multimode Faser wandern mehrere Lichtmodulationen (Photonen) gleichzeitig im Faserkern. Dies kann bei Kabellängen über 900 m zu Störungen im Kable geben.
 
@@ -109,7 +109,7 @@ Bei der Singlemode Faser erlaubt die reduzierte Grösse des Faserkerns jeweils n
 
 #### 3.4.2 Tabellen Übersicht Fastertypen
 
-![Fasertypen](../../img/a/inf/Tabelle4.png)
+![Fasertypen](../../img/a/inf/Tabelle4.png){: style="height:350px"}
 
 #### 3.4.3 MM Faserklassen (GbE)
 
@@ -166,10 +166,10 @@ Der MTP-Stecker ist ein weiterentwickelter MPO-Stecker. Bei dieser Bezeichnung h
 
 #### 3.5.4 Übersicht verschiedener Stecker
 
-![Übersicht Stecker](../../img/a/inf/Tabelle7.png)
+![Übersicht Stecker](../../img/a/inf/Tabelle7.png){: style="height:350px"}
 
 ### 3.6 Fiber connector
 
 ![fiber connector](../../img/a/inf/Tabelle8.png)
 
-![fiber komponente](../../img/a/inf/Tabelle9.png)
+![fiber komponente](../../img/a/inf/Tabelle9.png){: style="height:150px"}

@@ -56,7 +56,7 @@ Da es mehrere Ethernet-Standarte gibt, gibt es auch unterschiedliche aufgebaute 
 
 #### 4.4.1 Frame Bausteine
 
-![Frame beusteine](../../img/a/inf/Tabelle10.png)
+![Frame beusteine](../../img/a/inf/Tabelle10.png){: style="height:500px"}
 
 #### 4.4.2 Ethernet-Paket Struktur
 
@@ -74,7 +74,7 @@ Das TPID-Datenfeld wird bei 802.1Q-VLANs immer auf den Wert {==81 00==} hex gese
 
 ![Ethernet Frame (VLAN-Tag)](../../img/a/inf/Abbildung21.png)
 
-![Ethernet Frame](../../img/a/inf/Tabelle12.png)
+![Ethernet Frame](../../img/a/inf/Tabelle12.png){: style="height:100px"}
 
 -	**TPID** = Tag Protocol Identifier
 -	**TCI** = Tag Control Information
@@ -106,7 +106,7 @@ Diese Tags werden gemacht um zwischen den VLANs zu unterscheiden. Jedem VLAN wir
 
 Link Aggregation ist ein Standard zur parallelen Bündelung von mehreren Netzwerkverbindungen. Vorteile einer Link Aggregation gegenüber einer Verbindung über ein einzelnes Kabel ist die höhere Übertragungsgeschwindigkeit wie auch die Ausfahlsicherheit.
 
-![LAG Beispiel](../../img/a/inf/Abbildung22.png)
+![LAG Beispiel](../../img/a/inf/Abbildung22.png){: style="height:250px"}
 
 **Was ist LAG und wie funktioniert es?**
 
@@ -117,7 +117,7 @@ Es bietet Redundanz auf Verbindungsebene bei Netzwerkfehlern und Verkehr. Auch w
 
 Innerhalb des Data Link Layers (Sicherungsschicht) implementiert, konkret zwischen dem MAC Client und MAC Sublayern.
 
-![LAG](../../img/a/inf/Abbildung23.png)
+![LAG](../../img/a/inf/Abbildung23.png){: style="height:350px"}
 
 **Static Link Aggregation**
 

@@ -25,9 +25,17 @@ Bevor man in Intune das Gerät importieren kann. Muss ein Script auf dem jeweili
 
      3. Hier nun die erstellte compHash.csv angeben.
 
-        ![hash datei](../img/w/w7/w7_8.png)
-        ![hash datei](../img/w/w7/w7_9.png)
-        ![hash datei](../img/w/w7/w7_10.png)
+        === "Schritt 1"
+
+            ![hash datei](../img/w/w7/w7_8.png){: style="height:550px"}
+
+        === "Schritt 2"
+
+            ![hash datei](../img/w/w7/w7_9.png)
+
+        === "Schritt 3"
+
+            ![hash datei](../img/w/w7/w7_10.png){: style="height:550px"}
 
      4. Nach einigen Minuten sollte das Gerät neu auf der Liste erscheinen.
 
