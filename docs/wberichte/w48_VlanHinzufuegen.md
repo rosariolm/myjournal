@@ -55,7 +55,9 @@
 !!! warning ""
     *Nun die gleichen Konfigurationen bei Switch 2 vornehmen. Danach das Gerät mit der IP 192.168.100.15 an Switch 1, Port 48 anhängen und Gerät mit der Ip 192.168.100.16 an Switch 2, Port 48.*
 
-???+ success "Test 1"
+## Test 1
+
+???+ success "T1"
      **Stand:**
 
      ![](../img/w/w48/9.png)
@@ -67,7 +69,9 @@
 
      **Warum:**
 
-???+ success "Test 2"
+## Test 2
+
+???+ success "T2"
      *Vor dem Test muss Client 1 (IP 192.186.100.15) auf Switch 1, VLAN 300, Port 25 umgesteckt werden und Client 2 (IP 192.186.100.16) auf Switch 2, VLAN 300, Port 47.*
 
      **Stand:**
@@ -111,8 +115,9 @@
 ???+ abstract "Zwischenzustand 1"
      ![](../img/w/w48/14.png)
 
+## Test 3
 
-???+ success "Test 3"
+???+ success "T3"
      **Stand:**
 
      ![](../img/w/w48/15.png)
