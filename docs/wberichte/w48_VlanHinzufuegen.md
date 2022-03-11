@@ -35,7 +35,7 @@
 
      **exit =** Verlässt den (config-vlan-200) und geht in den config Modus
 
-???+ abstract "Zwischenzustand 1"
+???+ abstract "Zwischenzustand"
      ![](../img/w/w48/5.png)
      ![](../img/w/w48/6.png)
      
@@ -56,7 +56,7 @@
 
      **exit =** Verlässt den config Modus
 
-???+ abstract "Zwischenzustand 1"
+???+ abstract "Zwischenzustand"
      ![](../img/w/w48/7.png)
      ![](../img/w/w48/8.png)
 
@@ -122,7 +122,7 @@
 
      *Nun die gleichen Konfigurationen bei Switch 2 vornehmen.*
 
-???+ abstract "Zwischenzustand 1"
+???+ abstract "Zwischenzustand"
      ![](../img/w/w48/14.png)
 
 ## **Test 3**
