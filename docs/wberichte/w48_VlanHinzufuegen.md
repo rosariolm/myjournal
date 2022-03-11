@@ -13,6 +13,10 @@
     ![Soll zustand 1](../img/w/w48/3.png)
     ![Soll zustand 1](../img/w/w48/4.png)
 
+## **Arbeitsschritt 1**
+
+*(creating VLAN 300, port 25-47 no untagen on Switch 1)*
+
 ???+ example "Arbeitsschritte"
      *Verbinden über Tera Term bei Switch 1:*
 
@@ -34,6 +38,10 @@
 ???+ abstract "Zwischenzustand 1"
      ![](../img/w/w48/5.png)
      ![](../img/w/w48/6.png)
+     
+## **Arbeitsschritt 2**
+
+*(Port 25-47 untagen on Switch 1)*
 
 ???+ example "Arbeitsschritte"
      **vlan 300 =** Wechselt vom config Modus in den config-vlan-300
@@ -90,6 +98,8 @@
      ![](../img/w/w48/13.png)
  
 **Arbeitsschritte um Fehler bei Test 4 zu beheben:**
+
+*(VLAN 300 taggen)*
 
 ???+ example "Arbeitsschritte"
      *Verbinden über Tera Term bei Switch 1:*
