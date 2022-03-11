@@ -17,9 +17,9 @@
     ![Soll zustand 1](../img/w/w47/3.png)
     ![Soll zustand 1](../img/w/w47/4.png)
 
-## Arbeitsschritt 1
+## **Arbeitsschritt 1**
 
-*(Port 1-24 untagen on Switch 1)*
+*(creating VLAN 100, port 1-24 untagen on Switch 1)*
 
 *Verbinden über Tera Term bei Switch 1:*
 
@@ -47,9 +47,9 @@
      ![Stand 1](../img/w/w47/5.png)
      ![Stand 1](../img/w/w47/6.png)
 
-## Arbeitsschritt 2
+## **Arbeitsschritt 2**
 
-*(Port 25-48 untagen on Switch 1)*
+*(creating VLAN 200, port 25-48 untagen on Switch 1)*
 
 **vlan 200 name admin =** Erstellt das vlan 200 mit dem Namen admin
 
@@ -71,7 +71,7 @@
 !!! warning "Test Vorbereitung"
     *Nun die gleichen Konfigurationen bei Switch 2 vornehmen. Danach das Gerät mit der IP 192.168.100.15 an Switch 1, Port 5 anhängen und Gerät mit der IP 192.168.100.16 an Switch2, Port11.*
 
-## Test 1
+## **Test 1**
 
 ???+ success "T1"
      **Stand:**
@@ -112,7 +112,7 @@
 ???+ abstract "Zwischenzustand 3"
      ![Stand 3](../img/w/w47/11.png)
 
-## Arbeitsschritt 4
+## **Arbeitsschritt 4**
 
 *(tag VLAN 100 and 200 on Switch 1)*
      
@@ -138,7 +138,7 @@
 ???+ abstract "Zwischenzustand 4"
      ![Stand 4](../img/w/w47/12.png)
 
-## Arbeitsschritt 5
+## **Arbeitsschritt 5**
 
 *(Set IP Address on Switch 2)*
      
@@ -159,7 +159,7 @@
 ???+ abstract "Zwischenzustand 5"
      ![Stand 5](../img/w/w47/13.png)
 
-## Arbeitsschritt 6
+## **Arbeitsschritt 6**
 
 *(tag VLAN 100 and 200 on Switch 2)*
      
@@ -185,7 +185,7 @@
 ???+ abstract "Zwischenzustand 6"
      ![Stand 6](../img/w/w47/14.png)
 
-## Test 2
+## **Test 2**
 
 ???+ success "T2"
      **Stand**
