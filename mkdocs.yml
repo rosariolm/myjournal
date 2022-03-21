@@ -50,6 +50,7 @@ nav:
       - "BI":
           - "Autopilot Script Anpassung": wberichte/w8_AutoPilotScript.md
           - "Gerät bei Autopilot hinzufügen": wberichte/w7_AutoPilot.md
+          - "Bootcamp": wberichte/w6_Bootcamp.md
           - "PIN Deaktivierung in Intune": wberichte/w5_PIN.md
       - "INF":
           - "Netzwerkadresse berechnen": wberichte/w4_NetzAdrBerechnen.md
@@ -86,8 +87,7 @@ markdown_extensions:
   - pymdownx.critic
   - attr_list
   - md_in_html
-  - pymdownx.tabbed:
-      alternate_style: true
+  - pymdownx.tabbed
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
