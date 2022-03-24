@@ -19,11 +19,11 @@ Bevor man in Intune das Gerät importieren kann. Muss ein Script auf dem jeweili
 
 1. Zuerst muss man vom Home aus zu **Devices > Windows > Windows enrollment > Devices** navigieren.
 
-![Home Feld](../img/w/w7/w7_1.png)
+     ![Home Feld](../img/w/w7/w7_1.png)
 
 2. Auf der **Windows Autopilot devices** Seite *Import* anwählen.
 
-![Autopilot Seite](../img/w/w7/w7_4.png)
+     ![Autopilot Seite](../img/w/w7/w7_4.png)
 
 3. Hier nun die erstellte compHash.csv angeben.
 
@@ -41,4 +41,4 @@ Bevor man in Intune das Gerät importieren kann. Muss ein Script auf dem jeweili
 
 4. Nach einigen Minuten sollte das Gerät neu auf der Liste erscheinen.
 
-![neues Gerät auf der Liste](../img/w/w7/w7_5.png)
+     ![neues Gerät auf der Liste](../img/w/w7/w7_5.png)
