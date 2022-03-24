@@ -20,7 +20,7 @@ Damit das Gerät welches mit Autopilot aufgesetzt wird, auch den Group Tag erhä
 
      Jetzt zur ps1. Datei navigieren und diese öffnen.
 
-     ![Windows enrollment 2](../img/w/w8/w8_3.3png)
+     ![Windows enrollment 2](../img/w/w8/w8_3.png)
 
 ### 3. Nun die drei Änderungen vornehmen.
 
@@ -30,14 +30,15 @@ Damit das Gerät welches mit Autopilot aufgesetzt wird, auch den Group Tag erhä
 
 === "Group Tag"
 
-     Da ich möchte, dass jedes Gerät den Group Tag Client automatisch zugeordnet kriegt. Gebe ich dies unter $GroupTag an. Auf dem Bild wäre dies in der Zeile 117 zusehen.
+     Da ich möchte, dass jedes Gerät den Group Tag Client automatisch zugeordnet kriegt. Gebe ich dies unter $GroupTag an. 
+     Auf dem Bild wäre dies in der Zeile 117 zusehen.
 
      ![Windows enrollment](../img/w/w8/w8_5.png)
+     
+=== "Online"
 
- === "Online"
-
-      Jetzt noch $Online auf $true stellen.
-      Auf dem Bild wäre dies in der Zeile 123 zusehen.
+     Jetzt noch $Online auf $true stellen.
+     Auf dem Bild wäre dies in der Zeile 123 zusehen.
 
       ![Windows enrollment](../img/w/w8/w8_6.png)
 
