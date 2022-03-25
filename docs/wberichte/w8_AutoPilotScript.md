@@ -30,11 +30,11 @@ Damit das Gerät welches mit Autopilot aufgesetzt wird, auch den Group Tag erhä
 
 === "Group Tag"
 
-     Da ich möchte, dass jedes Gerät den Group Tag Client automatisch zugeordnet kriegt. Gebe ich dies unter $GroupTag an. 
+     Da ich möchte, dass jedes Gerät den Group Tag Client automatisch zugeordnet kriegt. Gebe ich dies unter $GroupTag an.
      Auf dem Bild wäre dies in der Zeile 117 zusehen.
 
      ![Windows enrollment](../img/w/w8/w8_5.png)
-     
+
 === "Online"
 
      Jetzt noch $Online auf $true stellen.

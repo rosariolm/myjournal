@@ -48,6 +48,7 @@ nav:
           - "September 2021": archiv/September2021.md
   - Wochenberichte:
       - "BI":
+          - "Firmware Update": wberichte/w12_firmware.md
           - "Autopilot Script Anpassung": wberichte/w8_AutoPilotScript.md
           - "Gerät bei Autopilot hinzufügen": wberichte/w7_AutoPilot.md
           - "Bootcamp": wberichte/w6_Bootcamp.md
@@ -87,8 +88,7 @@ markdown_extensions:
   - pymdownx.critic
   - attr_list
   - md_in_html
-  - pymdownx.tabbed:
-      alternate_style: true
+  - pymdownx.tabbed
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg

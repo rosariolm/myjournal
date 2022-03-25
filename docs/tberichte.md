@@ -1,6 +1,24 @@
 # **Meine Tagesberichte**
 *März 2022*
 
+## **25.03.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen habe ich einen neuen Drucker parat gemacht in dem ich die IP-Adresse wie auch DNS, Gateway, Druckername und Password hinterlegt habe. Zum Schluss habe ich noch das letzte Firmware update installiert. Der Rest des Tages habe ich damit verbracht, eine Liste von Drucker zu überarbeiten. Indem ich bei den meisten das neue Firmware Update installiert habe.
+
+    **Hilfestellung**
+
+    Bei Fragen hat mir Thierry weiter geholfen.
+
+    **Reflexion**
+
+    Ich habe heute viel neue dinge gelernt. Auch was die IT-Sicherheit betrifft. Da der Grund der Updates eine Sicherheitslücke bei den HP Drucker waren.
+
+    **Nächste Schritte**
+
+
 ## **21.03.2022**
 
 !!! abstract "Tagesbericht"
