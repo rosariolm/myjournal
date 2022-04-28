@@ -1,6 +1,25 @@
 # **Meine Tagesberichte**
 *April 2022*
 
+## **28.04.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen habe ich zuerst noch die vorhandenen Tagesberichte hoch geladen. Danach bekam ich von Thierry eine Liste von Notebooks, die man updaten muss. Anhand des Primary User auf der Liste habe ich alle Mitarbeiter Mails herausgesucht und bei der Tabelle ergänzt. Danach haben wir ein Mail an alle geschrieben und haben dann begonnen, mit den einzelnen Personen ein Termin abzumachen an dem ich oder auch Marco das Notebook updaten können. Am Nachmittag habe ich noch das Velo 3 zum Service gebracht.
+
+    **Hilfestellung**
+
+    
+
+    **Reflexion**
+
+    Der ganze Tag lief ohne Probleme.
+
+    **Nächste Schritte**
+    
+    - Notebook liste abarbeiten
+
 ## **04.04.2022**
 
 !!! abstract "Tagesbericht"
