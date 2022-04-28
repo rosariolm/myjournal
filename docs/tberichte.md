@@ -1,2 +1,37 @@
 # **Meine Tagesberichte**
 *April 2022*
+
+## **04.04.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute hatten wir den Schnuppertag. Deshalb war das Erste, mit dem ich heute beschäftigt war, die Vorbereitung der Präsentationen und der Geräte mit den anderen Lernenden zusammen. Der Schnuppertag hat mit einer Begrüssung von Birgit begonnen und danach haben wir mit unserem Programm gestartet. Das Programm beinhaltete am Morgen die Themen Berufsschule, Weiterbildungen, allgemeine Informationen über Plattformentwickler und Applikationsentwickler, PC teile, PC zusammen Stellung und Kahhot. Am Nachmittag ging es dann um Applikationsentwicklung, zu teils selbständige aufgaben, Rundgang mit Hämpu und Schlusswort.
+
+    **Hilfestellung**
+
+    Da ich und auch die anderen gut vorbereitet waren, brauchten wir keine Hilfe. Wusste ich die Antwort auf eine Frage nicht, habe ich jemand von den anderen lernenden gefragt.
+
+    **Reflexion**
+
+    Grundsätzlich fand ich, dass der Tag gut ablief. Wir lagen immer gut im Zeitplan und hatten problemlose und schnelle Themen Übergänge. Der Tag machte Spass, was hauptsächlich daran lag, dass wir Schnupper stifte hatten, die wirklich interessiert rüberkamen und aktiv und aufmerksam mit macheten.
+
+    **Nächste Schritte**
+
+    
+## **01.04.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute habe ich probiert, der letzte Drucker auf meiner Liste zu erledigen. Dafür musste ich den Pin des Druckers ändern. Nach längerem probieren habe ich es mir aufgeschrieben und mit dem Dokumentieren im Arbeitsheft weitergemacht. Ich habe dann hauptsächlich nur noch an der Dokumentation gearbeitet. Am Nachmittag bin ich noch das Programm vom kommenden Schnuppertag durchgegangen.
+
+    **Hilfestellung**
+
+    Kusi hat mir den neuen Pin beim Drucker erstellt, da ich selber die Einstellungen dafür nicht gefunden habe.
+
+    **Reflexion**
+
+    Ich habe am späten Nachmittag realisiert, dass das Anmelden mit der neuen PIN nicht funktionierte, da ich die falsche IP-Adresse angegeben habe. Dies hatte zur Folge, dass der PIN beim falschen Drucker geändert wurde und das Anmelden beim richtigen verständlicherweise gar nicht erst funktionieren konnte.
+
+    **Nächste Schritte**
