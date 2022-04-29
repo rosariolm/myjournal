@@ -39,6 +39,7 @@ nav:
   - Tagesberichte: tberichte.md
   - Archiv:
       - "2022":
+          - "April 2022": archiv/April2022.md
           - "März 2022": archiv/März2022.md
           - "Februar 2022": archiv/Februar2022.md
           - "Januar 2022": archiv/Januar2022.md
