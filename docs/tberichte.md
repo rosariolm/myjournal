@@ -1,6 +1,26 @@
 # **Meine Tagesberichte**
 *April 2022*
 
+## **29.04.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen bin ich zusammen mit Thierry ein Notebook holen gegangen, damit ich direkt das Update darauf starten konnte. Nebenbei habe ich damit begonnen, Samsung Phones zu aktualisieren und zurückzusetzen. Nach dem sind wir sie direkt zurückbringen gegangen. Vor dem Mittag haben wir gestartet, die Personen einzeln zu kontaktieren, um Termine abzumachen. Dafür haben wir einen Rundgang im Gebäude gemacht, weil wir aber auf fast niemand gestossen sind haben wir es dann über Teams probiert. Ansonsten habe ich heute noch einige Computer Betriebssystem wie auch Treiber aktualisiert.
+
+    **Hilfestellung**
+
+    Bei Fragen hat mit Thierry oder Marco weitergeholfen.
+
+    **Reflexion**
+
+    Der Tag lief gut. Ich habe viel Zeit verloren beim Kontaktieren der verschiedenen Personen. Weil fast alle im Homeoffice waren, wurde unsere Arbeit erschwert. Da sie nicht erreichbar waren und der Computer nicht im Büro war, konnten wir weniger erledigen als erwünscht.
+
+    **Nächste Schritte**
+    
+    - Mit allen auf der Liste einen Termin vereinbaren
+    - Die zukünftigen Termine wahrnehmen und zeitlich erledigen
+
 ## **28.04.2022**
 
 !!! abstract "Tagesbericht"
