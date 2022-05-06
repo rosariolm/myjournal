@@ -3,6 +3,26 @@
 
 *Mai 2022*
 
+## **05.05.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen habe ich mit den Notebooks weiter gemacht. Dazwischen hatte ich noch das Quartalsgespräch mit Birgit und Kusi. Am Nachmittag habe ich kurz in das Thema OSDCloud und Lehrlingsumgebung geschaut. Kamm dort aber nicht weiter, da ich ein Problem mit einem Update vom Homeoffice aus hatte.
+
+    **Hilfestellung**
+
+    Bei Problemen bin ich im Internet nach schauen gegangen.
+
+    **Reflexion**
+
+    Ich konnte einige dinge, von der Quartals Besprechung mit nehmen.
+
+    **Nächste Schritte**
+    
+    - Die restlichen Termine wahrnehmen und zeitlich erledigen
+    - KFM Dokumenation fertig schreiben
+
 ## **02.05.2022**
 
 !!! abstract "Tagesbericht"
