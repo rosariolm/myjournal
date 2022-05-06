@@ -3,6 +3,27 @@
 
 *Mai 2022*
 
+## **06.05.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Ich war heute den ganzen Tag damit beschäftigt, die Installationen auf den Notebooks laufen zu lassen und dessen Treiber zu aktualisieren.
+
+    **Hilfestellung**
+
+    Thierry hat mir geholfen als ich sccm bei einem Notebook deinstallieren und wieder installieren musste.
+
+    **Reflexion**
+
+    Die Updates haben sehr viel Zeit gebraucht. Vor allem ein Notebook bei dem ich zusammen mit Thierry sccm deinstallieren musste und dann wieder installieren. Da dies nichts brachte, mussten ich dann die Installation Manuel machen. Im ganzen kamm ich leider nicht so weit wie ich wollte.
+
+    **Nächste Schritte**
+    
+    - Die restlichen Termine wahrnehmen und zeitlich erledigen
+    - KFM Dokumenation fertig schreiben
+    - Wochenberichte fertig machen und hochladen
+
 ## **05.05.2022**
 
 !!! abstract "Tagesbericht"
