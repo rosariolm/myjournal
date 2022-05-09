@@ -3,6 +3,27 @@
 
 *Mai 2022*
 
+## **09.05.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen beim Helpdesk habe ich vor allem UniCards gedruckt und zum Versenden parat gelegt. Nebenbei habe ich noch per Telefon oder vor Ort bei Problemen wie eduroam Verbindung, Outlook Anmeldung wie auch Weiterleitung weitergeholfen. Am Nachmittag habe ich mir dann etwas Zeit genommen, um ein paar Dinge für die Schule anzuschauen. Ansonsten habe ich noch einwenig bei der Dokumentation weitergeschrieben.
+
+    **Hilfestellung**
+
+    Leonie hat mir am Morgen bei Fragen und Problemen weitergeholfen.
+
+    **Reflexion**
+
+    Der Tag lief gut, nur verflogt die Zeit schnell und ich konnte nicht alles machen, was ich wollte.
+
+    **Nächste Schritte**
+    
+    - Die restlichen Termine wahrnehmen und zeitlich erledigen
+    - KFM Dokumenation fertig schreiben
+    - Wochenberichte fertig machen und hochladen
+
 ## **06.05.2022**
 
 !!! abstract "Tagesbericht"
