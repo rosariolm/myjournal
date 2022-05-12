@@ -84,6 +84,8 @@ markdown_extensions:
   - tables
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.keys
