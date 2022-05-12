@@ -33,9 +33,11 @@ Mit dieser Anleitung kann man einen Multiboot-USB-Stick erstellen. Ich habe daf√
 
     ![](../img/w/w18/6.png)
 
-5. Jetzt kann man auf Create klicken.
+5. Jetzt kann man auf **Create** klicken.
 
-    ![](../img/w/w18/7.png)
+    === "Create"    
+        
+        ![](../img/w/w18/7.png)
 
     === "Kopierprozess"
 
