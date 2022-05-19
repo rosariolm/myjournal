@@ -6,6 +6,8 @@ Die Hauptaufgabe der Schicht 1 ist es sicherzustellen das, dass empfangende Ger�
 
 Die Hardware auf dieser Schicht unterscheiden sich durch passiven und aktiven Komponenten. Passive Komponenten sind z. B. Stecker, Buchsen, Leitungen und Antennen. Aktive Komponenten sin z. B. Hubs, Verstärker oder Netzwerkkarte.
 
+---
+
 ### 3.1 Twisted Pair Kabel (UTP / FTP / STP)
 
 Bei Kupferverkabelung wird heute meistens das Twisted Pair Kabel mit vier verdrillten Adern Paaren verwendet. Twisted Pair Kabel (TB-Kabel) sind genormt und sind in Klassen und Kategorien eingeteilt, um ihre Leistungsfähigkeit zu beschreiben. In der internationalen Norm (ISO 11801) spricht man von Kategorien. Hingegen in der europäischen Norm (EN 50173) werden die Kabel in Klassen A-F eingeteilt.
@@ -78,6 +80,8 @@ Dies ist wegen des Stroms, der durch die Kabel fliest. Um die Daten vollständig
 === "geschirmt"
 
     ![S/FTP Kabel](../../img/a/inf/Abbildung8.png)
+    
+---
 
 ### 3.2 RJ45 Stecker
 
@@ -87,11 +91,15 @@ RJ45 ist die übliche Steckverbindung für die TB-Kabel. Einige RJ45 Stecker sin
 
 ![RJ45 Stecker](../../img/a/inf/Abbildung10.png){: style="height:150px"}
 
+---
+
 ### 3.3 RJ45 Stecker Belegung
 
 TIA-568A und TIA-568B sind die zwei Standards für die Stecker Belegung bei RJ45.Beide verdrahten die Kontakte direkt durch. Das bedeutet, dass der Kontakt 1 auf der einen Seite direkt mit dem Kontakt1 auf der anderen Seite verbunden ist. Dies ist bei allen 8 gleich.$
 
 ![Stecker Belegung](../../img/a/inf/Abbildung11.png)
+
+---
 
 ### 3.4 Lichtwellenleiter
 
@@ -118,6 +126,8 @@ Bei der Singlemode Faser erlaubt die reduzierte Grösse des Faserkerns jeweils n
 #### 3.4.4 Tabellen Übersicht Stecker Aufteilung SM/MM
 
 ![Stecker Aufteilung SM/MM](../../img/a/inf/Tabelle6.png)
+
+---
 
 ### 3.5 LWL-Stecker
 
@@ -167,6 +177,8 @@ Der MTP-Stecker ist ein weiterentwickelter MPO-Stecker. Bei dieser Bezeichnung h
 #### 3.5.4 Übersicht verschiedener Stecker
 
 ![Übersicht Stecker](../../img/a/inf/Tabelle7.png){: style="height:350px"}
+
+---
 
 ### 3.6 Fiber connector
 
