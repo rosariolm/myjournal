@@ -7,6 +7,8 @@ Das OSI-Modell ist deshalb ein Schichtenmodell, weil es im Ganzen ein Kommunikat
 
 ![OSI-Modell](../../img/a/inf/Abbildung1.png){: style="height:450px"}
 
+---
+
 ## 2. OSI- und TCP/IP Tabelle
 
 ![OSI- und TCP/IP](../../img/a/inf/Tabelle1.png)
