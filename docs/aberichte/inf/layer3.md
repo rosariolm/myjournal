@@ -4,6 +4,8 @@ Die Layer 3 im ISO/OSI-Schichtenmodell ist für die Vermittlung der Daten über 
 Im TCP/IP nennt sich die Wegfindung durch das IP-Netz, Routing. Das Routing kann statisch wie auch dynamisch definiert sein.
 In den einzelnen Routern zwischen der Quelle und dem Ziel werden die Informationen der Layer 3 wie beispielsweise das Ziel und die Absende Adresse ausgewertet und für das Routing verwendet. Hierfür stellt die Network Layer ein eindeutiges Adresskonzept zur Verfügung.
 
+---
+
 ### 5.1 IPv4-Adressierung
 
 Die wichtigste Aufgabe von IP (Internet Protocol) ist, dass jeder Host in einem dezentralen TCP/IP-Netzwerk gefunden werden kann. Dazu wird jedem Hardware-Interface (Netzwerkkarte oder -adapter) eine logische IPv4-Adresse zugeteilt.
@@ -26,6 +28,8 @@ Man sich eine Art Verzeichnis überlegt, wo drinsteht, wo sich eine IPv4-Adresse
 
 ![IPv4 Struktur](../../img/a/inf/Tabelle14.png)
 
+---
+
 ### 5.2 Spezielle und private Adress-Bereiche
 
 **Privat:**
@@ -41,6 +45,7 @@ Wenn man nun ein privates lokales Netzwerk aufbauen möchte, verwendet man solch
 Diese Adressen kann man im Normalfall nicht verwenden. 127.0.0.1 ist im Normalfall die eigene Loopback-Adresse
 0.0.0.0 Spezielle Adresse, wird im Normalfall genutzt für die Defaultroute
 
+---
 
 ### 5.3 Reservierte und nicht verfügbare IPv4-Adressen/Subnetze
 
@@ -75,7 +80,9 @@ Im Adressbereich von 0.0.0.0 bis 255.255.255.255 sind bestimmte Adressen und Sub
 **Class E (reservierte Adressen)**
 
 -	240.0.0.0 bis 255.255.255.255: Alte IPv4-Stacks, die nur mit Netzklassen arbeiten, kommen damit nicht klar.
- 
+
+---
+
 ### 5.4 Umrechnung
 
 **DEC** = Dezimalsystem/Zehnersystem = 0 – 255
@@ -100,9 +107,13 @@ Doch die Zahlenfolge von Hex und Oct sieht anders aus.
 
 ![Zahlenfolge](../../img/a/inf/Tabelle18.png)
 
+---
+
 ### 5.5 Übersicht Standards
 
 ![Übersicht standarts](../../img/a/inf/Tabelle19.png)
+
+---
 
 ### 5.6 Subnetting
 
