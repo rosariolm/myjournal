@@ -36,7 +36,7 @@ Mit dieser Anleitung kann man einen Multiboot-USB-Stick erstellen. Ich habe daf�
 5. Jetzt kann man auf **Create** klicken.
 
     === "Create"    
-        
+
         ![](../img/w/w18/7.png)
 
     === "Kopierprozess"
@@ -82,3 +82,6 @@ Bei Knoppix habe ich das gleiche wie bei Windows gemacht, nur dass ich bei **Ste
 - Bei wieder Verwendung von YUMI kann man unter **Reinstall or Update?** nachschauen welche die aktuellste Version ist und welche Version auf dem Gerät installiert ist.
 
   ![optional](../img/w/w18/optional.png)
+
+!!! warning
+    Bei Hinzufügung von einem ISO auf einem USB-Stick kein Reinstall durchführen, sonst werden alle schon vorhandenen ISO's gelöscht.
