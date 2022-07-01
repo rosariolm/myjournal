@@ -72,6 +72,8 @@ nav:
           - "git Befehlsreferenz": wberichte/w34_gitcheat.md
           - "MkDocs installieren": wberichte/w33_mkdocs.md
   - Arbeitshefter:
+      - "Bi":
+          - "Inhaltsverzeichnis": aberichte/Bi/bi_verzeichnis.md
       - "INF":
           - "Inhaltsverzeichnis": aberichte/inf/verzeichnis.md
           - "ISO/OSI Modell": aberichte/inf/IsoOsi.md
