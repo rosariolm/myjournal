@@ -27,7 +27,7 @@ theme:
     logo: material/library
     repo: fontawesome/brands/gitlab
     admonition:
-      note: fontawesom/solid/sticky-note
+      note: fontawesome/solid/note-sticky
       abstract: octicons/checklist-16
       info: octicons/info-16
       success: octicons/check-16
