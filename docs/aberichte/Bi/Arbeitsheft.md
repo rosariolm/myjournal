@@ -2,6 +2,34 @@
 
 ## Inhaltsverzeichnis
 
+- [Intune](#Intune)
+
+    * [Configuration profiles](#conf)
+
+        * [Wallpaper](#wpaper)
+
+        * [Lockscreen](#Lscreen)
+
+        * [Start menu layout and taskbar](#SandT)
+
+    * [Add Apps](#Apps)
+
+        * [Default file associations](#FileAssoc)
+
+    * [Toast notification](#toast)
+
+    * [IE Mode](#IE)
+
+    * [Password policy](#pwd)
+
+    * [PIN Deaktivierung](#PIN)
+
+    * [Gerät bei Autopilot hinzufügen](#Autopilot)
+
+        * [Autopilot Script Anpassung](#AutoPilotScript)
+
+- [Softwarepaketierung](#SoftPack)
+
 - [KFM](#KFM)
 
 - [Multiboot-USB-Stick](#YUMI)
@@ -10,13 +38,184 @@
 
 - [Firmware Update](#FirmUp)
 
-- [Gerät bei Autopilot hinzufügen](#Autopilot)
-
-    * [Autopilot Script Anpassung](#AutoPilotScript)
-
 - [Bootcamp](#BootC)
 
-- [PIN Deaktivierung in Intune](#PIN)
+---
+<a name="Intune"></a>
+## Intune
+
+<a name="conf"></a>
+### Configuration profiles
+
+<a name="wpaper"></a>
+#### Wallpaper
+
+---
+
+<a name="Lscreen"></a>
+#### Lockscreen
+
+---
+
+<a name="SandT"></a>
+#### Start menu layout and taskbar
+
+---
+
+<a name="Apps"></a>
+### Add Apps
+
+---
+
+<a name="FileAssoc"></a>
+#### Default file associations
+
+---
+
+<a name="toast"></a>
+### Toast notification
+
+---
+
+<a name="IE"></a>
+### IE Mode
+
+---
+
+<a name="pwd"></a>
+### Password policy
+
+---
+
+<a name="PIN"></a>
+### PIN Deaktivierung
+
+![PIN Windows ](../../img/w/w5/w5_x.png){: style="height:450px"}
+
+Nach diesem kurzen Schritt wird das "Windows Hello for Business" deaktiviert. Somit auch die Eingabe vom PIN, welche ich deaktivieren wollte.
+
+**Arbeitsschritte**
+
+1. Zuerst muss man vom Home aus zu **Devices > Windows > Windows enrollment** navigieren.
+
+     ![Home Feld](../../img/w/w5/w5_1.png)
+
+2. Unter **Windows enrollment** kann man nun **Windows Hello for Business** anklicken.
+
+     ![Windows enrollment](../../img/w/w5/w5_3.png)
+
+3. Auf dem neu erschienen Feld, muss man unter **Configure Windows Hello for Business** *Disabled* angeben.
+
+     ![Windows enrollment 2](../../img/w/w5/w5_4.png)
+
+4. Nun *Save* anwählen.
+
+     ![Windows enrollment 3](../../img/w/w5/w5_5.png)
+
+5. Nach der Speicherung wurde der PIN schon deaktiviert.
+
+     ![Windows enrollment 4](../../img/w/w5/w5_6.png)
+
+---
+<a name="Autopilot"></a>
+### Gerät bei Autopilot hinzufügen
+
+Bevor man in Intune das Gerät importieren kann. Muss ein Script auf dem jeweiligen Gerät ausgeführt werden.
+
+#### Auf dem Gerät
+
+1. Wie auf [THE LAZY ADMINISTRATOR](https://www.thelazyadministrator.com/2020/01/27/get-a-new-computers-auto-pilot-hash-without-going-through-the-out-of-box-experience-oobe/) das Script herunterladen und am besten auf einem USB-Stick speichern, für weiteren gebrauch.
+
+2. Nach dem Download fehlte bei mir noch ein CMD feil welches ich kopiert habe.
+
+3. Nun kann das Get-WindowsAutoPilotInfo.ps1 ausgeführt werden. *Als Admin ausführen!*
+
+4. Nun sollte eine compHas.csv erstanden sein, welche man für den Intune schritt braucht.
+
+![hash datei](../../img/w/w7/w7_7.png)
+
+
+#### In Intune
+
+1. Zuerst muss man vom Home aus zu **Devices > Windows > Windows enrollment > Devices** navigieren.
+
+     ![Home Feld](../../img/w/w7/w7_1.png)
+
+2. Auf der **Windows Autopilot devices** Seite *Import* anwählen.
+
+     ![Autopilot Seite](../../img/w/w7/w7_4.png)
+
+3. Hier nun die erstellte compHash.csv angeben.
+
+    === "Schritt 1"
+
+        ![hash datei](../../img/w/w7/w7_8.png){: style="height:550px"}
+
+    === "Schritt 2"
+
+        ![hash datei](../../img/w/w7/w7_9.png)
+
+    === "Schritt 3"
+
+        ![hash datei](../../img/w/w7/w7_10.png){: style="height:550px"}
+
+4. Nach einigen Minuten sollte das Gerät neu auf der Liste erscheinen.
+
+     ![neues Gerät auf der Liste](../../img/w/w7/w7_5.png)
+
+---
+
+<a name="AutoPilotScript"></a>
+#### Autopilot Script Anpassung
+
+Damit das Gerät welches mit Autopilot aufgesetzt wird, auch den Group Tag erhält und Online die neuste Windows Version herunterlädt. Muss man nur drei kleine Änderungen am Script vornehmen, welches im KW7 Wochenbericht erstellt habe.
+
+**Arbeitsschritte**
+
+1. Zum Starten Windows PowerShell ISE öffnen.
+
+    ![PowerShell](../../img/w/w8/w8_1.png)
+
+2. Nun die Script Datei auf dem USB-Stick öffnen.
+
+    === "Schritt 1"
+
+        Von der Startseite aus zu **Datei > Öffnen...** navigieren. Oder mit dem shortcut Strg + O.
+
+        ![Windows enrollment](../../img/w/w8/w8_2.png)
+
+    === "Schritt 2"
+
+        Jetzt zur ps1. Datei navigieren und diese öffnen.
+
+        ![Windows enrollment 2](../../img/w/w8/w8_3.png)
+
+3. Nun die drei Änderungen vornehmen.
+
+    === "Unverändert"
+
+        ![Windows enrollment](../../img/w/w8/w8_4.png)
+
+    === "Group Tag"
+
+        Da ich möchte, dass jedes Gerät den Group Tag Client automatisch zugeordnet kriegt. Gebe ich dies unter $GroupTag an.
+        Auf dem Bild wäre dies in der Zeile 117 zusehen.
+
+        ![Windows enrollment](../../img/w/w8/w8_5.png)
+
+    === "Online"
+
+        Jetzt noch $Online auf $true stellen.
+        Auf dem Bild wäre dies in der Zeile 123 zusehen.
+
+        ![Windows enrollment](../../img/w/w8/w8_6.png)
+
+    === "Assign"
+
+        Assign habe ich zusätzlich auch noch auf $true gestellt.
+        Auf dem Bild wäre dies in der Zeile 129 zusehen.
+
+        ![Windows enrollment](../../img/w/w8/w8_7.png)
 
 ---
 <a name="KFM"></a>
@@ -176,107 +375,6 @@ Bei Knoppix habe ich das gleiche wie bei Windows gemacht, nur dass ich bei **Ste
     ![Installierung](../../img/w/w12/13.png)
 
 ---
-<a name="Autopilot"></a>
-## Gerät bei Autopilot hinzufügen
-
-Bevor man in Intune das Gerät importieren kann. Muss ein Script auf dem jeweiligen Gerät ausgeführt werden.
-
-### Auf dem Gerät
-
-1. Wie auf [THE LAZY ADMINISTRATOR](https://www.thelazyadministrator.com/2020/01/27/get-a-new-computers-auto-pilot-hash-without-going-through-the-out-of-box-experience-oobe/) das Script herunterladen und am besten auf einem USB-Stick speichern, für weiteren gebrauch.
-
-2. Nach dem Download fehlte bei mir noch ein CMD feil welches ich kopiert habe.
-
-3. Nun kann das Get-WindowsAutoPilotInfo.ps1 ausgeführt werden. *Als Admin ausführen!*
-
-4. Nun sollte eine compHas.csv erstanden sein, welche man für den Intune schritt braucht.
-
-![hash datei](../../img/w/w7/w7_7.png)
-
-
-### In Intune
-
-1. Zuerst muss man vom Home aus zu **Devices > Windows > Windows enrollment > Devices** navigieren.
-
-     ![Home Feld](../../img/w/w7/w7_1.png)
-
-2. Auf der **Windows Autopilot devices** Seite *Import* anwählen.
-
-     ![Autopilot Seite](../../img/w/w7/w7_4.png)
-
-3. Hier nun die erstellte compHash.csv angeben.
-
-    === "Schritt 1"
-
-        ![hash datei](../../img/w/w7/w7_8.png){: style="height:550px"}
-
-    === "Schritt 2"
-
-        ![hash datei](../../img/w/w7/w7_9.png)
-
-    === "Schritt 3"
-
-        ![hash datei](../../img/w/w7/w7_10.png){: style="height:550px"}
-
-4. Nach einigen Minuten sollte das Gerät neu auf der Liste erscheinen.
-
-     ![neues Gerät auf der Liste](../../img/w/w7/w7_5.png)
-
----
-
-<a name="AutoPilotScript"></a>
-### Autopilot Script Anpassung
-
-Damit das Gerät welches mit Autopilot aufgesetzt wird, auch den Group Tag erhält und Online die neuste Windows Version herunterlädt. Muss man nur drei kleine Änderungen am Script vornehmen, welches im KW7 Wochenbericht erstellt habe.
-
-**Arbeitsschritte**
-
-1. Zum Starten Windows PowerShell ISE öffnen.
-
-    ![PowerShell](../../img/w/w8/w8_1.png)
-
-2. Nun die Script Datei auf dem USB-Stick öffnen.
-
-    === "Schritt 1"
-
-        Von der Startseite aus zu **Datei > Öffnen...** navigieren. Oder mit dem shortcut Strg + O.
-
-        ![Windows enrollment](../../img/w/w8/w8_2.png)
-
-    === "Schritt 2"
-
-        Jetzt zur ps1. Datei navigieren und diese öffnen.
-
-        ![Windows enrollment 2](../../img/w/w8/w8_3.png)
-
-3. Nun die drei Änderungen vornehmen.
-
-    === "Unverändert"
-
-        ![Windows enrollment](../../img/w/w8/w8_4.png)
-
-    === "Group Tag"
-
-        Da ich möchte, dass jedes Gerät den Group Tag Client automatisch zugeordnet kriegt. Gebe ich dies unter $GroupTag an.
-        Auf dem Bild wäre dies in der Zeile 117 zusehen.
-
-        ![Windows enrollment](../../img/w/w8/w8_5.png)
-
-    === "Online"
-
-        Jetzt noch $Online auf $true stellen.
-        Auf dem Bild wäre dies in der Zeile 123 zusehen.
-
-        ![Windows enrollment](../../img/w/w8/w8_6.png)
-
-    === "Assign"
-
-        Assign habe ich zusätzlich auch noch auf $true gestellt.
-        Auf dem Bild wäre dies in der Zeile 129 zusehen.
-
-        ![Windows enrollment](../../img/w/w8/w8_7.png)
-
----
 <a name="BootC"></a>
 ## Windows 10 mit dem Boot Camp-Assistenten auf einem Mac installieren
 
@@ -328,33 +426,3 @@ Damit das Gerät welches mit Autopilot aufgesetzt wird, auch den Group Tag erhä
 ## Wechsel zwischen Mac und Windows
 
 Um zwischen den beiden zu wechseln, muss man bei einem Neustart, die Wahltaste (oder die Alt-Taste) ⌥ während des Startvorgangs gedrückt halten. [Link zur kurz Anleitung von Apple.](https://support.apple.com/de-de/HT208123)
-
----
-<a name="PIN"></a>
-## PIN Deaktivierung in Intune
-
-![PIN Windows ](../../img/w/w5/w5_x.png){: style="height:450px"}
-
-Nach diesem kurzen Schritt wird das "Windows Hello for Business" deaktiviert. Somit auch die Eingabe vom PIN, welche ich deaktivieren wollte.
-
-**Arbeitsschritte**
-
-1. Zuerst muss man vom Home aus zu **Devices > Windows > Windows enrollment** navigieren.
-
-     ![Home Feld](../../img/w/w5/w5_1.png)
-
-2. Unter **Windows enrollment** kann man nun **Windows Hello for Business** anklicken.
-
-     ![Windows enrollment](../../img/w/w5/w5_3.png)
-
-3. Auf dem neu erschienen Feld, muss man unter **Configure Windows Hello for Business** *Disabled* angeben.
-
-     ![Windows enrollment 2](../../img/w/w5/w5_4.png)
-
-4. Nun *Save* anwählen.
-
-     ![Windows enrollment 3](../../img/w/w5/w5_5.png)
-
-5. Nach der Speicherung wurde der PIN schon deaktiviert.
-
-     ![Windows enrollment 4](../../img/w/w5/w5_6.png)
