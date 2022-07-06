@@ -2,6 +2,8 @@
 
 ## Inhaltsverzeichnis
 
+- [KFM](#KFM)
+
 - [Multiboot-USB-Stick](#YUMI)
 
 - [Firmware Update](#FirmUp)
@@ -10,9 +12,13 @@
 
     * [Autopilot Script Anpassung](#AutoPilotScript)
 
-- [Bootcamp](#)
+- [Bootcamp](#BootC)
 
-- [PIN Deaktivierung in Intune](#)
+- [PIN Deaktivierung in Intune](#PIN)
+
+---
+<a name="KFM"></a>
+## KFM
 
 ---
 <a name="YUMI"></a>
@@ -108,55 +114,55 @@ Bei Knoppix habe ich das gleiche wie bei Windows gemacht, nur dass ich bei **Ste
 <a name="FirmUp"></a>
 ## Firmware Update bei hp Drucker
 
-1. Drucker suchen
+1. **Drucker suchen**
 
     Unter **Print Management** nach dem Drucker suchen und Doppel klick auf den Druckernamen.
 
     ![Drucker liste](../../img/w/w12/1.png)
 
-2. Produktname suchen
+2. **Produktname suchen**
 
     Unter **General** wurde der Produktname bei dem Kommentar hinterlegt.
 
     ![Produktname](../../img/w/w12/2.png)
 
-3. Nach Software und Treiber von Produkt suchen
+3. **Nach Software und Treiber von Produkt suchen**
 
     Auf der hp Seite den Produktnamen angeben. Wie auf dem Bild zu sehen reicht der markierter teil. [hp Link](https://support.hp.com/ch-de/drivers/printers)
 
     ![hp seite](../../img/w/w12/6.png)
 
-4. Nach Firmware suchen
+4. **Nach Firmware suchen**
 
     Auf der neu erschienenen Seite nach Firmware suchen. Es kann kein oder mehrere Updates vorhanden sein. Bei einem passenden update auf **Herunterladen** klicken.
 
     ![hp seite](../../img/w/w12/8.png)
 
-5. exe Datei starten
+5. **exe Datei starten**
 
     Nach einigen Sekunden muss man unten **Run** anwählen.
 
     ![exe datei](../../img/w/w12/9.png)
 
-6. Drucker suche
+6. **Drucker suche**
 
     Bei diesem Schritt des Prozesses sucht es nach Druckern, die zu dem heruntergeladenen Update passt.
 
     ![printer suche](../../img/w/w12/10.png)
 
-7. Drucker Auswahl
+7. **Drucker Auswahl**
 
     Da auf meiner Drucker liste, mehrere Drucker wahren, die dem gleichen Model entsprachen, bekam ich eine grössere Auswahl als nur der von mir gesuchte Drucker. 
 
     ![printer suche](../../img/w/w12/11.png)
 
-8. Password Eingabe
+8. **Password Eingabe**
 
     Nach dem Anwählen von dem Drucker, bei dem ich das Update machen möchte, muss ich noch ein Password eingeben.
 
     ![printer pwd](../../img/w/w12/12.png)
 
-9. Update starten
+9. **Update starten**
 
     Nun kann man unten **Update** anwählen. Nach der Installierung kann man alle Fenster schliessen.
 
@@ -264,3 +270,84 @@ Damit das Gerät welches mit Autopilot aufgesetzt wird, auch den Group Tag erhä
         ![Windows enrollment](../../img/w/w8/w8_7.png)
 
 ---
+<a name="BootC"></a>
+## Windows 10 mit dem Boot Camp-Assistenten auf einem Mac installieren
+
+
+### Voraussetzungen für die Installation von Windows 10 auf einem Mac
+
+- MacBook von 2015 oder neuer
+- MacBook Air von 2012 oder neuer
+- MacBook Pro von 2012 oder neuer
+- Mac mini von 2012 oder neuer
+
+- iMac von 2012 oder neuer1
+- iMac Pro (alle Modelle)
+- Mac Pro von 2013 oder neuer
+
+!!! warning Anforderung
+    Mindestens 64 GB freien Speicherplatz auf dem Startvolume des Mac.
+
+1. **Einstellung für "Sicheres Starten" prüfen**
+
+    Vor der Installation von Windows sollte man die Einstellung auf "Volle Sicherheit" stellen. Nach der Installation von Windows kann man mit jeder Einstellung für "Sicheres Starten" von Windows aus starten.[Link zur Anleitung um sicheres Starten überprüfen.](https://support.apple.com/de-de/HT208198)
+
+2. **Mit dem Boot Camp-Assistenten eine Windows-Partition erstellen**
+
+    Vom Finder aus zu **Programme > Dienstprogramme > Boot Camp-Assistent** navigieren. Dort den Boot Camp-Assistent starten.
+
+    ![Boot Camp-Assistent](../../img/w/w6/1.png)
+
+    - Wenn der Boot Camp-Assistent dazu auffordert, die Größe der Windows-Partition festzulegen, muss man die oben genante mind. grösse berücksichtigen.
+
+    !!! warning Anforderung
+        Die Partitionsgrösse kann später nicht mehr geändert werden.
+
+3. **Windows-Partition (BOOTCAMP) formatieren**
+
+    Nach der Ausführung des Boot Camp-Assistenten wird der Mac neu gestartet und kehrt zum Installationsprogramm zurück. Wenn man nach dem Installationsprogramm gefragt wird, wo Windows installiert werden soll, muss man die BOOTCAMP-Partition an wählen, und dan auf "Formatieren" klicken.
+
+    !!! info
+        In den meisten Fällen wird die richtige BOOTCAMP-Partition vom Installationsprogramm automatisch ausgewählt und formatiert.
+
+4. **Windows installieren**
+
+    Nun am besten alle externen Geräte, die während der Installation nicht benötigt werden trennen. Dann auf "Weiter" klicken. Folgend den Anweisungen auf dem Bildschirm folgen, um Windows zu installieren.
+
+5. **Boot Camp-Installationsprogramm unter Windows verwenden**
+
+    Nach Abschluss der Windows-Installation wird der Mac unter Windows gestartet und das Fenster "Willkommen beim Boot Camp-Installationsprogramm" geöffnet. Nach dem beflogen der Anweisungen auf dem Bildschirm, werden die Boot Camp- und Windows-Support-Software (Treiber)installiert. Sobald dies fertig ist, wird man dazu aufgefordert, den Computer neu zu starten.
+
+## Wechsel zwischen Mac und Windows
+
+Um zwischen den beiden zu wechseln, muss man bei einem Neustart, die Wahltaste (oder die Alt-Taste) ⌥ während des Startvorgangs gedrückt halten. [Link zur kurz Anleitung von Apple.](https://support.apple.com/de-de/HT208123)
+
+---
+<a name="PIN"></a>
+## PIN Deaktivierung in Intune
+
+![PIN Windows ](../../img/w/w5/w5_x.png){: style="height:450px"}
+
+Nach diesem kurzen Schritt wird das "Windows Hello for Business" deaktiviert. Somit auch die Eingabe vom PIN, welche ich deaktivieren wollte.
+
+**Arbeitsschritte**
+
+1. Zuerst muss man vom Home aus zu **Devices > Windows > Windows enrollment** navigieren.
+
+     ![Home Feld](../../img/w/w5/w5_1.png)
+
+2. Unter **Windows enrollment** kann man nun **Windows Hello for Business** anklicken.
+
+     ![Windows enrollment](../../img/w/w5/w5_3.png)
+
+3. Auf dem neu erschienen Feld, muss man unter **Configure Windows Hello for Business** *Disabled* angeben.
+
+     ![Windows enrollment 2](../../img/w/w5/w5_4.png)
+
+4. Nun *Save* anwählen.
+
+     ![Windows enrollment 3](../../img/w/w5/w5_5.png)
+
+5. Nach der Speicherung wurde der PIN schon deaktiviert.
+
+     ![Windows enrollment 4](../../img/w/w5/w5_6.png)
