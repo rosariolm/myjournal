@@ -6,6 +6,8 @@
 
 - [Multiboot-USB-Stick](#YUMI)
 
+    * [Boot Probleme](#YUMIboot)
+
 - [Firmware Update](#FirmUp)
 
 - [Gerät bei Autopilot hinzufügen](#Autopilot)
@@ -108,6 +110,11 @@ Bei Knoppix habe ich das gleiche wie bei Windows gemacht, nur dass ich bei **Ste
 
 !!! warning
     Bei Hinzufügung von einem ISO auf einem USB-Stick kein Reinstall durchführen, sonst werden alle schon vorhandenen ISO's gelöscht.
+
+---
+
+<a name="YUMIboot"></a>
+### Probleme beim Booten
 
 ---
 
