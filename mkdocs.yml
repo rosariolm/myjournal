@@ -83,10 +83,8 @@ nav:
           - "git Befehlsreferenz": wberichte/w34_gitcheat.md
           - "MkDocs installieren": wberichte/w33_mkdocs.md
   - Arbeitshefter:
-      - "Bi":
-          - "Arbeitsheft": aberichte/Bi/Arbeitsheft.md
-      - "INF":
-          - "Arbeitsheft": aberichte/inf/Arbeitsheft.md
+      - "Bi": aberichte/Bi/Arbeitsheft.md
+      - "INF": aberichte/inf/Arbeitsheft.md
 
 markdown_extensions:
   - def_list
