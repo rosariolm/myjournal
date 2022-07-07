@@ -218,10 +218,17 @@ Damit das Gerät welches mit Autopilot aufgesetzt wird, auch den Group Tag erhä
         ![Windows enrollment](../../img/w/w8/w8_7.png)
 
 ---
+
+<a name="SoftPack"></a>
+## Softwarepaketierung
+
+---
+
 <a name="KFM"></a>
 ## KFM
 
 ---
+
 <a name="YUMI"></a>
 ## Multiboot-USB-Stick mit YUMI erstellen
 
@@ -423,6 +430,6 @@ Bei Knoppix habe ich das gleiche wie bei Windows gemacht, nur dass ich bei **Ste
 
     Nach Abschluss der Windows-Installation wird der Mac unter Windows gestartet und das Fenster "Willkommen beim Boot Camp-Installationsprogramm" geöffnet. Nach dem beflogen der Anweisungen auf dem Bildschirm, werden die Boot Camp- und Windows-Support-Software (Treiber)installiert. Sobald dies fertig ist, wird man dazu aufgefordert, den Computer neu zu starten.
 
-## Wechsel zwischen Mac und Windows
+### Wechsel zwischen Mac und Windows
 
 Um zwischen den beiden zu wechseln, muss man bei einem Neustart, die Wahltaste (oder die Alt-Taste) ⌥ während des Startvorgangs gedrückt halten. [Link zur kurz Anleitung von Apple.](https://support.apple.com/de-de/HT208123)
