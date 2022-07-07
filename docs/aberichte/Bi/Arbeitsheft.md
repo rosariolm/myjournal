@@ -1,3 +1,4 @@
+<a name="AktuellesAHeft"></a>
 #Arbeitsheft
 
 ## Inhaltsverzeichnis
@@ -47,6 +48,20 @@
 <a name="conf"></a>
 ### Configuration profiles
 
+Alle Configurations profiles werden unter **Start > Devices > Configuration profiles** erstellt.
+
+=== "Start"    
+
+    ![Start](../../img/a/bi/start.png)
+
+=== "Devices"
+
+    ![Devices](../../img/a/bi/devices.png)
+
+=== "Configuration profiles"
+
+    ![Configuration profiles](../../img/a/bi/ConfigurationProfiles.png)
+
 <a name="wpaper"></a>
 #### Wallpaper
 
@@ -79,6 +94,28 @@
 
 <a name="IE"></a>
 ### IE Mode
+
+#### XML Erstellung
+
+#### Konfiguration Intune
+
+1. Zuerst muss man sich auf [Azure Portal](https://login.microsoftonline.com) anmelden.
+
+2. Nach der Anmeldung nach **Storage Accounts** suchen.
+
+    !!! info
+
+        Je nachdem ob man das erste Mal die Storage accounts braucht muss man zuerst das Abonnement- und die Ressourcengruppe auswählen.
+
+3. Nun zum Starten auf **+ Create** klicken.
+
+    ![+create](../../img/a/bi/IEMode/+create.png)
+
+4. Bei Basics alle Pflichtfelder ausfüllen.
+
+    ![basics](../../img/a/bi/IEMode/Basics1.png)
+
+5.  
 
 ---
 
@@ -149,6 +186,14 @@ Nun Create Policy anwählen.
 
 
 ![pwsPolicieSchluss](../../img/a/bi/pwsPolicieSchluss.png)
+
+- [x] L
+- [ ] V
+    * [x] I
+    * [x] I
+    * [ ] P
+- [ ] Ae
+
 ---
 
 <a name="PIN"></a>
