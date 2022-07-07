@@ -85,6 +85,70 @@
 <a name="pwd"></a>
 ### Password policy
 
+Um eine Password Policy zu setzten, navigiere zu **Start > Devices > Compliance policies**.
+
+=== "Start"    
+
+    ![Start](../../img/a/bi/start.png)
+
+=== "Devices"
+
+    ![Devices](../../img/a/bi/devices.png)
+
+=== "Compliance policies"
+
+    ![Compliance policies](../../img/a/bi/CPolicies.png)
+
+Nun Create Policy anwählen.
+
+![create policy](../../img/a/bi/createP.png)
+
+!!! info
+    Nun kann man damit beginnen die Password Policy zu erstellen, die kann man wie ich sie gemacht habe befolgen oder auch einige Dinge abändern.
+
+**Konfigurationsschritte**
+
+=== "Create a policy"    
+
+    ![platform](../../img/a/bi/platform.png)
+
+=== "Basics"
+
+    ![basics](../../img/a/bi/basics.png)
+
+    ![basics1](../../img/a/bi/basics1.png)
+
+=== "Configuration settings"    
+
+    ![configurationSettings](../../img/a/bi/configurationSettings.png)
+
+    ![configurationSettings1](../../img/a/bi/configurationSettings1.png)
+
+    ![configurationSettings2](../../img/a/bi/configurationSettings2.png)
+
+    ![configurationSettings3](../../img/a/bi/configurationSettings3.png)
+
+=== "Actons for noncompliance"
+
+    ![ActonsForNoncompliance](../../img/a/bi/ActonsForNoncompliance.png)
+
+=== "Assignments"
+
+    ![Assignments](../../img/a/bi/Assignments.png)
+
+    ![Assignments1](../../img/a/bi/Assignments1.png)
+
+=== "Applicability Rules"
+
+    ![ApplicabilityRules](../../img/a/bi/ApplicabilityRules.png)
+
+=== "Review + create"
+
+    ![R+C.](../../img/a/bi/R+C.png)
+
+
+
+![pwsPolicieSchluss](../../img/a/bi/pwsPolicieSchluss.png)
 ---
 
 <a name="PIN"></a>
@@ -321,6 +385,8 @@ Bei Knoppix habe ich das gleiche wie bei Windows gemacht, nur dass ich bei **Ste
 
 <a name="YUMIboot"></a>
 ### Probleme beim Booten
+
+Möchte man von einem USB-Stick aus booten, bekommt aber die Meldung "" kann man wie folgt vorgehen.
 
 ---
 
