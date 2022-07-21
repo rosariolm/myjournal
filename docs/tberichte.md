@@ -3,6 +3,26 @@
 
 *Juli 2022*
 
+## **18.07.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen war ich beim Helpdesk und habe hauptsächlich Telefone abgenommen wie auch Tickets bearbeitet. Am Nachmittag hatte ich das Wochengespräch mit Birgit. Darauffolgend habe ich an einem neuen Drucker gearbeitet. Dafür habe ich eine vorübergehende IP gesetzt wie auch Gateway, Subnetzmaske und Gerätename. Danach habe ich damit begonnen, die Einstellungen vom alten Drucker zu übernehmen.
+
+    **Hilfestellung**
+
+    Am Vormittag hat Leonie mit mir das Headset getestet, da ich mehrere Telefone abnahm und die Person am anderen Ende mich nicht hören konnte. Am Nachmittag bin ich bei Problemen zuerst Google gegangen und als ich so nicht weiter kam, hat mir Thierry oder Kusi weiter geholfen.
+
+    **Reflexion**
+
+    Heute hatte ich einige Stolpersteine. Einer davon war das ich beim Drucker das start layout beim control panel ändern wollte, aber dies nicht konnte da diese Option deaktiviert war. Mithilfe von Kusi konnte ich die Option dann schliesslich aktivieren. Dies hat nichts gebracht, da ich bei den Optionen dann trotzdem nichts ändern konnte.
+
+    **Nächste Schritte**
+
+    - Headset Problem auf talkbase Lössen
+    - Konfiguration auf Drucker fertig machen
+
 ## **06.07.2022**
 
 !!! abstract "Tagesbericht"
