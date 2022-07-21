@@ -3,6 +3,26 @@
 
 *Juli 2022*
 
+## **20.07.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute habe ich wieder an der toast notification gearbeitet und hoch geladen. Dann habe ich zusammen mit Kusi und Thierry einen Drucker vom UniS abgeholt. Und mich mit dem Thema HERMES/IPA befasst.
+
+    **Hilfestellung**
+
+    Heute haben mir Thierry und Kusi geholfen.
+
+    **Reflexion**
+
+    Heute lief alles gut, ich habe auch zu meinem Headset Problem einige Problemlösungs-Vorschläge von Thierry bekommen, welche ich gemacht habe und dann am Montag testen muss.
+
+    **Nächste Schritte**
+    
+    -  Headset Problem auf talkbase testen
+
+
 ## **19.07.2022**
 
 !!! abstract "Tagesbericht"
@@ -21,7 +41,6 @@
     **Nächste Schritte**
     
     - Headset Problem auf talkbase Lössen
-
 
 ## **18.07.2022**
 
