@@ -3,6 +3,26 @@
 
 *Juli 2022*
 
+## **21.07.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute habe ich boxcryptor paketiert und auf Intune hochgeladen, danach habe ich es auf meinem Test Client heruntergeladen. Als dies funktionierte, habe ich noch das automatische update im Boxcryptor.exe.config abgeschaltet. Sprich auf true gesetzt. Neben dem wollte ich noch eine Docking Station mit einem Computer aus tauschen aber als ich im Büro wahr habe ich festgestellt das dort schon eine war. Deshalb habe ich nur den Computer abgehängt. Deshalb bin ich später mit Thierry zusammen beim Personal vorbei und haben das Inventar kontrolliert.
+
+    **Hilfestellung**
+
+    Ich bekam eine Fehlermeldung auf Intune als ich boxcryptor das erste Mal hochgeladen habe. Da ich nichts Nützliches im Internet fand hat mir Thierry weitergeholfen.
+
+    **Reflexion**
+
+    Ich kam heute mit allem fertig was geplant war, deshalb lief der Tag gut.
+
+    **Nächste Schritte**
+    
+    -  Headset Problem auf talkbase testen
+
+
 ## **20.07.2022**
 
 !!! abstract "Tagesbericht"
