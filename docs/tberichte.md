@@ -3,6 +3,26 @@
 
 *Juli 2022*
 
+## **19.07.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen habe ich alle Drucker Konfigurationen fertig gemacht. Der Drucker habe ich dann zusammen mit Birgit und Thierry zum INT gebracht. Dort haben wir dann nur noch die richtige IP gesetzt wie auch ein Testdruck gemacht. Ansonsten habe ich durch den Tag noch einen Arbeitsplatz geändert wie auch 4 Computer bereitgestellt. Beim Arbeitsplatz habe ich den vorhandenen Bildschirm mit zwei anderen ersetzt und eine Docking Station mit dem Computer ausgetauscht. Auf den 4 Computern habe ich Windows 10 Installiert wie auch das BIOS Passwort herausgenommen und alles zurückgesetzt.
+
+    **Hilfestellung**
+
+    
+
+    **Reflexion**
+
+    Das Problem von Gesten mit der Druckerkonfiguration hat sich gelöst. Die HP Seite hatte nur lange zum Laden und schmiss einige gesetzte Konfigurationen raus, die man dann öfter wieder setzen musste, bis sie blieb.
+
+    **Nächste Schritte**
+    
+    - Headset Problem auf talkbase Lössen
+
+
 ## **18.07.2022**
 
 !!! abstract "Tagesbericht"
