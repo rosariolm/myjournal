@@ -3,6 +3,26 @@
 
 *August 2022*
 
+## **11.08.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen habe ich geschaut, dass die Berichte Online sind. Danach habe ich mich mit dem Thema Phishing befasst, welches ich dann gerade in meiner Präsentation hinzugefügt habe. Nach einer kurzen Vorbereitung habe ich dann die Präsentation gehalten. Am Nachmittag habe ich mit Birgit noch das Wochengespräch nachgeholt und anschliessend mit Kusi das kommende Modul 159 besprochen. Zu Schluss habe ich noch angefangene dinge abgeschlossen.
+
+    **Hilfestellung**
+
+    Kusi konnte mir schon einiges des Modul 159 erklären. Trotzdem blieben wir auf dem Stand, dass wir dies in 2 Wochen nochmals besprechen.
+
+    **Reflexion**
+    
+    Nach der Präsentation bekam ich gute Inputs von Korrekturen bis zu weiteren Fragestellungen.
+
+    **Nächste Schritte**
+    
+    - Gihub Projekt richtig einrichten
+    - Fehlende Beschreibe der Schadensoftware nachtragen
+
 ## **10.08.2022**
 
 !!! abstract "Tagesbericht"
@@ -20,6 +40,7 @@
 
     **Nächste Schritte**
     
+    - Gihub Projekt richtig einrichten
     - Kurze Vorbereitung der Präsentation
     - Fehlende Beschreibe der Schadensoftware nachtragen
 
