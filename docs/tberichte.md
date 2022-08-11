@@ -23,4 +23,22 @@
     - Kurze Vorbereitung der Präsentation
     - Fehlende Beschreibe der Schadensoftware nachtragen
     
-   
+    
+## **02.08.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute war mein erster Tag bei der Gruppe NETSEC deshalb habe ich mich zuerst beim Arbeitsplatz eingerichtet. Danach hat mir Marius eine Einführung in die Themen Verschlüsselung/Kryptografie gegeben. Dafür haben wir auch einige Aufgaben zusammen gelöst. Der Rest vom Tag habe ich damit verbracht, einen Kurztext zu entschlüsseln.
+
+    **Hilfestellung**
+
+    Marius hat mir sehr viel erklärt, was mir nicht klar wahr oder weitergeholfen, wo ich stecken geblieben bin.
+
+    **Reflexion**
+    
+    Mich hat da Vorwissen der schule weiter zum Teil gebracht. Nur ist mir die Umsetzung auf Java schwergefallen, da ich schon so lange nicht mehr damit gearbeitet habe. Mir ist auch sehr viel vom Thema wieder eingefallen, was ich beim HPC Team darüber gelesen habe.
+
+    **Nächste Schritte**
+    
+    - Entschlüsselungs-Aufgabe lösen
