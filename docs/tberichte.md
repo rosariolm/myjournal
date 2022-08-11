@@ -22,7 +22,28 @@
     
     - Kurze Vorbereitung der Präsentation
     - Fehlende Beschreibe der Schadensoftware nachtragen
- 
+
+## **05.08.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen hat sich Michael Zeit genommen, um mir den Umgang mit Projekten auf Github zu erklären. Nachdem ich keine Fragen mehr hatte. Habe ich mir den Morgen Zeit genommen und dinge auszuprobieren und zu testen. Nach dem Mittag habe ich noch den Theorieteil fertig gelesen und meine eignende zusammen Fassung geschrieben. Die Präsentation habe ich auch begonnen und fast fertig erstellt.
+
+    **Hilfestellung**
+
+    Mir konnte Micheal alle meine Fragen beantworten und hat mir sonst auch gute Hinweise gegeben.
+
+    **Reflexion**
+    
+    Mit dem neuen Projekt, welches ich neu erstelle, werde ich meine Aufgaben viel besser im Überblick behalten können. Das Testen heute Morgen hat mir auch weiter geholfen, da ich jetzt genau weiss wie ich es einrichten/einstellen möchte, ohne dass ich es dann später andauernd anpassen muss.
+
+    **Nächste Schritte**
+    
+    - Gihub Projekt richtig einrichten
+    - Präsentation fertig machen
+    - Hack the Box weiter machen (Lückenfüller, falls ich sonst mit allem fertig bin)
+
 
 ## **04.08.2022**
 
