@@ -23,7 +23,27 @@
     - Kurze Vorbereitung der Präsentation
     - Fehlende Beschreibe der Schadensoftware nachtragen
  
- 
+
+## **04.08.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute hat mir Marius einen Ansatz seiner möglichen Lösung gezeigt zur Verschlüsselung. Und danach habe ich mit der VM gestartet, da die Aufgabe ein wenig zu Komplex war. Da ich mich um entschiedenen habe, die VM doch Lokal zu haben, habe ich zuerst alles auf dem Mac installiert. Aber nach dem ersten versuch darauf zu arbeiten, habe ich dann doch auf Windows gewechselt da die VM zu fest hinterherhinkte. Alls alles Start paart war, habe ich damit begonnen mir einen Account auf Hack the Box zu machen und dort die Fragen zu beantworten. Zum Schluss habe ich noch begonnen den Theorieteil von Security und Rechtliche Aspekte zu lesen.
+
+    **Hilfestellung**
+
+    Marius hat mir gezeigt, wie ich auf Hack the Box arbeiten kann. Und Florian hat mir gezeigt, wo die Wochenaufgaben, Ressourcen und weiteres hinterlegt ist.
+
+    **Reflexion**
+    
+    Ich kam vor allem heute Nachmittag gut vorwärts. Und habe jetzt auch fixe Termine für meine Nachhilfe in der Schule.
+
+    **Nächste Schritte**
+    
+    - Theorieteil fertig lesen
+    - Hack the Box weiter machen (Lückenfüller, falls ich sonst mit allem fertig bin)
+
 ## **03.08.2022**
 
 !!! abstract "Tagesbericht"
