@@ -22,7 +22,27 @@
     
     - Kurze Vorbereitung der Präsentation
     - Fehlende Beschreibe der Schadensoftware nachtragen
+ 
+ 
+## **03.08.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute habe ich den ganzen Tag an einer Entschlüsselung gearbeitet von einem längeren Text. Dafür habe ich zuerst die verschiedenen Möglichkeiten selber ausprobiert. Danach bin ich nach Ansätze googeln gegangen, wie zum Beispiel Buchstabenhäufigkeiten. Neben dem habe ich noch einige klein dinge gemacht wie Begriffe und sonstiges in meinen eigenen Worten zu beschreiben, damit ich sie verstehe und nicht vergesse. Zum Ende bin ich auch mal wieder auf die Lehrringumgebung um eine VM mit Kali Linux aufzusetzen.
+
+    **Hilfestellung**
+
+    Marius hat mir durchgehend geholfen. Und hat mir auch immer sein aktuellen stand der Aufgabe gezeigt und erklärt, damit ich den ablauf verstehe oder weiter komme.     Bei mehreren gescheiterten anmelde versuchen, auf der Lehrringumgebung habe ich bei Marco um Hilfe gefragt. Welcher mich dann auch darauf hingewiesen hat, dass ich der Benutzername falsch eingebe.
+
+    **Reflexion**
     
+    
+
+    **Nächste Schritte**
+    
+    - Entschlüsselungs-Aufgabe lösen
+
     
 ## **02.08.2022**
 
@@ -40,5 +60,3 @@
     Mich hat da Vorwissen der schule weiter zum Teil gebracht. Nur ist mir die Umsetzung auf Java schwergefallen, da ich schon so lange nicht mehr damit gearbeitet habe. Mir ist auch sehr viel vom Thema wieder eingefallen, was ich beim HPC Team darüber gelesen habe.
 
     **Nächste Schritte**
-    
-    - Entschlüsselungs-Aufgabe lösen
