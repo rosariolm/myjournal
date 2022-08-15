@@ -63,6 +63,8 @@ nav:
           - "Oktober 2021": archiv/Oktober2021.md
           - "September 2021": archiv/September2021.md
   - Wochenberichte:
+      - "NETSEC":
+          - "Schadsoftware": wberichte/w32_2022_schadsoftware.md
       - "BI":
           - "Multiboot-USB-Stick": wberichte/w18_YUMI.md
           - "Firmware Update": wberichte/w12_firmware.md
