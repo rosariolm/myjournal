@@ -16,7 +16,7 @@ Vieren können sich in Anhang von Bildern, Audio/Videodateien oder kostenloser S
 
 Ein Wurm repliziert sich selbst, wie auch ein Virus. Der Unterschied, liegt darin, dass ein Wurm keine Dateien verändert oder löscht. Aber anders als ein Virus muss sich ein Wurm nicht an einem vorhandenen Programm anhängen. Sondern verbreitet sich, indem er Sicherheitslücken in Betriebssystemen ausnutzen.
 
-Dadurch dass das bösartige Programm unzählige Kopien von sich selbst auf der lokalen Festplatte, auf der Netzwerkfreigabe usw., was zu Folge hat, dass der Computer langsamer wird. Dies da durch das der Wurm sehr viel Festplattenspeicher belegt und einen grossen Anteil der CPU verbraucht.
+Dadurch dass das bösartige Programm unzählige Kopien von sich selbst auf der lokalen Festplatte, auf der Netzwerkfreigabe usw. mach, hat das zu Folge, dass der Computer langsamer wird. Dies da durch das der Wurm sehr viel Festplattenspeicher belegt und einen grossen Anteil der CPU verbraucht.
 
 
 ###**Trojaner**
@@ -43,14 +43,14 @@ Adware, auch bekannt als werbe gestützte Software, generiert Werbung auf dem Bi
 
 Die unerwünschten (und sehr oft auch lästige) Popup-Werbung auf dem Computer oder Mobilgerät kommen in der Regel auf zwei Arten auf das Gerät:
 
-Eine möglicherweise ist durch kostenloses Computerprogramme oder  Apps,  ohne unbedingt zu wissen, dass es  zusätzliche Software enthält, die Adware enthält.
+Eine mögliche weise ist durch kostenloses Computerprogramme oder  Apps,  ohne unbedingt zu wissen, dass es  zusätzliche Software enthält, die Adware enthält.
 
-Oder eine andere Möglichkeit ist, dass es gibt eine Sicherheitslücke in der Software oder im  Betriebssystem gibt, die Hacker ausnutzen, um Malware, einschliesslich einiger Arten von Adware, ins System einzuschleusen.
+Oder eine andere Möglichkeit ist, dass es eine Sicherheitslücke in der Software oder im  Betriebssystem gibt, die Hacker nutzen dies aus um Malware, einschliesslich einiger Arten von Adware, ins System einzuschleusen.
 
 ##**Rogue Security Software**
 
 Rouge Security Software ist eine Art von Malware, welche dafür entwickelt wurde, Ihre Opfer davon zu überzeugen, dass Ihr Gerät von einem Virus befallen ist.
-Wie es eigentlich ein echtes Antivirus Programm auch machen würde. Mit einer Pop-up Nachricht teilt es dem Benutzer das Gerät mit, dass Ihr Computer infiziert wurde. Obwohl dies nicht der Fall ist!
+Wie es eigentlich ein echtes Antivirus Programm auch machen würde. Mit einer Pop-up Nachricht teilt es dem Benutzer mit, dass Ihr Computer infiziert wurde. Obwohl dies nicht der Fall ist!
 
 Aber im Gegensatz zu einigen anderen Schadprogramme stiehlt, verändert, löscht oder verschlüsselt es keine Daten. Stattdessen geht es darum, dass das Opfer für eine Entfernung von einem nicht vorhandenen Virus zahlt.
 
