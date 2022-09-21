@@ -24,6 +24,8 @@
 
     * [Suchmaschinen-Phishing](#3.6)
 
+- [Wie schützt man sich gegen Phishing?](#4)
+
 
 
 <a name="1"></a>
@@ -165,3 +167,23 @@ Der Hacker behauptet, Videos mit nicht jugendfreiem Inhalt vom Opfer vom persön
 Beim Suchmaschinen-Phishing, auch bekannt als SEO-Poisoning oder SEO-Trojaner, versuchen Hacker, bei einer Suche über eine Suchmaschine auf die erste Position der Trefferliste zu gelangen. Wenn Sie auf den in der Suchmaschine angezeigten Link klicken, wird man auf die Website des Hackers weitergeleitet.
 
 Von dort aus können Betrüger Informationen stehlen, wenn man auf der Internetseite aktiv ist und/oder vertrauliche Daten eingeben. Websites von Hackern können sich als jede beliebige andere ausgeben, aber die Hauptkandidaten sind Banken, Geldtransferdienste, Social-Media-Seiten und Onlineshops.
+
+
+<a name="4"></a>
+## Wie schützt man sich gegen Phishing?
+
+- **Überprüfe stets die Adressleiste in deinem Browser.** Am besten tragst du die Adressen zu häufig besuchten Login-Seiten in die Favoritenliste des Browsers ein.
+
+- **Klicken niemals auf Links in einer dubiosen E-Mail.** Versuche im Zweifelsfall stattdessen, die im E-Mail-Text genannte Seite über die Startseite der betreffenden Organisation zu erreichen – also ohne den angegebenen Link in die Adresszeile des Browsers einzutippen.
+
+- **Gebe keinesfalls persönliche Daten wie Passwörter, Kreditkarten- oder Transaktionsnummern via E-Mail preis** – egal, wie vertrauenserweckend die betreffende E-Mail erscheint.
+
+- **Gebe persönliche Informationen nur in der gewohnten Weise etwa auf der Online-Banking-Website ein.** Sobald irgendetwas seltsam vorkommt, beende die Verbindung sofort und kontaktiere den regulären Website-Betreiber.
+
+- **Öffne niemals Dateien im Anhang einer verdächtigen E-Mail.**
+
+- **Beende jede Online-Session durch den regulären Log-out** – statt einfach nur das Browserfenster zu schließen.
+
+- **Gebe niemals persönliche Daten auf Webseiten mit unverschlüsselter Verbindung ein.** Ob eine Website verschlüsselt mit Ihrem Browser kommuniziert, erkennen man an der Abkürzung "https://" in der Adresszeile sowie an dem kleinen Vorhängeschloss- Symbol neben der Adresszeile des Browsers.
+
+- Achte stets darauf, dass Ihre **Antivirus-Software aktuell und die Firewall aktiv ist.**
