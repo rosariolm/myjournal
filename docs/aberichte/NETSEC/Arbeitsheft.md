@@ -37,13 +37,21 @@
 
     Falls dem Angreifer eine E-Mail des Phishing-Ziels vorliegt, kann er deren Format kopieren. Auch einzelne Teile davon wie Begrüssung & Kontakt Angaben werden übernommen.
 
-    **Bild**
+    !!! example ""
+          <figure markdown>
+            ![AblaufPhishing_1](../../img/a/NETSEC/AblaufPhishing_1.png){: style="height:260px"}
+            <figcaption>Beispiel Phishing Mail mit Link
+          </figure>
 
 2. Der Nutzer erreicht über den Link eine ebenfalls gefälschte Log-In-Seite. Oft orientieren sich die Angreifer an einer existierenden Seite.
 
     Sie kopieren das Layout und gestalten das Formular so, dass die Log-In-Daten in einer zugänglichen Datei gesammelt werden. Anschliessend erhält der Angreifer die Daten und den freien Zugriff auf den Account.
 
-    **Bild**
+    !!! example ""
+          <figure markdown>
+            ![AblaufPhishing_2](../../img/a/NETSEC/AblaufPhishing_2.png){: style="height:450px"}
+            <figcaption>Beispiel Fake login Seite
+          </figure>
 
 <a name="2"></a>
 ## Erkennung Phishing Mails
@@ -92,21 +100,25 @@
 <a name="2.2"></a>
 ### Erkennung Phishing Mails Beispiele
 
-- Die Anrede ist sehr unpersönlich, ohne Ihren Namen zu nennen: "Sehr geehrter Kunde …".
+- [x] Die Anrede ist sehr unpersönlich, ohne Ihren Namen zu nennen: "Sehr geehrter Kunde …".
 
-- Der Text der Mail gibt dringenden Handlungsbedarf vor, etwa: "Wenn Sie Ihre Daten nicht umgehend aktualisieren, dann gehen sie unwiederbringlich verloren …".
+- [x] Der Text der Mail gibt dringenden Handlungsbedarf vor, etwa: "Wenn Sie Ihre Daten nicht umgehend aktualisieren, dann gehen sie unwiederbringlich verloren …".
 
-- Drohungen kommen zum Einsatz: „Wenn Sie das nicht tun, müssen wir Ihr Konto leider sperren …".
+- [x] Drohungen kommen zum Einsatz: „Wenn Sie das nicht tun, müssen wir Ihr Konto leider sperren …".
 
-- Im Mail wird man aufgefordert, vertrauliche Daten wie die PIN für einen Online-Bankzugang oder eine Kreditkartennummer einzugeben.
+- [x] Im Mail wird man aufgefordert, vertrauliche Daten wie die PIN für einen Online-Bankzugang oder eine Kreditkartennummer einzugeben.
 
-- Die E-Mail enthält komische Links oder Formulare.
+- [x] Die E-Mail enthält komische Links oder Formulare.
 
-- Der Nachrichtentext ist in schlechtem Deutsch verfasst.
+- [x] Der Nachrichtentext ist in schlechtem Deutsch verfasst.
 
-- Der Text enthält kyrillische Buchstaben, falsch aufgelöste oder gänzlich fehlende Umlaute – zum Beispiel "ae" oder "ea" statt ä.
+- [x] Der Text enthält kyrillische Buchstaben, falsch aufgelöste oder gänzlich fehlende Umlaute – zum Beispiel "ae" oder "ea" statt ä.
 
-**Bild**
+!!! example ""
+      <figure markdown>
+        ![Merknlatt](../../img/a/NETSEC/Merkblatt.jpg){: style="height:430px"}
+        <figcaption>Merkblatt Phishing von BSI Bund
+      </figure>
 
 <a name="3"></a>
 ## Phishing Arten
@@ -115,9 +127,15 @@
 
 Beim Angeln mit der Angelrute kann sich eine Reihe von verschiedenen Gegenständen unter der Wasseroberfläche finden wie zum Beispiel eine Flunder, eine Forelle oder ein Stück Abfall. Beim Fischen mit dem Speer gehen Sie gezielt auf einer Jagd nach einem bestimmten Fisch. Aus dem Grund kommt der Name «Spear Fishing» (Speerfischen).
 
-Beim Spear Phishing wird eine bestimmte Gruppe oder eine Person mit einer bestimmten Funktion gesucht, z.B. der Systemadministrator eines Unternehmens. Auf dem folgenden Bild sieht man ein Beispiel für ein Spear Phishing E-Mail.
+Beim Spear Phishing wird eine bestimmte Gruppe oder eine Person mit einer bestimmten Funktion gesucht, z.B. der Systemadministrator eines Unternehmens.
 
-**Bild**
+!!! example ""
+      <figure markdown>
+        ![Spear Phishing](../../img/a/NETSEC/SpearPhishingBeispiel.png){: style="height:450px"}
+        <figcaption>pear Phishing E-Mail Beispiel
+      </figure>
+
+---
 
 <a name="3.2"></a>
 ### **Was ist Whaling?**
@@ -129,6 +147,8 @@ In einer Whaling E-Mail kann beispielsweise stehen, dass dem Unternehmen rechtli
 
 Der Links leitet Sie auf eine Seite, auf der Sie gebeten werden, alle wichtigen Daten über das Unternehmen einzugeben, etwa wie die Steuer-ID und Nummern von Bankkonten.
 
+---
+
 <a name="3.3"></a>
 ### **Was ist Smishing?**
 
@@ -137,6 +157,8 @@ Das Smishing ist ein Angriff, für den Text oder Kurznachrichten sprich (SMS) ve
 Ein beliebtes Beispiel für ein Smishing Angrif ist eine SMS Nachricht, welches so aussieht, als käme sie von Ihrer Bank.
 
 Der Angreifer fordert einen auf, Ihre Kontonummer, Sozialversicherungsnummer, Ausweisnummer usw. zu verifizieren. Sobald der Angreifer die Informationen erhält, hat er die Kontrolle über das Bankkonto.
+
+---
 
 <a name="3.4"></a>
 ### **Was ist Vishing?**
@@ -149,6 +171,7 @@ Diese könnte alles enthalten, von einem Banking-Trojaner bis hin zu einem Bot (
 
 Ein Bot ist eine Software, die so konzipiert ist, dass sie die vom Hacker gewünschten Aufgaben erfüllt. Er wird per Command and Control (C&C) gesteuert, um Bitcoins zu schürfen, Spam zu versenden oder einen Angriff im Rahmen eines Distributed Denial of Service (DDoS) zu starten.
 
+---
 
 <a name="3.5"></a>
 ### **Was ist E-Mail Phishing?**
@@ -161,13 +184,14 @@ Ein weiterer Phishing-Scam, den man als Sextortion (aus den englischen Worten �
 
 Der Hacker behauptet, Videos mit nicht jugendfreiem Inhalt vom Opfer vom persönlichen Computer aus gesehen zu haben, während die Kamera eingeschaltet war und sie aufgezeichnet hat. Der Hacker verlangt eine Bezahlung meist in Bitcoin. Andernfalls würde er das Video an Familie und/oder Kollegen weitergeben.
 
+---
+
 <a name="3.6"></a>
 ### **Was ist Suchmaschinen-Phishing?**
 
 Beim Suchmaschinen-Phishing, auch bekannt als SEO-Poisoning oder SEO-Trojaner, versuchen Hacker, bei einer Suche über eine Suchmaschine auf die erste Position der Trefferliste zu gelangen. Wenn Sie auf den in der Suchmaschine angezeigten Link klicken, wird man auf die Website des Hackers weitergeleitet.
 
 Von dort aus können Betrüger Informationen stehlen, wenn man auf der Internetseite aktiv ist und/oder vertrauliche Daten eingeben. Websites von Hackern können sich als jede beliebige andere ausgeben, aber die Hauptkandidaten sind Banken, Geldtransferdienste, Social-Media-Seiten und Onlineshops.
-
 
 <a name="4"></a>
 ## Wie schützt man sich gegen Phishing?
