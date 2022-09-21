@@ -18,6 +18,8 @@
 
 - [Schadsoftware](#Schadsoftware)
 
+- [Social Engineering](#SE)
+
 
 ---
 
@@ -291,3 +293,7 @@ Aber im Gegensatz zu einigen anderen Schadprogramme stiehlt, verändert, löscht
 Wie nach "root" im Namen dringen Rootkits tief ins Betriebssystem ein und werden von dort aus aktiv. Das Wort „root“ bezieht sich auf die Root-Rechte, die auch den Namen Superuser-Konto haben. Dieses Konto wird bei der Installation eines Betriebssystems angelegt und gewährt dem User allgemeine Zugriffsrechte. Das „kit“ steht für eine Sammlung von Softwarewerkzeuge. Wörtlich übersetzt ist ein Rootkit also so etwas wie ein Werkzeugkasten für Administratoren.
 
 Die eigentliche Gefahr geht auch nie vom Rootkit selber aus, sondern von der Malware dessen Spuren es verwischt. Dementsprechend liegt seine eigentliche Aufgabe darin, Schadprogramme von Virenscanner und sonstiges zu verstecken.
+
+
+<a name="SE"></a>
+## Social Engineering
