@@ -211,3 +211,6 @@ Von dort aus können Betrüger Informationen stehlen, wenn man auf der Internets
 - **Gebe niemals persönliche Daten auf Webseiten mit unverschlüsselter Verbindung ein.** Ob eine Website verschlüsselt mit Ihrem Browser kommuniziert, erkennen man an der Abkürzung "https://" in der Adresszeile sowie an dem kleinen Vorhängeschloss- Symbol neben der Adresszeile des Browsers.
 
 - Achte stets darauf, dass Ihre **Antivirus-Software aktuell und die Firewall aktiv ist.**
+
+!!! info "Info"
+          Solltest man  ein Wichtiges Mail erhalten, welches ein wenig Merkwürdig ist, kann man immer über eine andere Art Kontakt aufnehmen. Zum Beispiel dem Absender Anrufen (Wichtig!  Ist das man die Telefonnummer von der Originalwebseite nimmt und keine hinterlegte Nummer im Mail).
