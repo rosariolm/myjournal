@@ -65,6 +65,7 @@ nav:
           - "September 2021": archiv/September2021.md
   - Wochenberichte:
       - "NETSEC":
+          - "Erkennung Phishing Mail": wberichte/Erkennung_Phishing_Mail.md
           - "Schadsoftware": wberichte/w32_2022_schadsoftware.md
       - "BI":
           - "Multiboot-USB-Stick": wberichte/w18_YUMI.md

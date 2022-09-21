@@ -2,34 +2,40 @@
 
 ## Inhaltsverzeichnis
 
-- [Möglicher Ablauf einer Phishing Attacke](#1)
+- [Phishing](#Phishing])
 
-- [Erkennung Phishing Mails](#2)
+    * [Möglicher Ablauf einer Phishing Attacke](#Phishing Attacke)
 
-    * [Merkmale einer Phishing Mails](#2.1)
+    * [Erkennung Phishing Mails](#Erkennung)
 
-    * [Erkennung Phishing Mails Beispiele](#2.2)
+        * [Merkmale einer Phishing Mails](#Merkmale)
 
-- [Phishing Arten](#3)
+        * [Erkennung Phishing Mails Beispiele](#Erkennung)
 
-    * [Spear Phishing](#3.1)
+    * [Phishing Arten](#hishing Arten)
 
-    * [Whaling](#3.2)
+        * [Spear Phishing](#Spear)
 
-    * [Smishing](#3.3)
+        * [Whaling](#Whaling)
 
-    * [Vishing](#3.4)
+        * [Smishing](#Smishing)
 
-    * [E-Mail Phishing](#3.5)
+        * [Vishing](#Vishing)
 
-    * [Suchmaschinen-Phishing](#3.6)
+        * [E-Mail Phishing](#Mail)
 
-- [Wie schützt man sich gegen Phishing?](#4)
+        * [Suchmaschinen-Phishing](#Suchmaschinen)
+
+    * [Wie schützt man sich gegen Phishing?](#Schutz)
 
 
+---
 
-<a name="1"></a>
-## Möglicher Ablauf einer Phishing Attacke
+<a name="Phishing"></a>
+## Phishing
+
+<a name="Phishing Attacke"></a>
+### Möglicher Ablauf einer Phishing Attacke
 
 1. Eine offiziell wirkende E-Mail wird an eine möglichst grosse Anzahl von Nutzern gesendet.
 
@@ -53,10 +59,10 @@
             <figcaption>Beispiel Fake login Seite
           </figure>
 
-<a name="2"></a>
-## Erkennung Phishing Mails
-<a name="2.1"></a>
-### Merkmale einer Phishing Mail
+<a name="Erkennung"></a>
+### Erkennung Phishing Mails
+<a name="Merkmale"></a>
+#### Merkmale einer Phishing Mail
 
 !!! warning "Grammatik- und Orthografie Fehler"
 
@@ -97,8 +103,8 @@
       Gleichfalls Absenderangaben von E-Mails lassen sich fälschen. Um letzte Gewissensbisse auszuräumen, muss in der genannten E-Mail der Mail-Header angeschaut werden. Dort steht die IP-Adresse des Absenders. Nur ebendiese ist fälschungssicher und gibt Aufschluss über den tatsächlichen Absender.
 
 
-<a name="2.2"></a>
-### Erkennung Phishing Mails Beispiele
+<a name="Erkennung"></a>
+#### Erkennung Phishing Mails Beispiele
 
 - [x] Die Anrede ist sehr unpersönlich, ohne Ihren Namen zu nennen: "Sehr geehrter Kunde …".
 
@@ -116,29 +122,23 @@
 
 !!! example ""
       <figure markdown>
-        ![Merknlatt](../../img/a/NETSEC/Merkblatt.jpg){: style="height:430px"}
+        ![Merknlatt](../../img/a/NETSEC/Merkblatt.jpg){: style="height:400px"}
         <figcaption>Merkblatt Phishing von BSI Bund
       </figure>
 
-<a name="3"></a>
-## Phishing Arten
-<a name="3.1"></a>
-### **Was ist Spear Phishing?**
+<a name="Phishing Arten"></a>
+### Phishing Arten
+<a name="Spear"></a>
+#### **Was ist Spear Phishing?**
 
 Beim Angeln mit der Angelrute kann sich eine Reihe von verschiedenen Gegenständen unter der Wasseroberfläche finden wie zum Beispiel eine Flunder, eine Forelle oder ein Stück Abfall. Beim Fischen mit dem Speer gehen Sie gezielt auf einer Jagd nach einem bestimmten Fisch. Aus dem Grund kommt der Name «Spear Fishing» (Speerfischen).
 
 Beim Spear Phishing wird eine bestimmte Gruppe oder eine Person mit einer bestimmten Funktion gesucht, z.B. der Systemadministrator eines Unternehmens.
 
-!!! example ""
-      <figure markdown>
-        ![Spear Phishing](../../img/a/NETSEC/SpearPhishingBeispiel.png){: style="height:450px"}
-        <figcaption>pear Phishing E-Mail Beispiel
-      </figure>
-
 ---
 
-<a name="3.2"></a>
-### **Was ist Whaling?**
+<a name="Whaling"></a>
+#### **Was ist Whaling?**
 
 Das Whaling ist eine noch gezieltere Art von Phishing, da es die Wale im Visier hat beziehungsweise die richtig grossen Fische.
 Diese Angriffe zielen in der Regel auf den CEO, CFO oder ein anderes Mitglied der Geschäftsleistung eines bestimmten Unternehmens oder in einer Branche.
@@ -149,8 +149,8 @@ Der Links leitet Sie auf eine Seite, auf der Sie gebeten werden, alle wichtigen 
 
 ---
 
-<a name="3.3"></a>
-### **Was ist Smishing?**
+<a name="Smishing"></a>
+#### **Was ist Smishing?**
 
 Das Smishing ist ein Angriff, für den Text oder Kurznachrichten sprich (SMS) verwendet werden. Eine gängige Smishing Technik besteht darin, per SMS eine Nachricht an ein Mobiltelefon zu senden, welches ein anklickbaren Link oder eine Rückrufnummer enthält.
 
@@ -160,8 +160,8 @@ Der Angreifer fordert einen auf, Ihre Kontonummer, Sozialversicherungsnummer, Au
 
 ---
 
-<a name="3.4"></a>
-### **Was ist Vishing?**
+<a name="Vishing"></a>
+#### **Was ist Vishing?**
 
 Vishing dient demselben Zweck wie andere Arten von Phishing-Angriffen. Den Angreifern geht es auch hier um vertraulichen persönlichen Daten oder Unternehmensinformationen. Dieser Angriff erfolgt über einen Telefonanaruf. Daher das «V» (vom englischen «Voice») anstelle des «Ph» im Namen.
 
@@ -173,8 +173,8 @@ Ein Bot ist eine Software, die so konzipiert ist, dass sie die vom Hacker gewün
 
 ---
 
-<a name="3.5"></a>
-### **Was ist E-Mail Phishing?**
+<a name="E-Mail"></a>
+#### **Was ist E-Mail Phishing?**
 
 Das E-Mail Phishing ist die häufigste Art von Phishing und kommt seit 1990er Jahren zum Einsatz. Die Täter versenden E-Mails an alle möglichen E-Mail-Adressen, die Sie in die Hände bekommen. In der Regeln wird im E-Mail mitgeteilt, dass Ihr Konto gefährdet ist und Sie sofort reagieren müssen, indem Sie auf den angegebenen Link klicken.
 
@@ -186,15 +186,15 @@ Der Hacker behauptet, Videos mit nicht jugendfreiem Inhalt vom Opfer vom persön
 
 ---
 
-<a name="3.6"></a>
-### **Was ist Suchmaschinen-Phishing?**
+<a name="Suchmaschinen"></a>
+#### **Was ist Suchmaschinen-Phishing?**
 
 Beim Suchmaschinen-Phishing, auch bekannt als SEO-Poisoning oder SEO-Trojaner, versuchen Hacker, bei einer Suche über eine Suchmaschine auf die erste Position der Trefferliste zu gelangen. Wenn Sie auf den in der Suchmaschine angezeigten Link klicken, wird man auf die Website des Hackers weitergeleitet.
 
 Von dort aus können Betrüger Informationen stehlen, wenn man auf der Internetseite aktiv ist und/oder vertrauliche Daten eingeben. Websites von Hackern können sich als jede beliebige andere ausgeben, aber die Hauptkandidaten sind Banken, Geldtransferdienste, Social-Media-Seiten und Onlineshops.
 
-<a name="4"></a>
-## Wie schützt man sich gegen Phishing?
+<a name="Schutz"></a>
+### Wie schützt man sich gegen Phishing?
 
 - **Überprüfe stets die Adressleiste in deinem Browser.** Am besten tragst du die Adressen zu häufig besuchten Login-Seiten in die Favoritenliste des Browsers ein.
 
