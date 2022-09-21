@@ -66,6 +66,7 @@ nav:
   - Wochenberichte:
       - "NETSEC":
           - "Erkennung Phishing Mail": wberichte/Erkennung_Phishing_Mail.md
+          - "Phishing Arten": wberichte/Phishing_Arten.md
           - "Schadsoftware": wberichte/w32_2022_schadsoftware.md
       - "BI":
           - "Multiboot-USB-Stick": wberichte/w18_YUMI.md
