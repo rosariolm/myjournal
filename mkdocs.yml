@@ -65,6 +65,7 @@ nav:
           - "September 2021": archiv/September2021.md
   - Wochenberichte:
       - "NETSEC":
+          - "Zertifikate": wberichte/Zertifikat.md
           - "OSINT": wberichte/OSINT.md
           - "Social Engineering": wberichte/SE_Emotionen.md
           - "Erkennung Phishing Mail": wberichte/Erkennung_Phishing_Mail.md
