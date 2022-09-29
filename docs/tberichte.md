@@ -46,7 +46,7 @@
 !!! abstract "Tagesbericht"
     **Tagesablauf**
 
-    Ich habe mir heute den ganzen Tag Zeit genommen, um meine Wochenberichte zu überarbeiten, abzuändern, zu verbessern und neu zu erstellen. Nebenbei habe ich das Arbeitsheft auf den neusten Stand gebracht.
+    Ich habe mir heute den ganzen Tag Zeit genommen, um meine Wochenberichte zu überarbeiten, abzuändern, zu verbessern und neu zu erstellen. Nebenbei habe ich das Arbeitsheft auf den neusten Stand gebracht. Ich habe beim Dokumentieren probiert neue Elemente einzubringen wie zum Beispiel die [Task-Auflistung](https://squidfunk.github.io/mkdocs-material/reference/lists/#using-task-lists).
 
     **Hilfestellung**
 
