@@ -3,6 +3,25 @@
 
 *September 2022*
 
+## **29.09.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen habe ich damit begonnen, die Präsentation für nächste Woche vorzubereiten. Danach habe ich den Wochenbericht für diese Woche im Voraus geschrieben. Am Nachmittag habe ich die Folien für die zweite Präsentation überarbeitet. Nebenbei habe ich einen neuen Abschnitt im Arbeitsheft begonnen, bei dem das Thema in der Präsentation detaillierter und länger beschrieben wird.
+
+    **Hilfestellung**
+
+    Ich brauchte heute keine Hilfe. Bei Dingen, die ich nicht wusste, bin ich googeln gegangen.
+    
+    **Reflexion**
+    
+    Ich musste heute einige Dinge mehrmals schreiben. Weil ich mir aus Versehen jedes Mal mit einer Tastenkombination den Text gelöscht habe. Was spätestens beim dritten Mal frustrierend wurde.
+    
+    **Nächste Schritte**
+    
+    - Auftrag abschliessen
+
 ## **28.09.2022**
 
 !!! abstract "Tagesbericht"
