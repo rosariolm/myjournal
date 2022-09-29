@@ -3,6 +3,43 @@
 
 *September 2022*
 
+## **28.09.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Heute Morgen habe ich mich rund ums Thema Zertifikate informiert. Am Nachmittag habe ich dann mit einem Auftrag von Marius begonnen, mit dem ich leider noch nicht fertig wurde. Zum Schluss bin ich eine UNICARD holen gegangen, die in einer Validierungstation stecken geblieben ist.
+
+    **Hilfestellung**
+
+    Marius hat mir bei Fragen und beim Auftrag geholfen.
+    
+    **Reflexion**
+    
+    Ich bin einige Zeit beim Auftrag nicht weitergekommen und habe probiert das Problem selber zu Lössen. Ich hätte viel früher um Hilfe bitten sollen.
+    
+    **Nächste Schritte**
+    
+    - Auftrag abschliessen
+
+## **21.09.2022**
+
+!!! abstract "Tagesbericht"
+    **Tagesablauf**
+
+    Ich habe mir heute den ganzen Tag Zeit genommen, um meine Wochenberichte zu überarbeiten, abzuändern, zu verbessern und neu zu erstellen. Nebenbei habe ich das Arbeitsheft auf den neusten Stand gebracht.
+
+    **Hilfestellung**
+
+    Ich brauchte dafür keine Hilfe. Bei Dingen, die ich nicht wusste, bin ich googeln gegangen.
+    
+    **Reflexion**
+    
+    Ich konnte heute mehr erledigen als ich gedacht habe. Der Zeit aufwand, war aber auch ziemlich gross.
+    
+    **Nächste Schritte**
+    
+
 ## **19.09.2022**
 
 !!! abstract "Tagesbericht"
