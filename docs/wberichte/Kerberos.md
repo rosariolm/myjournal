@@ -10,7 +10,7 @@
 
 !!! example ""
       <figure markdown>
-        ![Kerberos Ablauf](../img/KerberosAblauf.png){: style="height:260px"}
+        ![Kerberos Ablauf](../img/KerberosAblauf.png)
         <figcaption>Ablauf Grafik
       </figure>
 
