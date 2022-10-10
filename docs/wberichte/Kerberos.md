@@ -1,12 +1,20 @@
 *Wochenbericht NETSEC 2022*
 
-## Ablauf
+## **Ablauf**
 
-![Kerberos Tabelle](../img/KerberosTabelle.png)
+!!! example ""
+      <figure markdown>
+        ![Kerberos Tabelle](../img/KerberosTabelle.png)
+        <figcaption>Ablauf Tabellenform
+      </figure>
 
-![Kerberos Ablauf](../img/KerberosAblauf.png)
+!!! example ""
+      <figure markdown>
+        ![Kerberos Ablauf](../img/KerberosAblauf.png){: style="height:260px"}
+        <figcaption>Ablauf Grafik
+      </figure>
 
-## Lgende Schlüssel
+## **Legende Schlüssel**
 
 | Abkürzung      | Bedeutung                                   |
 | -------------- | ------------------------------------------- |
