@@ -50,6 +50,7 @@ nav:
   - Tagesberichte: tberichte.md
   - Archiv:
       - "2022":
+          - "September 2022": archiv/September2022.md
           - "August 2022": archiv/August2022.md
           - "Juli 2022": archiv/Juli2022.md
           - "Juni 2022": archiv/Juni2022.md
