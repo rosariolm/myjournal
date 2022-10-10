@@ -66,6 +66,7 @@ nav:
           - "September 2021": archiv/September2021.md
   - Wochenberichte:
       - "NETSEC":
+          - "Kerberos Ablauf": wberichte/Kerberos.md
           - "Zertifikate": wberichte/Zertifikat.md
           - "OSINT": wberichte/OSINT.md
           - "Social Engineering": wberichte/SE_Emotionen.md
