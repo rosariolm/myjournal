@@ -1,0 +1,3267 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>INF - My IT Journal</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.08040f6c.min.css">
+        
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h226.7c17 0 33.3-6.7 45.3-18.7l93.3-93.3c12-12 18.7-28.3 18.7-45.3V96c0-35.3-28.7-64-64-64H64zm0 64h320v224h-64c-17.7 0-32 14.3-32 32v64H64V96z"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 0 1 .25-.25h8.5a.25.25 0 0 1 .25.25v7.736a.75.75 0 1 0 1.5 0V1.75A1.75 1.75 0 0 0 11.25 0h-8.5A1.75 1.75 0 0 0 1 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 0 0 0-1.5H2.75a.25.25 0 0 1-.25-.25V1.75zM4.75 4a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-4.5zM4 7.75A.75.75 0 0 1 4.75 7h2a.75.75 0 0 1 0 1.5h-2A.75.75 0 0 1 4 7.75zm11.774 3.537a.75.75 0 0 0-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 0 0-1.062 1.058l1.943 1.95a.75.75 0 0 0 1.055.008l4.557-4.45z"/></svg>');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm6.5-.25A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75zM8 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0z"/></svg>');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.92 6.085c.081-.16.19-.299.34-.398.145-.097.371-.187.74-.187.28 0 .553.087.738.225A.613.613 0 0 1 9 6.25c0 .177-.04.264-.077.318a.956.956 0 0 1-.277.245c-.076.051-.158.1-.258.161l-.007.004a7.728 7.728 0 0 0-.313.195 2.416 2.416 0 0 0-.692.661.75.75 0 0 0 1.248.832.956.956 0 0 1 .276-.245 6.3 6.3 0 0 1 .26-.16l.006-.004c.093-.057.204-.123.313-.195.222-.149.487-.355.692-.662.214-.32.329-.702.329-1.15 0-.76-.36-1.348-.863-1.725A2.76 2.76 0 0 0 8 4c-.631 0-1.155.16-1.572.438-.413.276-.68.638-.849.977a.75.75 0 1 0 1.342.67z"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575L6.457 1.047zM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-.25-5.25a.75.75 0 0 0-1.5 0v2.5a.75.75 0 0 0 1.5 0v-2.5z"/></svg>');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.404 12.596a6.5 6.5 0 1 1 9.192-9.192 6.5 6.5 0 0 1-9.192 9.192zM2.344 2.343a8 8 0 1 0 11.313 11.314A8 8 0 0 0 2.343 2.343zM6.03 4.97a.75.75 0 0 0-1.06 1.06L6.94 8 4.97 9.97a.75.75 0 1 0 1.06 1.06L8 9.06l1.97 1.97a.75.75 0 1 0 1.06-1.06L9.06 8l1.97-1.97a.75.75 0 1 0-1.06-1.06L8 6.94 6.03 4.97z"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M5 5.782V2.5h-.25a.75.75 0 0 1 0-1.5h6.5a.75.75 0 0 1 0 1.5H11v3.282l3.666 5.76C15.619 13.04 14.543 15 12.767 15H3.233c-1.776 0-2.852-1.96-1.899-3.458L5 5.782zM9.5 2.5h-3V6a.75.75 0 0 1-.117.403L4.73 9h6.54L9.617 6.403A.75.75 0 0 1 9.5 6V2.5zm-6.9 9.847L3.775 10.5h8.45l1.175 1.847a.75.75 0 0 1-.633 1.153H3.233a.75.75 0 0 1-.633-1.153z"/></svg>');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 2.5a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5H1.75zm4 5a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5zm0 5a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5zM2.5 7.75a.75.75 0 0 0-1.5 0v6a.75.75 0 0 0 1.5 0v-6z"/></svg>');}</style>
+
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#arbeitsheft" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="My IT Journal" class="md-header__button md-logo" aria-label="My IT Journal" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My IT Journal
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              INF
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/rosariolm/myjournal" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m503.5 204.6-.7-1.8-69.7-181.78c-1.4-3.57-3.9-6.59-7.2-8.64-2.4-1.55-5.1-2.515-8-2.81-2.9-.295-5.7.083-8.4 1.11-2.7 1.02-5.1 2.66-7.1 4.78-1.9 2.12-3.3 4.67-4.1 7.44l-47 144H160.8l-47.1-144c-.8-2.77-2.2-5.31-4.1-7.43-2-2.12-4.4-3.75-7.1-4.77a18.1 18.1 0 0 0-8.38-1.113 18.4 18.4 0 0 0-8.04 2.793 18.09 18.09 0 0 0-7.16 8.64L9.267 202.8l-.724 1.8a129.57 129.57 0 0 0-3.52 82c7.747 26.9 24.047 50.7 46.447 67.6l.27.2.59.4 105.97 79.5 52.6 39.7 32 24.2c3.7 1.9 8.3 4.3 13 4.3 4.7 0 9.3-2.4 13-4.3l32-24.2 52.6-39.7 106.7-79.9.3-.3c22.4-16.9 38.7-40.6 45.6-67.5 8.6-27 7.4-55.8-2.6-82z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    rosariolm/myjournal
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../tberichte/" class="md-tabs__link">
+      Tagesberichte
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../archiv/Oktober2022/" class="md-tabs__link">
+        Archiv
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../wberichte/Kerberos/" class="md-tabs__link">
+        Wochenberichte
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../NETSEC/Arbeitsheft/" class="md-tabs__link md-tabs__link--active">
+        Arbeitshefter
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="My IT Journal" class="md-nav__button md-logo" aria-label="My IT Journal" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    My IT Journal
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/rosariolm/myjournal" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m503.5 204.6-.7-1.8-69.7-181.78c-1.4-3.57-3.9-6.59-7.2-8.64-2.4-1.55-5.1-2.515-8-2.81-2.9-.295-5.7.083-8.4 1.11-2.7 1.02-5.1 2.66-7.1 4.78-1.9 2.12-3.3 4.67-4.1 7.44l-47 144H160.8l-47.1-144c-.8-2.77-2.2-5.31-4.1-7.43-2-2.12-4.4-3.75-7.1-4.77a18.1 18.1 0 0 0-8.38-1.113 18.4 18.4 0 0 0-8.04 2.793 18.09 18.09 0 0 0-7.16 8.64L9.267 202.8l-.724 1.8a129.57 129.57 0 0 0-3.52 82c7.747 26.9 24.047 50.7 46.447 67.6l.27.2.59.4 105.97 79.5 52.6 39.7 32 24.2c3.7 1.9 8.3 4.3 13 4.3 4.7 0 9.3-2.4 13-4.3l32-24.2 52.6-39.7 106.7-79.9.3-.3c22.4-16.9 38.7-40.6 45.6-67.5 8.6-27 7.4-55.8-2.6-82z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    rosariolm/myjournal
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tberichte/" class="md-nav__link">
+        Tagesberichte
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Archiv
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Archiv" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Archiv
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          2022
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2022" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          2022
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Oktober2022/" class="md-nav__link">
+        Oktober 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/September2022/" class="md-nav__link">
+        September 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/August2022/" class="md-nav__link">
+        August 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Juli2022/" class="md-nav__link">
+        Juli 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Juni2022/" class="md-nav__link">
+        Juni 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Mai2022/" class="md-nav__link">
+        Mai 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/April2022/" class="md-nav__link">
+        April 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/M%C3%A4rz2022/" class="md-nav__link">
+        März 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Februar2022/" class="md-nav__link">
+        Februar 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Januar2022/" class="md-nav__link">
+        Januar 2022
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          2021
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2021" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          2021
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Dezember2021/" class="md-nav__link">
+        Dezember 2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/November2021/" class="md-nav__link">
+        November 2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Oktober2021/" class="md-nav__link">
+        Oktober 2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/September2021/" class="md-nav__link">
+        September 2021
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Wochenberichte
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Wochenberichte" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Wochenberichte
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_1">
+          NETSEC
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="NETSEC" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          NETSEC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/Kerberos/" class="md-nav__link">
+        Kerberos Ablauf
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/Zertifikat/" class="md-nav__link">
+        Zertifikate
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/OSINT/" class="md-nav__link">
+        OSINT
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/SE_Emotionen/" class="md-nav__link">
+        Social Engineering
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/Erkennung_Phishing_Mail/" class="md-nav__link">
+        Erkennung Phishing Mail
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/Phishing_Arten/" class="md-nav__link">
+        Phishing Arten
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w32_2022_schadsoftware/" class="md-nav__link">
+        Schadsoftware
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          BI
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="BI" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          BI
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w18_YUMI/" class="md-nav__link">
+        Multiboot-USB-Stick
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w12_firmware/" class="md-nav__link">
+        Firmware Update
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w8_AutoPilotScript/" class="md-nav__link">
+        Autopilot Script Anpassung
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w7_AutoPilot/" class="md-nav__link">
+        Gerät bei Autopilot hinzufügen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w6_Bootcamp/" class="md-nav__link">
+        Bootcamp
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w5_PIN/" class="md-nav__link">
+        PIN Deaktivierung in Intune
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_3">
+          INF
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="INF" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          INF
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w4_NetzAdrBerechnen/" class="md-nav__link">
+        Netzwerkadresse berechnen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w50_LinkAggregation/" class="md-nav__link">
+        Link Aggregation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w48_VlanHinzufuegen/" class="md-nav__link">
+        VLAN hinzufügen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w47_SwitchTaganduntag/" class="md-nav__link">
+        Switch Taggen und untaggen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w45_TagImEthernetFrame/" class="md-nav__link">
+        Tag im Ethernet Frame
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4">
+          HPC
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="HPC" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          HPC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/gelerntes/" class="md-nav__link">
+        Gelerntes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w40_vagrant/" class="md-nav__link">
+        Vagrant Befehle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w37_gitQandA/" class="md-nav__link">
+        git Q & A
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w36_workflow/" class="md-nav__link">
+        Workflow
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w34_gitcheat/" class="md-nav__link">
+        git Befehlsreferenz
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w33_mkdocs/" class="md-nav__link">
+        MkDocs installieren
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Arbeitshefter
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Arbeitshefter" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Arbeitshefter
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NETSEC/Arbeitsheft/" class="md-nav__link">
+        NETSEC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Bi/Arbeitsheft/" class="md-nav__link">
+        BI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          INF
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        INF
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#inhaltsverzeichnis" class="md-nav__link">
+    Inhaltsverzeichnis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-isoosi-referenzmodell" class="md-nav__link">
+    1. ISO/OSI-Referenzmodell
+  </a>
+  
+    <nav class="md-nav" aria-label="1. ISO/OSI-Referenzmodell">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#12-osi-modell" class="md-nav__link">
+    1.2 OSI-Modell
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-osi-und-tcpip-tabelle" class="md-nav__link">
+    2. OSI- und TCP/IP Tabelle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-layer-1-bitubertragung-physical" class="md-nav__link">
+    3. Layer 1 Bitübertragung (Physical)
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Layer 1 Bitübertragung (Physical)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-twisted-pair-kabel-utp-ftp-stp" class="md-nav__link">
+    3.1 Twisted Pair Kabel (UTP / FTP / STP)
+  </a>
+  
+    <nav class="md-nav" aria-label="3.1 Twisted Pair Kabel (UTP / FTP / STP)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#311-upd-stp-sutp-und-sftp" class="md-nav__link">
+    3.1.1 UPD, STP, S/UTP und S/FTP
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-rj45-stecker" class="md-nav__link">
+    3.2 RJ45 Stecker
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-rj45-stecker-belegung" class="md-nav__link">
+    3.3 RJ45 Stecker Belegung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-lichtwellenleiter" class="md-nav__link">
+    3.4 Lichtwellenleiter
+  </a>
+  
+    <nav class="md-nav" aria-label="3.4 Lichtwellenleiter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#341-fastertypen" class="md-nav__link">
+    3.4.1 Fastertypen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#342-tabellen-ubersicht-fastertypen" class="md-nav__link">
+    3.4.2 Tabellen Übersicht Fastertypen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#343-mm-faserklassen-gbe" class="md-nav__link">
+    3.4.3 MM Faserklassen (GbE)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#344-tabellen-ubersicht-stecker-aufteilung-smmm" class="md-nav__link">
+    3.4.4 Tabellen Übersicht Stecker Aufteilung SM/MM
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-lwl-stecker" class="md-nav__link">
+    3.5 LWL-Stecker
+  </a>
+  
+    <nav class="md-nav" aria-label="3.5 LWL-Stecker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#351-sc-stecker" class="md-nav__link">
+    3.5.1 SC-Stecker
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#352-lc-stecker" class="md-nav__link">
+    3.5.2 LC-Stecker
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#353-mtp-stecker" class="md-nav__link">
+    3.5.3 MTP-Stecker
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#354-ubersicht-verschiedener-stecker" class="md-nav__link">
+    3.5.4 Übersicht verschiedener Stecker
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-fiber-connector" class="md-nav__link">
+    3.6 Fiber connector
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-layer-2-sicherung-data-link" class="md-nav__link">
+    4. Layer 2 Sicherung (Data Link)
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Layer 2 Sicherung (Data Link)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-ethernet" class="md-nav__link">
+    4.1 Ethernet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-zugriffsverfahren" class="md-nav__link">
+    4.2 Zugriffsverfahren
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-kollisionen" class="md-nav__link">
+    4.3 Kollisionen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-frame" class="md-nav__link">
+    4.4 Frame
+  </a>
+  
+    <nav class="md-nav" aria-label="4.4 Frame">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#441-frame-bausteine" class="md-nav__link">
+    4.4.1 Frame Bausteine
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#442-ethernet-paket-struktur" class="md-nav__link">
+    4.4.2 Ethernet-Paket Struktur
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-tag-im-ethernet-frame" class="md-nav__link">
+    4.5 Tag im Ethernet Frame
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46-link-aggregation" class="md-nav__link">
+    4.6 Link Aggregation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-layer-3-vermittlung-network" class="md-nav__link">
+    5. Layer 3 Vermittlung (Network)
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Layer 3 Vermittlung (Network)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-ipv4-adressierung" class="md-nav__link">
+    5.1 IPv4-Adressierung
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1 IPv4-Adressierung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#511-aufbau-einer-ipv4-adressierung" class="md-nav__link">
+    5.1.1 Aufbau einer IPv4-Adressierung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#512-struktur-im-ipv4-adressraum" class="md-nav__link">
+    5.1.2 Struktur im IPv4-Adressraum
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-spezielle-und-private-adress-bereiche" class="md-nav__link">
+    5.2 Spezielle und private Adress-Bereiche
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-reservierte-und-nicht-verfugbare-ipv4-adressensubnetze" class="md-nav__link">
+    5.3 Reservierte und nicht verfügbare IPv4-Adressen/Subnetze
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-umrechnung" class="md-nav__link">
+    5.4 Umrechnung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-ubersicht-standards" class="md-nav__link">
+    5.5 Übersicht Standards
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-subnetting" class="md-nav__link">
+    5.6 Subnetting
+  </a>
+  
+    <nav class="md-nav" aria-label="5.6 Subnetting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#561-subnetzmaske" class="md-nav__link">
+    5.6.1 Subnetzmaske
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#562-netzwerkadresse-berechnen" class="md-nav__link">
+    5.6.2 Netzwerkadresse berechnen
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-praktische-arbeiten-und-erfahrungen" class="md-nav__link">
+    6. Praktische Arbeiten und Erfahrungen
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Praktische Arbeiten und Erfahrungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-beschriftungssystem" class="md-nav__link">
+    6.1 Beschriftungssystem
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-vlan" class="md-nav__link">
+    6.2 VLAN
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2 VLAN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#start-aufgabe" class="md-nav__link">
+    Start Aufgabe
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsschritte-um-fehler-bei-test-1-zu-beheben-und-ip-adresse-zu-setzen" class="md-nav__link">
+    Arbeitsschritte um Fehler bei Test 1 zu beheben und IP Adresse zu setzen:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsschritte-um-ein-vlan-hinzuzufugen" class="md-nav__link">
+    Arbeitsschritte um ein VLAN hinzuzufügen:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsschritte-um-fehler-bei-test-4-zu-beheben" class="md-nav__link">
+    Arbeitsschritte um Fehler bei Test 4 zu beheben:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-link-aggregation" class="md-nav__link">
+    6.3 Link Aggregation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-subnetting-aufgaben" class="md-nav__link">
+    6.4 Subnetting Aufgaben
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#inhaltsverzeichnis" class="md-nav__link">
+    Inhaltsverzeichnis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-isoosi-referenzmodell" class="md-nav__link">
+    1. ISO/OSI-Referenzmodell
+  </a>
+  
+    <nav class="md-nav" aria-label="1. ISO/OSI-Referenzmodell">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#12-osi-modell" class="md-nav__link">
+    1.2 OSI-Modell
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-osi-und-tcpip-tabelle" class="md-nav__link">
+    2. OSI- und TCP/IP Tabelle
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-layer-1-bitubertragung-physical" class="md-nav__link">
+    3. Layer 1 Bitübertragung (Physical)
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Layer 1 Bitübertragung (Physical)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-twisted-pair-kabel-utp-ftp-stp" class="md-nav__link">
+    3.1 Twisted Pair Kabel (UTP / FTP / STP)
+  </a>
+  
+    <nav class="md-nav" aria-label="3.1 Twisted Pair Kabel (UTP / FTP / STP)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#311-upd-stp-sutp-und-sftp" class="md-nav__link">
+    3.1.1 UPD, STP, S/UTP und S/FTP
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-rj45-stecker" class="md-nav__link">
+    3.2 RJ45 Stecker
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-rj45-stecker-belegung" class="md-nav__link">
+    3.3 RJ45 Stecker Belegung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-lichtwellenleiter" class="md-nav__link">
+    3.4 Lichtwellenleiter
+  </a>
+  
+    <nav class="md-nav" aria-label="3.4 Lichtwellenleiter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#341-fastertypen" class="md-nav__link">
+    3.4.1 Fastertypen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#342-tabellen-ubersicht-fastertypen" class="md-nav__link">
+    3.4.2 Tabellen Übersicht Fastertypen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#343-mm-faserklassen-gbe" class="md-nav__link">
+    3.4.3 MM Faserklassen (GbE)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#344-tabellen-ubersicht-stecker-aufteilung-smmm" class="md-nav__link">
+    3.4.4 Tabellen Übersicht Stecker Aufteilung SM/MM
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-lwl-stecker" class="md-nav__link">
+    3.5 LWL-Stecker
+  </a>
+  
+    <nav class="md-nav" aria-label="3.5 LWL-Stecker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#351-sc-stecker" class="md-nav__link">
+    3.5.1 SC-Stecker
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#352-lc-stecker" class="md-nav__link">
+    3.5.2 LC-Stecker
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#353-mtp-stecker" class="md-nav__link">
+    3.5.3 MTP-Stecker
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#354-ubersicht-verschiedener-stecker" class="md-nav__link">
+    3.5.4 Übersicht verschiedener Stecker
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-fiber-connector" class="md-nav__link">
+    3.6 Fiber connector
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-layer-2-sicherung-data-link" class="md-nav__link">
+    4. Layer 2 Sicherung (Data Link)
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Layer 2 Sicherung (Data Link)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-ethernet" class="md-nav__link">
+    4.1 Ethernet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-zugriffsverfahren" class="md-nav__link">
+    4.2 Zugriffsverfahren
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-kollisionen" class="md-nav__link">
+    4.3 Kollisionen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-frame" class="md-nav__link">
+    4.4 Frame
+  </a>
+  
+    <nav class="md-nav" aria-label="4.4 Frame">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#441-frame-bausteine" class="md-nav__link">
+    4.4.1 Frame Bausteine
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#442-ethernet-paket-struktur" class="md-nav__link">
+    4.4.2 Ethernet-Paket Struktur
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-tag-im-ethernet-frame" class="md-nav__link">
+    4.5 Tag im Ethernet Frame
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#46-link-aggregation" class="md-nav__link">
+    4.6 Link Aggregation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-layer-3-vermittlung-network" class="md-nav__link">
+    5. Layer 3 Vermittlung (Network)
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Layer 3 Vermittlung (Network)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-ipv4-adressierung" class="md-nav__link">
+    5.1 IPv4-Adressierung
+  </a>
+  
+    <nav class="md-nav" aria-label="5.1 IPv4-Adressierung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#511-aufbau-einer-ipv4-adressierung" class="md-nav__link">
+    5.1.1 Aufbau einer IPv4-Adressierung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#512-struktur-im-ipv4-adressraum" class="md-nav__link">
+    5.1.2 Struktur im IPv4-Adressraum
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-spezielle-und-private-adress-bereiche" class="md-nav__link">
+    5.2 Spezielle und private Adress-Bereiche
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-reservierte-und-nicht-verfugbare-ipv4-adressensubnetze" class="md-nav__link">
+    5.3 Reservierte und nicht verfügbare IPv4-Adressen/Subnetze
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#54-umrechnung" class="md-nav__link">
+    5.4 Umrechnung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#55-ubersicht-standards" class="md-nav__link">
+    5.5 Übersicht Standards
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#56-subnetting" class="md-nav__link">
+    5.6 Subnetting
+  </a>
+  
+    <nav class="md-nav" aria-label="5.6 Subnetting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#561-subnetzmaske" class="md-nav__link">
+    5.6.1 Subnetzmaske
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#562-netzwerkadresse-berechnen" class="md-nav__link">
+    5.6.2 Netzwerkadresse berechnen
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-praktische-arbeiten-und-erfahrungen" class="md-nav__link">
+    6. Praktische Arbeiten und Erfahrungen
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Praktische Arbeiten und Erfahrungen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-beschriftungssystem" class="md-nav__link">
+    6.1 Beschriftungssystem
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-vlan" class="md-nav__link">
+    6.2 VLAN
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2 VLAN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#start-aufgabe" class="md-nav__link">
+    Start Aufgabe
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsschritte-um-fehler-bei-test-1-zu-beheben-und-ip-adresse-zu-setzen" class="md-nav__link">
+    Arbeitsschritte um Fehler bei Test 1 zu beheben und IP Adresse zu setzen:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsschritte-um-ein-vlan-hinzuzufugen" class="md-nav__link">
+    Arbeitsschritte um ein VLAN hinzuzufügen:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbeitsschritte-um-fehler-bei-test-4-zu-beheben" class="md-nav__link">
+    Arbeitsschritte um Fehler bei Test 4 zu beheben:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-link-aggregation" class="md-nav__link">
+    6.3 Link Aggregation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64-subnetting-aufgaben" class="md-nav__link">
+    6.4 Subnetting Aufgaben
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <a href="https://github.com/rosariolm/myjournal/edit/main/docs/aberichte/inf/Arbeitsheft.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="arbeitsheft">Arbeitsheft</h1>
+<h2 id="inhaltsverzeichnis">Inhaltsverzeichnis</h2>
+<ul>
+<li>
+<p><a href="#1">ISO/OSI-Referenzmodell</a></p>
+<ul>
+<li><a href="#1.2">OSI-Modell</a></li>
+</ul>
+</li>
+<li>
+<p><a href="#2">OSI- und TCP/IP Tabelle</a></p>
+</li>
+<li>
+<p><a href="#3">Layer 1 Bitübertragung(Physical)</a></p>
+<ul>
+<li>
+<p><a href="#3.1">Twisted Pair Kabel (UPT / FTP / STP)</a></p>
+<ul>
+<li>
+<p><a href="#3.1.1">UPD</a></p>
+</li>
+<li>
+<p><a href="#3.1.2">STP</a></p>
+</li>
+<li>
+<p><a href="#3.1.3">S/UTP</a></p>
+</li>
+<li>
+<p><a href="#3.1.4">S/FTP</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="#3.2">RJ45 Stecker</a></p>
+</li>
+<li>
+<p><a href="#3.3">RJ45 Stecker Belegung</a></p>
+</li>
+<li>
+<p><a href="#3.4">Lichtwellenleiter</a></p>
+<ul>
+<li>
+<p><a href="#3.4.1">Fasertypen</a></p>
+</li>
+<li>
+<p><a href="#3.4.2">Tabellen Übersicht Fasertypen</a></p>
+</li>
+<li>
+<p><a href="#3.4.3">MM Faserklassen (GbE)</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="#3.5">LWL-Stecker</a></p>
+<ul>
+<li>
+<p><a href="#3.5.1">SC-Stecker</a></p>
+</li>
+<li>
+<p><a href="#3.5.2">LC-Stecker</a></p>
+</li>
+<li>
+<p><a href="#3.5.3">MTP-Stecker</a></p>
+</li>
+<li>
+<p><a href="#3.5.4">Übersicht verschiedener Stecker</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="#3.6">Fiber connector</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="#4">Layer 2 Sicherung (Data Link)</a></p>
+<ul>
+<li>
+<p><a href="#4.1">Ethernet</a></p>
+</li>
+<li>
+<p><a href="#4.2">Zugriffsverfahren</a></p>
+</li>
+<li>
+<p><a href="#4.3">Kollisionen</a></p>
+</li>
+<li>
+<p><a href="#4.4">Frame</a></p>
+<ul>
+<li>
+<p><a href="#4.4.1">Frame Bausteine</a></p>
+</li>
+<li>
+<p><a href="#4.4.2">Ethernet-Pakete Struktur</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="#4.5">Tag im Ethernet Frame</a></p>
+</li>
+<li>
+<p><a href="#4.6">Link Aggregation</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="#5">Layer 3 Vermittlung (Network)</a></p>
+<ul>
+<li>
+<p><a href="#5.1">IPv4-Adressierung</a></p>
+</li>
+<li>
+<p><a href="#5.1.1">Aufbau einer IPv4-Adresse</a></p>
+<ul>
+<li><a href="#5.1.2">Struktur im IPv4-Adressraum</a></li>
+</ul>
+</li>
+<li>
+<p><a href="#5.2">Spezielle und private Adress-Bereiche</a></p>
+</li>
+<li>
+<p><a href="#5.3">Reservierte und nicht verfügbare IPv4-Adressen/Subnetze</a></p>
+</li>
+<li>
+<p><a href="#5.4">Umrechnung</a></p>
+</li>
+<li>
+<p><a href="#5.5">Übersicht Standards</a></p>
+</li>
+<li>
+<p><a href="#5.6">Subnetting</a></p>
+<ul>
+<li>
+<p><a href="#5.6.1">Subnetzmaske</a></p>
+</li>
+<li>
+<p><a href="#5.6.2">Netzwerkadresse berechnen</a></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="#6">6. Praktische Arbeiten und Erfahrungen</a></p>
+<ul>
+<li>
+<p><a href="#6.1">Beschriftungssystem</a></p>
+</li>
+<li>
+<p><a href="#6.2">VLAN</a></p>
+</li>
+<li>
+<p><a href="#6.3">Link Aggregation</a></p>
+</li>
+<li>
+<p><a href="#6.4">Subnetting Aufgaben</a></p>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<p><a name="1"></a></p>
+<h2 id="1-isoosi-referenzmodell">1. ISO/OSI-Referenzmodell</h2>
+<p>Damit Daten ausgetauscht werden können, gibt es einen bestimmten Ablauf, der den Austausch möglich macht. Und dies ist im OSI-Modell, welches ein Schichten Modell ist, grafisch aufgezeigt. So kann man sich dann ungefähr vorstellen, wie der Ablauf in Realität abläuft. Es hilft grundsätzlich, das netzwerktechnische Sachverhalte besser zu verstehen, natürlich gibt es ab und zu einige Abweichungen, weil man ein gewisses Protokoll nicht eindeutig einer Layer zuweisen kann. Trotzdem hat man mit dem Modell eine gute Übersicht, welcher Vorgang auf welchem Layer in etwa passiert.
+Das OSI-Modell ist deshalb ein Schichtenmodell, weil es im Ganzen ein Kommunikationsprozess darstellt, aber die Aufgaben in einzelnen Schichten/Layern aufgeteilt sind. Jede Schicht arbeitet unabhängig von den anderen, da sie eine klare Aufgabe hat. Dies bedeutet man könnte schichten auch austauschen (Kupfer Kabel mit einem Glasfasern Kabel ersetzen) ohne das die anderen davon betroffen werden. Nur am Schluss müssen die Daten durch Jeden Layer.</p>
+<hr />
+<p><a name="1.2"></a></p>
+<h3 id="12-osi-modell">1.2 OSI-Modell</h3>
+<p><img alt="OSI-Modell" src="../../../img/a/inf/Abbildung1.png" style="height:450px" /></p>
+<hr />
+<p><a name="2"></a></p>
+<h2 id="2-osi-und-tcpip-tabelle">2. OSI- und TCP/IP Tabelle</h2>
+<p><img alt="OSI- und TCP/IP" src="../../../img/a/inf/Tabelle1.png" /></p>
+<p>Wie man anhand der Abbildung 2 sieht, gibt es zwei Unterschiede bei dem TCP/IP-Modell zum OSI-Modell. Layer 1 und 2 sind zusammengenommen und Layer 4-7 auch. Somit hat das TCP/IP nicht 7 Schichten, sondern nur noch 4.</p>
+<p><img alt="OSI und TCP/IP Modell" src="../../../img/a/inf/Abbildung2.png" /></p>
+<hr />
+<p><a name="3"></a></p>
+<h2 id="3-layer-1-bitubertragung-physical">3. Layer 1 Bitübertragung (Physical)</h2>
+<p>Der Layer 1 im ISO/OSI Schichtenmodell wird als Bitübertragungsschicht oder Physical Layer bezeichnet. Wie auf den oberen Bildern gesehen stellt es die unterste Schicht des Modelles dar und definiert mechanische, physikalische und elektrische Eigenschaften dar für die Übertragung von Informationen in Bits.</p>
+<p>Die Hauptaufgabe der Schicht 1 ist es sicherzustellen das, dass empfangende Gerät die 0 und 1 zuverlässig erkennen kann. Diese 0 und 1 werden aber nicht immer über das gleiche Medium gesendet. Da es für Layer 1 mehrere Übertragungsmedien und Optionen gibt, beispielsweise kabelgebunden oder kabellose Medien beeinflusst die oberen Layer nicht. Auch wenn die Übertragungsart austauscht.</p>
+<p>Die Hardware auf dieser Schicht unterscheiden sich durch passiven und aktiven Komponenten. Passive Komponenten sind z. B. Stecker, Buchsen, Leitungen und Antennen. Aktive Komponenten sin z. B. Hubs, Verstärker oder Netzwerkkarte.</p>
+<hr />
+<p><a name="3.1"></a></p>
+<h3 id="31-twisted-pair-kabel-utp-ftp-stp">3.1 Twisted Pair Kabel (UTP / FTP / STP)</h3>
+<p>Bei Kupferverkabelung wird heute meistens das Twisted Pair Kabel mit vier verdrillten Adern Paaren verwendet. Twisted Pair Kabel (TB-Kabel) sind genormt und sind in Klassen und Kategorien eingeteilt, um ihre Leistungsfähigkeit zu beschreiben. In der internationalen Norm (ISO 11801) spricht man von Kategorien. Hingegen in der europäischen Norm (EN 50173) werden die Kabel in Klassen A-F eingeteilt.</p>
+<p>In der Netzwerktechnik werden vor allem Kabel der Klasse D-F (Kategorie 5-7 Mit der Englischen Abkürzung Cat) verwendet.</p>
+<p><img alt="Twisted Pair Kabel Klasen" src="../../../img/a/inf/Tabelle2.png" /></p>
+<p>Kategorien und Klassen hat man erstellt, um die Leistungsfähigkeit einer einzelnen Komponente zu beschreiben. Ausserdem ist es leichter für die Klassifizierung, damit ein Kabel einer Kategorie zugewiesen werden kann, dessen spezifischen Anforderung Profile es entspricht.  </p>
+<p>Da die alten Bezeichnungen nicht einheitlich und verwirrend waren, wurde im Jahr 2002 ein neues Bezeichnungsschema in der Form XX/YZZ eingeführt. Mit diesen Bezeichnungen kann man die Abschirmung des Kabels, rasch erkennen.</p>
+<p>Weshalb die Abschirmung überhaupt nötig?</p>
+<p>Dies ist wegen des Stroms, der durch die Kabel fliest. Um die Daten vollständig von einem Gerät zu dem andern zu senden, muss das empfangende Gerät ohne Probleme die Bits 0 und 1 erkennen können, sollte jetzt aber der Strom eines anderen Kabels, das Nebenan anliegt, auch wenn nur für eine kurze Zeit rüber springen, gibt dies dann ein durcheinander. Deshalb schirmt man die Kabel ab, aber nicht nur die Kabel selbst, sondern auch die 4-Adernpaare, die sich im Kabel befinden.</p>
+<p><strong>Bedeutung der Beschriftung:</strong></p>
+<ul>
+<li>
+<p><strong>XX (Gesamtschirmung):</strong></p>
+<ul>
+<li>U = Ungeschirmt (unshielded)</li>
+<li>F = Folienschirm (foiled)</li>
+<li>S = Geflechtschirm (screened)</li>
+<li>SF = Geflecht- und Folienschirm</li>
+</ul>
+</li>
+<li>
+<p><strong>Y (Aderpaarschirmung):</strong></p>
+<ul>
+<li>U = Ungeschirmt</li>
+<li>F = Folienschirm</li>
+<li>S = Geflechtschirm</li>
+</ul>
+</li>
+<li>
+<p><strong>ZZ:</strong></p>
+<ul>
+<li>TP = Tweisted Pair</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Schrirmungsarten" src="../../../img/a/inf/Tabelle3.png" /></p>
+<p><a name="3.1.1"></a></p>
+<h4 id="311-upd-stp-sutp-und-sftp">3.1.1 UPD, STP, S/UTP und S/FTP</h4>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">UTP</label><label for="__tabbed_1_2">STP</label><label for="__tabbed_1_3">S/UTP</label><label for="__tabbed_1_4">S/FTP</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><img alt="UTP Kabel" src="../../../img/a/inf/Abbildung3.png" /></p>
+<p>Ein UTP Kabel hat keine Gesamtschirmung und ungeschirmte Paare.</p>
+</div>
+<div class="tabbed-block">
+<p><img alt="STP Kabel" src="../../../img/a/inf/Abbildung4.png" /></p>
+<p>Wenn man das STP Kabel mit dem UTP Kabel (Abbildung 3) vergleicht, sieht man, dass beim STP Kabel die Paare geschirmt sind mit einem Geflechtschirm.</p>
+</div>
+<div class="tabbed-block">
+<p><img alt="S/UTP Kabel" src="../../../img/a/inf/Abbildung6.png" /></p>
+<p>Beim S/UTP Kabel gibt es eine Gesamtschirmung (S = Geflecht).</p>
+</div>
+<div class="tabbed-block">
+<p><img alt="S/FTP Kabel" src="../../../img/a/inf/Abbildung7.png" /></p>
+<p>Hier beim S/FTP sieht man das die Paare sowohl auch die Gesamtschirmung gemacht sind.</p>
+</div>
+</div>
+</div>
+<p><strong>Beispiele:</strong></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">ungeschirmt</label><label for="__tabbed_2_2">geschirmt</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><img alt="S/UTP Kabel" src="../../../img/a/inf/Abbildung5.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="S/FTP Kabel" src="../../../img/a/inf/Abbildung8.png" /></p>
+</div>
+</div>
+</div>
+<hr />
+<p><a name="3.2"></a></p>
+<h3 id="32-rj45-stecker">3.2 RJ45 Stecker</h3>
+<p>RJ45 ist die übliche Steckverbindung für die TB-Kabel. Einige RJ45 Stecker sind speziell entwickelt, damit sie bis Cat. 6A eingesetzt werden können. Somit kann der Stecker bis zu 10 Gigabit Ethernet verwendet werden, dafür aber nur bis zu 100 Meter. GG45- oder der Tera-Stecker sind potenziell Nachfolger für Netzte mit Cat. 7.</p>
+<p><img alt="Ansicht Stecker und Buchse" src="../../../img/a/inf/Abbildung9.png" /></p>
+<p><img alt="RJ45 Stecker" src="../../../img/a/inf/Abbildung10.png" style="height:150px" /></p>
+<hr />
+<p><a name="3.3"></a></p>
+<h3 id="33-rj45-stecker-belegung">3.3 RJ45 Stecker Belegung</h3>
+<p>TIA-568A und TIA-568B sind die zwei Standards für die Stecker Belegung bei RJ45.Beide verdrahten die Kontakte direkt durch. Das bedeutet, dass der Kontakt 1 auf der einen Seite direkt mit dem Kontakt1 auf der anderen Seite verbunden ist. Dies ist bei allen 8 gleich.$</p>
+<p><img alt="Stecker Belegung" src="../../../img/a/inf/Abbildung11.png" /></p>
+<hr />
+<p><a name="3.4"></a></p>
+<h3 id="34-lichtwellenleiter">3.4 Lichtwellenleiter</h3>
+<p>Lichtwellenleiter (Glasfaserkabel) werden heute vor allem in der primären und sekundären Verkabelung gebraucht. Glasfaserkabel sind bestens geeignet für schnelle Übertragung von grossen Datenmengen und die Kabel bieten vollständige Abschirmung gegen elektromagnetische Störungen. Da Lichtsignale über mehrere Kilometer übertragen werden können und auch weitere Distanzen erreichen als Kupferkabel gibt es einige Nachteile. Einige davon wären, dass die Glasfaserkabel teurer sind, man vorsichtiger mit ihnen umgehen muss, da sie schnell kaputtgehen können und dass auch keine Stromübertragung möglich ist.</p>
+<p><a name="3.4.1"></a></p>
+<h4 id="341-fastertypen">3.4.1 Fastertypen</h4>
+<p>Die Lichtwellenleiter (LWL) gibt es als Multimodefaser und Monomodfaser (Multi- und Singlemode). Wobei Multimode vor allem im Nahbereich verwendet wird (nicht wie bei Kupferkabel z. B. von Dose zu Gerät, sondern im Nahbereich von Gebäude zu Gebäude) und Singlemode kann auch im Nahbereich verwendet werden aber wird vor allem im Fernbereich benutzt.</p>
+<p><img alt="Darstellung der LWL-Typen" src="../../../img/a/inf/Abbildung12.png" style="height:450px" /></p>
+<p>In der Multimode Faser wandern mehrere Lichtmodulationen (Photonen) gleichzeitig im Faserkern. Dies kann bei Kabellängen über 900 m zu Störungen im Kable geben.</p>
+<p>Bei der Singlemode Faser erlaubt die reduzierte Grösse des Faserkerns jeweils nur die Übertragung von einzelnen Photonen zur selben Zeit. Durch den kleinen Kern und der Übertragung einzelnen Lichtmodulationen .</p>
+<p><a name="3.4.2"></a></p>
+<h4 id="342-tabellen-ubersicht-fastertypen">3.4.2 Tabellen Übersicht Fastertypen</h4>
+<p><img alt="Fasertypen" src="../../../img/a/inf/Tabelle4.png" style="height:350px" /></p>
+<p><a name="3.4.3"></a></p>
+<h4 id="343-mm-faserklassen-gbe">3.4.3 MM Faserklassen (GbE)</h4>
+<p><img alt="MM Faserklassen" src="../../../img/a/inf/Tabelle5.png" /></p>
+<p><a name="3.4.4"></a></p>
+<h4 id="344-tabellen-ubersicht-stecker-aufteilung-smmm">3.4.4 Tabellen Übersicht Stecker Aufteilung SM/MM</h4>
+<p><img alt="Stecker Aufteilung SM/MM" src="../../../img/a/inf/Tabelle6.png" /></p>
+<hr />
+<p><a name="3.5"></a></p>
+<h3 id="35-lwl-stecker">3.5 LWL-Stecker</h3>
+<p><a name="3.5.1"></a></p>
+<h4 id="351-sc-stecker">3.5.1 SC-Stecker</h4>
+<p>Der subscriber connector Stecker, abgekürzt SC-Stecker wurde in Japan entwickelt und löste im Jahre 2002 den ST-Stecker aus den Normen EN50173 und ISO 11801 als Standard für LAN-Verkabelungen ab.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Duplex-SC-Stecker 1</label><label for="__tabbed_3_2">Duplex-SC-Stecker 2</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><img align="left" alt="Duplex-SC-Stecker mit Furrulen" src="../../../img/a/inf/Abbildung14.png" /></p>
+<p>Duplex-SC-Stecker Multimode mit sichtbaren Ferrulen.</p>
+</div>
+<div class="tabbed-block">
+<p><img align="left" alt="Duplex-SC-Stecker mit Schutzklappe" src="../../../img/a/inf/Abbildung13.png" /></p>
+<p>Duplex-SC-Stecker Monomode mit Schutzkappen.</p>
+</div>
+</div>
+</div>
+<p><a name="3.5.2"></a></p>
+<h4 id="352-lc-stecker">3.5.2 LC-Stecker</h4>
+<p>Der LC-Stecker (engl. lucent connector) ist ein Small-Form-Factor-Stecker.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1"> LC-Stecker Beispiel 1</label><label for="__tabbed_4_2">LC-Stecker Beispiel 2</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><img alt="LC-Stecker" src="../../../img/a/inf/Abbildung16.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="LC-Stecker" src="../../../img/a/inf/Abbildung15.png" /></p>
+</div>
+</div>
+</div>
+<p><a name="3.5.3"></a></p>
+<h4 id="353-mtp-stecker">3.5.3 MTP-Stecker</h4>
+<p>Der MTP-Stecker ist ein weiterentwickelter MPO-Stecker. Bei dieser Bezeichnung handelt sich ist ein eingetragenes Warenzeichen von US Conec. Während der MPO-Stecker in Europa bekannter ist, ist es der MTP-Stecker in den USA.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">MTP-Stecker Beispiel 1</label><label for="__tabbed_5_2">MTP-Stecker Beispiel 2</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><img alt="MTP-Stecker" src="../../../img/a/inf/Abbildung17.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="MTP-Stecker" src="../../../img/a/inf/Abbildungnicht.png" /></p>
+</div>
+</div>
+</div>
+<p><a name="3.5.4"></a></p>
+<h4 id="354-ubersicht-verschiedener-stecker">3.5.4 Übersicht verschiedener Stecker</h4>
+<p><img alt="Übersicht Stecker" src="../../../img/a/inf/Tabelle7.png" style="height:350px" /></p>
+<hr />
+<p><a name="3.6"></a></p>
+<h3 id="36-fiber-connector">3.6 Fiber connector</h3>
+<p><img alt="fiber connector" src="../../../img/a/inf/Tabelle8.png" /></p>
+<p><img alt="fiber komponente" src="../../../img/a/inf/Tabelle9.png" style="height:150px" /></p>
+<hr />
+<p><a name="4"></a></p>
+<h2 id="4-layer-2-sicherung-data-link">4. Layer 2 Sicherung (Data Link)</h2>
+<p>Die Sicherungsschicht oder auch Data Link Layer genannt ermöglicht, dass zwei Systeme, Daten in Form von Bitfolgen zuverlässig auf einem Übertragungsabschnitt austauschen können und dies ohne eine Überlastung der Strecke.
+Der Zugriff auf das Übertragungsmedium regelt die Schicht 2, damit eingeschlossen ist das anzuwendende Zugriffsverfahren und die Adressierung. Aber die Voraussetzung, damit die Layer 2 diese Aufgabe erfüllen kann, wie auch die Fehlerkorrektur oder die Flusskontrolle, ist die Aufteilung des Bitstroms aus der Layer 1 in Frames.</p>
+<hr />
+<p><a name="4.1"></a></p>
+<h3 id="41-ethernet">4.1 Ethernet</h3>
+<p>Ethernet ist der Standard in Datennetzwerken. Es wurde in den 1970er Jahren entwickelt und seither ein wenig erweitert, das Frameformat von 1980 gilt aber weiterhin. Das Institute of Electrical and Electronics Engineers (IEEE) legt in den Standards der 802.3 Reihe die vielen verschiedenen Ausprägungen der Ethernet Standards fest. Mit Ethernet macht das Austauschen von Daten im Netzwerk möglich.</p>
+<hr />
+<p><a name="4.2"></a></p>
+<h3 id="42-zugriffsverfahren">4.2 Zugriffsverfahren</h3>
+<p>CSMA/CD aus geschrieben für Carrier Sense Multiple Access with Collision Detecion. Ist ein Zugriffsverfahren von Ethernet, bei dem mehrere im gleichen Netzwerk auf das Übertragungsmedium zugreifen können.</p>
+<p><strong>Besser Beschrieben:</strong></p>
+<ul>
+<li>
+<p><strong>Carrier Sense</strong> (Träger-Zustandserkennung): Jede Station prüft, ob das Übertragungsmedium frei ist.</p>
+</li>
+<li>
+<p><strong>Multiple Access</strong> (Mehrfachzugriff): Mehrere Stationen teilen sich das Übertragungsmedium.</p>
+</li>
+<li>
+<p><strong>Collision Detection</strong> (Kollisionserkennung): Wenn mehrere Stationen gleichzeitig senden, erkennen sie die Kollision.</p>
+</li>
+</ul>
+<p>Ethernet verwendet die Methode Carrier Sense Multiple Access/Collision Detection. Aber wie funktionier CSMA/DC eigentlich?</p>
+<p>Damit können die Geräte die Signalträgerleitung abwechselnd verwenden. Ist ein Gerät bereit zur Übertragung, dann prüft es das Signalniveau der Leitung. So findet es heraus, ob die Leitung bereits benutzt wird oder nicht. Sollte es bereit in Benutzung sein, wartet das Gerät und versucht es zu einem späteren Zeitpunkt noch einmal (Dieser Zeitpunkt kann in diesem Fall auch nur einige Sekunden sein). Ist die Leitung frei, überträgt das Gerät sofort. Zwei Geräte können allerdings auch hier gleichzeitig Daten senden. Sollte das der Fall sein, kommt es zu einer Kollision. Kurz gesagt, jedes Gerät wartet also, bis eine Leitung frei ist, um zu Übertragen nach dem Prinzip (Listen-bevor-Talk) und bei Leitungen, die in Benutzung sind, probiert es in zufälligen Zeitspannen so lange, bis die Leitung frei ist.</p>
+<hr />
+<p><a name="4.3"></a></p>
+<h3 id="43-kollisionen">4.3 Kollisionen</h3>
+<p>In einem Ethernet-Netzwerk mit Half Duplex kommt eine Kollision zustande, wenn zwei Geräte im gleichen Netzwerk versuchen, Daten zur gleichen Zeit zu übertragen. Also sind Kollisionen im Grunde nur Störungen. Diese sind nicht allzu schlimm, da die Geräte nach einer Erkennung einer Kollision ihre Daten wieder übermittelten. Sollte es aber mehrfach und andauernd zu mehreren Kollisionen kommen, könnte dies zu einem Problem werden. Die Anzahl auf mögliche Kollisionen steigt bei der Anzahl Geräte, die das gleiche Übertragungsmedium brauchen wollen.</p>
+<p>Weshalb die möglichen Kollisionen steigen bei der Anzahl Geräte ist, weil diese zwar die Leitungen prüfen aber durch lange Leitungen und andere Sachen könnte es sein das mehrere Geräte verschiedenen Signal Laufzeiten wahrnehmen. Dies kann dazu Führern das Ein Gerät nach der Überprüfung einer freien Leitung ihr Signal sendet, obwohl das Signal eines anderen Geräts schon unterwegs ist. Solange die Bandbreite von Ethernet nicht mehr als 30% ausgereizt wird, machen sich Kollisionen kaum bemerkbar. Mit steigender Belastung des Netzwerks nehmen aber auch die Kollisionen zu. Hier hilft nur, die Anzahl der Stationen zu reduzieren oder das gesamte Netzwerk in Teilnetz aufzuteilen.</p>
+<p>Wie oben schon kurz erwähnt gibt Ethernet-Netzwerke mit Halbduplex aber auch Vollduplex. Halbduplex-Ethernet basiert auf dem CSMA/CD-Verfahren. Es handelt sich dabei um das ursprüngliche Ethernet bis 10 MBit/s. Vollduplex-Ethernet ist eine Weiterentwicklung, die als Fast- Ethernet bezeichnet wird und auf CSMA/CD verzichtet. Auch alle weiteren Ethernet-Entwicklungen arbeiten im Vollduplex-Betrieb. Die Stationen kommunizieren über Punkt-zu-Punkt-Verbindungen direkt miteinander.</p>
+<p>Weil Fast-Ethernet in der Regel im Vollduplex-Modus arbeitet und damit auf CSMA/CD verzichtet, ist eine zusätzliche Flusskontrolle erforderlich. Dafür gibt es einen eigenen Standard: IEEE 802.3x (Flow Control).</p>
+<p><img alt="CSMA/CD und Kollisionen" src="../../../img/a/inf/Abbildung18.png" /></p>
+<hr />
+<p><a name="4.4"></a></p>
+<h3 id="44-frame">4.4 Frame</h3>
+<p>In einem Ethernet-Netzwerk teilen Geräte untereinander Datenpakete, die auch Ethernet-Pakete genannt werden. In dem ist auch das Ethernet-Frame (Deutsch oft als Datenframe bezeichnet). Diese Datensätze bestehen aus Binärcode, die wichtigen Informationen weiter gibt wie Adressen, Steuerinformationen, Nutzdaten und Prüfsummen.</p>
+<p>Da es mehrere Ethernet-Standarte gibt, gibt es auch unterschiedliche aufgebaute Ethernet Frames. Die grundsätzlich gleich aufgebaut sind aber trotzdem einige Abweichungen voneinander haben die zum Beispiel abhängig vom Netzwerkprotokoll sind.</p>
+<p><strong>Ethernet IEEE 802.3</strong></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">Ohne Tag</label><label for="__tabbed_6_2">Mit Tag</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><img alt="Ethernet Frame IEEE 802.3" src="../../../img/a/inf/Abbildung19.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="Ethernet Frame IEEE 802.3 mit tag" src="../../../img/a/inf/Abbildung20.png" /></p>
+<p>In der Abbildung sieht man, dass sich zwischen der Quellad. und Länge ein Tag vorhanden ist. Das Tag Feld enthält wichtige Informationen über die VLAN Einbindung.</p>
+</div>
+</div>
+</div>
+<p><a name="4.4.1"></a></p>
+<h4 id="441-frame-bausteine">4.4.1 Frame Bausteine</h4>
+<p><img alt="Frame beusteine" src="../../../img/a/inf/Tabelle10.png" style="height:500px" /></p>
+<p><a name="4.4.2"></a></p>
+<h4 id="442-ethernet-paket-struktur">4.4.2 Ethernet-Paket Struktur</h4>
+<p>Ein Datenpaket auf der Leitung und der Frame als Nutzdaten bestehen aus Binärdaten. Ethernet überträgt Daten mit dem höchstwertigen Oktett (Byte) zuerst, innerhalb jedes Oktetts wird jedoch das niedrigste wertige Bit zuerst übertragen.</p>
+<p>Der interne Aufbau eines Ethernet-Frames ist in IEEE 802.3 spezifiziert. Die folgende Tabelle zeigt das komplette Ethernet-Paket.</p>
+<p><img alt="Paket struktur" src="../../../img/a/inf/Tabelle11.png" /></p>
+<hr />
+<p><a name="4.5"></a></p>
+<h3 id="45-tag-im-ethernet-frame">4.5 Tag im Ethernet Frame</h3>
+<p>Im 802.1 Q-Standard sind Datenfelder für das VLAN-Tagging definiert, die im Ethernet Paket im Datenberiech eingeführt werden. Das Tag besteht aus vier Feldern welche zusammen 32 Bit beträgt. Für den Tag Protocol Identifier (TPID) werden zwei Byte, für den Priority Code Point (PCP) drei Bit, für den Drop Eligible Indicator (DEI) ein Bit und für die VLAN-ID (VID) zwölf Bit genutzt.</p>
+<p>Das TPID-Datenfeld wird bei 802.1Q-VLANs immer auf den Wert <mark class="critic">81 00</mark> hex gesetzt, dieser Wert ist reserviert.</p>
+<p><img alt="Ethernet Frame (VLAN-Tag)" src="../../../img/a/inf/Abbildung21.png" /></p>
+<p><img alt="Ethernet Frame" src="../../../img/a/inf/Tabelle12.png" style="height:100px" /></p>
+<ul>
+<li><strong>TPID</strong> = Tag Protocol Identifier</li>
+<li><strong>TCI</strong> = Tag Control Information</li>
+<li><strong>PCP</strong> = Priority Code Point</li>
+<li><strong>DEI</strong> = Drop Eligible Indicator</li>
+<li><strong>VID</strong> = VLAN-Identifier</li>
+</ul>
+<p><strong>Beschreibung:</strong></p>
+<p><strong>TPID</strong> (Tag Protocol Identifier):
+Ein 16-Bit-Feld, das auf einen Wert von 0x8100 gesetzt ist, um den Frame als einen Frame mit IEEE 802.1Q-Tag zu identifizieren. Dieses Feld befindet sich in ungetaggten Frames an derselben Position wie das EtherType-Feld und wird daher verwendet, um den Frame von ungetaggten Frames zu unterscheiden</p>
+<p><strong>TCI</strong> (Tag Control Information):
+Ein 16-Bit-Feld mit PCP, DIE und VID als Unterfeldern.</p>
+<p><strong>PCP</strong> (Priority Code Point):
+Das PCP-Datenfeld umfasst drei Bits, die die Frame-Priorität kennzeichnen.</p>
+<p><strong>DEI</strong> (Drop Eligible Indicator):
+Das 1 Bit grosse DEI Feld, früher noch CFI. Kann separat oder in Verbindung mit PCP verwendet werden, um Rahmen anzuzeigen, die bei Vorliegen einer Überlastung fallengelassen werden können</p>
+<p><strong>VID</strong> (VLAN-Identifier):
+Ein 12-Bit-Feld, das das VLAN angibt, zu dem der Frame gehört. Die Werte 0 und 4095 (0x000 und 0xFFF in hex) sind reserviert. Alle anderen Werte können als VLAN-Identifier verwendet werden, wodurch bis zu 4.094 VLANs möglich sind. Der reservierte Wert 0x000 zeigt an, dass der Frame keine VLAN-ID trägt; in diesem Fall spezifiziert das 802.1Q-Tag nur eine Priorität (in PCP- und DEI-Feldern) und wird als Prioritäts-Tag bezeichnet.</p>
+<p>Diese Tags werden gemacht um zwischen den VLANs zu unterscheiden. Jedem VLAN wird eine eindeutige Nummer zugeteilt (VLAN-ID). Dadurch kann dann ein Gerät das zum VLAN mit der ID=4 gehört mit allen anderen Geräten im gleichen VLAN kommunizieren. Jedoch nicht mit Geräten die sich im VLAN mit der ID= 5 oder 6 befinden. Insgesamt sind 4096 – 2 VLANs möglich.</p>
+<hr />
+<p><a name="4.6"></a></p>
+<h3 id="46-link-aggregation">4.6 Link Aggregation</h3>
+<p>Link Aggregation ist ein Standard zur parallelen Bündelung von mehreren Netzwerkverbindungen. Vorteile einer Link Aggregation gegenüber einer Verbindung über ein einzelnes Kabel ist die höhere Übertragungsgeschwindigkeit wie auch die Ausfahlsicherheit.</p>
+<p><img alt="LAG Beispiel" src="../../../img/a/inf/Abbildung22.png" style="height:250px" /></p>
+<p><strong>Was ist LAG und wie funktioniert es?</strong></p>
+<p>LAG ist eine aktuelle Technik. Eine Link Aggregation Group bildet sich, wenn wir mehrere Ports parallel zwischen zwei Switches schalten und als LAG konfigurieren. LAG baut mehrere Verbindungen zwischen zwei Switches auf, wodurch die Bandbreite erweitert wird.
+Es bietet Redundanz auf Verbindungsebene bei Netzwerkfehlern und Verkehr. Auch wenn eine Verbindung ausfällt, werden die übrigen Verbindungen zwischen den beiden Switches weiterhin gehen. Sie übernehmen auch den Verkehr, der über den nicht funktionierenden laufen soll, damit Datenpakete nicht verloren gehen.</p>
+<p><strong>Wo befindet sich der Link Aggregation?</strong></p>
+<p>Innerhalb des Data Link Layers (Sicherungsschicht) implementiert, konkret zwischen dem MAC Client und MAC Sublayern.</p>
+<p><img alt="LAG" src="../../../img/a/inf/Abbildung23.png" style="height:350px" /></p>
+<p><strong>Static Link Aggregation</strong></p>
+<p>Bei der statischen Link Aggregation werden alle Konfigurationsparameter einmalig auf beiden beteiligten Komponenten einer LAG eingerichtet.</p>
+<p><strong>Dynamic Link Aggregation - Link Aggregation Control Protocol (LACP)</strong></p>
+<p>Das Link Aggregation Control Protocol (LACP) erlaubt den Austausch von Informationen bezüglich der Link Aggregation zwischen den zwei Mitgliedern einer Link Aggregation. Diese Informationen werden in LACPDUs (Link Aggregation Control Protocol Data Units) verpackt.</p>
+<p>Bei LACP kann jeder einzelne Port als <strong>Active LACP</strong> oder <strong>Passive LACP</strong> konfiguriert werden:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">Passive LACP</label><label for="__tabbed_7_2">Active LACP</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Der Port bevorzugt von sich aus keine LACPDUs zu übertragen. Nur wenn die Gegenseite Active LACP hat, überträgt der Port LACPDUs (preference not to speak unless spoken to).</p>
+</div>
+<div class="tabbed-block">
+<p>Der Port bevorzugt LACPDUs zu übertragen. Unabhängig davon, ob die Gegenseite Passive LACP hat oder nicht.</p>
+</div>
+</div>
+</div>
+<hr />
+<p><a name="5"></a></p>
+<h2 id="5-layer-3-vermittlung-network">5. Layer 3 Vermittlung (Network)</h2>
+<p>Die Layer 3 im ISO/OSI-Schichtenmodell ist für die Vermittlung der Daten über die einzelnen Verbindungsabschnitte zuständig. Sie kümmert sich um die Adressierung und das Finden des schnellsten Wegs zum Ziel. Andere Bezeichnungen für die Layer 3 sind Vermittlungsschicht, Netzwerkschicht oder Network Layer.
+Im TCP/IP nennt sich die Wegfindung durch das IP-Netz, Routing. Das Routing kann statisch wie auch dynamisch definiert sein.
+In den einzelnen Routern zwischen der Quelle und dem Ziel werden die Informationen der Layer 3 wie beispielsweise das Ziel und die Absende Adresse ausgewertet und für das Routing verwendet. Hierfür stellt die Network Layer ein eindeutiges Adresskonzept zur Verfügung.</p>
+<hr />
+<p><a name="5.1"></a></p>
+<h3 id="51-ipv4-adressierung">5.1 IPv4-Adressierung</h3>
+<p>Die wichtigste Aufgabe von IP (Internet Protocol) ist, dass jeder Host in einem dezentralen TCP/IP-Netzwerk gefunden werden kann. Dazu wird jedem Hardware-Interface (Netzwerkkarte oder -adapter) eine logische IPv4-Adresse zugeteilt.
+Die IPv4-Adresse ist mit den Angaben zu Straße, Hausnummer und Ort vergleichbar.</p>
+<p><a name="5.1.1"></a></p>
+<h4 id="511-aufbau-einer-ipv4-adressierung">5.1.1 Aufbau einer IPv4-Adressierung</h4>
+<p>Damit die IPv4-Adresse von Hardware und Software einfach verarbeitet werden kann, besteht sie aus einer Bitfolge aus Einsen (1) und Nullen (0). Sie ist somit maschinenlesbar. Die Bitfolge hat 32 Stellen (4 Byte (32 Bit) groß).</p>
+<p><img alt="IPv4 Schreibweise" src="../../../img/a/inf/Tabelle13.png" style="height:100px" /></p>
+<p>32 Bit werden in einer IPv4-Adresse in jeweils 8 Bit (1 Byte) aufgeteilt und durch einen Punkt voneinander getrennt. Dabei kann jedes Byte durch die achtstellige 1er- und 0er-Folge einen dezimalen Wert von 0 bis 255 annehmen. Somit ergibt die binäre IPv4-Adresse 01111111.00000000.00000000.00000001 die IPv4-Adresse 127.0.0.1.
+Neben der üblichen Binär und Dezimal Schreibweise können die Ipv4-Adressen auch mit Oktal zahlen und hexadezimal Zahlen angegeben werden.</p>
+<p><a name="5.1.2"></a></p>
+<h4 id="512-struktur-im-ipv4-adressraum">5.1.2 Struktur im IPv4-Adressraum</h4>
+<p>Der IPv4-Adressraum umfasst 32 Bit und geht von 0.0.0.0 bis 255.255.255.255. Das entspricht über 4 Milliarden Adressen. Als man den Adressraum definierte, entsprach das damals ungefähr der Weltbevölkerung. Damals war es undenkbar, dass jeder Mensch irgendwann mal eine IPv4-Adresse brauchen, und schon gar nicht, dass jemand ein persönliches Endgerät (Smartphone) mit einer IPv4-Adresse besitzen würde.</p>
+<p>Man sich eine Art Verzeichnis überlegt, wo drinsteht, wo sich eine IPv4-Adresse im Netzwerk befindet. Bei Telefonnummern kennen wir die Aufteilung in Ländervorwahl und Ortsvorwahl. So eine Struktur hatte man sich auch bei IPv4-Adressen vorgestellt. Damit IP-Router möglichst effizient arbeiten können, wurden IPv4-Adressen anfangs hierarchisch zugeteilt. Das hat aber nicht sehr lange funktioniert. Wegen einem zu geringen Adressraum gilt die regionale Zuteilung, wie bei Telefonnummer, nicht mehr.</p>
+<p><img alt="IPv4 Struktur" src="../../../img/a/inf/Tabelle14.png" /></p>
+<hr />
+<p><a name="5.2"></a></p>
+<h3 id="52-spezielle-und-private-adress-bereiche">5.2 Spezielle und private Adress-Bereiche</h3>
+<p><strong>Privat:</strong></p>
+<p>Die IPv4 Adressen sind begrenzt und müssen deswegen beantragt werden. Deshalb kann man nicht jede beliebige Adresse verwenden. Aber es gibt spezielle Adressräume für private und nicht öffentliche Nutzung.
+Wenn man nun ein privates lokales Netzwerk aufbauen möchte, verwendet man solche privaten IPv4-Adressen, wenn man zu wenige oder keine öffentlichen IPv4-Adressen hat. Die privaten IPv4-Adressen haben aber den Nachteil, dass sie nur im jeweiligen lokalen Netzwerk gültig sind und nicht in öffentliches Netz geroutet werden. Datenpakete mit privaten IPv4-Adressen verbleiben in den lokalen Netzwerken. Umgekehrt heißt das auch, dass Hosts, die nur eine private IPv4-Adresse haben, nicht direkt aus dem Internet erreichbar sind.</p>
+<p><img alt="Privat Adressen" src="../../../img/a/inf/Tabelle15.png" /></p>
+<p><strong>Spezielle:</strong></p>
+<p>127.0.0.0 - 127.255.255.255 Spezielle Adressen für den eigenen Rechner (localhost).
+Diese Adressen kann man im Normalfall nicht verwenden. 127.0.0.1 ist im Normalfall die eigene Loopback-Adresse
+0.0.0.0 Spezielle Adresse, wird im Normalfall genutzt für die Defaultroute</p>
+<hr />
+<p><a name="5.3"></a></p>
+<h3 id="53-reservierte-und-nicht-verfugbare-ipv4-adressensubnetze">5.3 Reservierte und nicht verfügbare IPv4-Adressen/Subnetze</h3>
+<p>Im Adressbereich von 0.0.0.0 bis 255.255.255.255 sind bestimmte Adressen und Subnetze für reserviert oder gesperrt. Dies ist gut zu wissen, um eine fehlerhafte IPv4-Konfiguration zu vermeiden oder zu erkennen.</p>
+<p><strong>Die erste und letzte IPv4-Adresse eines Subnetzes sind reserviert</strong></p>
+<ul>
+<li>
+<p>Die erste IPv4-Adresse eines Subnetzes adressiert das Netz und ist somit die Netz-Adresse.</p>
+</li>
+<li>
+<p>Die letzte IPv4-Adresse eines Subnetzes adressiert alle Teilnehmer in dem Netzwerk und ist somit die Broadcast-Adresse.</p>
+</li>
+</ul>
+<p><strong>Nicht routbare IPv4-Adressen</strong></p>
+<ul>
+<li>
+<p>0.0.0.0/8 (0.0.0.0 bis 0.255.255.255): Standard- bzw. Default-Route im Subnetz (Current Network).</p>
+</li>
+<li>
+<p>127.0.0.0/8 (127.0.0.0 bis 127.255.255.255): Reserviert für den Local Loop bzw.Loopback.</p>
+</li>
+</ul>
+<p><strong>Private IPv4-Adressen</strong></p>
+<ul>
+<li>
+<p>10.0.0.0/8 (10.0.0.0 bis 10.255.255.255)</p>
+</li>
+<li>
+<p>172.16.0.0/12 (172.16.0.0 bis 172.31.255.255)</p>
+</li>
+<li>
+<p>192.168.0.0/16 (192.168.0.0 bis 192.168.255.255)</p>
+</li>
+<li>
+<p>169.254.0.0/16 (169.254.0.0 bis 169.254.255.255)</p>
+</li>
+</ul>
+<p><strong>Class D (Multicast)</strong></p>
+<ul>
+<li>224.0.0.0 bis 239.255.255.255: Nicht im Internet, sondern nur lokal in den eigenen Netzen routbar.</li>
+</ul>
+<p><strong>Class E (reservierte Adressen)</strong></p>
+<ul>
+<li>240.0.0.0 bis 255.255.255.255: Alte IPv4-Stacks, die nur mit Netzklassen arbeiten, kommen damit nicht klar.</li>
+</ul>
+<hr />
+<p><a name="5.4"></a></p>
+<h3 id="54-umrechnung">5.4 Umrechnung</h3>
+<p><strong>DEC</strong> = Dezimalsystem/Zehnersystem = 0 – 255</p>
+<p><strong>HEX</strong> = Hexadezimalsystem = 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F</p>
+<p><strong>BINÄR</strong> = Binärsystem = 0,1</p>
+<p><strong>OCT</strong> = Oktalsystem = 0,1,2,3,4,5,6,7</p>
+<p><strong>Dec zu Binär</strong></p>
+<p><img alt="Umrechnung Dec zu Binär" src="../../../img/a/inf/Tabelle16.png" /></p>
+<p>Wie man in der Tabelle sieht, muss man sich vorstellen, dass die Bit Folge von 8 Nullen für die Zahlen 128 – 1 stehen. Muss man dann die Zahl 127 in Binär umrechnen, startet man auf der rechten Seite und ersetzt die Null mit einer Eins. Dies macht man bis, die Zahlen, die mit einer Eins angegeben wurden, zusammen gezählt die Dezimal zahl ergibt, die man angeben möchte.</p>
+<p><strong>Beispiele:</strong></p>
+<p><img alt="Beirpiel umrechnung Dec zu Binär" src="../../../img/a/inf/Tabelle17.png" /></p>
+<p>Doch die Zahlenfolge von Hex und Oct sieht anders aus.</p>
+<p><img alt="Zahlenfolge" src="../../../img/a/inf/Tabelle18.png" /></p>
+<hr />
+<p><a name="5.5"></a></p>
+<h3 id="55-ubersicht-standards">5.5 Übersicht Standards</h3>
+<p><img alt="Übersicht standarts" src="../../../img/a/inf/Tabelle19.png" /></p>
+<hr />
+<p><a name="5.6"></a></p>
+<h3 id="56-subnetting">5.6 Subnetting</h3>
+<p>Subnetting ist eigentlich die Aufteilung eines Adressraumes in mehrere kleine Adressräume. Durch Subnetting können Netze voneinander abgeschottet werden und private IP-Adressen können dann doppelt vergeben. Solange dies nicht im gleichen Adressraum geschieht.</p>
+<p><a name="5.6.1"></a></p>
+<h4 id="561-subnetzmaske">5.6.1 Subnetzmaske</h4>
+<p>Die Subnetzmaske bestimmt den Netzanteil (Subnetz) und den übergebliebenen Hostanteil einer IP-Adresse. Die Subnetzmaske zeigt also an, an welcher Stelle die Netz-Adresse und Host-Adresse getrennt werden. sprich wie viele Bit für den Host-Anteil übrigbleiben.
+Für die Subnetzmaske gibt es zwei Schreibweisen, einmal mit Oktetten und einmal als Suffix.</p>
+<p><strong>Beispiel:</strong></p>
+<p>192.168.12.15 / <strong>255.255.255.0</strong></p>
+<p>192.168.12.15 / <strong>24</strong></p>
+<p>Bei der ersten Schreibweise wird IP-Adresse und Subnetzmaske hintereinandergeschrieben. Bei der zweiten Schreibweise wird statt der Subnetzmaske ein Suffix hingeschrieben. Das Suffix gibt an, wie viele 1er innerhalb der Subnetzmaske in Bit nacheinander aufgeschrieben werden. Dies bedeutet 24 entspricht 255.255.255.0.</p>
+<p><a name="5.6.2"></a></p>
+<h4 id="562-netzwerkadresse-berechnen">5.6.2 Netzwerkadresse berechnen</h4>
+<p>Wie bei 6.4 Subnetting Aufgaben zeige ich hier noch meine Berechnungsschritte auf.</p>
+<p>Die IP-Adresse sowie die Netzmaske müssen in Binär dargestellt werden. Die werden dann abgeglichen und die Einer (1) die sich bei beiden an der gleichen Stelle der Bitfolge befinden, werden bei der Netzadresse übernommen. Diese muss man zu Schluss nur noch in Dez umwandeln.</p>
+<p><strong>Beispiel:</strong></p>
+<p>172.17.196.0 /21 = 255.255.248.0</p>
+<table>
+<thead>
+<tr>
+<th>IP Adresse</th>
+<th>1010 1100</th>
+<th>0001 0001</th>
+<th>1100 0100</th>
+<th>0000 0000</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Netzmaske</strong></td>
+<td><strong>1111 1111</strong></td>
+<td><strong>1111 1111</strong></td>
+<td><strong>1111 1000</strong></td>
+<td><strong>0000 0000</strong></td>
+</tr>
+<tr>
+<td><strong>Netzadresse</strong></td>
+<td><strong>1010 1100</strong></td>
+<td><strong>0001 0001</strong></td>
+<td><strong>1100 0000</strong></td>
+<td><strong>0000 0000</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>= 172.17.192.0</strong></p>
+<hr />
+<p><a name="6"></a></p>
+<h2 id="6-praktische-arbeiten-und-erfahrungen">6. Praktische Arbeiten und Erfahrungen</h2>
+<hr />
+<p><a name="6.1"></a></p>
+<h3 id="61-beschriftungssystem">6.1 Beschriftungssystem</h3>
+<p>Damit ich mir die Namensgebung merken kann werde ich unten ein Beispiel einer Beschriftung hinschreiben. Die Namensgebung ist nicht bei jeder Firma gleich meistens wird ein Konzept erstellt und dann wird dies auch angewendet.</p>
+<p><strong>Beispiel:</strong>   H6-W-V20.03-A10-10.038</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="8:2"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">Aufteilung der Beschriftung und die Bedeutung</label><label for="__tabbed_8_2">Auflösung des Beispiels</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>
+<p>H6 = Standort/Strasse</p>
+</li>
+<li>
+<p>W =   Ausrichtung</p>
+</li>
+<li>
+<p>V =   Verteiler</p>
+</li>
+<li>
+<p>20 = Stockwerk (Die Stockwerke gehen vom EG welches 00 ist in 10 Schritten aufwärts und   XXXXX  und ins UG gehen sie in
+  einer schritten. Wie auf der Abbildung x)</p>
+</li>
+<li>
+<p>03 = Anzahl Verteiler/ Nr. des Verteilers</p>
+</li>
+<li>
+<p>A10   =   Panel</p>
+</li>
+<li>
+<p>10 = Dose im Stockwerk</p>
+</li>
+<li>
+<p>038   =   Nr. der Dose</p>
+</li>
+<li>
+<p>A =   Das A gibt an, dass es um Kupferkabel handelt, wäre es ein Glasfaserkabel wird es mit //ABCD.L01, L02 oder L03 beschriftet.</p>
+</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>
+<p>H6 = Hochschulstrasse 6</p>
+</li>
+<li>
+<p>W =   Westen</p>
+</li>
+<li>
+<p>V =   Verteiler</p>
+</li>
+<li>
+<p>20 = 2 OG</p>
+</li>
+<li>
+<p>03 = Verteiler 3</p>
+</li>
+<li>
+<p>A10   =   Panel</p>
+</li>
+<li>
+<p>10    =   Dose im 1 OG</p>
+</li>
+<li>
+<p>038 = Dosen Nummer 38</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<hr />
+<p><a name="6.2"></a></p>
+<h3 id="62-vlan">6.2 VLAN</h3>
+<p>Virtual Local Area Networks (VLAN) unterteilen ein bestehendes einzelnes physisches Netzwerk in mehrere logischen Netzwerke.
+Untagged bedeutet, dass der komplette Port dem VLAN angehört.
+Egal welches Gerät angeschlossen wird, wird automatisch im definierten VLAN landen. Untaggen macht man bei Ports die zu Endgeräten führen, da diese in der Regel tags nicht lesen können.</p>
+<p>Tagged bedeutet, dass sich das Gerät mit dem VLAN tag melden muss, um in dem VLAN zu landen.
+Damit können dann die Ports getagged werden über diese mehrere verschiedene VLAN’s gehen müssen. Damit kann man bis zu 4096 verschiedene braucht.</p>
+<hr />
+<h4 id="start-aufgabe">Start Aufgabe</h4>
+<div class="tabbed-set tabbed-alternate" data-tabs="9:2"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><input id="__tabbed_9_2" name="__tabbed_9" type="radio" /><div class="tabbed-labels"><label for="__tabbed_9_1">Ausgangslage</label><label for="__tabbed_9_2">Sollzustand</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><img alt="VLAN Ausgangslage 1" src="../../../img/a/inf/Abbildung25.png" /></p>
+<p><em>Switch 1:</em>
+<img alt="VLAN Ausgangslage, Switch 1" src="../../../img/a/inf/Abbildung26.png" /></p>
+<p><em>Switch 2</em>
+<img alt="VLAN Ausgangslage, Switch 2" src="../../../img/a/inf/Abbildung27.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="VLAN Sollzustand 1" src="../../../img/a/inf/Abbildung28.png" /></p>
+<p><img alt="VLAN Sollzustand 1.1" src="../../../img/a/inf/Abbildung29.png" /></p>
+</div>
+</div>
+</div>
+<details class="example" open="open">
+<summary>Arbeitsschritte</summary>
+<p><em>Verbinden über Tera Term bei Switch 1:</em></p>
+<p><strong>enable =</strong> Anmeldung</p>
+<p><strong>show running-config =</strong> zeigt die momentanen Konfigurationen an</p>
+<p><strong>erase startup-config =</strong> löscht die momentanen Konfigurationen</p>
+<p><strong>reload =</strong> startet den Switch neu</p>
+<p><strong>enable =</strong> Anmeldung</p>
+<p><strong>conf t =</strong> wechselt in den config Modus</p>
+<p><strong>vlan 100 name user =</strong> erstellt das vlan 100 mit dem Namen user</p>
+<p><strong>untagged ethernet 1/1/1 to 1/1/24 =</strong> untagged die Ports 1 bis 24</p>
+<p><strong>exit =</strong> verlässt den (config-vlan-100) und geht in den config Modus</p>
+</details>
+<details class="abstract" open="open">
+<summary>Zwischenzustand</summary>
+<p><img alt="VLAN Zwischenzustand 1" src="../../../img/a/inf/Abbildung30.png" /></p>
+<p><img alt="VLAN Zwischenzustand 1.1" src="../../../img/a/inf/Abbildung31.png" /></p>
+</details>
+<details class="example" open="open">
+<summary>Arbeitsschritte</summary>
+<p><strong>vlan 200 name admin =</strong> erstellt das vlan 200 mit dem Namen admin</p>
+<p><strong>untagged ethernet 1/1/25 to 1/1/48 =</strong> untagged die Ports 25 bis 48</p>
+<p><strong>exit =</strong> verlässt den (config-vlan-200) und geht in den config Modus</p>
+<p><strong>show running-config =</strong> zeigt die momentanen Konfigurationen an</p>
+<p><strong>write me =</strong> speichert die momentane Konfiguration</p>
+<p><strong>exit =</strong> verlässt den config Modus</p>
+</details>
+<details class="abstract" open="open">
+<summary>Zwischenzustand</summary>
+<p><img alt="" src="../../../img/a/inf/Abbildung32.png" /></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung33.png" /></p>
+<p><em>Nun die gleichen Konfigurationen bei Switch 2 vornehmen. Danach das Gerät mit der IP 192.168.100.15 an Switch 1, Port 5 anhängen und Gerät mit der IP 192.168.100.16 an Switch 2, Port 11.</em></p>
+</details>
+<details class="success" open="open">
+<summary>Test 1</summary>
+<p><strong>Stand:</strong></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung34.png" /></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung35.png" /></p>
+<p><strong>Soll:</strong> Client 1 (IP 192.186.100.15) ist am Switch 1, VLAN 100, Port 5 angeschlossen und pingt erfolgreich Client 2. Client 2 (IP 192.186.100.16) ist am Switch 2, VLAN 100, Port 11 angeschlossen und pingt erfolgreich Client 1.</p>
+<p><strong>Ist:</strong> Bei beiden Clients war der Zielhost nicht erreichbar.</p>
+<p><strong>Warum:</strong> Weil bei beiden Ports über die die zwei Switches verbunden sind keine tags gemacht wurden.</p>
+<p><strong>Muss:</strong></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung36.png" /></p>
+<p><em>Info: Damit dieser Test erfolgreich durchgeführt werden kann würde es reichen VLAN 100 zu taggen aber da VLAN 200 später auch gebraucht wird ist es im Muss schon vorhanden.</em></p>
+</details>
+<hr />
+<h4 id="arbeitsschritte-um-fehler-bei-test-1-zu-beheben-und-ip-adresse-zu-setzen"><strong>Arbeitsschritte um Fehler bei Test 1 zu beheben und IP Adresse zu setzen:</strong></h4>
+<details class="example" open="open">
+<summary>Arbeitsschritte</summary>
+<p><em>Verbinden über Tera Term bei Switch 1:</em></p>
+<p><strong>enable =</strong> Anmeldung</p>
+<p><strong>show running-config =</strong> zeigt die momentanen Konfigurationen an</p>
+<p><strong>conf t =</strong> wechselt in den config Modus</p>
+<p><strong>ip address 192.168.1.10 255.255.255.0 dynamic =</strong> setzt die IP-Adresse</p>
+<p><strong>show running-config =</strong> zeigt die momentanen Konfigurationen an</p>
+<p><strong>write me =</strong> speichert die momentane Konfiguration</p>
+</details>
+<details class="abstract" open="open">
+<summary>Zwischenzustand</summary>
+<p><img alt="" src="../../../img/a/inf/Abbildung37.png" /></p>
+</details>
+<details class="example" open="open">
+<summary>Arbeitsschritte</summary>
+<p><strong>vlan 100 =</strong> wechselt vom config Modus in den config-vlan-100</p>
+<p><strong>tagged ethernet 1/2/1 =</strong> Tagged am angegebenen Port</p>
+<p><strong>exit =</strong> verlässt den (config-vlan-100) und geht in den config Modus</p>
+<p><strong>vlan 200 =</strong> wechselt vom config Modus in den config-vlan-200</p>
+<p><strong>tagged ethernet 1/2/1 =</strong> Tagged am angegebenen Port</p>
+<p><strong>managment-vlan =</strong> setzt den managment Status</p>
+<p><strong>exit =</strong> verlässt den (config-vlan-200) und geht in den config Modus</p>
+<p><strong>write me =</strong> speichert die momentanen Konfiguration</p>
+<p><strong>exit =</strong> verlässt den config Modus</p>
+</details>
+<details class="abstract" open="open">
+<summary>Zwischenzustand</summary>
+<p><img alt="" src="../../../img/a/inf/Abbildung38.png" /></p>
+</details>
+<details class="example" open="open">
+<summary>Arbeitsschritte</summary>
+<p><em>Verbinden über Tera Term bei Switch 2:</em></p>
+<p><strong>enable =</strong> Anmeldung</p>
+<p><strong>show running-config =</strong> zeigt die momentanen Konfigurationen an</p>
+<p><strong>conf t =</strong> wechselt in den config Modus</p>
+<p><strong>ip address 192.168.1.20 255.255.255.0 dynamic =</strong> setzt die IP Adresse</p>
+<p><strong>show running-config =</strong> zeigt die momentanen Konfigurationen an</p>
+<p><strong>write me =</strong> speichert die momentane Konfiguration</p>
+</details>
+<details class="abstract" open="open">
+<summary>Zwischenzustand</summary>
+<p><img alt="" src="../../../img/a/inf/Abbildung39.png" /></p>
+</details>
+<details class="example" open="open">
+<summary>Arbeitsschritte</summary>
+<p><strong>vlan 100 =</strong> wechselt vom config Modus in den config-vlan-100</p>
+<p><strong>tagged ethernet 1/2/1 =</strong> Tagged am angegebenen Port</p>
+<p><strong>exit =</strong> verlässt den (config-vlan-100) und geht in den config Modus</p>
+<p><strong>vlan 200 =</strong> wechselt vom config Modus in den config-vlan-200</p>
+<p><strong>tagged ethernet 1/2/1 =</strong> Tagged am angegebenen Port</p>
+<p><strong>managment-vlan =</strong> setzt den managment Status</p>
+<p><strong>exit =</strong> verlässt den (config-vlan-200) und geht in den config Modus</p>
+<p><strong>write me =</strong> speichert die momentanen Konfiguration</p>
+<p><strong>exit =</strong> verlässt den config Modus</p>
+</details>
+<details class="abstract" open="open">
+<summary>Zwischenzustand</summary>
+<p><img alt="" src="../../../img/a/inf/Abbildung40.png" /></p>
+</details>
+<details class="success" open="open">
+<summary>Test 2</summary>
+<p><strong>Stand:</strong></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung41.png" />
+ <img alt="" src="../../../img/a/inf/Abbildung42.png" /></p>
+<p><strong>Soll:</strong> Client 1 (IP 192.186.100.15) ist am Switch 1, VLAN 100, Port 5 angeschlossen und pingt erfolgreich Client 2. Client 2 (IP 192.186.100.16) ist am Switch 2, VLAN 100, Port 11 angeschlossen und Ppngt erfolgreich Client 1.</p>
+<p><strong>Ist:</strong> Pings wurden erfolgreich übertragen.</p>
+<p><strong>Warum:</strong> Da wir die zwei Ports getaged haben.</p>
+</details>
+<hr />
+<h4 id="arbeitsschritte-um-ein-vlan-hinzuzufugen"><strong>Arbeitsschritte um ein VLAN hinzuzufügen:</strong></h4>
+<div class="tabbed-set tabbed-alternate" data-tabs="10:2"><input checked="checked" id="__tabbed_10_1" name="__tabbed_10" type="radio" /><input id="__tabbed_10_2" name="__tabbed_10" type="radio" /><div class="tabbed-labels"><label for="__tabbed_10_1">Ausgangslage</label><label for="__tabbed_10_2">Sollzustand</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><img alt="" src="../../../img/a/inf/Abbildung43.png" /></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung44.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="" src="../../../img/a/inf/Abbildung45.png" /></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung46.png" /></p>
+</div>
+</div>
+</div>
+<details class="example" open="open">
+<summary>Arbeitsschritte</summary>
+<p><em>Verbinden über Tera Term bei Switch 1:</em></p>
+<p><strong>enable =</strong> Anmeldung</p>
+<p><strong>conf t =</strong> Wechselt in den config Modus</p>
+<p><strong>vlan 300 name user_mobile =</strong> Erstellt das vlan 300 mit dem Namen user_mobile</p>
+<p><strong>exit =</strong> Verlässt den (config-vlan-300) und geht in den config Modus</p>
+<p><strong>vlan 200 =</strong> Wechselt vom config Modus in den config-vlan-200</p>
+<p><strong>no untagged ethernet 1/1/25 to 1/1/47 =</strong> Macht das untaggen von Port 25 bis 47 rückgängig und lässt somit Port 48 als einziger untagged</p>
+<p><strong>exit =</strong> Verlässt den (config-vlan-200) und geht in den config Modus</p>
+</details>
+<details class="abstract" open="open">
+<summary>Zwischenzustand</summary>
+<p><img alt="" src="../../../img/a/inf/Abbildung47.png" /></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung48.png" /></p>
+</details>
+<details class="example" open="open">
+<summary>Arbeitsschritte</summary>
+<p><strong>vlan 300 =</strong> Wechselt vom config Modus in den config-vlan-300</p>
+<p><strong>untagged ethernet 1/1/25 to 1/1/47 =</strong> untagged die Ports 25 bis 47</p>
+<p><strong>exit =</strong> Verlässt den (config-vlan-300) und geht in den config Modus</p>
+<p><strong>show running-config =</strong> Zeigt die momentanen Konfigurationen an</p>
+<p><strong>write me =</strong> Speichert die momentanen Konfiguration</p>
+<p><strong>exit =</strong> Verlässt den config Modus</p>
+</details>
+<details class="abstract" open="open">
+<summary>Zwischenzustand</summary>
+<p><img alt="" src="../../../img/a/inf/Abbildung49.png" /></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung50.png" /></p>
+<p><em>Nun die gleichen Konfigurationen bei Switch 2 vornehmen. Danach das Gerät mit der IP 192.168.100.15 an Switch 1, Port 48 anhängen und Gerät mit der Ip 192.168.100.16 an Switch 2, Port 48.</em></p>
+</details>
+<details class="success" open="open">
+<summary>Test 3</summary>
+<p><strong>Stand:</strong></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung51.png" /></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung52.png" /></p>
+<p><strong>Soll:</strong> Client 1 (IP 192.186.100.15) ist am Switch 1, VLAN 200, Port 48 angeschlossen und Pingt erfolgreich Client 2. Client 2 (IP 192.186.100.16) ist am Switch 2, VLAN 200, Port 48 angeschlossen und Pingt erfolgreich Client 1.</p>
+<p><strong>Ist:</strong> Ping’s wurden erfolgreich übertragen.</p>
+<p><strong>Warum:</strong></p>
+</details>
+<details class="success" open="open">
+<summary>Test 4</summary>
+<p><em>Vor dem Test muss Client 1 (IP 192.186.100.15) auf Switch 1, VLAN 300, Port 25 umgesteckt werden und Client 2 (IP 192.186.100.16) auf Switch 2, VLAN 300, Port 47.</em></p>
+<p><strong>Stand:</strong></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung53.png" /></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung54.png" /></p>
+<p><strong>Soll:</strong> Client 1 (IP 192.186.100.15) ist am Switch 1, VLAN 300, Port 25 angeschlossen und Pingt erfolgreich Client 2. Client 2 (IP 192.186.100.16) ist am Switch 2, VLAN 300, Port 47 angeschlossen und Pingt erfolgreich Client 1.</p>
+<p><strong>Ist:</strong> Das Ping kann bei beiden nicht ausgeführt werden.</p>
+<p><strong>Warum:</strong> Weil bei beiden Ports über die die zwei Switches verbunden sind keine tags gemacht wurden für das VLAN 300.</p>
+<p><strong>Muss:</strong></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung55.png" /></p>
+</details>
+<hr />
+<h4 id="arbeitsschritte-um-fehler-bei-test-4-zu-beheben"><strong>Arbeitsschritte um Fehler bei Test 4 zu beheben:</strong></h4>
+<details class="example" open="open">
+<summary>Arbeitsschritte</summary>
+<p><em>Verbinden über Tera Term bei Switch 1:</em></p>
+<p><strong>enable =</strong> Anmeldung</p>
+<p><strong>conf t =</strong> Wechselt in den config Modus</p>
+<p><strong>vlan 300 =</strong> Wechselt vom config Modus in den config-vlan-300</p>
+<p><strong>tagged ethernet 1/2/1 =</strong> Tagged am angegebenen Port</p>
+<p><strong>exit =</strong> Verlässt den (config-vlan-300) und geht in den config Modus</p>
+<p><strong>show running-config =</strong> Zeigt die momentanen Konfigurationen an</p>
+<p><strong>write me =</strong> Speichert die momentanen Konfiguration</p>
+<p><strong>exit =</strong> Verlässt den config Modus</p>
+<p><em>Nun die gleichen Konfigurationen bei Switch 2 vornehmen.</em></p>
+</details>
+<details class="abstract" open="open">
+<summary>Zwischenzustand</summary>
+<p><img alt="" src="../../../img/a/inf/Abbildung56.png" /></p>
+</details>
+<details class="success" open="open">
+<summary>Test 5</summary>
+<p><strong>Stand:</strong></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung57.png" /></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung58.png" /></p>
+<p><strong>Soll:</strong> Client 1 (IP 192.186.100.15) ist am Switch 1, VLAN 300, Port 25 angeschlossen und Pingt erfolgreich Client 2. Client 2 (IP 192.186.100.16) ist am Switch 2, VLAN 300, Port 47 angeschlossen und Pingt erfolgreich Client 1.</p>
+<p><strong>Ist:</strong> Ping’s wurden erfolgreich übertragen.</p>
+<p><strong>Warum:</strong> Da Ich die zwei Port’s getaged haben.</p>
+</details>
+<hr />
+<p><a name="6.3"></a></p>
+<h3 id="63-link-aggregation">6.3 Link Aggregation</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="11:2"><input checked="checked" id="__tabbed_11_1" name="__tabbed_11" type="radio" /><input id="__tabbed_11_2" name="__tabbed_11" type="radio" /><div class="tabbed-labels"><label for="__tabbed_11_1">Ausgangslage</label><label for="__tabbed_11_2">Sollzustand</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><img alt="" src="../../../img/a/inf/Abbildung59.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="" src="../../../img/a/inf/Abbildung60.png" /></p>
+</div>
+</div>
+</div>
+<details class="example" open="open">
+<summary>Arbeitsschritte</summary>
+<p><em>Verbinden über Tera Term bei Switch 1:</em></p>
+<p><strong>enable =</strong> Anmeldung</p>
+<p><strong>conf t =</strong> Wechselt in den config Modus</p>
+<p><strong>lag switch_to_switch dynamic id 1 =</strong> Erstellung eines LAG (namen switch_to_switch, dynamisch, id 1)</p>
+<p><strong>ports ethernet 1/2/1 to 1/2/2 =</strong> Fügt die angegebenen Ports dem LAG hinzu</p>
+<p><strong>primary-port 1/2/1 =</strong> Setzt den angegebenen Port als Primary Port</p>
+<p><strong>deploy =</strong> Schaltet dies ein</p>
+<p><strong>write me =</strong> Speichert die momentanen Konfiguration</p>
+<p><strong>exit =</strong> Verlässt den (config-lag switch_to_switch dynamic id 1) und geht in den config Modus</p>
+<p><strong>show running-config =</strong> Zeigt die momentanen Konfigurationen an</p>
+</details>
+<details class="abstract" open="open">
+<summary>Ausgabe</summary>
+<p><img alt="" src="../../../img/a/inf/Abbildung61.png" /></p>
+</details>
+<div class="admonition warning">
+<p class="admonition-title">Info</p>
+<p>Nun muss man noch auf dem VLAN 100 den primary port taggen. Wichtig! Das taggen kann erst nach dem deploy machen ansonsten kommt beim deployen ein Error.</p>
+<p>Nun die gleichen Konfigurationen bei Switch 2 vornehmen.</p>
+</div>
+<details class="example" open="open">
+<summary>Arbeitsschritte</summary>
+<p>Jetzt bei beiden Switches noch den Primary Port taggen:</p>
+<p><strong>vlan 100 =</strong> Wechselt vom config Modus in den config-vlan-100</p>
+<p><strong>tagged ethernet 1/2/1 =</strong> Tagged am angegebenen Port</p>
+<p><strong>write me =</strong> Speichert die momentanen Konfiguration</p>
+<p><strong>exit =</strong> Verlässt den (config-vlan-100) und geht in den config Modus</p>
+<p><strong>show running-config =</strong> Zeigt die momentanen Konfigurationen an</p>
+</details>
+<details class="abstract" open="open">
+<summary>Ausgabe</summary>
+<p><img alt="" src="../../../img/a/inf/Abbildung62.png" /></p>
+</details>
+<details class="success" open="open">
+<summary>Test 1</summary>
+<p><strong>Stand:</strong></p>
+<p><img alt="" src="../../../img/a/inf/Abbildung63.png" /></p>
+<p><strong>Soll:</strong> Client 1 (IP 192.186.100.15) ist am Switch 1, VLAN 100, Port 47 angeschlossen und Pingt erfolgreich Client 2. Client 2 (IP 192.186.100.16) ist am Switch 2, VLAN 100, Port 47 angeschlossen und Pingt erfolgreich Client 1. Beim ausstecken vom Kabel am Port 1/2/1 an Switch 1 wird das Ping erfolgreich weitergeführt.</p>
+<p><strong>Ist:</strong> Pings wurden erfolgreich übertragen. Nach einem kurzen unter Bruch beim ausstecken des Kabels wurde das Ping wieder erfolgreich ausgeführt.</p>
+<p><strong>Warum:</strong> Dank dem Link Aggregation lief das ping dann über den 1/2/2 Port.</p>
+</details>
+<hr />
+<p><a name="6.4"></a></p>
+<h3 id="64-subnetting-aufgaben">6.4 Subnetting Aufgaben</h3>
+<p><em>Aufgabe 1</em></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="12:2"><input checked="checked" id="__tabbed_12_1" name="__tabbed_12" type="radio" /><input id="__tabbed_12_2" name="__tabbed_12" type="radio" /><div class="tabbed-labels"><label for="__tabbed_12_1">Ausgangslage</label><label for="__tabbed_12_2">Lösung</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Adressvorgabe: 172.17.196.0/21</p>
+<p>Netzadresse:</p>
+<p>Broadcastadresse:</p>
+<p>Gatewayadresse (Erste Hostadresse):</p>
+<p>Anzahl mögliche Hosts:</p>
+<p>Um welche Adressart handelt es sich bei 172.17.196.0/21:</p>
+<p>Netz / Host / Broadcast / Gateway</p>
+</div>
+<div class="tabbed-block">
+<p>Netzadresse: 172.17.192.0/21</p>
+<p>Broadcastadresse: 172.17.199.255</p>
+<p>Gatewayadresse (Erste Hostadresse): 172.17.192.1</p>
+<p>Anzahl mögliche Hosts: 2048 -2</p>
+<p>Um welche Adressart handelt es sich bei 172.17.196.0/21:</p>
+<p>Netz / <strong>Host</strong> / Broadcast / Gateway</p>
+</div>
+</div>
+</div>
+<p><em>Aufgabe 2</em></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="13:2"><input checked="checked" id="__tabbed_13_1" name="__tabbed_13" type="radio" /><input id="__tabbed_13_2" name="__tabbed_13" type="radio" /><div class="tabbed-labels"><label for="__tabbed_13_1">Ausgangslage</label><label for="__tabbed_13_2">Lösung</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Adressvorgabe: 10.128.31.159/27</p>
+<p>Netzadresse:</p>
+<p>Broadcastadresse:</p>
+<p>Gatewayadresse (Erste Hostadresse):</p>
+<p>Anzahl mögliche Hosts:</p>
+<p>Um welche Adressart handelt es sich bei 10.128.31.159/27:</p>
+<p>Netz / Host / Broadcast / Gateway</p>
+</div>
+<div class="tabbed-block">
+<p>Netzadresse: 10.128.31.128</p>
+<p>Broadcastadresse: 10.128.31.159</p>
+<p>Gatewayadresse (Erste Hostadresse): 10.128.31.129</p>
+<p>Anzahl mögliche Hosts: 32 -2</p>
+<p>Um welche Adressart handelt es sich bei 10.128.31.159/27:</p>
+<p>Netz / Host / <strong>Broadcast</strong> / Gateway</p>
+</div>
+</div>
+</div>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 22, 2022</span>
+      
+    
+  </small>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../../Bi/Arbeitsheft/" class="md-footer__link md-footer__link--prev" aria-label="Previous: BI" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              BI
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022 Laura Marie Rosario
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://github.com/squidfunk" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["tabs", "instant", "content.tabs.link", "navigation.expand", "navigation.tabs", "navigation.instant", "mavigation.top"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>

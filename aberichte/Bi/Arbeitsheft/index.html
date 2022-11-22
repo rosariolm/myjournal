@@ -1,0 +1,2478 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>BI - My IT Journal</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.08040f6c.min.css">
+        
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h226.7c17 0 33.3-6.7 45.3-18.7l93.3-93.3c12-12 18.7-28.3 18.7-45.3V96c0-35.3-28.7-64-64-64H64zm0 64h320v224h-64c-17.7 0-32 14.3-32 32v64H64V96z"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 0 1 .25-.25h8.5a.25.25 0 0 1 .25.25v7.736a.75.75 0 1 0 1.5 0V1.75A1.75 1.75 0 0 0 11.25 0h-8.5A1.75 1.75 0 0 0 1 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 0 0 0-1.5H2.75a.25.25 0 0 1-.25-.25V1.75zM4.75 4a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-4.5zM4 7.75A.75.75 0 0 1 4.75 7h2a.75.75 0 0 1 0 1.5h-2A.75.75 0 0 1 4 7.75zm11.774 3.537a.75.75 0 0 0-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 0 0-1.062 1.058l1.943 1.95a.75.75 0 0 0 1.055.008l4.557-4.45z"/></svg>');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm6.5-.25A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75zM8 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0z"/></svg>');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.92 6.085c.081-.16.19-.299.34-.398.145-.097.371-.187.74-.187.28 0 .553.087.738.225A.613.613 0 0 1 9 6.25c0 .177-.04.264-.077.318a.956.956 0 0 1-.277.245c-.076.051-.158.1-.258.161l-.007.004a7.728 7.728 0 0 0-.313.195 2.416 2.416 0 0 0-.692.661.75.75 0 0 0 1.248.832.956.956 0 0 1 .276-.245 6.3 6.3 0 0 1 .26-.16l.006-.004c.093-.057.204-.123.313-.195.222-.149.487-.355.692-.662.214-.32.329-.702.329-1.15 0-.76-.36-1.348-.863-1.725A2.76 2.76 0 0 0 8 4c-.631 0-1.155.16-1.572.438-.413.276-.68.638-.849.977a.75.75 0 1 0 1.342.67z"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575L6.457 1.047zM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-.25-5.25a.75.75 0 0 0-1.5 0v2.5a.75.75 0 0 0 1.5 0v-2.5z"/></svg>');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.404 12.596a6.5 6.5 0 1 1 9.192-9.192 6.5 6.5 0 0 1-9.192 9.192zM2.344 2.343a8 8 0 1 0 11.313 11.314A8 8 0 0 0 2.343 2.343zM6.03 4.97a.75.75 0 0 0-1.06 1.06L6.94 8 4.97 9.97a.75.75 0 1 0 1.06 1.06L8 9.06l1.97 1.97a.75.75 0 1 0 1.06-1.06L9.06 8l1.97-1.97a.75.75 0 1 0-1.06-1.06L8 6.94 6.03 4.97z"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M5 5.782V2.5h-.25a.75.75 0 0 1 0-1.5h6.5a.75.75 0 0 1 0 1.5H11v3.282l3.666 5.76C15.619 13.04 14.543 15 12.767 15H3.233c-1.776 0-2.852-1.96-1.899-3.458L5 5.782zM9.5 2.5h-3V6a.75.75 0 0 1-.117.403L4.73 9h6.54L9.617 6.403A.75.75 0 0 1 9.5 6V2.5zm-6.9 9.847L3.775 10.5h8.45l1.175 1.847a.75.75 0 0 1-.633 1.153H3.233a.75.75 0 0 1-.633-1.153z"/></svg>');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 2.5a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5H1.75zm4 5a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5zm0 5a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5zM2.5 7.75a.75.75 0 0 0-1.5 0v6a.75.75 0 0 0 1.5 0v-6z"/></svg>');}</style>
+
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#arbeitsheft" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="My IT Journal" class="md-header__button md-logo" aria-label="My IT Journal" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My IT Journal
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              BI
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/rosariolm/myjournal" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m503.5 204.6-.7-1.8-69.7-181.78c-1.4-3.57-3.9-6.59-7.2-8.64-2.4-1.55-5.1-2.515-8-2.81-2.9-.295-5.7.083-8.4 1.11-2.7 1.02-5.1 2.66-7.1 4.78-1.9 2.12-3.3 4.67-4.1 7.44l-47 144H160.8l-47.1-144c-.8-2.77-2.2-5.31-4.1-7.43-2-2.12-4.4-3.75-7.1-4.77a18.1 18.1 0 0 0-8.38-1.113 18.4 18.4 0 0 0-8.04 2.793 18.09 18.09 0 0 0-7.16 8.64L9.267 202.8l-.724 1.8a129.57 129.57 0 0 0-3.52 82c7.747 26.9 24.047 50.7 46.447 67.6l.27.2.59.4 105.97 79.5 52.6 39.7 32 24.2c3.7 1.9 8.3 4.3 13 4.3 4.7 0 9.3-2.4 13-4.3l32-24.2 52.6-39.7 106.7-79.9.3-.3c22.4-16.9 38.7-40.6 45.6-67.5 8.6-27 7.4-55.8-2.6-82z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    rosariolm/myjournal
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../tberichte/" class="md-tabs__link">
+      Tagesberichte
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../archiv/Oktober2022/" class="md-tabs__link">
+        Archiv
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../wberichte/Kerberos/" class="md-tabs__link">
+        Wochenberichte
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../NETSEC/Arbeitsheft/" class="md-tabs__link md-tabs__link--active">
+        Arbeitshefter
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="My IT Journal" class="md-nav__button md-logo" aria-label="My IT Journal" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    My IT Journal
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/rosariolm/myjournal" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m503.5 204.6-.7-1.8-69.7-181.78c-1.4-3.57-3.9-6.59-7.2-8.64-2.4-1.55-5.1-2.515-8-2.81-2.9-.295-5.7.083-8.4 1.11-2.7 1.02-5.1 2.66-7.1 4.78-1.9 2.12-3.3 4.67-4.1 7.44l-47 144H160.8l-47.1-144c-.8-2.77-2.2-5.31-4.1-7.43-2-2.12-4.4-3.75-7.1-4.77a18.1 18.1 0 0 0-8.38-1.113 18.4 18.4 0 0 0-8.04 2.793 18.09 18.09 0 0 0-7.16 8.64L9.267 202.8l-.724 1.8a129.57 129.57 0 0 0-3.52 82c7.747 26.9 24.047 50.7 46.447 67.6l.27.2.59.4 105.97 79.5 52.6 39.7 32 24.2c3.7 1.9 8.3 4.3 13 4.3 4.7 0 9.3-2.4 13-4.3l32-24.2 52.6-39.7 106.7-79.9.3-.3c22.4-16.9 38.7-40.6 45.6-67.5 8.6-27 7.4-55.8-2.6-82z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    rosariolm/myjournal
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tberichte/" class="md-nav__link">
+        Tagesberichte
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Archiv
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Archiv" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Archiv
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          2022
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2022" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          2022
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Oktober2022/" class="md-nav__link">
+        Oktober 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/September2022/" class="md-nav__link">
+        September 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/August2022/" class="md-nav__link">
+        August 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Juli2022/" class="md-nav__link">
+        Juli 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Juni2022/" class="md-nav__link">
+        Juni 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Mai2022/" class="md-nav__link">
+        Mai 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/April2022/" class="md-nav__link">
+        April 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/M%C3%A4rz2022/" class="md-nav__link">
+        März 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Februar2022/" class="md-nav__link">
+        Februar 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Januar2022/" class="md-nav__link">
+        Januar 2022
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          2021
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2021" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          2021
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Dezember2021/" class="md-nav__link">
+        Dezember 2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/November2021/" class="md-nav__link">
+        November 2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Oktober2021/" class="md-nav__link">
+        Oktober 2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/September2021/" class="md-nav__link">
+        September 2021
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Wochenberichte
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Wochenberichte" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Wochenberichte
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_1">
+          NETSEC
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="NETSEC" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          NETSEC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/Kerberos/" class="md-nav__link">
+        Kerberos Ablauf
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/Zertifikat/" class="md-nav__link">
+        Zertifikate
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/OSINT/" class="md-nav__link">
+        OSINT
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/SE_Emotionen/" class="md-nav__link">
+        Social Engineering
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/Erkennung_Phishing_Mail/" class="md-nav__link">
+        Erkennung Phishing Mail
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/Phishing_Arten/" class="md-nav__link">
+        Phishing Arten
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w32_2022_schadsoftware/" class="md-nav__link">
+        Schadsoftware
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          BI
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="BI" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          BI
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w18_YUMI/" class="md-nav__link">
+        Multiboot-USB-Stick
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w12_firmware/" class="md-nav__link">
+        Firmware Update
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w8_AutoPilotScript/" class="md-nav__link">
+        Autopilot Script Anpassung
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w7_AutoPilot/" class="md-nav__link">
+        Gerät bei Autopilot hinzufügen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w6_Bootcamp/" class="md-nav__link">
+        Bootcamp
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w5_PIN/" class="md-nav__link">
+        PIN Deaktivierung in Intune
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_3">
+          INF
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="INF" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          INF
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w4_NetzAdrBerechnen/" class="md-nav__link">
+        Netzwerkadresse berechnen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w50_LinkAggregation/" class="md-nav__link">
+        Link Aggregation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w48_VlanHinzufuegen/" class="md-nav__link">
+        VLAN hinzufügen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w47_SwitchTaganduntag/" class="md-nav__link">
+        Switch Taggen und untaggen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w45_TagImEthernetFrame/" class="md-nav__link">
+        Tag im Ethernet Frame
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4">
+          HPC
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="HPC" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          HPC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/gelerntes/" class="md-nav__link">
+        Gelerntes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w40_vagrant/" class="md-nav__link">
+        Vagrant Befehle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w37_gitQandA/" class="md-nav__link">
+        git Q & A
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w36_workflow/" class="md-nav__link">
+        Workflow
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w34_gitcheat/" class="md-nav__link">
+        git Befehlsreferenz
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w33_mkdocs/" class="md-nav__link">
+        MkDocs installieren
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Arbeitshefter
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Arbeitshefter" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Arbeitshefter
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NETSEC/Arbeitsheft/" class="md-nav__link">
+        NETSEC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          BI
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        BI
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#inhaltsverzeichnis" class="md-nav__link">
+    Inhaltsverzeichnis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#intune" class="md-nav__link">
+    Intune
+  </a>
+  
+    <nav class="md-nav" aria-label="Intune">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-profiles" class="md-nav__link">
+    Configuration profiles
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration profiles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wallpaper" class="md-nav__link">
+    Wallpaper
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lockscreen" class="md-nav__link">
+    Lockscreen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-menu-layout-and-taskbar" class="md-nav__link">
+    Start menu layout and taskbar
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-apps" class="md-nav__link">
+    Add Apps
+  </a>
+  
+    <nav class="md-nav" aria-label="Add Apps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#default-file-associations" class="md-nav__link">
+    Default file associations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#toast-notification" class="md-nav__link">
+    Toast notification
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ie-mode" class="md-nav__link">
+    IE Mode
+  </a>
+  
+    <nav class="md-nav" aria-label="IE Mode">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#xml-erstellung" class="md-nav__link">
+    XML Erstellung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#konfiguration-intune" class="md-nav__link">
+    Konfiguration Intune
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#password-policy" class="md-nav__link">
+    Password policy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pin-deaktivierung" class="md-nav__link">
+    PIN Deaktivierung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gerat-bei-autopilot-hinzufugen" class="md-nav__link">
+    Gerät bei Autopilot hinzufügen
+  </a>
+  
+    <nav class="md-nav" aria-label="Gerät bei Autopilot hinzufügen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auf-dem-gerat" class="md-nav__link">
+    Auf dem Gerät
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-intune" class="md-nav__link">
+    In Intune
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autopilot-script-anpassung" class="md-nav__link">
+    Autopilot Script Anpassung
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#softwarepaketierung" class="md-nav__link">
+    Softwarepaketierung
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kfm" class="md-nav__link">
+    KFM
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multiboot-usb-stick-mit-yumi-erstellen" class="md-nav__link">
+    Multiboot-USB-Stick mit YUMI erstellen
+  </a>
+  
+    <nav class="md-nav" aria-label="Multiboot-USB-Stick mit YUMI erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#yumi-download" class="md-nav__link">
+    YUMI Download
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiboot-usb-stick-erste-schritte" class="md-nav__link">
+    Multiboot-USB-Stick erste schritte
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weitere-images" class="md-nav__link">
+    Weitere Images
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hinweise" class="md-nav__link">
+    Hinweise
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#probleme-beim-booten" class="md-nav__link">
+    Probleme beim Booten
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#firmware-update-bei-hp-drucker" class="md-nav__link">
+    Firmware Update bei hp Drucker
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#windows-10-mit-dem-boot-camp-assistenten-auf-einem-mac-installieren" class="md-nav__link">
+    Windows 10 mit dem Boot Camp-Assistenten auf einem Mac installieren
+  </a>
+  
+    <nav class="md-nav" aria-label="Windows 10 mit dem Boot Camp-Assistenten auf einem Mac installieren">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#voraussetzungen-fur-die-installation-von-windows-10-auf-einem-mac" class="md-nav__link">
+    Voraussetzungen für die Installation von Windows 10 auf einem Mac
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wechsel-zwischen-mac-und-windows" class="md-nav__link">
+    Wechsel zwischen Mac und Windows
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inf/Arbeitsheft/" class="md-nav__link">
+        INF
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#inhaltsverzeichnis" class="md-nav__link">
+    Inhaltsverzeichnis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#intune" class="md-nav__link">
+    Intune
+  </a>
+  
+    <nav class="md-nav" aria-label="Intune">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-profiles" class="md-nav__link">
+    Configuration profiles
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration profiles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wallpaper" class="md-nav__link">
+    Wallpaper
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lockscreen" class="md-nav__link">
+    Lockscreen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#start-menu-layout-and-taskbar" class="md-nav__link">
+    Start menu layout and taskbar
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-apps" class="md-nav__link">
+    Add Apps
+  </a>
+  
+    <nav class="md-nav" aria-label="Add Apps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#default-file-associations" class="md-nav__link">
+    Default file associations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#toast-notification" class="md-nav__link">
+    Toast notification
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ie-mode" class="md-nav__link">
+    IE Mode
+  </a>
+  
+    <nav class="md-nav" aria-label="IE Mode">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#xml-erstellung" class="md-nav__link">
+    XML Erstellung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#konfiguration-intune" class="md-nav__link">
+    Konfiguration Intune
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#password-policy" class="md-nav__link">
+    Password policy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pin-deaktivierung" class="md-nav__link">
+    PIN Deaktivierung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gerat-bei-autopilot-hinzufugen" class="md-nav__link">
+    Gerät bei Autopilot hinzufügen
+  </a>
+  
+    <nav class="md-nav" aria-label="Gerät bei Autopilot hinzufügen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#auf-dem-gerat" class="md-nav__link">
+    Auf dem Gerät
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-intune" class="md-nav__link">
+    In Intune
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#autopilot-script-anpassung" class="md-nav__link">
+    Autopilot Script Anpassung
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#softwarepaketierung" class="md-nav__link">
+    Softwarepaketierung
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kfm" class="md-nav__link">
+    KFM
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multiboot-usb-stick-mit-yumi-erstellen" class="md-nav__link">
+    Multiboot-USB-Stick mit YUMI erstellen
+  </a>
+  
+    <nav class="md-nav" aria-label="Multiboot-USB-Stick mit YUMI erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#yumi-download" class="md-nav__link">
+    YUMI Download
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multiboot-usb-stick-erste-schritte" class="md-nav__link">
+    Multiboot-USB-Stick erste schritte
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weitere-images" class="md-nav__link">
+    Weitere Images
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hinweise" class="md-nav__link">
+    Hinweise
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#probleme-beim-booten" class="md-nav__link">
+    Probleme beim Booten
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#firmware-update-bei-hp-drucker" class="md-nav__link">
+    Firmware Update bei hp Drucker
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#windows-10-mit-dem-boot-camp-assistenten-auf-einem-mac-installieren" class="md-nav__link">
+    Windows 10 mit dem Boot Camp-Assistenten auf einem Mac installieren
+  </a>
+  
+    <nav class="md-nav" aria-label="Windows 10 mit dem Boot Camp-Assistenten auf einem Mac installieren">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#voraussetzungen-fur-die-installation-von-windows-10-auf-einem-mac" class="md-nav__link">
+    Voraussetzungen für die Installation von Windows 10 auf einem Mac
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wechsel-zwischen-mac-und-windows" class="md-nav__link">
+    Wechsel zwischen Mac und Windows
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <a href="https://github.com/rosariolm/myjournal/edit/main/docs/aberichte/Bi/Arbeitsheft.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<p><a name="AktuellesAHeft"></a></p>
+<h1 id="arbeitsheft">Arbeitsheft</h1>
+<h2 id="inhaltsverzeichnis">Inhaltsverzeichnis</h2>
+<ul>
+<li>
+<p><a href="#Intune">Intune</a></p>
+<ul>
+<li>
+<p><a href="#conf">Configuration profiles</a></p>
+<ul>
+<li>
+<p><a href="#wpaper">Wallpaper</a></p>
+</li>
+<li>
+<p><a href="#Lscreen">Lockscreen</a></p>
+</li>
+<li>
+<p><a href="#SandT">Start menu layout and taskbar</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="#Apps">Add Apps</a></p>
+<ul>
+<li><a href="#FileAssoc">Default file associations</a></li>
+</ul>
+</li>
+<li>
+<p><a href="#toast">Toast notification</a></p>
+</li>
+<li>
+<p><a href="#IE">IE Mode</a></p>
+</li>
+<li>
+<p><a href="#pwd">Password policy</a></p>
+</li>
+<li>
+<p><a href="#PIN">PIN Deaktivierung</a></p>
+</li>
+<li>
+<p><a href="#Autopilot">Gerät bei Autopilot hinzufügen</a></p>
+<ul>
+<li><a href="#AutoPilotScript">Autopilot Script Anpassung</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="#SoftPack">Softwarepaketierung</a></p>
+</li>
+<li>
+<p><a href="#KFM">KFM</a></p>
+</li>
+<li>
+<p><a href="#YUMI">Multiboot-USB-Stick</a></p>
+<ul>
+<li><a href="#YUMIboot">Boot Probleme</a></li>
+</ul>
+</li>
+<li>
+<p><a href="#FirmUp">Firmware Update</a></p>
+</li>
+<li>
+<p><a href="#BootC">Bootcamp</a></p>
+</li>
+</ul>
+<hr />
+<p><a name="Intune"></a></p>
+<h2 id="intune">Intune</h2>
+<p><a name="conf"></a></p>
+<h3 id="configuration-profiles">Configuration profiles</h3>
+<p>Alle Configurations profiles werden unter <strong>Start &gt; Devices &gt; Configuration profiles</strong> erstellt.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Start</label><label for="__tabbed_1_2">Devices</label><label for="__tabbed_1_3">Configuration profiles</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><img alt="Start" src="../../../img/a/bi/start.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="Devices" src="../../../img/a/bi/devices.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="Configuration profiles" src="../../../img/a/bi/ConfigurationProfiles.png" /></p>
+</div>
+</div>
+</div>
+<p><a name="wpaper"></a></p>
+<h4 id="wallpaper">Wallpaper</h4>
+<hr />
+<p><a name="Lscreen"></a></p>
+<h4 id="lockscreen">Lockscreen</h4>
+<hr />
+<p><a name="SandT"></a></p>
+<h4 id="start-menu-layout-and-taskbar">Start menu layout and taskbar</h4>
+<hr />
+<p><a name="Apps"></a></p>
+<h3 id="add-apps">Add Apps</h3>
+<hr />
+<p><a name="FileAssoc"></a></p>
+<h4 id="default-file-associations">Default file associations</h4>
+<hr />
+<p><a name="toast"></a></p>
+<h3 id="toast-notification">Toast notification</h3>
+<hr />
+<p><a name="IE"></a></p>
+<h3 id="ie-mode">IE Mode</h3>
+<h4 id="xml-erstellung">XML Erstellung</h4>
+<h4 id="konfiguration-intune">Konfiguration Intune</h4>
+<ol>
+<li>
+<p>Zuerst muss man sich auf <a href="https://login.microsoftonline.com">Azure Portal</a> anmelden.</p>
+</li>
+<li>
+<p>Nach der Anmeldung nach <strong>Storage Accounts</strong> suchen.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Je nachdem ob man das erste Mal die Storage accounts braucht muss man zuerst das Abonnement- und die Ressourcengruppe auswählen.</p>
+</div>
+</li>
+<li>
+<p>Nun zum Starten auf <strong>+ Create</strong> klicken.</p>
+<p><img alt="+create" src="../../../img/a/bi/IEMode/%2Bcreate.png" /></p>
+</li>
+<li>
+<p>Bei Basics alle Pflichtfelder ausfüllen.</p>
+<p><img alt="basics" src="../../../img/a/bi/IEMode/Basics1.png" /></p>
+</li>
+<li></li>
+</ol>
+<hr />
+<p><a name="pwd"></a></p>
+<h3 id="password-policy">Password policy</h3>
+<p>Um eine Password Policy zu setzten, navigiere zu <strong>Start &gt; Devices &gt; Compliance policies</strong>.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Start</label><label for="__tabbed_2_2">Devices</label><label for="__tabbed_2_3">Compliance policies</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><img alt="Start" src="../../../img/a/bi/start.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="Devices" src="../../../img/a/bi/devices.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="Compliance policies" src="../../../img/a/bi/CPolicies.png" /></p>
+</div>
+</div>
+</div>
+<p>Nun Create Policy anwählen.</p>
+<p><img alt="create policy" src="../../../img/a/bi/createP.png" /></p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Nun kann man damit beginnen die Password Policy zu erstellen, die kann man wie ich sie gemacht habe befolgen oder auch einige Dinge abändern.</p>
+</div>
+<p><strong>Konfigurationsschritte</strong></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:7"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><input id="__tabbed_3_4" name="__tabbed_3" type="radio" /><input id="__tabbed_3_5" name="__tabbed_3" type="radio" /><input id="__tabbed_3_6" name="__tabbed_3" type="radio" /><input id="__tabbed_3_7" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Create a policy</label><label for="__tabbed_3_2">Basics</label><label for="__tabbed_3_3">Configuration settings</label><label for="__tabbed_3_4">Actons for noncompliance</label><label for="__tabbed_3_5">Assignments</label><label for="__tabbed_3_6">Applicability Rules</label><label for="__tabbed_3_7">Review + create</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><img alt="platform" src="../../../img/a/bi/platform.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="basics" src="../../../img/a/bi/basics.png" /></p>
+<p><img alt="basics1" src="../../../img/a/bi/basics1.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="configurationSettings" src="../../../img/a/bi/configurationSettings.png" /></p>
+<p><img alt="configurationSettings1" src="../../../img/a/bi/configurationSettings1.png" /></p>
+<p><img alt="configurationSettings2" src="../../../img/a/bi/configurationSettings2.png" /></p>
+<p><img alt="configurationSettings3" src="../../../img/a/bi/configurationSettings3.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="ActonsForNoncompliance" src="../../../img/a/bi/ActonsForNoncompliance.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="Assignments" src="../../../img/a/bi/Assignments.png" /></p>
+<p><img alt="Assignments1" src="../../../img/a/bi/Assignments1.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="ApplicabilityRules" src="../../../img/a/bi/ApplicabilityRules.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="R+C." src="../../../img/a/bi/R%2BC.png" /></p>
+</div>
+</div>
+</div>
+<p><img alt="pwsPolicieSchluss" src="../../../img/a/bi/pwsPolicieSchluss.png" /></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> L</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> V<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> I</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> I</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> P</li>
+</ul>
+</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox"/><span class="task-list-indicator"></span></label> Ae</li>
+</ul>
+<hr />
+<p><a name="PIN"></a></p>
+<h3 id="pin-deaktivierung">PIN Deaktivierung</h3>
+<p><img alt="PIN Windows " src="../../../img/w/w5/w5_x.png" style="height:450px" /></p>
+<p>Nach diesem kurzen Schritt wird das "Windows Hello for Business" deaktiviert. Somit auch die Eingabe vom PIN, welche ich deaktivieren wollte.</p>
+<p><strong>Arbeitsschritte</strong></p>
+<ol>
+<li>
+<p>Zuerst muss man vom Home aus zu <strong>Devices &gt; Windows &gt; Windows enrollment</strong> navigieren.</p>
+<p><img alt="Home Feld" src="../../../img/w/w5/w5_1.png" /></p>
+</li>
+<li>
+<p>Unter <strong>Windows enrollment</strong> kann man nun <strong>Windows Hello for Business</strong> anklicken.</p>
+<p><img alt="Windows enrollment" src="../../../img/w/w5/w5_3.png" /></p>
+</li>
+<li>
+<p>Auf dem neu erschienen Feld, muss man unter <strong>Configure Windows Hello for Business</strong> <em>Disabled</em> angeben.</p>
+<p><img alt="Windows enrollment 2" src="../../../img/w/w5/w5_4.png" /></p>
+</li>
+<li>
+<p>Nun <em>Save</em> anwählen.</p>
+<p><img alt="Windows enrollment 3" src="../../../img/w/w5/w5_5.png" /></p>
+</li>
+<li>
+<p>Nach der Speicherung wurde der PIN schon deaktiviert.</p>
+<p><img alt="Windows enrollment 4" src="../../../img/w/w5/w5_6.png" /></p>
+</li>
+</ol>
+<hr />
+<p><a name="Autopilot"></a></p>
+<h3 id="gerat-bei-autopilot-hinzufugen">Gerät bei Autopilot hinzufügen</h3>
+<p>Bevor man in Intune das Gerät importieren kann. Muss ein Script auf dem jeweiligen Gerät ausgeführt werden.</p>
+<h4 id="auf-dem-gerat">Auf dem Gerät</h4>
+<ol>
+<li>
+<p>Wie auf <a href="https://www.thelazyadministrator.com/2020/01/27/get-a-new-computers-auto-pilot-hash-without-going-through-the-out-of-box-experience-oobe/">THE LAZY ADMINISTRATOR</a> das Script herunterladen und am besten auf einem USB-Stick speichern, für weiteren gebrauch.</p>
+</li>
+<li>
+<p>Nach dem Download fehlte bei mir noch ein CMD feil welches ich kopiert habe.</p>
+</li>
+<li>
+<p>Nun kann das Get-WindowsAutoPilotInfo.ps1 ausgeführt werden. <em>Als Admin ausführen!</em></p>
+</li>
+<li>
+<p>Nun sollte eine compHas.csv erstanden sein, welche man für den Intune schritt braucht.</p>
+</li>
+</ol>
+<p><img alt="hash datei" src="../../../img/w/w7/w7_7.png" /></p>
+<h4 id="in-intune">In Intune</h4>
+<ol>
+<li>
+<p>Zuerst muss man vom Home aus zu <strong>Devices &gt; Windows &gt; Windows enrollment &gt; Devices</strong> navigieren.</p>
+<p><img alt="Home Feld" src="../../../img/w/w7/w7_1.png" /></p>
+</li>
+<li>
+<p>Auf der <strong>Windows Autopilot devices</strong> Seite <em>Import</em> anwählen.</p>
+<p><img alt="Autopilot Seite" src="../../../img/w/w7/w7_4.png" /></p>
+</li>
+<li>
+<p>Hier nun die erstellte compHash.csv angeben.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:3"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><input id="__tabbed_4_3" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Schritt 1</label><label for="__tabbed_4_2">Schritt 2</label><label for="__tabbed_4_3">Schritt 3</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><img alt="hash datei" src="../../../img/w/w7/w7_8.png" style="height:550px" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="hash datei" src="../../../img/w/w7/w7_9.png" /></p>
+</div>
+<div class="tabbed-block">
+<p><img alt="hash datei" src="../../../img/w/w7/w7_10.png" style="height:550px" /></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Nach einigen Minuten sollte das Gerät neu auf der Liste erscheinen.</p>
+<p><img alt="neues Gerät auf der Liste" src="../../../img/w/w7/w7_5.png" /></p>
+</li>
+</ol>
+<hr />
+<p><a name="AutoPilotScript"></a></p>
+<h4 id="autopilot-script-anpassung">Autopilot Script Anpassung</h4>
+<p>Damit das Gerät welches mit Autopilot aufgesetzt wird, auch den Group Tag erhält und Online die neuste Windows Version herunterlädt. Muss man nur drei kleine Änderungen am Script vornehmen, welches im KW7 Wochenbericht erstellt habe.</p>
+<p><strong>Arbeitsschritte</strong></p>
+<ol>
+<li>
+<p>Zum Starten Windows PowerShell ISE öffnen.</p>
+<p><img alt="PowerShell" src="../../../img/w/w8/w8_1.png" /></p>
+</li>
+<li>
+<p>Nun die Script Datei auf dem USB-Stick öffnen.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Schritt 1</label><label for="__tabbed_5_2">Schritt 2</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Von der Startseite aus zu <strong>Datei &gt; Öffnen...</strong> navigieren. Oder mit dem shortcut Strg + O.</p>
+<p><img alt="Windows enrollment" src="../../../img/w/w8/w8_2.png" /></p>
+</div>
+<div class="tabbed-block">
+<p>Jetzt zur ps1. Datei navigieren und diese öffnen.</p>
+<p><img alt="Windows enrollment 2" src="../../../img/w/w8/w8_3.png" /></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Nun die drei Änderungen vornehmen.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:4"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><input id="__tabbed_6_3" name="__tabbed_6" type="radio" /><input id="__tabbed_6_4" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">Unverändert</label><label for="__tabbed_6_2">Group Tag</label><label for="__tabbed_6_3">Online</label><label for="__tabbed_6_4">Assign</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><img alt="Windows enrollment" src="../../../img/w/w8/w8_4.png" /></p>
+</div>
+<div class="tabbed-block">
+<p>Da ich möchte, dass jedes Gerät den Group Tag Client automatisch zugeordnet kriegt. Gebe ich dies unter $GroupTag an.
+Auf dem Bild wäre dies in der Zeile 117 zusehen.</p>
+<p><img alt="Windows enrollment" src="../../../img/w/w8/w8_5.png" /></p>
+</div>
+<div class="tabbed-block">
+<p>Jetzt noch $Online auf $true stellen.
+Auf dem Bild wäre dies in der Zeile 123 zusehen.</p>
+<p><img alt="Windows enrollment" src="../../../img/w/w8/w8_6.png" /></p>
+</div>
+<div class="tabbed-block">
+<p>Assign habe ich zusätzlich auch noch auf $true gestellt.
+Auf dem Bild wäre dies in der Zeile 129 zusehen.</p>
+<p><img alt="Windows enrollment" src="../../../img/w/w8/w8_7.png" /></p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+<hr />
+<p><a name="SoftPack"></a></p>
+<h2 id="softwarepaketierung">Softwarepaketierung</h2>
+<hr />
+<p><a name="KFM"></a></p>
+<h2 id="kfm">KFM</h2>
+<hr />
+<p><a name="YUMI"></a></p>
+<h2 id="multiboot-usb-stick-mit-yumi-erstellen">Multiboot-USB-Stick mit YUMI erstellen</h2>
+<p>Mit dieser Anleitung kann man einen Multiboot-USB-Stick erstellen. Ich habe dafür YUMI („Your Universal Multiboot Installer“) verwendet und ein Windows 10, Windows 11 und Knoppix 9.1 gewählt.</p>
+<h3 id="yumi-download">YUMI Download</h3>
+<ol>
+<li>
+<p>Auf der <a href="https://www.pendrivelinux.com/yumi-multiboot-usb-creator/">Pendrivelinux.com</a> findet man die drei YUMI Varianten, die man downloaden kann. Ich habe YUMI exFAT verwendet. Der direkte link für <a href="https://www.pendrivelinux.com/yumi-multiboot-usb-creator/#YUMI-exFAT">YUMI exFAT</a>.</p>
+<p><img alt="YUMI exFAT abschnit" src="../../../img/w/w18/1.png" /></p>
+</li>
+<li>
+<p>Zum Downloaden, beim YUMI exFAT (BIOS and UEFI USB Boot) abschnitt bis nach unten scrollen und auf den Download Button klicken. Nach dem Download YUMI mit einem doppelklick starten.</p>
+</li>
+</ol>
+<p><img alt="Download button" src="../../../img/w/w18/2.png" /></p>
+<h3 id="multiboot-usb-stick-erste-schritte">Multiboot-USB-Stick erste schritte</h3>
+<ol>
+<li>
+<p>Nach dem Starten von YUMI muss man zuerst die Bedingungen mit «<strong>I Agree</strong>» bestätigen.</p>
+<p><img alt="I Agree feld" src="../../../img/w/w18/3.png" /></p>
+</li>
+<li>
+<p>Nun unter <strong>Step 1: ...</strong> der gewünschte USB-Stick anwählen.</p>
+<p><img alt="Stick wählen" src="../../../img/w/w18/4.png" /></p>
+</li>
+<li>
+<p>Jetzt bei <strong>Step 2: ... die</strong> Liste öffnen, in dem man ins leere Feld klickt und danach das passende zu Ihrem iso wählen. (Da ich ein Windows 11 iso auf dem Stick haben wollte, habe ich in der Liste Windows Installer iso ausgewählt)</p>
+<p><img alt="Step 2:" src="../../../img/w/w18/5.png" /></p>
+</li>
+<li>
+<p>Nun da der Explorer erschienen ist kann man zum iso File navigieren und dies anwählen. Wen man das richtige iso hat, <strong>Öffnen</strong> anwählen.</p>
+<p><img alt="" src="../../../img/w/w18/6.png" /></p>
+</li>
+<li>
+<p>Jetzt kann man auf <strong>Create</strong> klicken.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:4"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><input id="__tabbed_7_3" name="__tabbed_7" type="radio" /><input id="__tabbed_7_4" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">Create</label><label for="__tabbed_7_2">Kopierprozess</label><label for="__tabbed_7_3">Hinzufügung</label><label for="__tabbed_7_4">Nächstes ISO</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><img alt="" src="../../../img/w/w18/7.png" /></p>
+</div>
+<div class="tabbed-block">
+<p>Der Kopierprozess dauert ca. 2 Minuten.</p>
+<p><img alt="kopie" src="../../../img/w/w18/8.png" /></p>
+</div>
+<div class="tabbed-block">
+<p>Nachdem es fertig geladen hat, kann man auch <strong>Next &gt;</strong> klicken.</p>
+<p><img alt="adding" src="../../../img/w/w18/9.png" /></p>
+</div>
+<div class="tabbed-block">
+<p>Nun wird man danach gefragt, ob man ein weiteres iso auf den Stick laden möchte. Da auf einen Multiboot-USB-Stick mehrere gehören, habe ich <strong>ja</strong> angewählt.</p>
+<p><img alt="next iso" src="../../../img/w/w18/10.png" /></p>
+</div>
+</div>
+</div>
+</li>
+</ol>
+<h3 id="weitere-images">Weitere Images</h3>
+<p>Nach dem man Ja angewählt hat, erscheint das gleiche Feld wie zuvor. Jetzt kann man die gleichen Schritte wie zuvor durchspielen, bis man alle Images hat, die man möchte.</p>
+<p><img alt="next iso" src="../../../img/w/w18/11.png" /></p>
+<p><strong>Beispiel Knoppix:</strong></p>
+<p>Bei Knoppix habe ich das gleiche wie bei Windows gemacht, nur dass ich bei <strong>Step 2: ...</strong> Ubuntu ausgewählt habe.</p>
+<p><img alt="knoppix iso" src="../../../img/w/w18/12.png" /></p>
+<h3 id="hinweise">Hinweise</h3>
+<ul>
+<li>Sollte man zweimal das gleiche iso anwählen, wird man darauf aufmerksam gemacht.</li>
+</ul>
+<p><img alt="hinweis" src="../../../img/w/w18/hinweis.png" /></p>
+<ul>
+<li>Bei mehreren ISOs erscheint ein <strong>Step 4:...</strong> welcher optional ist.</li>
+</ul>
+<p><img alt="iso grösse" src="../../../img/w/w18/12.png" /></p>
+<ul>
+<li>Bei wieder Verwendung von YUMI kann man unter <strong>Reinstall or Update?</strong> nachschauen welche die aktuellste Version ist und welche Version auf dem Gerät installiert ist.</li>
+</ul>
+<p><img alt="optional" src="../../../img/w/w18/optional.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Bei Hinzufügung von einem ISO auf einem USB-Stick kein Reinstall durchführen, sonst werden alle schon vorhandenen ISO's gelöscht.</p>
+</div>
+<hr />
+<p><a name="YUMIboot"></a></p>
+<h3 id="probleme-beim-booten">Probleme beim Booten</h3>
+<p>Möchte man von einem USB-Stick aus booten, bekommt aber die Meldung "" kann man wie folgt vorgehen.</p>
+<hr />
+<p><a name="FirmUp"></a></p>
+<h2 id="firmware-update-bei-hp-drucker">Firmware Update bei hp Drucker</h2>
+<ol>
+<li>
+<p><strong>Drucker suchen</strong></p>
+<p>Unter <strong>Print Management</strong> nach dem Drucker suchen und Doppel klick auf den Druckernamen.</p>
+<p><img alt="Drucker liste" src="../../../img/w/w12/1.png" /></p>
+</li>
+<li>
+<p><strong>Produktname suchen</strong></p>
+<p>Unter <strong>General</strong> wurde der Produktname bei dem Kommentar hinterlegt.</p>
+<p><img alt="Produktname" src="../../../img/w/w12/2.png" /></p>
+</li>
+<li>
+<p><strong>Nach Software und Treiber von Produkt suchen</strong></p>
+<p>Auf der hp Seite den Produktnamen angeben. Wie auf dem Bild zu sehen reicht der markierter teil. <a href="https://support.hp.com/ch-de/drivers/printers">hp Link</a></p>
+<p><img alt="hp seite" src="../../../img/w/w12/6.png" /></p>
+</li>
+<li>
+<p><strong>Nach Firmware suchen</strong></p>
+<p>Auf der neu erschienenen Seite nach Firmware suchen. Es kann kein oder mehrere Updates vorhanden sein. Bei einem passenden update auf <strong>Herunterladen</strong> klicken.</p>
+<p><img alt="hp seite" src="../../../img/w/w12/8.png" /></p>
+</li>
+<li>
+<p><strong>exe Datei starten</strong></p>
+<p>Nach einigen Sekunden muss man unten <strong>Run</strong> anwählen.</p>
+<p><img alt="exe datei" src="../../../img/w/w12/9.png" /></p>
+</li>
+<li>
+<p><strong>Drucker suche</strong></p>
+<p>Bei diesem Schritt des Prozesses sucht es nach Druckern, die zu dem heruntergeladenen Update passt.</p>
+<p><img alt="printer suche" src="../../../img/w/w12/10.png" /></p>
+</li>
+<li>
+<p><strong>Drucker Auswahl</strong></p>
+<p>Da auf meiner Drucker liste, mehrere Drucker wahren, die dem gleichen Model entsprachen, bekam ich eine grössere Auswahl als nur der von mir gesuchte Drucker. </p>
+<p><img alt="printer suche" src="../../../img/w/w12/11.png" /></p>
+</li>
+<li>
+<p><strong>Password Eingabe</strong></p>
+<p>Nach dem Anwählen von dem Drucker, bei dem ich das Update machen möchte, muss ich noch ein Password eingeben.</p>
+<p><img alt="printer pwd" src="../../../img/w/w12/12.png" /></p>
+</li>
+<li>
+<p><strong>Update starten</strong></p>
+<p>Nun kann man unten <strong>Update</strong> anwählen. Nach der Installierung kann man alle Fenster schliessen.</p>
+<p><img alt="Installierung" src="../../../img/w/w12/13.png" /></p>
+</li>
+</ol>
+<hr />
+<p><a name="BootC"></a></p>
+<h2 id="windows-10-mit-dem-boot-camp-assistenten-auf-einem-mac-installieren">Windows 10 mit dem Boot Camp-Assistenten auf einem Mac installieren</h2>
+<h3 id="voraussetzungen-fur-die-installation-von-windows-10-auf-einem-mac">Voraussetzungen für die Installation von Windows 10 auf einem Mac</h3>
+<ul>
+<li>MacBook von 2015 oder neuer</li>
+<li>MacBook Air von 2012 oder neuer</li>
+<li>MacBook Pro von 2012 oder neuer</li>
+<li>
+<p>Mac mini von 2012 oder neuer</p>
+</li>
+<li>
+<p>iMac von 2012 oder neuer1</p>
+</li>
+<li>iMac Pro (alle Modelle)</li>
+<li>Mac Pro von 2013 oder neuer</li>
+</ul>
+<div class="admonition warning anforderung">
+<p class="admonition-title">Warning</p>
+<p>Mindestens 64 GB freien Speicherplatz auf dem Startvolume des Mac.</p>
+</div>
+<ol>
+<li>
+<p><strong>Einstellung für "Sicheres Starten" prüfen</strong></p>
+<p>Vor der Installation von Windows sollte man die Einstellung auf "Volle Sicherheit" stellen. Nach der Installation von Windows kann man mit jeder Einstellung für "Sicheres Starten" von Windows aus starten.<a href="https://support.apple.com/de-de/HT208198">Link zur Anleitung um sicheres Starten überprüfen.</a></p>
+</li>
+<li>
+<p><strong>Mit dem Boot Camp-Assistenten eine Windows-Partition erstellen</strong></p>
+<p>Vom Finder aus zu <strong>Programme &gt; Dienstprogramme &gt; Boot Camp-Assistent</strong> navigieren. Dort den Boot Camp-Assistent starten.</p>
+<p><img alt="Boot Camp-Assistent" src="../../../img/w/w6/1.png" /></p>
+<ul>
+<li>Wenn der Boot Camp-Assistent dazu auffordert, die Größe der Windows-Partition festzulegen, muss man die oben genante mind. grösse berücksichtigen.</li>
+</ul>
+<div class="admonition warning anforderung">
+<p class="admonition-title">Warning</p>
+<p>Die Partitionsgrösse kann später nicht mehr geändert werden.</p>
+</div>
+</li>
+<li>
+<p><strong>Windows-Partition (BOOTCAMP) formatieren</strong></p>
+<p>Nach der Ausführung des Boot Camp-Assistenten wird der Mac neu gestartet und kehrt zum Installationsprogramm zurück. Wenn man nach dem Installationsprogramm gefragt wird, wo Windows installiert werden soll, muss man die BOOTCAMP-Partition an wählen, und dan auf "Formatieren" klicken.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>In den meisten Fällen wird die richtige BOOTCAMP-Partition vom Installationsprogramm automatisch ausgewählt und formatiert.</p>
+</div>
+</li>
+<li>
+<p><strong>Windows installieren</strong></p>
+<p>Nun am besten alle externen Geräte, die während der Installation nicht benötigt werden trennen. Dann auf "Weiter" klicken. Folgend den Anweisungen auf dem Bildschirm folgen, um Windows zu installieren.</p>
+</li>
+<li>
+<p><strong>Boot Camp-Installationsprogramm unter Windows verwenden</strong></p>
+<p>Nach Abschluss der Windows-Installation wird der Mac unter Windows gestartet und das Fenster "Willkommen beim Boot Camp-Installationsprogramm" geöffnet. Nach dem beflogen der Anweisungen auf dem Bildschirm, werden die Boot Camp- und Windows-Support-Software (Treiber)installiert. Sobald dies fertig ist, wird man dazu aufgefordert, den Computer neu zu starten.</p>
+</li>
+</ol>
+<h3 id="wechsel-zwischen-mac-und-windows">Wechsel zwischen Mac und Windows</h3>
+<p>Um zwischen den beiden zu wechseln, muss man bei einem Neustart, die Wahltaste (oder die Alt-Taste) ⌥ während des Startvorgangs gedrückt halten. <a href="https://support.apple.com/de-de/HT208123">Link zur kurz Anleitung von Apple.</a></p>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 22, 2022</span>
+      
+    
+  </small>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../../NETSEC/Arbeitsheft/" class="md-footer__link md-footer__link--prev" aria-label="Previous: NETSEC" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              NETSEC
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../inf/Arbeitsheft/" class="md-footer__link md-footer__link--next" aria-label="Next: INF" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              INF
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022 Laura Marie Rosario
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://github.com/squidfunk" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["tabs", "instant", "content.tabs.link", "navigation.expand", "navigation.tabs", "navigation.instant", "mavigation.top"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2253 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>NETSEC - My IT Journal</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.08040f6c.min.css">
+        
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h226.7c17 0 33.3-6.7 45.3-18.7l93.3-93.3c12-12 18.7-28.3 18.7-45.3V96c0-35.3-28.7-64-64-64H64zm0 64h320v224h-64c-17.7 0-32 14.3-32 32v64H64V96z"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 1.75a.25.25 0 0 1 .25-.25h8.5a.25.25 0 0 1 .25.25v7.736a.75.75 0 1 0 1.5 0V1.75A1.75 1.75 0 0 0 11.25 0h-8.5A1.75 1.75 0 0 0 1 1.75v11.5c0 .966.784 1.75 1.75 1.75h3.17a.75.75 0 0 0 0-1.5H2.75a.25.25 0 0 1-.25-.25V1.75zM4.75 4a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-4.5zM4 7.75A.75.75 0 0 1 4.75 7h2a.75.75 0 0 1 0 1.5h-2A.75.75 0 0 1 4 7.75zm11.774 3.537a.75.75 0 0 0-1.048-1.074L10.7 14.145 9.281 12.72a.75.75 0 0 0-1.062 1.058l1.943 1.95a.75.75 0 0 0 1.055.008l4.557-4.45z"/></svg>');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm6.5-.25A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75zM8 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0z"/></svg>');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm9 3a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.92 6.085c.081-.16.19-.299.34-.398.145-.097.371-.187.74-.187.28 0 .553.087.738.225A.613.613 0 0 1 9 6.25c0 .177-.04.264-.077.318a.956.956 0 0 1-.277.245c-.076.051-.158.1-.258.161l-.007.004a7.728 7.728 0 0 0-.313.195 2.416 2.416 0 0 0-.692.661.75.75 0 0 0 1.248.832.956.956 0 0 1 .276-.245 6.3 6.3 0 0 1 .26-.16l.006-.004c.093-.057.204-.123.313-.195.222-.149.487-.355.692-.662.214-.32.329-.702.329-1.15 0-.76-.36-1.348-.863-1.725A2.76 2.76 0 0 0 8 4c-.631 0-1.155.16-1.572.438-.413.276-.68.638-.849.977a.75.75 0 1 0 1.342.67z"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575L6.457 1.047zM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-.25-5.25a.75.75 0 0 0-1.5 0v2.5a.75.75 0 0 0 1.5 0v-2.5z"/></svg>');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.404 12.596a6.5 6.5 0 1 1 9.192-9.192 6.5 6.5 0 0 1-9.192 9.192zM2.344 2.343a8 8 0 1 0 11.313 11.314A8 8 0 0 0 2.343 2.343zM6.03 4.97a.75.75 0 0 0-1.06 1.06L6.94 8 4.97 9.97a.75.75 0 1 0 1.06 1.06L8 9.06l1.97 1.97a.75.75 0 1 0 1.06-1.06L9.06 8l1.97-1.97a.75.75 0 1 0-1.06-1.06L8 6.94 6.03 4.97z"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M5 5.782V2.5h-.25a.75.75 0 0 1 0-1.5h6.5a.75.75 0 0 1 0 1.5H11v3.282l3.666 5.76C15.619 13.04 14.543 15 12.767 15H3.233c-1.776 0-2.852-1.96-1.899-3.458L5 5.782zM9.5 2.5h-3V6a.75.75 0 0 1-.117.403L4.73 9h6.54L9.617 6.403A.75.75 0 0 1 9.5 6V2.5zm-6.9 9.847L3.775 10.5h8.45l1.175 1.847a.75.75 0 0 1-.633 1.153H3.233a.75.75 0 0 1-.633-1.153z"/></svg>');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.75 2.5a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5H1.75zm4 5a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5zm0 5a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5h-8.5zM2.5 7.75a.75.75 0 0 0-1.5 0v6a.75.75 0 0 0 1.5 0v-6z"/></svg>');}</style>
+
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#arbeitsheft" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="My IT Journal" class="md-header__button md-logo" aria-label="My IT Journal" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My IT Journal
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              NETSEC
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/rosariolm/myjournal" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m503.5 204.6-.7-1.8-69.7-181.78c-1.4-3.57-3.9-6.59-7.2-8.64-2.4-1.55-5.1-2.515-8-2.81-2.9-.295-5.7.083-8.4 1.11-2.7 1.02-5.1 2.66-7.1 4.78-1.9 2.12-3.3 4.67-4.1 7.44l-47 144H160.8l-47.1-144c-.8-2.77-2.2-5.31-4.1-7.43-2-2.12-4.4-3.75-7.1-4.77a18.1 18.1 0 0 0-8.38-1.113 18.4 18.4 0 0 0-8.04 2.793 18.09 18.09 0 0 0-7.16 8.64L9.267 202.8l-.724 1.8a129.57 129.57 0 0 0-3.52 82c7.747 26.9 24.047 50.7 46.447 67.6l.27.2.59.4 105.97 79.5 52.6 39.7 32 24.2c3.7 1.9 8.3 4.3 13 4.3 4.7 0 9.3-2.4 13-4.3l32-24.2 52.6-39.7 106.7-79.9.3-.3c22.4-16.9 38.7-40.6 45.6-67.5 8.6-27 7.4-55.8-2.6-82z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    rosariolm/myjournal
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../tberichte/" class="md-tabs__link">
+      Tagesberichte
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../archiv/Oktober2022/" class="md-tabs__link">
+        Archiv
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../wberichte/Kerberos/" class="md-tabs__link">
+        Wochenberichte
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        Arbeitshefter
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="My IT Journal" class="md-nav__button md-logo" aria-label="My IT Journal" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    My IT Journal
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/rosariolm/myjournal" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m503.5 204.6-.7-1.8-69.7-181.78c-1.4-3.57-3.9-6.59-7.2-8.64-2.4-1.55-5.1-2.515-8-2.81-2.9-.295-5.7.083-8.4 1.11-2.7 1.02-5.1 2.66-7.1 4.78-1.9 2.12-3.3 4.67-4.1 7.44l-47 144H160.8l-47.1-144c-.8-2.77-2.2-5.31-4.1-7.43-2-2.12-4.4-3.75-7.1-4.77a18.1 18.1 0 0 0-8.38-1.113 18.4 18.4 0 0 0-8.04 2.793 18.09 18.09 0 0 0-7.16 8.64L9.267 202.8l-.724 1.8a129.57 129.57 0 0 0-3.52 82c7.747 26.9 24.047 50.7 46.447 67.6l.27.2.59.4 105.97 79.5 52.6 39.7 32 24.2c3.7 1.9 8.3 4.3 13 4.3 4.7 0 9.3-2.4 13-4.3l32-24.2 52.6-39.7 106.7-79.9.3-.3c22.4-16.9 38.7-40.6 45.6-67.5 8.6-27 7.4-55.8-2.6-82z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    rosariolm/myjournal
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tberichte/" class="md-nav__link">
+        Tagesberichte
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Archiv
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Archiv" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Archiv
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          2022
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2022" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          2022
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Oktober2022/" class="md-nav__link">
+        Oktober 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/September2022/" class="md-nav__link">
+        September 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/August2022/" class="md-nav__link">
+        August 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Juli2022/" class="md-nav__link">
+        Juli 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Juni2022/" class="md-nav__link">
+        Juni 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Mai2022/" class="md-nav__link">
+        Mai 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/April2022/" class="md-nav__link">
+        April 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/M%C3%A4rz2022/" class="md-nav__link">
+        März 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Februar2022/" class="md-nav__link">
+        Februar 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Januar2022/" class="md-nav__link">
+        Januar 2022
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          2021
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="2021" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          2021
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Dezember2021/" class="md-nav__link">
+        Dezember 2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/November2021/" class="md-nav__link">
+        November 2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/Oktober2021/" class="md-nav__link">
+        Oktober 2021
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archiv/September2021/" class="md-nav__link">
+        September 2021
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Wochenberichte
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Wochenberichte" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Wochenberichte
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_1">
+          NETSEC
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="NETSEC" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          NETSEC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/Kerberos/" class="md-nav__link">
+        Kerberos Ablauf
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/Zertifikat/" class="md-nav__link">
+        Zertifikate
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/OSINT/" class="md-nav__link">
+        OSINT
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/SE_Emotionen/" class="md-nav__link">
+        Social Engineering
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/Erkennung_Phishing_Mail/" class="md-nav__link">
+        Erkennung Phishing Mail
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/Phishing_Arten/" class="md-nav__link">
+        Phishing Arten
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w32_2022_schadsoftware/" class="md-nav__link">
+        Schadsoftware
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          BI
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="BI" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          BI
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w18_YUMI/" class="md-nav__link">
+        Multiboot-USB-Stick
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w12_firmware/" class="md-nav__link">
+        Firmware Update
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w8_AutoPilotScript/" class="md-nav__link">
+        Autopilot Script Anpassung
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w7_AutoPilot/" class="md-nav__link">
+        Gerät bei Autopilot hinzufügen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w6_Bootcamp/" class="md-nav__link">
+        Bootcamp
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w5_PIN/" class="md-nav__link">
+        PIN Deaktivierung in Intune
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_3">
+          INF
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="INF" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          INF
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w4_NetzAdrBerechnen/" class="md-nav__link">
+        Netzwerkadresse berechnen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w50_LinkAggregation/" class="md-nav__link">
+        Link Aggregation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w48_VlanHinzufuegen/" class="md-nav__link">
+        VLAN hinzufügen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w47_SwitchTaganduntag/" class="md-nav__link">
+        Switch Taggen und untaggen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w45_TagImEthernetFrame/" class="md-nav__link">
+        Tag im Ethernet Frame
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4">
+          HPC
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="HPC" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          HPC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/gelerntes/" class="md-nav__link">
+        Gelerntes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w40_vagrant/" class="md-nav__link">
+        Vagrant Befehle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w37_gitQandA/" class="md-nav__link">
+        git Q & A
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w36_workflow/" class="md-nav__link">
+        Workflow
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w34_gitcheat/" class="md-nav__link">
+        git Befehlsreferenz
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wberichte/w33_mkdocs/" class="md-nav__link">
+        MkDocs installieren
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Arbeitshefter
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Arbeitshefter" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Arbeitshefter
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          NETSEC
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        NETSEC
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#inhaltsverzeichnis" class="md-nav__link">
+    Inhaltsverzeichnis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phishing" class="md-nav__link">
+    Phishing
+  </a>
+  
+    <nav class="md-nav" aria-label="Phishing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#moglicher-ablauf-einer-phishing-attacke" class="md-nav__link">
+    Möglicher Ablauf einer Phishing Attacke
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erkennung-phishing-mails" class="md-nav__link">
+    Erkennung Phishing Mails
+  </a>
+  
+    <nav class="md-nav" aria-label="Erkennung Phishing Mails">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#merkmale-einer-phishing-mail" class="md-nav__link">
+    Merkmale einer Phishing Mail
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erkennung-phishing-mails-beispiele" class="md-nav__link">
+    Erkennung Phishing Mails Beispiele
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phishing-arten" class="md-nav__link">
+    Phishing Arten
+  </a>
+  
+    <nav class="md-nav" aria-label="Phishing Arten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-spear-phishing" class="md-nav__link">
+    Was ist Spear Phishing?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-whaling" class="md-nav__link">
+    Was ist Whaling?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-smishing" class="md-nav__link">
+    Was ist Smishing?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-vishing" class="md-nav__link">
+    Was ist Vishing?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-e-mail-phishing" class="md-nav__link">
+    Was ist E-Mail Phishing?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-suchmaschinen-phishing" class="md-nav__link">
+    Was ist Suchmaschinen-Phishing?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wie-schutzt-man-sich-gegen-phishing" class="md-nav__link">
+    Wie schützt man sich gegen Phishing?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schadsoftware" class="md-nav__link">
+    Schadsoftware
+  </a>
+  
+    <nav class="md-nav" aria-label="Schadsoftware">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definition-malware" class="md-nav__link">
+    Definition Malware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#virus" class="md-nav__link">
+    Virus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wurm" class="md-nav__link">
+    Wurm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trojaner" class="md-nav__link">
+    Trojaner
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ransomware" class="md-nav__link">
+    Ransomware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keylogger" class="md-nav__link">
+    Keylogger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spyware" class="md-nav__link">
+    Spyware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adware" class="md-nav__link">
+    Adware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rogue-security-software" class="md-nav__link">
+    Rogue Security Software
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rootkit" class="md-nav__link">
+    Rootkit
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#social-engineering" class="md-nav__link">
+    Social Engineering
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#das-zertifikat" class="md-nav__link">
+    Das Zertifikat
+  </a>
+  
+    <nav class="md-nav" aria-label="Das Zertifikat">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-ein-zertifikat" class="md-nav__link">
+    Was ist ein Zertifikat?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wozu-dient-ein-zertifikat" class="md-nav__link">
+    Wozu dient ein Zertifikat?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#was-ein-zertifikat-verhindert" class="md-nav__link">
+    Was ein Zertifikat verhindert!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#einsatzbereich" class="md-nav__link">
+    Einsatzbereich
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inhalt-und-standards" class="md-nav__link">
+    Inhalt und Standards
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Bi/Arbeitsheft/" class="md-nav__link">
+        BI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inf/Arbeitsheft/" class="md-nav__link">
+        INF
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#inhaltsverzeichnis" class="md-nav__link">
+    Inhaltsverzeichnis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phishing" class="md-nav__link">
+    Phishing
+  </a>
+  
+    <nav class="md-nav" aria-label="Phishing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#moglicher-ablauf-einer-phishing-attacke" class="md-nav__link">
+    Möglicher Ablauf einer Phishing Attacke
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erkennung-phishing-mails" class="md-nav__link">
+    Erkennung Phishing Mails
+  </a>
+  
+    <nav class="md-nav" aria-label="Erkennung Phishing Mails">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#merkmale-einer-phishing-mail" class="md-nav__link">
+    Merkmale einer Phishing Mail
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erkennung-phishing-mails-beispiele" class="md-nav__link">
+    Erkennung Phishing Mails Beispiele
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phishing-arten" class="md-nav__link">
+    Phishing Arten
+  </a>
+  
+    <nav class="md-nav" aria-label="Phishing Arten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-spear-phishing" class="md-nav__link">
+    Was ist Spear Phishing?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-whaling" class="md-nav__link">
+    Was ist Whaling?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-smishing" class="md-nav__link">
+    Was ist Smishing?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-vishing" class="md-nav__link">
+    Was ist Vishing?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-e-mail-phishing" class="md-nav__link">
+    Was ist E-Mail Phishing?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-suchmaschinen-phishing" class="md-nav__link">
+    Was ist Suchmaschinen-Phishing?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wie-schutzt-man-sich-gegen-phishing" class="md-nav__link">
+    Wie schützt man sich gegen Phishing?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schadsoftware" class="md-nav__link">
+    Schadsoftware
+  </a>
+  
+    <nav class="md-nav" aria-label="Schadsoftware">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definition-malware" class="md-nav__link">
+    Definition Malware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#virus" class="md-nav__link">
+    Virus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wurm" class="md-nav__link">
+    Wurm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trojaner" class="md-nav__link">
+    Trojaner
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ransomware" class="md-nav__link">
+    Ransomware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keylogger" class="md-nav__link">
+    Keylogger
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spyware" class="md-nav__link">
+    Spyware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adware" class="md-nav__link">
+    Adware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rogue-security-software" class="md-nav__link">
+    Rogue Security Software
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rootkit" class="md-nav__link">
+    Rootkit
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#social-engineering" class="md-nav__link">
+    Social Engineering
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#das-zertifikat" class="md-nav__link">
+    Das Zertifikat
+  </a>
+  
+    <nav class="md-nav" aria-label="Das Zertifikat">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#was-ist-ein-zertifikat" class="md-nav__link">
+    Was ist ein Zertifikat?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wozu-dient-ein-zertifikat" class="md-nav__link">
+    Wozu dient ein Zertifikat?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#was-ein-zertifikat-verhindert" class="md-nav__link">
+    Was ein Zertifikat verhindert!
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#einsatzbereich" class="md-nav__link">
+    Einsatzbereich
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inhalt-und-standards" class="md-nav__link">
+    Inhalt und Standards
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <a href="https://github.com/rosariolm/myjournal/edit/main/docs/aberichte/NETSEC/Arbeitsheft.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="arbeitsheft">Arbeitsheft</h1>
+<h2 id="inhaltsverzeichnis">Inhaltsverzeichnis</h2>
+<ul>
+<li>
+<p><a href="#Phishing]">Phishing</a></p>
+<ul>
+<li>
+<p><a href="#Phishing Attacke">Ablauf Phishing Attacke</a></p>
+</li>
+<li>
+<p><a href="#Erkennung">Erkennung Phishing Mails</a></p>
+<ul>
+<li>
+<p><a href="#Merkmale">Merkmale Phishing Mails</a></p>
+</li>
+<li>
+<p><a href="#Erkennung">Erkennung Phishing Mails</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="#hishing Arten">Phishing Arten</a></p>
+</li>
+<li>
+<p><a href="#Schutz">Schutz gegen Phishing</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="#Schadsoftware">Schadsoftware</a></p>
+</li>
+<li>
+<p><a href="#SE">Social Engineering</a></p>
+</li>
+<li>
+<p><a href="#Zerti">Zertifikate</a></p>
+</li>
+</ul>
+<hr />
+<p><a name="Phishing"></a></p>
+<h2 id="phishing">Phishing</h2>
+<p><a name="Phishing Attacke"></a></p>
+<h3 id="moglicher-ablauf-einer-phishing-attacke">Möglicher Ablauf einer Phishing Attacke</h3>
+<ol>
+<li>
+<p>Eine offiziell wirkende E-Mail wird an eine möglichst grosse Anzahl von Nutzern gesendet.</p>
+<p>In der Mail werden hauptsächlich die Leser aufgefordert einen Link zu öffnen. Meistens enthält die Mail eine überzeugende Begründung für das Eintragen der Log-In Daten auf der meist gefälschter Webseite.</p>
+<p>Falls dem Angreifer eine E-Mail des Phishing-Ziels vorliegt, kann er deren Format kopieren. Auch einzelne Teile davon wie Begrüssung &amp; Kontakt Angaben werden übernommen.</p>
+<div class="admonition example">
+<p><figure markdown>
+    <img alt="AblaufPhishing_1" src="../../../img/a/NETSEC/AblaufPhishing_1.png" style="height:260px" />
+    <figcaption>Beispiel Phishing Mail mit Link
+  </figure></p>
+</div>
+</li>
+<li>
+<p>Der Nutzer erreicht über den Link eine ebenfalls gefälschte Log-In-Seite. Oft orientieren sich die Angreifer an einer existierenden Seite.</p>
+<p>Sie kopieren das Layout und gestalten das Formular so, dass die Log-In-Daten in einer zugänglichen Datei gesammelt werden. Anschliessend erhält der Angreifer die Daten und den freien Zugriff auf den Account.</p>
+<div class="admonition example">
+<p><figure markdown>
+    <img alt="AblaufPhishing_2" src="../../../img/a/NETSEC/AblaufPhishing_2.png" style="height:450px" />
+    <figcaption>Beispiel Fake login Seite
+  </figure></p>
+</div>
+</li>
+</ol>
+<p><a name="Erkennung"></a></p>
+<h3 id="erkennung-phishing-mails">Erkennung Phishing Mails</h3>
+<p><a name="Merkmale"></a></p>
+<h4 id="merkmale-einer-phishing-mail">Merkmale einer Phishing Mail</h4>
+<div class="admonition warning">
+<p class="admonition-title">Grammatik- und Orthografie Fehler</p>
+<p>Am einfachsten zu durchschauen sind E-Mails, die in fehlerhaftem Deutsch geschrieben sind. Solche Mails wurden meist nicht in Deutsch verfasst, sondern mit einem Übersetzungsdienst aus einer anderen Sprache übersetzt worden.</p>
+<p>Ein weiterer Hinweis auf solche E-Mails sind Zeichensatzfehler, wie etwas kyrillische Buchstaben oder auch fehlende Umlaute.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Mails in fremder Sprache</p>
+<p>Ebenfalls ein weiterer Tipp um Phishing Mails zu erkennen sind E-Mails, die auf Englisch oder Französisch verfasst sind.</p>
+<p>Ist man nicht gerade ein Kunde einer Bank mit Sitz im Ausland, kann man sicher sein, dass die (wenn überhaupt) E-Mails von der Bank nur auf Deutsch kommen.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Fehlender Name</p>
+<p>Die Bank und andere Geschäftspartner wie zum Beispiel Online Zahlungsdienste sprechen Ihre Kunden in E-Mails grundsätzlich mit Ihrem Namen an und niemals mit «Sehr geehrter Kunde» oder «Sehr geehrter Nutzer».</p>
+<p>Phishing Experts haben aber oftmals auch die Namen Ihrer ziel Person schon herausgefunden und schreiben Sie mit persönlicher Ansprache an, zum Beispiel «Sehr geehrte Frau Meier» oder «Sehr geehrter Herr Müller». Damit versuchen die Kriminelle, das E-Mail eine höhere Glaubwürdigkeit zu verleihen.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Dringender Handlungsbedarf</p>
+<p>Im Fall das man via E-Mail aufgefordert wird, ganz dringend und innerhalb einer bestimmten (kurzen) Frist zu handeln, sollte man ebenfalls stutzig werden. Insbesondere, wenn diese Aufforderung mit einer Drohung verbunden ist beispielsweise, dass sonst Ihre Kreditkarte oder Ihr Online Zugang gesperrt werden.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Eingabe von Daten</p>
+<p>Die Aufforderung, persönliche Daten sowie möglicherweise PIN oder TAN einzugeben ist, ein weiterer Hinweis. Banken und Online-Zahlungsdienste werden ihre Kunden um so etwas nicht per E-Mail bitten. PIN und TAN werden von Geldinstituten niemals telefonisch oder per E-Mail von Banken abgefragt; dies zählt zu den wesentlichen Sicherheitsregeln.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Aufforderung zur Öffnung einer Datei</p>
+<p>In immer mehr Phishing-E-Mails werden die Empfänger aufgefordert, direkt an die E-Mail angehängte Dateien oder Dateien zu öffnen, die über einen Link heruntergeladen werden können.</p>
+<p>Solche Dateien dürfen niemals in unerwarteten E-Mails herunterladen oder geöffnet werden. Normalerweise enthält diese Datei bösartige Programme wie Viren oder Trojaner. Man sollte sich niemals von Drohungen wie Kontosperrung, Inkassoeingriff oder anderen fiktiven Gründen dazu verleiten lasen, den Anhang zu öffnen. Bei E-Mails mit einem Dateianhang sollte man grundsätzlich misstrauisch sein.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Mailheader</p>
+<p>Manche Phishing-Mails sind ausgesprochen akzeptabel gemacht. Die Absender-E-Mailadresse scheint vertrauenswürdig, der Link im Text ebenfalls, das Deutsch ist flüssig? Trotzdem muss ebendiese E-Mail nicht authentisch sein.</p>
+<p>Gleichfalls Absenderangaben von E-Mails lassen sich fälschen. Um letzte Gewissensbisse auszuräumen, muss in der genannten E-Mail der Mail-Header angeschaut werden. Dort steht die IP-Adresse des Absenders. Nur ebendiese ist fälschungssicher und gibt Aufschluss über den tatsächlichen Absender.</p>
+</div>
+<p><a name="Erkennung"></a></p>
+<h4 id="erkennung-phishing-mails-beispiele">Erkennung Phishing Mails Beispiele</h4>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> Die Anrede ist sehr unpersönlich, ohne Ihren Namen zu nennen: "Sehr geehrter Kunde …".</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> Der Text der Mail gibt dringenden Handlungsbedarf vor, etwa: "Wenn Sie Ihre Daten nicht umgehend aktualisieren, dann gehen sie unwiederbringlich verloren …".</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> Drohungen kommen zum Einsatz: „Wenn Sie das nicht tun, müssen wir Ihr Konto leider sperren …".</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> Im Mail wird man aufgefordert, vertrauliche Daten wie die PIN für einen Online-Bankzugang oder eine Kreditkartennummer einzugeben.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> Die E-Mail enthält komische Links oder Formulare.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> Der Nachrichtentext ist in schlechtem Deutsch verfasst.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" checked/><span class="task-list-indicator"></span></label> Der Text enthält kyrillische Buchstaben, falsch aufgelöste oder gänzlich fehlende Umlaute – zum Beispiel "ae" oder "ea" statt ä.</p>
+</li>
+</ul>
+<div class="admonition example">
+<p><figure markdown>
+    <img alt="Merknlatt" src="../../../img/a/NETSEC/Merkblatt.jpg" style="height:400px" />
+    <figcaption>Merkblatt Phishing von BSI Bund
+  </figure></p>
+</div>
+<p><a name="Phishing Arten"></a></p>
+<h3 id="phishing-arten">Phishing Arten</h3>
+<p><a name="Spear"></a></p>
+<h4 id="was-ist-spear-phishing"><strong>Was ist Spear Phishing?</strong></h4>
+<p>Beim Angeln mit der Angelrute kann sich eine Reihe von verschiedenen Gegenständen unter der Wasseroberfläche finden wie zum Beispiel eine Flunder, eine Forelle oder ein Stück Abfall. Beim Fischen mit dem Speer gehen Sie gezielt auf einer Jagd nach einem bestimmten Fisch. Aus dem Grund kommt der Name «Spear Fishing» (Speerfischen).</p>
+<p>Beim Spear Phishing wird eine bestimmte Gruppe oder eine Person mit einer bestimmten Funktion gesucht, z.B. der Systemadministrator eines Unternehmens.</p>
+<hr />
+<p><a name="Whaling"></a></p>
+<h4 id="was-ist-whaling"><strong>Was ist Whaling?</strong></h4>
+<p>Das Whaling ist eine noch gezieltere Art von Phishing, da es die Wale im Visier hat beziehungsweise die richtig grossen Fische.
+Diese Angriffe zielen in der Regel auf den CEO, CFO oder ein anderes Mitglied der Geschäftsleistung eines bestimmten Unternehmens oder in einer Branche.</p>
+<p>In einer Whaling E-Mail kann beispielsweise stehen, dass dem Unternehmen rechtliche Konsequenzen drohen und Sie auf den Link klicken müssen, um weitere Informationen zu erhalten.</p>
+<p>Der Links leitet Sie auf eine Seite, auf der Sie gebeten werden, alle wichtigen Daten über das Unternehmen einzugeben, etwa wie die Steuer-ID und Nummern von Bankkonten.</p>
+<hr />
+<p><a name="Smishing"></a></p>
+<h4 id="was-ist-smishing"><strong>Was ist Smishing?</strong></h4>
+<p>Das Smishing ist ein Angriff, für den Text oder Kurznachrichten sprich (SMS) verwendet werden. Eine gängige Smishing Technik besteht darin, per SMS eine Nachricht an ein Mobiltelefon zu senden, welches ein anklickbaren Link oder eine Rückrufnummer enthält.</p>
+<p>Ein beliebtes Beispiel für ein Smishing Angrif ist eine SMS Nachricht, welches so aussieht, als käme sie von Ihrer Bank.</p>
+<p>Der Angreifer fordert einen auf, Ihre Kontonummer, Sozialversicherungsnummer, Ausweisnummer usw. zu verifizieren. Sobald der Angreifer die Informationen erhält, hat er die Kontrolle über das Bankkonto.</p>
+<hr />
+<p><a name="Vishing"></a></p>
+<h4 id="was-ist-vishing"><strong>Was ist Vishing?</strong></h4>
+<p>Vishing dient demselben Zweck wie andere Arten von Phishing-Angriffen. Den Angreifern geht es auch hier um vertraulichen persönlichen Daten oder Unternehmensinformationen. Dieser Angriff erfolgt über einen Telefonanaruf. Daher das «V» (vom englischen «Voice») anstelle des «Ph» im Namen.</p>
+<p>Ein häufiger Vishing-Angriff besteht darin, dass sich eine Person bei einem Anruf als Vertreter von Microsoft ausgibt. Diese Person teilt Ihnen mit, dass sie Malware auf Ihrem Computer entdeckt hat. Sie werden dann aufgefordert, Ihre Kreditkartendaten anzugeben, damit der Angreifer eine aktualisierte Version der Antiviren-Software auf Ihrem Computer installieren kann. Der Angreifer hat nun Ihre Kreditkartendaten, und mit hoher Wahrscheinlichkeit haben Sie Malware auf Ihrem Computer installiert.</p>
+<p>Diese könnte alles enthalten, von einem Banking-Trojaner bis hin zu einem Bot (kurz für „Robot“). Der Banking-Trojaner beobachtet alle Onlineaktivitäten, um weitere Daten zu stehlen – oft die Daten des Bankkontos einschließlich des Passworts.</p>
+<p>Ein Bot ist eine Software, die so konzipiert ist, dass sie die vom Hacker gewünschten Aufgaben erfüllt. Er wird per Command and Control (C&amp;C) gesteuert, um Bitcoins zu schürfen, Spam zu versenden oder einen Angriff im Rahmen eines Distributed Denial of Service (DDoS) zu starten.</p>
+<hr />
+<p><a name="E-Mail"></a></p>
+<h4 id="was-ist-e-mail-phishing"><strong>Was ist E-Mail Phishing?</strong></h4>
+<p>Das E-Mail Phishing ist die häufigste Art von Phishing und kommt seit 1990er Jahren zum Einsatz. Die Täter versenden E-Mails an alle möglichen E-Mail-Adressen, die Sie in die Hände bekommen. In der Regeln wird im E-Mail mitgeteilt, dass Ihr Konto gefährdet ist und Sie sofort reagieren müssen, indem Sie auf den angegebenen Link klicken.</p>
+<p>Einige E-Mails sind nur schwer als Phishing Angriffe zu erkennen, vor allem wenn die Sprache und Grammatik sorgfältig gestaltet sind. Das Überprüfen des Absenders der E-Mail und des Links, den Sie anklicken sollen, auf verdächtige Formulierungen kann Ihren Aufschluss darüber geben, ob die Quelle verdächtig ist.</p>
+<p>Ein weiterer Phishing-Scam, den man als Sextortion (aus den englischen Worten „Sex“ und „Extortion“, also Erpressung) bezeichnet, erfolgt, wenn ein Hacker eine E-Mail sendet, die scheinbar von Ihnen selbst gesendet wurde. Der Hacker behauptet, Zugang zum E-Mail-Konto und Computer zu haben. Er behauptet weiterhin, das Passwort und ein aufgezeichnetes Video von dem Opfer zu besitzen.</p>
+<p>Der Hacker behauptet, Videos mit nicht jugendfreiem Inhalt vom Opfer vom persönlichen Computer aus gesehen zu haben, während die Kamera eingeschaltet war und sie aufgezeichnet hat. Der Hacker verlangt eine Bezahlung meist in Bitcoin. Andernfalls würde er das Video an Familie und/oder Kollegen weitergeben.</p>
+<hr />
+<p><a name="Suchmaschinen"></a></p>
+<h4 id="was-ist-suchmaschinen-phishing"><strong>Was ist Suchmaschinen-Phishing?</strong></h4>
+<p>Beim Suchmaschinen-Phishing, auch bekannt als SEO-Poisoning oder SEO-Trojaner, versuchen Hacker, bei einer Suche über eine Suchmaschine auf die erste Position der Trefferliste zu gelangen. Wenn Sie auf den in der Suchmaschine angezeigten Link klicken, wird man auf die Website des Hackers weitergeleitet.</p>
+<p>Von dort aus können Betrüger Informationen stehlen, wenn man auf der Internetseite aktiv ist und/oder vertrauliche Daten eingeben. Websites von Hackern können sich als jede beliebige andere ausgeben, aber die Hauptkandidaten sind Banken, Geldtransferdienste, Social-Media-Seiten und Onlineshops.</p>
+<p><a name="Schutz"></a></p>
+<h3 id="wie-schutzt-man-sich-gegen-phishing">Wie schützt man sich gegen Phishing?</h3>
+<ul>
+<li>
+<p><strong>Überprüfe stets die Adressleiste in deinem Browser.</strong> Am besten tragst du die Adressen zu häufig besuchten Login-Seiten in die Favoritenliste des Browsers ein.</p>
+</li>
+<li>
+<p><strong>Klicken niemals auf Links in einer dubiosen E-Mail.</strong> Versuche im Zweifelsfall stattdessen, die im E-Mail-Text genannte Seite über die Startseite der betreffenden Organisation zu erreichen – also ohne den angegebenen Link in die Adresszeile des Browsers einzutippen.</p>
+</li>
+<li>
+<p><strong>Gebe keinesfalls persönliche Daten wie Passwörter, Kreditkarten- oder Transaktionsnummern via E-Mail preis</strong> – egal, wie vertrauenserweckend die betreffende E-Mail erscheint.</p>
+</li>
+<li>
+<p><strong>Gebe persönliche Informationen nur in der gewohnten Weise etwa auf der Online-Banking-Website ein.</strong> Sobald irgendetwas seltsam vorkommt, beende die Verbindung sofort und kontaktiere den regulären Website-Betreiber.</p>
+</li>
+<li>
+<p><strong>Öffne niemals Dateien im Anhang einer verdächtigen E-Mail.</strong></p>
+</li>
+<li>
+<p><strong>Beende jede Online-Session durch den regulären Log-out</strong> – statt einfach nur das Browserfenster zu schließen.</p>
+</li>
+<li>
+<p><strong>Gebe niemals persönliche Daten auf Webseiten mit unverschlüsselter Verbindung ein.</strong> Ob eine Website verschlüsselt mit Ihrem Browser kommuniziert, erkennen man an der Abkürzung "https://" in der Adresszeile sowie an dem kleinen Vorhängeschloss- Symbol neben der Adresszeile des Browsers.</p>
+</li>
+<li>
+<p>Achte stets darauf, dass Ihre <strong>Antivirus-Software aktuell und die Firewall aktiv ist.</strong></p>
+</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info<p>Solltest man  ein Wichtiges Mail erhalten, welches ein wenig Merkwürdig ist, kann man immer über eine andere Art Kontakt aufnehmen. Zum Beispiel dem Absender Anrufen (Wichtig!  Ist das man die Telefonnummer von der Originalwebseite nimmt und keine hinterlegte Nummer im Mail).</p>
+</p>
+</div>
+<p><a name="Schadsoftware"></a></p>
+<h2 id="schadsoftware">Schadsoftware</h2>
+<p><a name="DefMal"></a></p>
+<h3 id="definition-malware"><strong>Definition Malware</strong></h3>
+<p>"Malware" wird als Oberbegriff für bösartige Software benutzt. Wie die unten aufgelisteten Schadsoftware.</p>
+<p><a name="Virus"></a></p>
+<h3 id="virus"><strong>Virus</strong></h3>
+<p>Ein Virus ist ein Programm, welches dazu entwickelt wurde, um Daten auf dem Computer zu beschädigen bzw. zu ändern. Ein Virus kann sich replizieren, des halb ist die schnelle Reaktion wichtig.</p>
+<p>Vieren können sich in Anhang von Bildern, Audio/Videodateien oder kostenloser Software verbergen. Ein wichtiger Punkt ist, dass sich ein Virus nicht ohne menschliches Zutun verbreiten kann. Das bedeutet, dass sich ein Virus auf einem Gerät befinden kann, aber ohne die Ausführung oder Öffnung des bösartigen Programms das Gerät noch nicht infiziert ist.</p>
+<hr />
+<p><a name="Wurm"></a></p>
+<h3 id="wurm"><strong>Wurm</strong></h3>
+<p>Ein Wurm repliziert sich selbst, wie auch ein Virus. Der Unterschied, liegt darin, dass ein Wurm keine Dateien verändert oder löscht. Aber anders als ein Virus muss sich ein Wurm nicht an einem vorhandenen Programm anhängen. Sondern verbreitet sich, indem er Sicherheitslücken in Betriebssystemen ausnutzen.</p>
+<p>Dadurch dass das bösartige Programm unzählige Kopien von sich selbst auf der lokalen Festplatte, auf der Netzwerkfreigabe usw. mach, hat das zu Folge, dass der Computer langsamer wird. Dies da durch das der Wurm sehr viel Festplattenspeicher belegt und einen grossen Anteil der CPU verbraucht.</p>
+<hr />
+<p><a name="Trojaner"></a></p>
+<h3 id="trojaner"><strong>Trojaner</strong></h3>
+<p>Ein Trojaner, auch trojanisches Pferd genannt ist ein Programm, welches vorgibt etwas zu machen, was im Hintergrund herausstellt, dass er etwas anderes macht. Die Programme, die installiert werden, sind meistens Malware. Ein Trojaner ist kein Virus, da er sich nicht selbst replizieren kann. Aber die schädlichen Programme, die durch ihn unbemerkt auf ein Gerät installiert wurden, können gleich grossen Schaden anrichte.</p>
+<hr />
+<p><a name="Ransomware"></a></p>
+<h3 id="ransomware"><strong>Ransomware</strong></h3>
+<p>Ransomware (von englisch ransom für „Lösegeld“), auch Erpressungstrojaner oder Erpressungssoftware genannt, ist ein Schadprogramm, bei dem Täter ihre Opfer mit Lösegeld erpressen. Dafür verschlüsseln sie empfindliche Daten oder sperren den Computer und machen meistens mit einer Popup Nachricht deutlich, dass dies nur mit einer Lösegeldzahlung widere freigegeben wird.</p>
+<hr />
+<p><a name="Keylogger"></a></p>
+<h3 id="keylogger"><strong>Keylogger</strong></h3>
+<p>Keylogger (in Deutsch Tasten-Rekorder) ist ein Softwareprogramm, welches die Tastatureingaben eines Rechners oder auch User protokollieren können. Bei einer solchen Überwachung kann man zu Passwörtern gelangen wie auch vertrauliche Daten.
+Ein Keylogger gibt es nicht nur aus Software sondern auch aus Hardware.
+Dialer:</p>
+<hr />
+<p><a name="Spyware"></a></p>
+<h3 id="spyware"><strong>Spyware</strong></h3>
+<p>Spyware in Deutsch Spionage- oder Schnüffelsoftware genannt, wird wie der Name schon sagt zum Ausspionieren und Aufzeichnen von Aktivitäten am Computer gebraucht. Dies ohne das Wissen oder Zustimmung der jeweiligen Person.</p>
+<hr />
+<p><a name="Adware"></a></p>
+<h3 id="adware"><strong>Adware</strong></h3>
+<p>Adware, auch bekannt als werbe gestützte Software, generiert Werbung auf dem Bildschirm, welches meist in einem Webbrowser einblendet wird. Adware wird in der Regel für Computer entwickelt, kann aber auch auf mobilen Geräten zu finden sein. Einige Formen von Adware sind sehr manipulativ und öffnen Türen für bösartige Programme.</p>
+<p>Die unerwünschten (und sehr oft auch lästige) Popup-Werbung auf dem Computer oder Mobilgerät kommen in der Regel auf zwei Arten auf das Gerät:</p>
+<p>Eine mögliche weise ist durch kostenloses Computerprogramme oder  Apps,  ohne unbedingt zu wissen, dass es  zusätzliche Software enthält, die Adware enthält.</p>
+<p>Oder eine andere Möglichkeit ist, dass es eine Sicherheitslücke in der Software oder im  Betriebssystem gibt, die Hacker nutzen dies aus um Malware, einschliesslich einiger Arten von Adware, ins System einzuschleusen.</p>
+<hr />
+<p><a name="RSS"></a></p>
+<h3 id="rogue-security-software"><strong>Rogue Security Software</strong></h3>
+<p>Rouge Security Software ist eine Art von Malware, welche dafür entwickelt wurde, Ihre Opfer davon zu überzeugen, dass Ihr Gerät von einem Virus befallen ist.
+Wie es eigentlich ein echtes Antivirus Programm auch machen würde. Mit einer Pop-up Nachricht teilt es dem Benutzer mit, dass Ihr Computer infiziert wurde. Obwohl dies nicht der Fall ist!</p>
+<p>Aber im Gegensatz zu einigen anderen Schadprogramme stiehlt, verändert, löscht oder verschlüsselt es keine Daten. Stattdessen geht es darum, dass das Opfer für eine Entfernung von einem nicht vorhandenen Virus zahlt.</p>
+<hr />
+<p><a name="Rootkit"></a></p>
+<h3 id="rootkit"><strong>Rootkit</strong></h3>
+<p>Wie nach "root" im Namen dringen Rootkits tief ins Betriebssystem ein und werden von dort aus aktiv. Das Wort „root“ bezieht sich auf die Root-Rechte, die auch den Namen Superuser-Konto haben. Dieses Konto wird bei der Installation eines Betriebssystems angelegt und gewährt dem User allgemeine Zugriffsrechte. Das „kit“ steht für eine Sammlung von Softwarewerkzeuge. Wörtlich übersetzt ist ein Rootkit also so etwas wie ein Werkzeugkasten für Administratoren.</p>
+<p>Die eigentliche Gefahr geht auch nie vom Rootkit selber aus, sondern von der Malware dessen Spuren es verwischt. Dementsprechend liegt seine eigentliche Aufgabe darin, Schadprogramme von Virenscanner und sonstiges zu verstecken.</p>
+<p><a name="SE"></a></p>
+<h2 id="social-engineering">Social Engineering</h2>
+<p><a name="Zerti"></a></p>
+<h2 id="das-zertifikat">Das Zertifikat</h2>
+<h3 id="was-ist-ein-zertifikat">Was ist ein Zertifikat?</h3>
+<p>Digitale Zertifikate sorgen für mehr Sicherheit in der digitalen Welt. Man könnte sie mit einem Badge oder einer ID vergleichen. Dieser elektronische Echtheitsnachweis prüft beziehungsweise bestätigt die Identität einer Person oder eines Objekts, anhand einem mathematischen Verschlüsselungsverfahren.</p>
+<p>Ausgestellt werden sie von vertrauenswürdigen Institutionen (Anbieterinnen von anerkannten Zeritifizierungsdiensten auch Zertifizierungsstellen genannt). Diese sind Staatlich anerkannt und werden regelmässig überprüft.</p>
+<hr />
+<h3 id="wozu-dient-ein-zertifikat">Wozu dient ein Zertifikat?</h3>
+<p>Ein Zertifikat hat mehrere Verwendungszwecke, aber meistens wird es dort angewendet, wo die Identität einer Person (z. B. Organisation, Webseite oder Unternehmen) festgestellt werden muss.
+Ein häufig verwendetes Beispiel wäre die digitale Signatur. Bei der digitalen Signatur dient das Zertifikat der Authentifizierung der Person, die unterschreiben hat (bestätigt also die Identität des Signieren).</p>
+<hr />
+<h3 id="was-ein-zertifikat-verhindert">Was ein Zertifikat verhindert!</h3>
+<p>Mit einem Zertifikat kann eine Attacke mit der Angriffsform "Man in the Middle" verhindert werden. Somit kann man verhindern, dass ein Angreifer die Daten abfängt, abändert oder sogar fälscht. Dies weil die Zertifizierungsstellen die Identität der Zertifikatsinhaber vorher prüfen und mit einer Signatur bestätigt.</p>
+<hr />
+<h3 id="einsatzbereich">Einsatzbereich</h3>
+<p>Da ein Zertifikat wie ein Identitätsnachweis ist und Auskunft über die Identität gibt, hat es verschiedene Bereiche, in dem es gebraucht wird.</p>
+<p><strong>Beispiel:</strong></p>
+<ul>
+<li><strong>Digitale Signatur:</strong> Das Zertifikat identifiziert die unterzeichnende Person oder das unterzeichnende Unternehmen.</li>
+<li><strong>E-Mail-Signatur:</strong> Das Zertifikat bestätigt die Echtheit des E-Mails sowie deren Sender und zusätzlich garantiert es die sichere Übertragung an den Empfänger. </li>
+<li><strong>Webseiten (SSL/TLS):</strong> Das Zertifikat garantiert, dass der Inhalt wirklich von der Web-Adresse stammt, die man sieht (HTTPS).</li>
+</ul>
+<hr />
+<h3 id="inhalt-und-standards">Inhalt und Standards</h3>
+<p>Ein Zertifikat stellt verschiedene Informationen zur Verfügung wie Identität der Person, Informationen eines Unternehmens oder Objekt.</p>
+<p><strong>Inhalt eines Zertifikats:</strong></p>
+<ul>
+<li>Name des Zertifikatinhabers</li>
+<li>Zertifizierungsstelle</li>
+<li>Gültigkeitsdauer</li>
+<li>Seriennummer</li>
+<li>Öffentlicher Schlüssel des Inhabers, zur Überprüfung der Echtheit des Schlüssels</li>
+<li>Digitale Signatur der Zertifizierungsstelle, zur Überprüfung der Echtheit des Zertifikats. </li>
+</ul>
+<p>X.509 wird als ITU-T-Standard für eine public-Key-infrastruktur eingesetzt bei der Erstellung des Zertifikats. Dieser Standard definiert, wie das Zertifikat aufgebaut werden muss.</p>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 22, 2022</span>
+      
+    
+  </small>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../../../wberichte/w33_mkdocs/" class="md-footer__link md-footer__link--prev" aria-label="Previous: MkDocs installieren" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              MkDocs installieren
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../Bi/Arbeitsheft/" class="md-footer__link md-footer__link--next" aria-label="Next: BI" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              BI
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022 Laura Marie Rosario
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://github.com/squidfunk" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["tabs", "instant", "content.tabs.link", "navigation.expand", "navigation.tabs", "navigation.instant", "mavigation.top"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+    
+  </body>
+</html>
